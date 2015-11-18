@@ -1,3 +1,7 @@
+---
+title: Audubon Society Christmas Bird Count
+layout: default
+---
 ## Audubon Society Christmas Bird Count
 ![]({{site.baseurl}}//100x100xBirdCount_0.png.pagespeed.ic.XOjFbjhKir.jpg)
 
