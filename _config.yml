@@ -1,0 +1,10 @@
+name: Red Butte Garden
+description: The official website of Red Butte Garden
+
+url: "http://localhost:4000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: rouge
