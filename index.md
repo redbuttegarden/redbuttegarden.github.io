@@ -4,7 +4,7 @@ layout: default
 ---
 # Red Butte Garden
 
-IT is awesome! The world knows it! MUAHAHA!
+This is yet another test.
 
 Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero.
 
