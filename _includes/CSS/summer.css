@@ -1,0 +1,367 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+        
+html * {
+     font-family: 'Open Sans';
+}
+
+/************** Begin Nav Bar **************/
+
+.dropdown-menu {
+	text-align: center;
+}
+
+.dropdown {
+	font-size: 11px;
+	padding: 0;
+	font-weight: bold;
+}
+
+.rbgwhitelink {
+	color: #FFFFFF;
+}
+
+.rbgwhitelink:hover {
+	text-decoration: underline;
+}
+
+.dropdown ul {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.dropdown-menu li {
+	border-top: 2px double #D3D3D3;
+}
+
+.dropdown-menu ul li:hover {
+	background-color: #F2EDE4;
+}
+
+#navbarbg {
+	background-color: #00502F;
+	width: 100%;
+}
+
+#rbgnavbar {
+	max-width: 1400px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#00502F;
+}
+
+#logo {
+	padding-top: 10px;
+}
+
+#logo img {
+	width: 233px;
+	height: 27px;
+}
+
+#logo img:hover {
+	opacity: .9;
+}
+
+/* Begin Search Bar CSS */
+
+lighter.form {
+	width:500px;
+	margin:0 auto;
+}
+.search { 
+	padding:6px 15px 6px 30px;
+	margin:3px; 
+	background: url('./images/search.png') no-repeat 8px 6px; 
+}
+
+.rounded { 
+	border-radius:15px; 
+	-moz-border-radius:15px; 
+	-webkit-border-radius:15px; 
+}
+
+input[type=text]{
+	color:#bcbcbc;
+}
+
+.lighter {
+	width:95%;
+	height:25px;
+	padding:40px 25px;
+}
+
+.lighter input[type=text]{
+	border:1px solid #d0d0d0;
+	background-color:#fcfcfc;
+}
+
+/* End Search Bar CSS */
+
+
+
+/************** End Nav Bar **************/
+
+/* Begin RBG Info Div */
+
+#rbginfobg {
+	background-color: #000000;
+	opacity: 1;
+	width: 100%;
+}
+
+#rbginfo {
+	max-width: 1400px;
+	margin: 0 auto 0 auto;
+	color: #FFFFFF;
+}
+
+#rbghours {
+	background-color: red;
+	text-align: center;
+	font-size: 10px;
+}
+
+#rbgadmission {
+	background-color: purple;
+	font-size: 8px;
+	font-family: 'Open Sans';
+}
+
+#rbgadmission table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.td-title{
+	font-size: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.td-padding {
+	padding-left: 5px;
+}
+
+.td-final1 {
+	padding-bottom: 5px;
+}
+
+.td-final2 {
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+#admission-left, #admission-right {
+	float: left;
+}
+
+#rbgdirections {
+	background-color: blue;
+	
+}
+
+#rbgdirections img {
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 137px;
+	height: 84px;
+}
+
+#rbgdirections img:hover {
+	opacity: .9;
+}
+
+#rbgweather {
+	background-color: green;
+}
+
+#rbgweather img {
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 137px;
+	height: 84px;
+}
+
+#rbgweather img:hover {
+	opacity: .9;
+}
+
+/* End RBG Info Div */
+
+/* Begin Main Body */
+
+
+#rbgbody {
+	max-width:1400px;
+	margin: 0 auto 0 auto;
+}
+
+/*************************************************************/
+/*********************** Footer CSS **************************/
+/*************************************************************/
+
+/*** Begin Pre-Footer ***/
+
+#prefooterbg {
+	background-color: #F2EDE4;
+	width: 100%;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #2E7258;
+}
+
+#prefooter {
+	max-width: 1400px;
+	margin: 0 auto 0 auto;
+}
+
+#infoempty1, #infoempty2, #empty1, #empty2 {
+	line-height: 1px;
+}
+
+#prefooter img{
+	display: block;
+	margin: 10px auto 10px auto;
+	width: 166px;
+	height: 90px;
+}
+
+#prefooter img:hover {
+	background-color: #FBF9F6;
+	
+}
+
+/*** End Pre-Footer ***/
+
+/*** Begin Footer ***/
+
+#rbgfooterbg {
+	background-color: #00502F;
+	width: 100%;
+}
+
+#rbgfooter {
+  max-width: 1400px;
+  margin: 0 auto 0 auto;
+  background-color:#00502F;
+}
+
+#rbgfooterlinks {
+	font-size: 70%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rbgfooterlinks hr {
+	height: 5px;
+	visibility: hidden;
+	margin: 0px;
+}
+
+#rbgfooterlinks a:link, a:visited, a:active {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#rbgfooterlinks a:hover {
+	color: #C4B59E;
+}
+
+#social-media {
+	margin-left: auto;
+	margin-right: auto;		
+}
+
+#social-media img {
+	float: left;
+	width: 39px;
+	height: 39px;
+	margin: 0px 11px 4px 11px;
+}
+
+#social-media img:hover {
+	background-color: #2F7055;
+}
+
+#uofu {
+	background-color: #00502F;
+	padding-top: 44px;
+}
+
+#uofu img {
+	display: block;
+    margin: 0 auto 0 auto;
+	width: 179px;
+	height: 44px;
+	vertical-align: bottom;
+}
+
+#footerlogo {
+	background-color: #00502F;
+	padding-top: 15px;
+}
+
+#footerlogo img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 169px;
+	height: 73px;
+}
+
+#zap {
+	background-color: #00502F;
+	padding-top: 17px;
+}
+
+#zap img {
+	display: block;
+    margin: 0 auto 0 auto;
+    width: 170px;
+    height: 71px;
+}
+
+#uofu img:hover, #footerlogo img:hover, #zap img:hover {
+	opacity: .9;
+}
+
+.space hr {
+	height: 4px;
+	visibility: hidden;
+	margin: 0px;
+}
+
+#contactinfo1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 86%;
+}
+
+#contactinfo2 {
+	text-align: center;
+	color: #F2EDE4;
+	font-size: 71%;
+	font-style: italic;
+}
+
+/*** End Footer ***/
+
+/*************************************************************/
+/**************** End Footer CSS *****************************/
+/*************************************************************/
+
+/* Added to make Bootstrap row divs with pictures the same height  */
+
+.row {
+    overflow: hidden; 
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+/*** End Bootstrap Change ***/
