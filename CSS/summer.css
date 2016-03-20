@@ -6,12 +6,39 @@ html * {
 
 /************** Begin Nav Bar **************/
 
-.dropdown-menu {
-	text-align: center;
+
+
+#rbgnavbar a:hover, a, li, .dropdown-menu li:hover {
+    color: #000000;
+}
+
+.dropdown-menu li:hover {
+	background-color: #F2EDE4;
+	color: #000000;
+}
+
+.dropdown > li {
+	background-color: white;
 }
 
 .dropdown {
-	font-size: 11px;
+	padding: 0;
+}
+
+/* Main dropdown menu items change cover when selected/clicked */
+.dropdown-toggle:active, .open .dropdown-toggle, .dropdown:hover {
+	background-color: #196143 !important;
+
+}
+
+
+.dropdown-menu li, .dropdown-menu a {
+	text-align: center;
+	color: #000000;
+}
+
+.dropdown {
+	font-size: 10px;
 	padding: 0;
 	font-weight: bold;
 }
@@ -20,23 +47,28 @@ html * {
 	color: #FFFFFF;
 }
 
-.rbgwhitelink:hover {
-	text-decoration: underline;
-}
-
 .dropdown ul {
 	padding-top: 0px;
 	padding-bottom: 0px;
-	font-size: 11px;
+	font-size: 10px;
 	font-weight: bold;
 }
 
+/* Border thickness and color between dropdown menu li, padding */
 .dropdown-menu li {
 	border-top: 2px double #D3D3D3;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
-.dropdown-menu ul li:hover {
+/* Background color of li in navbar when hovered over */
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .dropdown-menu li:hover {
 	background-color: #F2EDE4;
+}
+
+/* Makes dropdown-menu li links bold*/
+.dropdown-menu li > a, .dropdown-menu li > a:visited {
+	font-weight: bold;
 }
 
 #navbarbg {
@@ -52,58 +84,108 @@ html * {
 }
 
 #logo {
-	padding-top: 10px;
+	padding-top: 13px;
 }
 
 #logo img {
-	width: 260px;
-	height: 30px;
+	max-width: 202px;
+	width: 100%;
+	max-height: 23px;
 }
 
 #logo img:hover {
 	opacity: .9;
 }
 
-/* Begin Search Bar CSS */
-
-lighter.form {
-	width:500px;
-	margin:0 auto;
+.nav-button {
+	clear: none;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
 }
+
+.nav-button img {
+	max-height: 50px;
+	max-width: 50px;
+}
+
+.nav-button img:hover {
+	opacity: .9;
+}
+
+/* Adjusts width of dropdown menu */
+.dropdown-menu a, .dropdown-menu li {
+  min-width: 150px;
+}
+
+/* Adjusts center alignment of dropdown menu under main categories */
+.dropdown-menu {
+    left: 50% !important;
+    margin-left: -78px;
+}
+
+/*  Begin Search Bar */
+
+form {
+	width: 100px;
+}
+
 .search { 
-	padding:6px 15px 6px 30px;
+	padding:3px 15px 3px 22px;
 	margin:3px; 
-	background: url('./images/search.png') no-repeat 8px 6px; 
+	background: url('../images/search.png') no-repeat 8px 3px;
+	background-size: 12px 12px;
+	background-repeat: no-repeat;
+	width: 135px;
+	
 }
 
 .rounded { 
 	border-radius:15px; 
-	-moz-border-radius:15px; 
-	-webkit-border-radius:15px; 
+	/* -moz-border-radius:15px; 	*/
+	/* -webkit-border-radius:15px; 	*/
 }
 
 input[type=text]{
-	color:#bcbcbc;
+	color: #00502F;
+	font-size: 9px;
 }
 
-.lighter {
+.rbgsearch { 
+	padding-top: 12px;
+	float: left;
+		/* div containing search form 
 	width:95%;
-	height:25px;
-	padding:40px 25px;
+	height: 50px;
+	padding: 40px 25px;
+		*/
 }
 
-.lighter input[type=text]{
-	border:1px solid #d0d0d0;
-	background-color:#fcfcfc;
+.rbgsearch input[type=text]{
+	border: 1px solid #acb1b7;
+	background-color :#FFFFFF;
 }
 
-/* End Search Bar CSS */
+/* End Search Bar */
+
+
+/************************/
+/* Begin Search Bar CSS */
+/************************/
 
 
 
+/************************/
+/** End Search Bar CSS **/
+/************************/
+
+/*****************************************/
 /************** End Nav Bar **************/
+/*****************************************/
 
-/* Begin RBG Info Div */
+/************************/
+/** Begin RBG Info Div **/
+/************************/
 
 #rbginfobg {
 	background-color: #000000;
@@ -192,11 +274,16 @@ input[type=text]{
 
 /* Begin Main Body */
 
-
 #rbgbody {
 	max-width:1400px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 0 auto;	
 }
+
+#rbgbody h1, h2, h3, p {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 /*************************************************************/
 /*********************** Footer CSS **************************/
 /*************************************************************/
@@ -249,14 +336,12 @@ input[type=text]{
 
 #rbgfooterlinks {
 	font-size: 70%;
-	text-align: left;
+	text-align: center;
+	clear: both;
+	color: white;
+	font-weight: bold;
 }
 
-#rbgfooterlinks hr {
-	height: 5px;
-	visibility: hidden;
-	margin: 0px;
-}
 
 #rbgfooterlinks a:link, a:visited, a:active {
 	color: #FFFFFF;
@@ -268,21 +353,30 @@ input[type=text]{
 	color: #C4B59E;
 }
 
-#social-media {
+#social-media-wrapper {
 	margin-left: auto;
-	margin-right: auto;		
+	margin-right: auto;
+	max-width: 1400px;
 }
 
-#social-media img {
-	float: left;
+.social-media {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 610px;
+}
+
+.social-media img {
 	width: 39px;
 	height: 39px;
 	margin: 0px 11px 4px 11px;
+	float: left;
 }
 
-#social-media img:hover {
+/*
+.social-media img:hover {
 	background-color: #2F7055;
 }
+*/
 
 #uofu {
 	background-color: #00502F;
