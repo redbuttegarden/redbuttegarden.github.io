@@ -17,20 +17,47 @@ html * {
 	color: #000000;
 }
 
-.dropdown > li {
-	background-color: white;
-}
-
-.dropdown {
-	padding: 0;
-}
+/* FYCN!!! */
 
 /* Main dropdown menu items change cover when selected/clicked */
-.dropdown-toggle:active, .open .dropdown-toggle, .dropdown:hover {
+.dropdown-toggle:active, .open .dropdown-toggle, .dropdown-toggle:hover {
 	background-color: #196143 !important;
-
+	color: #FFFFFF;
 }
 
+.navbar-inverse .nav li a, .navbar-inverse .nav li a:hover  {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.dropdown .dropdown-toggle > li > a:hover, .dropdown .dropdown-toggle > li > a {
+   	color:#FFFFFF;
+ }
+
+
+
+/* END FYCN!!! */ 
+
+.dropdown-menu li {
+	background-color: #FFFFFF;
+}
+
+.dropdown-menu li:hover {
+	background-color: #F2EDE4;
+}
+
+.dropdown-menu li > a:hover {
+	text-decoration: none;
+}
+
+.navbar-inverse a:hover {
+	color: #FFFFFF;
+}
+
+/* Changes the color of link text <a> after navbar has collapsed for small screen or mobile mode */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:visited {
+	color: #000000;	
+}
 
 .dropdown-menu li, .dropdown-menu a {
 	text-align: center;
@@ -124,7 +151,9 @@ html * {
     margin-left: -78px;
 }
 
-/*  Begin Search Bar */
+/************************/
+/* Begin Search Bar CSS */
+/************************/
 
 form {
 	width: 100px;
@@ -165,15 +194,6 @@ input[type=text]{
 	border: 1px solid #acb1b7;
 	background-color :#FFFFFF;
 }
-
-/* End Search Bar */
-
-
-/************************/
-/* Begin Search Bar CSS */
-/************************/
-
-
 
 /************************/
 /** End Search Bar CSS **/
