@@ -4,9 +4,9 @@ html * {
      font-family: 'Open Sans';
 }
 
+/*******************************************/
 /************** Begin Nav Bar **************/
-
-
+/*******************************************/
 
 #rbgnavbar a:hover, a, li, .dropdown-menu li:hover {
     color: #000000;
@@ -17,26 +17,15 @@ html * {
 	color: #000000;
 }
 
-/* FYCN!!! */
-
-/* Main dropdown menu items change cover when selected/clicked */
+/* Makes dropdown menu headers change color when selected or clicked */
 .dropdown-toggle:active, .open .dropdown-toggle, .dropdown-toggle:hover {
-	background-color: #196143 !important;
-	color: #FFFFFF;
+	background-color: #196143 !important; /* Overwrites Bootstrap's !important */
 }
 
-.navbar-inverse .nav li a, .navbar-inverse .nav li a:hover  {
-    color: #FFFFFF;
-    font-weight: bold;
+/* Makes headers of the dropdown menus white and bold */
+.navbar-inverse .nav li .dropdown-toggle, .navbar-inverse .nav li .dropdown-toggle:hover  {
+    color: #FFFFFF !important; /* Overwrites Bootstrap's !important */
 }
-
-.dropdown .dropdown-toggle > li > a:hover, .dropdown .dropdown-toggle > li > a {
-   	color:#FFFFFF;
- }
-
-
-
-/* END FYCN!!! */ 
 
 .dropdown-menu li {
 	background-color: #FFFFFF;
@@ -56,7 +45,7 @@ html * {
 
 /* Changes the color of link text <a> after navbar has collapsed for small screen or mobile mode */
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:visited {
-	color: #000000;	
+	color: #000000;
 }
 
 .dropdown-menu li, .dropdown-menu a {
@@ -68,10 +57,6 @@ html * {
 	font-size: 10px;
 	padding: 0;
 	font-weight: bold;
-}
-
-.rbgwhitelink {
-	color: #FFFFFF;
 }
 
 .dropdown ul {
@@ -145,10 +130,24 @@ html * {
   min-width: 150px;
 }
 
-/* Adjusts center alignment of dropdown menu under main categories */
-.dropdown-menu {
-    left: 50% !important;
-    margin-left: -78px;
+/* Adjusts center alignment of dropdown menu under main categories when navbar has not collapsed */
+@media only screen and (min-width : 769px) {
+	
+	.dropdown-menu {
+	    left: 50% !important;
+	    margin-left: -78px;
+	}
+}
+
+/* For small devices, and after navbar collapses */ 
+@media only screen and (max-width : 768px) {
+  
+	.dropdown-menu li, .dropdown-menu li a, .dropdown-menu ul {
+		text-align: center;
+		color: #000000;
+		list-style: none;
+		padding-left: 0 !important;
+	}
 }
 
 /************************/
