@@ -169,9 +169,7 @@ form {
 }
 
 .rounded { 
-	border-radius:15px; 
-	/* -moz-border-radius:15px; 	*/
-	/* -webkit-border-radius:15px; 	*/
+	border-radius:15px;
 }
 
 input[type=text]{
@@ -354,13 +352,27 @@ input[type=text]{
 }
 
 #rbgfooterlinks {
-	font-size: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1400px;
+	display: inline;
 	text-align: center;
-	clear: both;
-	color: white;
-	font-weight: bold;
 }
 
+#rbgfooterlinks ul {
+    margin: 0 auto;                  /* center container */
+    padding-left: 0;                 /* remove list padding */
+    font-size: 0;                    /* remove inline-block white space; see http://stackoverflow.com/a/32801275/3597276 */
+}
+
+#rbgfooterlinks li {
+    display: inline-block;
+    font-size: 10px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 #rbgfooterlinks a:link, a:visited, a:active {
 	color: #FFFFFF;
@@ -376,26 +388,28 @@ input[type=text]{
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1400px;
+	display: inline;
+	text-align: center;
 }
 
-.social-media {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 610px;
+#social-media-wrapper ul {
+    margin: 0 auto; 		/* center container */
+    padding-left: 0;        /* remove list padding */
+    font-size: 0;           /* remove inline-block white space; see http://stackoverflow.com/a/32801275/3597276 */
 }
 
-.social-media img {
+#social-media-wrapper li {
+    display: inline-block;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+	margin: 0px 11px 4px 11px;
+}
+
+#social-media-wrapper img {
 	width: 39px;
 	height: 39px;
-	margin: 0px 11px 4px 11px;
-	float: left;
 }
-
-/*
-.social-media img:hover {
-	background-color: #2F7055;
-}
-*/
 
 #uofu {
 	background-color: #00502F;
