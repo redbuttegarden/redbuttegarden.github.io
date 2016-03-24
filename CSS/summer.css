@@ -8,6 +8,11 @@ html * {
 /************** Begin Nav Bar **************/
 /*******************************************/
 
+/* Fixes rounded corners issue in Bootstrap navbar */
+.navbar-inverse {
+  border-radius: 0;
+}
+
 #rbgnavbar a:hover, a, li, .dropdown-menu li:hover {
     color: #000000;
 }
