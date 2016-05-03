@@ -422,24 +422,6 @@ input[type=text]{
 	height: 39px;
 }
 
-.yelp {
-	
-	display: block;
-	margin: 0px;
-	width:39px;
-	height: 39px;
-	background: url('../images/sprites.png') -200px -90px;
-}
-
-.yelp:hover {
-	
-	display: block;
-	margin: 0px;
-	width:39px;
-	height: 39px;
-	background: url('../images/sprites.png') -160px -90px;
-}
-
 #uofu {
 	background-color: #00502F;
 	padding-top: 44px;
