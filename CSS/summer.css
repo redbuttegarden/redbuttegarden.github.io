@@ -8,6 +8,11 @@ html * {
 /************** Begin Nav Bar **************/
 /*******************************************/
 
+.navbar-wrapper {
+	position: absolute;
+	width: 100%;
+}
+
 /* Fixes rounded corners issue in Bootstrap navbar */
 .navbar-inverse {
   border-radius: 0;
@@ -110,13 +115,13 @@ html * {
 	padding-top: 13px;
 }
 
-#logo img {
-	max-width: 202px;
-	width: 100%;
-	max-height: 23px;
+.logo {
+	width:202px;
+	height: 23px;
+	background: url('../images/sprites.png') -171px -301px ;
 }
 
-#logo img:hover {
+.logo:hover {
 	opacity: .9;
 }
 
@@ -159,6 +164,29 @@ html * {
 		list-style: none;
 		padding-left: 0 !important;
 	}
+	
+}
+
+@media only screen and (max-width : 950px) {
+	.jssorb21 {
+		display: none; /* Makes selecion dots on slideshow disappear at this width */
+		height: 0;
+	}
+}
+
+/* Hides Give, Join, and Volunteer Buttons within certain widths */
+@media (min-width: 769px) and (max-width: 1200px) {
+	.nav-button {
+		display: none;
+	}
+	
+}
+
+/* Hides Search Bar within certain widths */
+@media (min-width: 769px) and (max-width: 1000px) {
+	.rbgsearch {
+		display: none;
+	}
 }
 
 /************************/
@@ -184,7 +212,7 @@ form {
 }
 
 input[type=text]{
-	color: #00502F;
+	color: #000000;
 	font-size: 9px;
 }
 
@@ -207,6 +235,23 @@ input[type=text]{
 /** End Search Bar CSS **/
 /************************/
 
+/* Makes space between navbar and slideshow disappear after collapse - required for relative positioning so menu makes divs below the navbar move down when open */ 
+ @media all and (max-width: 950px ){
+	 
+	 .navbar-wrapper {
+	 	clear:right;
+	 	position: relative;
+	 	padding-bottom: 0px;
+	 }
+           
+            
+	 #slider-wrapper  {
+	 	margin-top: -20px;
+	    position: relative;
+	 }
+
+}
+
 /*****************************************/
 /************** End Nav Bar **************/
 /*****************************************/
@@ -215,10 +260,19 @@ input[type=text]{
 /** Begin RBG Info Div **/
 /************************/
 
+#rbg-info-wrapper1, #rbg-info-wrapper2 {
+	clear: both;
+}
+
+#gardenHours, #gardenStatus {
+	margin-top: 2px;
+}
+
 #rbginfobg {
-	background-color: #000000;
-	opacity: 1;
+	background-color: rgba(0,0,0,0.5); /* IMPORTANT: Use ONLY rbga here instead of rbg or hex so that opacity of the background color is not inherited */
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 #rbginfo {
@@ -228,20 +282,19 @@ input[type=text]{
 }
 
 #rbghours {
-	background-color: red;
 	text-align: center;
-	font-size: 10px;
+	font-size: 11px;
 }
 
 #rbgadmission {
-	background-color: purple;
-	font-size: 8px;
-	font-family: 'Open Sans';
+
 }
 
 #rbgadmission table {
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 11px;
+	color: #FFFFFF;
 }
 
 .td-title{
@@ -267,38 +320,86 @@ input[type=text]{
 	float: left;
 }
 
-#rbgdirections {
-	background-color: blue;
+.rbgdirections {
+	display: block;
+	margin: 25px auto 0 auto;
+	width:138px;
+	height: 84px;
+	background: url('../images/sprites.png') -310px -169px ;
+}
+
+.rbgdirections:hover {
+	opacity: .9;
+}
+
+.rbgweather {
+	display: block;
+	margin: 25px auto 0 auto;
+	width:138px;
+	height: 84px;
+	background: url('../images/sprites.png') -172px -169px ;
+}
+
+.rbgweather:hover {
+	opacity: .9;
+}
+
+#rbgadmission, #rbgdirections, #rbgweather, #rbghours {
+	min-width: 233px;
+	min-height: 200px;
+}
+
+.infoempty1, .infoempty2 {
+	min-width: 233px;
+}
+
+/* For small devices, and after navbar collapses */ 
+@media only screen and (max-width : 950px) {
+  	
+  	#rbg-info-wrapper1 {
+	  	display: none;
+  	}
+  	
+  	#rbginfobg {
+	  	position: relative;
+  	}
+  
+	#rbgdirections img, #rbgweather img {
+		margin: 5px auto 5px auto;
+	}
+	
+	#rbghours, #rbgadmission, #rbgdirections, #rbgweather {
+		background-color: #196143;
+		border-top: black 1px solid;
+		clear: both;
+		width: 100%;
+	}
+	
+	/* Padding around these divs and their images after collapsing */
+	.rbgdirections, .rbgweather {
+		margin: 5px auto 10px auto;
+	}
+
+}
+
+@media only screen and (min-width: 950px) {
+	
+	#rbg-info-wrapper2 {
+		display: none;
+	}
 	
 }
 
-#rbgdirections img {
-	display: block;
-	margin: 0 auto 0 auto;
-	width: 137px;
-	height: 84px;
+@media only screen and (max-width: 950px) {
+	
+	#rbg-info-wrapper1{
+		display: none;
+	}
 }
 
-#rbgdirections img:hover {
-	opacity: .9;
-}
-
-#rbgweather {
-	background-color: green;
-}
-
-#rbgweather img {
-	display: block;
-	margin: 0 auto 0 auto;
-	width: 137px;
-	height: 84px;
-}
-
-#rbgweather img:hover {
-	opacity: .9;
-}
-
-/* End RBG Info Div */
+/************************/
+/**  End RBG Info Div  **/
+/************************/
 
 /* Begin Main Body */
 
@@ -311,6 +412,154 @@ input[type=text]{
 	padding-left: 5px;
 	padding-right: 5px;
 }
+
+/*************************************************************/
+/***************** Begin Slider Wrapper CSS ******************/
+/*************************************************************/
+
+#slider-wrapper {
+	position: relative; 
+	width: 100%; 
+	overflow: hidden;
+}
+
+#inner-slider-wrapper1 {
+	position: relative;
+	left: 50%;
+	width: 5000px;
+	text-align: center;
+	margin-left: -2500px;
+}
+
+#inner-slider-wrapper2 {
+	min-height: 50px;
+}
+
+#slider1_container {
+	visibility: hidden;
+	position: relative;
+	margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 1300px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#slides {
+	cursor: move;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1300px;
+	height: 500px;
+	overflow: hidden;
+}
+
+/***************************************************/
+/* Begin jssor slider bullet navigator skin 21 css */
+/***************************************************/
+
+
+/*
+.jssorb21 div           (normal)
+.jssorb21 div:hover     (normal mouseover)
+.jssorb21 .av           (active)
+.jssorb21 .av:hover     (active mouseover)
+.jssorb21 .dn           (mousedown)
+*/
+.jssorb21 {
+	position: absolute;
+}
+
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+	position: absolute;
+ 	/* size of bullet elment */
+ 	width: 19px;
+    height: 19px;
+    text-align: center;
+    line-height: 19px;
+    color: white;
+    font-size: 12px;
+    background: url(../images/b21.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+                
+.jssorb21 div { 
+	background-position: -5px -5px; 
+}
+	
+.jssorb21 div:hover, .jssorb21 .av:hover {
+	background-position: -35px -5px; 
+}
+
+.jssorb21 .av {
+	background-position: -65px -5px; 
+}
+
+.jssorb21 .dn, .jssorb21 .dn:hover { 
+	background-position: -95px -5px; 
+}
+
+/***************************************************/
+/** End jssor slider bullet navigator skin 21 css **/
+/***************************************************/
+
+/***************************************************/
+/* Begin jssor slider arrow navigator skin 21 css **/
+/***************************************************/
+
+/*
+.jssora21l                  (normal)
+.jssora21r                  (normal)
+.jssora21l:hover            (normal mouseover)
+.jssora21r:hover            (normal mouseover)
+.jssora21l.jssora21ldn      (mousedown)
+.jssora21r.jssora21rdn      (mousedown)
+*/
+.jssora21l, .jssora21r {
+	display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url(../images/a21.png) center center no-repeat;
+    overflow: hidden;
+}
+                
+.jssora21l {
+	background-position: -3px -33px;
+}
+                
+.jssora21r {
+	background-position: -63px -33px;
+}
+                
+.jssora21l:hover {
+	background-position: -123px -33px;
+}
+                
+.jssora21r:hover {
+	background-position: -183px -33px;
+}
+                
+.jssora21l.jssora21ldn {
+	background-position: -243px -33px;
+}
+                
+.jssora21r.jssora21rdn {
+	background-position: -303px -33px;
+}
+
+/***************************************************/
+/** End jssor slider arrow navigator skin 21 css ***/
+/***************************************************/
+
+/*************************************************************/
+/****************** End Slider Wrapper CSS *******************/
+/*************************************************************/
 
 /*************************************************************/
 /*********************** Footer CSS **************************/
@@ -346,6 +595,41 @@ input[type=text]{
 	
 }
 
+.footer-membership {
+	display: block;
+	margin: 10px auto 10px auto;
+	width:166px;
+	height: 90px;
+	background: url('../images/sprites.png') -0px -0px;
+}
+
+.footer-membership:hover {
+	background-color: #FBF9F6;
+}
+
+.footer-donate {
+	display: block;
+	margin: 10px auto 10px auto;
+	width:166px;
+	height: 90px;
+	background: url('../images/sprites.png') -166px -0px ;
+}
+
+.footer-donate:hover {
+	background-color: #FBF9F6;
+}
+
+.footer-volunteer {
+	display: block;
+	margin: 10px auto 10px auto;
+	width:166px;
+	height: 90px;
+	background: url('../images/sprites.png') -332px -0px ;
+}
+
+.footer-volunteer:hover {
+	background-color: #FBF9F6;
+}
 
 /*** End Pre-Footer ***/
 
@@ -417,21 +701,121 @@ input[type=text]{
 	margin: 0px 11px 4px 11px;
 }
 
-#social-media-wrapper img {
-	width: 39px;
-	height: 39px;
+/* Begin Footer Sprite CSS */
+
+.yelp {
+	width:39px;
+	height:39px;
+	background: url('../images/sprites.png') -200px -90px;
 }
+
+.yelp:hover {
+	background: url('../images/sprites.png') -160px -90px;
+}
+
+.tripadvisor {
+	width:39px;
+	height: 39px;
+	background: url('../images/sprites.png') -360px -90px;
+}
+
+.tripadvisor:hover {
+	background: url('../images/sprites.png') -320px -90px;
+}
+
+.googleplus {
+	width:39px;
+	height: 39px;
+	background: url('../images/sprites.png') -160px -130px;
+}
+
+.googleplus:hover {
+	background: url('../images/sprites.png') -200px -130px;
+}
+
+.facebook {
+	width:39px;
+	height: 39px;
+	background: url('../images/sprites.png') -40px -90px;
+}
+
+.facebook:hover {
+	background: url('../images/sprites.png') -0px -90px;
+}
+
+.instagram {
+	width:39px;
+	height: 39px;
+	background: url('../images/sprites.png') -240px -130px;
+}
+
+.instagram:hover {
+	background: url('../images/sprites.png') -280px -130px;
+}
+
+.twitter {
+	width:39px;
+	height: 39px;
+	background: url('../images/sprites.png') -280px -90px;
+}
+
+.twitter:hover {
+	background: url('../images/sprites.png') -240px -90px;
+}
+
+.youtube {
+	width:39px;
+	height: 39px;
+	background: url('../images/sprites.png') -120px -90px;
+}
+
+.youtube:hover {
+	background: url('../images/sprites.png') -80px -90px;
+}
+
+.snapchat {
+	width:39px;
+	height: 39px;
+	background: url('../images/sprites.png') -320px -130px;
+}
+
+.snapchat:hover {
+	background: url('../images/sprites.png') -360px -130px;
+}
+
+.reddit {
+	width:39px;
+	height: 39px;
+	background: url('../images/sprites.png') -0px -130px;
+}
+
+.reddit:hover {
+	background: url('../images/sprites.png') -40px -130px;
+}
+
+.pinterest {
+	width:39px;
+	height: 39px;
+	background: url('../images/sprites.png') -80px -130px;
+}
+
+.pinterest:hover {
+	background: url('../images/sprites.png') -120px -130px;
+}
+
+/* End Footer Sprite CSS */
 
 #uofu {
 	background-color: #00502F;
 	padding-top: 44px;
 }
 
-#uofu img {
+.uofu {
 	display: block;
     margin: 0 auto 0 auto;
-	width: 179px;
-	height: 44px;
+	width:178px;
+	height: 48px;
+	background: url('../images/sprites.png') -170px -256px ;
 	vertical-align: bottom;
 }
 
@@ -440,12 +824,13 @@ input[type=text]{
 	padding-top: 15px;
 }
 
-#footerlogo img {
+.footerlogo {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	width: 169px;
-	height: 73px;
+	width:169px;
+	height: 74px;
+	background: url('../images/sprites.png') -1px -245px ;
 }
 
 #zap {
@@ -453,14 +838,15 @@ input[type=text]{
 	padding-top: 17px;
 }
 
-#zap img {
+.zap {
 	display: block;
     margin: 0 auto 0 auto;
-    width: 170px;
-    height: 71px;
+	width:170px;
+	height: 71px;
+	background: url('../images/sprites.png') -0px -171px ;
 }
 
-#uofu img:hover, #footerlogo img:hover, #zap img:hover {
+.uofu:hover, .footerlogo:hover, .zap:hover {
 	opacity: .9;
 }
 
