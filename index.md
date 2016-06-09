@@ -1,6 +1,6 @@
 ---
-title: Red Butte Garden
-layout: default
+title: Enoy the Garden | Red Butte Garden
+layout: homepage
 ---
 # Red Butte Garden
 
