@@ -1,0 +1,125 @@
+<!-- Begin Navbar -->
+<div class="navbar-wrapper">
+		
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+
+		  <div id="navbarbg" class="container-fluid">
+		    
+		    <div id="rbgnavbar" class="container-fluid">    
+		    
+				<div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>                        
+			      </button>
+			      <a id="logo" class="pull-left" href="http://www.redbuttegarden.org"><div class="logo"></div></a>
+			    </div>
+			    
+			    <div class="collapse navbar-collapse" id="myNavbar">
+			      
+			      <ul class="nav navbar-nav">
+			        
+			        <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">VISIT <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">GARDEN MAPS</a></li>
+			            <li><a href="#">GIFT SHOP</a></li>
+			            <li><a href="#">FREE DAYS<br />& EVENTS</a></li>
+			            <li><a href="#">PRIVATE TOURS</a></li>
+						<li><a href="#">PLAY TALEBLAZER</a></li>
+			            <li><a href="#">POETRY IN <br />THE GARDEN</a></li>
+			          </ul>
+			        </li>
+			        
+					<li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PLANTS & GARDENS <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">OUR GARDENS</a></li>
+			            <li><a href="#">PLANT COLLECTIONS</a></li>
+			            <li><a href="#">WHAT'S BLOOMING<br /> NOW BLOG</a></li>
+			            <li><a href="#">CONSERVATION<br />RESEARCH</a></li>
+			            <li><a href="#">GARDENING IN UTAH</a></li>
+			          </ul>
+			        </li>
+					
+			        <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">SPRING</a></li>
+			            <li><a href="#">SUMMER</a></li>
+			            <li><a href="#">FALL</a></li>
+			            <li><a href="#">WINTER</a></li>
+			            <li><a href="#">EVENT CALENDAR</a></li>
+			          </ul>
+			        </li>
+					
+					<li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">EDUCATION <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">WORKSHOPS & CLASSES</a></li>
+			            <li><a href="#">TOURS</a></li>
+			            <li><a href="#">LECTURES</a></li>
+				        <li><a href="#">KID'S CLASSES</a></li>
+			            <li><a href="#">SUMMER CAMP</a></li>
+			            <li><a href="#">TEACHERS & STUDENTS</a></li>
+			          </ul>
+			        </li>
+			        
+					<li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">GET INVOLVED <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">ABOUT US</a></li>
+			            <li><a href="#">MEMBERSHIP</a></li>
+			            <li><a href="#">VOLUNTEER</a></li>
+			            <li><a href="#">GIVE</a></li>
+			            <li><a href="#">CURRENT FUNDRAISERS</a></li>
+			            <li><a href="#">CORPORATE <br />SPONSORSHIP</a></li>
+			          </ul>
+			        </li>
+		
+			        <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PRIVATE EVENTS <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">RENTAL RATES</a></li>
+			            <li><a href="#">WEDDINGS<br />& RECEPTIONS</a></li>
+			            <li><a href="#">CORPORATE EVENTS <br />& PRIVATE PARTIES</a></li>
+			            <li><a href="#">RENTAL SITES</a></li>
+			            <li><a href="#">CATERERS</a></li>
+			            <li><a href="#">RENTAL CALENDAR</a></li>
+			            <li><a href="#">PHOTOGRAPHY<br />POLICY</a></li>
+			            <li><a href="#">BIRTHDAY PARTIES</a></li>
+			          </ul>
+			        </li>
+			     
+			      </ul>
+			     
+			     <div>
+				     <div class="rbgsearch">
+						<form>
+							<span><input type="text" class="search rounded" placeholder="Search..."></span>
+						</form>
+					 </div>	     
+			
+				     <div class="nav-button">
+				     	<a href="#"><img src="../images/give.png"></a>
+				     </div>
+				     
+				     <div class="nav-button">
+				     	<a href="#"><img src="../images/join.png"></a>
+				     </div>
+				     
+				     <div class="nav-button">
+				     	<a href="#"><img src="../images/give.png"></a>
+				     </div>
+			     </div>
+			     
+			    </div>
+		    
+		    </div>
+		      
+		  </div>
+		  
+		</nav>
+</div>
+<!-- End Navbar -->
