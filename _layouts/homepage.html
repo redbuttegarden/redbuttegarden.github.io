@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <title>Enjoy the Garden | Red Butte Garden</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" /> <!-- Font 'Open Sans' Hosted by Google -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/jssor.slider.mini.js"></script>
+  <link rel="stylesheet" href="CSS/summer.css"> <!-- Additional local CSS -->
+  
+</head>
+<body>
+
+{% include navbar.html %}
+
+<div id="slider-wrapper">
+    <div id="inner-slider-wrapper1">
+    <div id="inner-slider-wrapper2">
+        <!-- Jssor Slider Begin -->
+        <div id="slider1_container">
+            <!-- Slides Container -->
+            <div id="slides" u="slides">
+            
+            {% include eventslides.html %}
+            
+            </div>
+            
+            <!-- bullet navigator container -->
+            <div u="navigator" class="jssorb21" style="top: 68px;">
+                <!-- bullet navigator item prototype -->
+                <div u="prototype"></div>
+            </div>
+            
+            <!-- Arrow Left -->
+            <span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;"></span>
+            
+            <!-- Arrow Right -->
+            <span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;"></span>
+            
+        </div>
+        <!-- Jssor Slider End -->
+    </div>
+    </div>
+    <!-- Begin Inner Info Div -->
+    <div id="rbg-info-wrapper1">
+	<div id="rbginfobg">
+	
+		<div id="rbginfo" class="row">			
+			<div id="rbghours" class="col-sm-3" onclick="hoursHoverOn()"><a href="#"><div class="rbghours"></div></a>
+				<div id="gardenHours"></div>
+				<div id="gardenStatus"></div>
+			</div>
+			<div id="rbgadmission" class="col-sm-3" onclick="admissionHoverOn()"><a href="#"><div class="rbgadmission"></div></a></div>
+			<div id="rbgdirections" class="col-sm-3"><a href="#"><div class="rbgdirections"></div></a></div>
+			<div id="rbgweather" class="col-sm-3" onclick="weatherHoverOn()"><a href="#"><div class="rbgweather"></div></a></div>
+		</div>
+	
+	<!-- Begin hidden div to load JS code properly -->
+		<div id="rbghidden">
+			<b>GARDEN HOURS (MDT)</b>
+			<div id="gardenHours"></div>
+			<div id="gardenStatus"></div><br />
+			<div id="otherNotes"></div><br />
+			<div>Only Service Animals are allowed in the garden</div><br />
+			<a href="#" style="text-decoration:none;color:#FFFFFF;font-size:12px">CLICK TO SEE ALL HOURS</a>
+		</div>
+	<!-- End hidden div to load JS code properly -->
+		
+	</div>
+	</div>
+	<!-- End Inner Info Div-->
+</div>
+</div>
+
+<!-- Begin Outer Info Div -->
+
+<div id="rbg-info-wrapper2">
+	<div id="rbginfobg2">
+	
+		<div id="rbginfo" class="row">
+			<div id="rbghours" class="col-sm-3">
+					<b>GARDEN HOURS (MDT)</b>
+					<div id="gardenHours2"></div>
+					<div id="gardenStatus2"></div><br />
+							<div id="otherNotes2"></div><br />
+							<div>Only Service Animals are allowed in the garden</div><br />
+						<a href="#" style="text-decoration:none;color:#FFFFFF;font-size:12px">CLICK TO SEE ALL HOURS</a>
+			</div>
+			<div id="rbgadmission2" class="col-sm-3">
+				<table>
+					<tr>
+						<td class="td-title">ADMISSION:</td>
+						<td class="td-padding"></td>
+					</tr>
+					<tr>
+						<td>MEMBERS:</td>
+						<td class="td-padding">FREE</td>
+					</tr>
+					<tr>
+						<td>ADULTS (ages 18-64):</td>
+						<td class="td-padding">$12</td>
+					</tr>
+					<tr>
+						<td>SENIORS (ages 65+):</td>
+						<td class="td-padding">$10</td>
+					</tr>
+					<tr>
+						<td>MILITARY w/ID:</td>
+						<td class="td-padding">$10</td>
+					</tr>
+					<tr>
+						<td>CHILDREN (ages 3-17):</td>
+						<td class="td-padding">$7</td>
+					</tr>
+					<tr>
+						<td>CHILDREN (under 3):</td>
+						<td class="td-padding">FREE</td>
+					</tr>
+					<tr>
+						<td>UofU FACULTY/STAFF:</td>
+						<td class="td-padding">$10</td>
+					</tr>
+					<tr class="tr-final">
+						<td class="td-final1">UofU STUDENTS:</td>
+						<td class="td-final2">FREE w/VALID ID</td>
+					</tr>	
+				</table>
+				<div id="admissionDiscount2"></div>
+			</div>
+			<div id="rbgdirections" class="col-sm-3"><a href="#"><div class="rbgdirections"></div></a></div>
+			<div id="rbgweather" class="col-sm-3"><a href="#"><div class="rbgweather"></div></a></div>
+			
+			<!-- Begin Hidden Weather Div -->
+			<div id="rbgweatherhidden">
+				<center>
+				<a href="http://www.accuweather.com/en/us/salt-lake-city-ut/84101/weather-forecast/331216" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1404419238250" class="aw-widget-current"  data-locationkey="331216" data-unit="f" data-language="en-us" data-useip="false" data-uid="awcc1404419238250"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+				</center>
+			</div>
+			<!-- End Hidden Weather Div -->
+		</div>
+	
+	</div>
+</div>
+
+<!-- End Outer Info Div -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+<!-- Begin Content -->
+<div id="rbgbody" class="container-fluid">
+  <div class="row">
+  	  <div class="col-sm-12">
+  	  
+  	  {{ content }}
+  	  
+  	  </div>
+  </div>
+</div>
+
+{% include footer.html %}
+
+<!-- End Content -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="ie10-viewport-bug-workaround.js"></script>
+    <script src="../hours.js"></script>
+
+    <!-- jssor slider scripts-->
+    <!-- use jssor.slider.debug.js for debug -->
+    
+    <script>
+        jQuery(document).ready(function ($) {
+
+            var options = {
+                $FillMode: 2,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $Idle: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
+                $SlideDuration: 800,                               //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $Cols: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
+              
+                $BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Rows: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 8,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 8,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                    $Scale: false                                   //Scales bullets navigator or not while slider scale
+                },
+
+                $ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+			
+			/* Adding this code brings the arrows back after other modifications, and for it to work, the id "slides" must be created above */
+			$("#slider1_container").css('width',window.innerWidth); 
+			$("#slides").css('width',window.innerWidth);
+			$("#slider1_container").css('height',window.innerHeight);
+			$("#slides").css('height',window.innerHeight);
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+			
+			var windowWidthAvail = window.screen.availWidth;
+			var windowHeightAvail = window.screen.availHeight;
+			var windowWidthOrig = $(window).width();
+			var windowHeightOrig = $(window).height();
+			
+			//responsive code begin
+			//you can remove responsive code if you don't want the slider to scale along with window
+			function ScaleSlider() {
+			    var windowWidth = $(window).width();
+				var windowHeight = $(window).height();
+				
+			    if (windowWidth) {
+			        
+			       // document.getElementById("js-test").innerHTML = windowWidthOrig; // JS Testing Code Here 
+
+			        if ( (windowWidth == windowWidthOrig) && (windowHeight == windowHeightOrig) && (windowWidth > 950) ) {	
+				        	jssor_slider1.$ScaleHeight(windowHeight);	
+							return;
+			        }
+			        
+			        // Experimental Code - deleting this will make it work like before
+			        
+			        if ( ( (windowWidth > windowWidthOrig) || (windowHeight > windowHeightOrig) ) ) {
+				    	setTimeout(
+  function(){ 
+    window.location.reload();
+  }, 
+1);
+						// See http://stackoverflow.com/questions/18967532/window-location-reload-not-working-for-firefox-and-and-chrome
+				    	// Reloads page (from cache by default), and will only do so when browser window increases in size 
+   						// once it reaches the maximum window size, it will scale down and by width, but perfectly scale back 
+   						// to maximum window size, which will work for the majority of cases   				       
+			        }
+			        
+			        // Need code for scaling height when initial screen size is smaller than some pixel size
+			        
+			        else {
+			            
+			            jssor_slider1.$ScaleWidth(windowWidth);
+						
+			        }
+			    }
+			    else
+			        window.setTimeout(ScaleSlider, 30);
+			}
+			
+			ScaleSlider();
+			
+			$(window).bind("load", ScaleSlider);
+			$(window).bind("resize", ScaleSlider);
+			$(window).bind("orientationchange", ScaleSlider);
+			//responsive code end     
+	});
+    </script>
+    <script>
+    
+/* Hover On Functions */
+
+	function hoursHoverOn() {
+
+		var rbgHoursOn = "<b>GARDEN HOURS (MDT)</b><div id=\x22gardenHours\x22></div><div id=\x22gardenStatus\x22></div><br /><div id=\x22otherNotes\x22></div><br /><div>Only Service Animals are allowed in the garden</div><br /><a href=\x22#\x22 style=\x22text-decoration:none;color:#FFFFFF;font-size:12px\x22>CLICK TO SEE ALL HOURS</a>";
+		document.getElementById("rbghours").innerHTML = rbgHoursOn;
+		
+		// Clicking and activating this div will run the gardenYearlyHours() function
+		gardenYearlyHours();
+		
+		// Clicking this div will restore other active divs:
+		admissionHoverOut();
+		weatherHoverOut();
+	}
+	
+	function admissionHoverOn() {
+		var rbgAdmissionHidden = document.getElementById('rbgadmission2');
+		var rbgAdmission = document.getElementById('rbgadmission');
+		rbgAdmission.innerHTML = rbgAdmissionHidden.innerHTML;
+		
+		// Clicking this div will restore other active divs:
+		hoursHoverOut(); 
+		weatherHoverOut();	
+	}
+	
+	function weatherHoverOn() {
+		
+		var rbgWeatherHidden = document.getElementById('rbgweatherhidden');
+		var rbgWeather = document.getElementById('rbgweather');
+		rbgWeather.innerHTML = rbgWeatherHidden.innerHTML;            
+		
+		// Clicking this div will restore other active divs:
+		hoursHoverOut();
+		admissionHoverOut();	
+	}
+
+/* Hover Out Functions */
+	
+	function hoursHoverOut() {
+		var rbgHoursOut = "<a href=\x22#\x22><div class=\x22rbghours\x22></div></a><div id=\x22gardenHours\x22></div><div id=\x22gardenStatus\x22></div>";
+		document.getElementById("rbghours").innerHTML = rbgHoursOut;
+		
+		var gardenHours2 = document.getElementById('gardenHours2');
+		var gardenHours = document.getElementById('gardenHours');
+		gardenHours.innerHTML = gardenHours2.innerHTML;
+		
+		var gardenStatus2 = document.getElementById('gardenStatus2');
+		var gardenStatus = document.getElementById('gardenStatus');
+		gardenStatus.innerHTML = gardenStatus2.innerHTML;
+	}
+	
+	function admissionHoverOut() {
+		var rbgAdmissionOut = "<a href=\x22#\x22><div class=\x22rbgadmission\x22></div></a>";
+		document.getElementById("rbgadmission").innerHTML = rbgAdmissionOut;	
+	}
+	
+	function weatherHoverOut() {
+		var rbgWeatherOut = "<a href=\x22#\x22><div class=\x22rbgweather\x22></div></a>";	
+		document.getElementById("rbgweather").innerHTML = rbgWeatherOut;
+		
+	}
+	
+	</script>
+</body>
+</html>
+            
