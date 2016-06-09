@@ -105,7 +105,7 @@ html * {
 }
 
 #rbgnavbar {
-	max-width: 1400px;
+	max-width: 1280px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#00502F;
@@ -243,11 +243,11 @@ input[type=text]{
 	 	position: relative;
 	 	padding-bottom: 0px;
 	 }
-           
-            
+                       
 	 #slider-wrapper  {
 	 	margin-top: -20px;
 	    position: relative;
+	    clear: right;
 	 }
 
 }
@@ -271,12 +271,17 @@ input[type=text]{
 #rbginfobg {
 	background-color: rgba(0,0,0,0.5); /* IMPORTANT: Use ONLY rbga here instead of rbg or hex so that opacity of the background color is not inherited */
 	width: 100%;
+	height: 160px;
 	position: absolute;
 	bottom: 0;
 }
 
-#rbginfo {
-	max-width: 1400px;
+#rbginfobg2 {
+	position: relative;
+}
+
+#rbginfo, #rbginfo2 {
+	max-width: 1280px;
 	margin: 0 auto 0 auto;
 	color: #FFFFFF;
 }
@@ -286,15 +291,12 @@ input[type=text]{
 	font-size: 11px;
 }
 
-#rbgadmission {
-
-}
-
-#rbgadmission table {
+#rbgadmission table, #rbgadmission2 table {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 11px;
 	color: #FFFFFF;
+	width: 215px;
 }
 
 .td-title{
@@ -320,9 +322,33 @@ input[type=text]{
 	float: left;
 }
 
+.rbghours {
+	display: block;
+	margin: 30px auto 0 auto;
+	width: 138px;
+	height: 84px;
+	background: url('../images/sprites.png') -0px -320px ;
+}
+
+.rbghours:hover {
+	opacity: .9;
+}
+
+.rbgadmission{
+	display:block;
+	margin: 30px auto 0 auto;
+	width:138px;
+	height:84px;
+	background: url('../images/sprites.png') -140px -325px ;
+}
+
+.rbgadmission:hover {
+	opacity: .9;
+}
+
 .rbgdirections {
 	display: block;
-	margin: 25px auto 0 auto;
+	margin: 30px auto 0 auto;
 	width:138px;
 	height: 84px;
 	background: url('../images/sprites.png') -310px -169px ;
@@ -334,7 +360,7 @@ input[type=text]{
 
 .rbgweather {
 	display: block;
-	margin: 25px auto 0 auto;
+	margin: 30px auto 0 auto;
 	width:138px;
 	height: 84px;
 	background: url('../images/sprites.png') -172px -169px ;
@@ -344,9 +370,17 @@ input[type=text]{
 	opacity: .9;
 }
 
-#rbgadmission, #rbgdirections, #rbgweather, #rbghours {
+#rbgadmission, #rbgadmission2, #rbgdirections, #rbgweather, #rbghours {
 	min-width: 233px;
 	min-height: 200px;
+}
+
+#rbgdirectionshidden, #rbgweatherhidden, #rbghidden {
+	display: none;
+}
+
+#rbgweatherhidden {
+	height: 100%
 }
 
 .infoempty1, .infoempty2 {
@@ -368,7 +402,7 @@ input[type=text]{
 		margin: 5px auto 5px auto;
 	}
 	
-	#rbghours, #rbgadmission, #rbgdirections, #rbgweather {
+	#rbghours, #rbgadmission, #rbgadmission2, #rbgdirections, #rbgweather {
 		background-color: #196143;
 		border-top: black 1px solid;
 		clear: both;
@@ -404,8 +438,8 @@ input[type=text]{
 /* Begin Main Body */
 
 #rbgbody {
-	max-width:1400px;
-	margin: 0 auto 0 auto;	
+	max-width:1280px;
+	margin: 0 auto 0 auto;
 }
 
 #rbgbody h1, h2, h3, p {
@@ -441,7 +475,7 @@ input[type=text]{
 	margin: 0 auto;
     top: 0px;
     left: 0px;
-    width: 1300px;
+    width: 1280px;
     height: 500px;
     overflow: hidden;
 }
@@ -451,7 +485,7 @@ input[type=text]{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 1300px;
+	width: 1280px;
 	height: 500px;
 	overflow: hidden;
 }
@@ -572,11 +606,13 @@ input[type=text]{
 	width: 100%;
 	border-top: 1px solid #000000;
 	border-bottom: 1px solid #2E7258;
+	clear:both;
 }
 
 #prefooter {
-	max-width: 1400px;
+	max-width: 1280px;
 	margin: 0 auto 0 auto;
+	clear: both;
 }
 
 #infoempty1, #infoempty2, #empty1, #empty2 {
@@ -631,6 +667,13 @@ input[type=text]{
 	background-color: #FBF9F6;
 }
 
+@media only screen and (max-width : 950px) {
+	
+	.prefooter {
+		position: relative;
+	}
+}
+
 /*** End Pre-Footer ***/
 
 /*** Begin Footer ***/
@@ -641,7 +684,7 @@ input[type=text]{
 }
 
 #rbgfooter {
-  max-width: 1400px;
+  max-width: 1280px;
   margin: 0 auto 0 auto;
   background-color:#00502F;
 }
@@ -649,7 +692,7 @@ input[type=text]{
 #rbgfooterlinks {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1400px;
+	max-width: 1280px;
 	display: inline;
 	text-align: center;
 }
@@ -682,7 +725,7 @@ input[type=text]{
 #social-media-wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1400px;
+	max-width: 1280px;
 	display: inline;
 	text-align: center;
 }
@@ -813,7 +856,7 @@ input[type=text]{
 .uofu {
 	display: block;
     margin: 0 auto 0 auto;
-	width:178px;
+	width:179px;
 	height: 48px;
 	background: url('../images/sprites.png') -170px -256px ;
 	vertical-align: bottom;
@@ -830,7 +873,7 @@ input[type=text]{
     margin-right: auto;
 	width:169px;
 	height: 74px;
-	background: url('../images/sprites.png') -1px -245px ;
+	background: url('../images/sprites.png') -0px -245px ;
 }
 
 #zap {
