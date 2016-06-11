@@ -132,11 +132,6 @@ html * {
 	float: right;
 }
 
-.nav-button img {
-	max-height: 50px;
-	max-width: 50px;
-}
-
 .nav-button img:hover {
 	opacity: .9;
 }
