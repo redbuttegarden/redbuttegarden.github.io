@@ -925,3 +925,67 @@ input[type=text]{
 }
 
 /*** End Bootstrap Change ***/
+
+/* Begin CSS for Membership page */
+
+#memcontain {
+	max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	
+	
+}
+.memwrap{
+	max-width:590px;
+	overflow: hidden;
+		
+	
+	
+}
+
+.mempic {
+	float: left;
+	max-width:175px;
+	margin:0;
+	
+}
+
+
+.meminfo {
+	max-width:395px;
+	float:left;
+	width:100%;
+	background-color: #f2ede4;
+	min-height: 175px;
+	padding: 7px;
+	border: 1px solid black;
+	font-size: 12px;
+	
+		
+	
+}
+.meminfo h4 {
+	color: #196134;
+	font-weight: bold;
+	
+	
+	
+}
+
+.meminfo h5 {
+	color: #A26ba2;
+	font-weight: bold;
+}
+
+.row {
+	margin-bottom: 10px;
+	
+	
+	
+	
+}
+
+/* End CSS for membership page */
