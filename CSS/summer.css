@@ -199,7 +199,7 @@ form {
 	background: url('../images/search.png') no-repeat 8px 3px;
 	background-size: 12px 12px;
 	background-repeat: no-repeat;
-	width: 175px;
+	width: 165px;
 	
 }
 
@@ -209,11 +209,11 @@ form {
 
 input[type=text]{
 	color: #000000;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .rbgsearch { 
-	padding-top: 12px;
+	padding-top: 10px;
 	float: left;
 		/* div containing search form 
 	width:95%;
