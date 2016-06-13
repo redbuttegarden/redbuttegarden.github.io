@@ -430,17 +430,34 @@ input[type=text]{
 /**  End RBG Info Div  **/
 /************************/
 
-/* Begin Main Body */
+/* Begin Home Template Body */
 
-#rbgbody {
+#rbghomebody {
 	max-width:1280px;
 	margin: 0 auto 0 auto;
 }
 
-#rbgbody h1, h2, h3, p {
+#rbghomebody h1, h2, h3, p {
 	padding-left: 5px;
 	padding-right: 5px;
 }
+
+/* End Home Template Body */
+
+/* Begin Default Template Body */
+
+#rbgdefaultbody {
+	max-width:1280px;
+	margin: 0 auto 0 auto;
+	clear: left;
+}
+
+#rbgdefaultbody h1, h2, h3, p {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* End Default Template Body */
 
 /*************************************************************/
 /***************** Begin Slider Wrapper CSS ******************/
@@ -934,7 +951,7 @@ input[type=text]{
 	margin-right:auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	
+	clear: left;
 	
 	
 }
