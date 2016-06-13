@@ -449,7 +449,7 @@ input[type=text]{
 #rbgdefaultbody {
 	max-width:1280px;
 	margin: 0 auto 0 auto;
-	clear: left;
+	position: relative;
 }
 
 #rbgdefaultbody h1, h2, h3, p {
