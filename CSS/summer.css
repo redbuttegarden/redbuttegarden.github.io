@@ -177,7 +177,7 @@ html * {
 	
 }
 
-/* Hides Search Bar within certain widths */
+/* Hides Search Bar within certain widths  */
 @media (min-width: 769px) and (max-width: 1100px) {
 	.rbgsearch {
 		display: none;
