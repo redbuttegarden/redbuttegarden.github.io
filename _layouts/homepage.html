@@ -240,6 +240,15 @@
 			    var windowWidth = $(window).width();
 				var windowHeight = $(window).height();
 				
+				// Experimental Code - deleting this will make it work like before
+				
+				if (windowWidthOrig < 450) {
+					jssor_slider1.$ScaleWidth(windowWidth)
+					return;
+				}
+				
+				// End Experimental Code
+				
 			    if (windowWidth) {
 			        
 			       // document.getElementById("js-test").innerHTML = windowWidthOrig; // JS Testing Code Here 
@@ -249,7 +258,7 @@
 							return;
 			        }
 			        
-			        // Experimental Code - deleting this will make it work like before
+			        
 			        
 			        if ( ( (windowWidth > windowWidthOrig) || (windowHeight > windowHeightOrig) ) ) {
 				    	setTimeout(
