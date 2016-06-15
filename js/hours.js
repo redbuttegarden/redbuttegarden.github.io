@@ -37,6 +37,17 @@ var hoursInfo;
 /**/	var gadDay6 = 0;					// Day of month in October for 6th day of Garden After Dark (if applicable; if none, set to zero)
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* 		Variables For MISC Messages that Appear in Status Divs								  */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/**/	var gardenOpenMessage = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";
+/**/	var gardenClosedMessage = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+/**/	var gardenWillOpenMessageStart = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Open in ";	
+/**/	var garednWillCloseMessageStart = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in ";
+/**/	var gardenMessageEnd = " Minutes</div>";
+/**/	var halfOffAdmission = "Enjoy half-price admission December, January, and February";
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 minutesBeforeOpeningorClosing = 60 - minutes;
 
 // Code to account for Daylight Savings Time
@@ -51,7 +62,7 @@ if ( (month == 11 && day >= daylightEndDay) || (month == 12) || (month == 1) || 
 
 if (hours == 8 ) {
 	
-	status = "<div style=\x22font-weight:bold;\x22>The Garden Will Open in "+minutesBeforeOpeningorClosing+" Minutes</div>";	
+	status = gardenWillOpenMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;	
 	document.getElementById("gardenStatus").innerHTML = status;
 	
 	return;
@@ -60,8 +71,6 @@ if (hours == 8 ) {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* CHANGE YEARLY: Early Closing Days for Concerts and Gala  								  */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-
 	
 	// Hours for individual concert days (which will change every year), 
 	// the Gala, and other miscellaneous days that we will close at 5PM
@@ -72,7 +81,7 @@ if (hours == 8 ) {
 	|| 	(month == 6 && day == 16)					// Concert 3 	- The Monkees
 	|| 	(month == 6 && day == 20)					// Concert 4 	- Edward Sharpe and the Magnetic Zeros
 	|| 	(month == 6 && day == 29)					// Concert 5 	- Ben Harper & the Innocent Criminals
-	|| 	(month == 7 && day == 6)					// Concert 6 	- Tears for Fears
+	|| 	(month == 9 && day == 20)					// Concert 6 	- Tears for Fears (date changed)
 	|| 	(month == 7 && day == 8)					// Concert 7 	- Case / Lang / Veirs
 	|| 	(month == 7 && day == 13) 					// Concert 8 	- Barenaked Ladies / OMD / Howard Jones
 	|| 	(month == 7 && day == 14)					// Concert 9 	- JJ Grey & Mofro / Josh Ritter
@@ -97,6 +106,7 @@ if (hours == 8 ) {
 	|| 	(month == 9 && day == 13)					// Concert 28	- NEEDTOBREATHE
 	|| 	(month == 9 && day == 14)					// Concert 29	- Goo Goo Dolls
 	|| 	(month == 9 && day == 15)					// Concert 30	- Jason Isbell
+	|| 	(month == 8 && day == 22)					// Concert 31	- Old Crow Medicine Show
 	|| 	(month == galaMonth && day == galaDay)		// Gala
 	
 	)
@@ -105,29 +115,33 @@ if (hours == 8 ) {
 		busHours = "9AM-5PM";
 		document.getElementById("gardenHours").innerHTML = busHours;
 		otherNotes = "The Garden Will Close at 5PM for a Concert";
+			
+		if (month == galaMonth && day == galaDay) {
+			otherNotes = "The Garden Will Close at 5PM for a Special Gala Event";
+		}
+		
 		document.getElementById("otherNotes").innerHTML = otherNotes;
 		
 			if (hours >= 9 && hours < 16) {
-			status = "<div style=\x22font-weight:bold;\x22>The Garden is Open</div>";	
+			status = gardenOpenMessage;	
 			document.getElementById("gardenStatus").innerHTML = status;
 			return;
 		}
 		
 			if (hours == 16) {
-				status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
+				status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 				document.getElementById("gardenStatus").innerHTML = status;
 				return;
 		}
 		
 			else {
-				status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+				status = gardenClosedMessage;
 				document.getElementById("gardenStatus").innerHTML = status;
 				return;
 		}
 	
 	return;
 	}
-
 
 // Jan 1 - Mar 31 General Hours
 
@@ -137,13 +151,13 @@ if (month == 1 || month == 2 || month == 3) {
 	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 	
 	if (month == 1 || month == 2) {
-		admissionNotes = "Enjoy half-price admission December, January, and February";
+		admissionNotes = halfOffAdmission;
 		document.getElementById("admissionDiscount").innerHTML = document.getElementById("admissionDiscount2").innerHTML = admissionNotes;
 	}
 	
 	
 	if (month == 1 && day == 1) {
-		status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+		status = gardenClosedMessage;
 		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 		otherNotes = "The Garden is Closed Dec 24-Jan 1";
 		document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes; // Note that we are closed Jan 1st
@@ -151,19 +165,19 @@ if (month == 1 || month == 2 || month == 3) {
 	}
 
 		if (hours >= 9 && hours < 16) {
-			status = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";	
+			status = gardenOpenMessage;	
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
 		
 		if (hours == 16) {
-			status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
+			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
 		
 		else {
-			status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+			status = gardenClosedMessage;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
@@ -178,19 +192,19 @@ else if (month == 4) {
 	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 	
 		if ((hours >= 9 && hours < 18) || (hours == 18 && minutes < 30)) {
-			status = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";
+			status = gardenOpenMessage;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
 		
 		if ((hours == 18 && minutes >= 30) || (hours == 19 && minutes < 30)) {
-			status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
+			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
 		
 		else {
-			status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+			status = gardenClosedMessage;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
@@ -207,19 +221,19 @@ else if (month == 5 || month == 6 || month == 7 || month == 8) {
 	document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 	
 		if (hours >= 9 && hours < 20) {
-			status = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";
+			status = gardenOpenMessage;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
 		
 		if (hours == 20) {
-			status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
+			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
 		
 		else {
-			status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+			status = gardenClosedMessage;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
@@ -236,20 +250,20 @@ else if (month == 9) {
 	document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 
 		if ((hours >= 9 && hours < 18) || (hours == 18 && minutes < 30)) { 
-			status = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";
+			status = gardenOpenMessage;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 			
 		}
 
 		if ((hours == 18 && minutes >= 30) || (hours == 19 && minutes < 30)) {
-			status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
+			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}		
 		
 		else {
-			status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+			status = gardenClosedMessage;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
@@ -266,53 +280,55 @@ else if ( month == 10 || month == 11 || month == 12) {
 	document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 	
 	if (month == 12) {
-		admissionNotes = "Enjoy half-price admission December, January, and February";
+		admissionNotes = halfOffAdmission;
 		document.getElementById("admissionDiscount").innerHTML = document.getElementById("admissionDiscount2").innerHTML = admissionNotes;
 	}
 	
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* Garden After Dark Additional Hours (change gadDay# variables at top yearly)				  */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/**/		
-/**/		if ( (month == 10) && (day == gadDay5) ) {
-/**/			otherNotes = "<div style=\x22color:#FF9100;font-weight:bold;\x22>The Garden will close at 5PM, then open again from 6-10PM for Garden After Dark</div>";
-/**/			document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
-/**/			busHours = "9AM-5PM for General Admission<br />6PM-10PM for Garden After Dark";
-/**/			document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
-/**/				
-/**/			if (hours >= 9 && hours < 16) {
-/**/				status = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";	
-/**/				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-/**/				return;
-/**/			}
-/**/			
-/**/			if (hours == 16) {
-/**/				status = "<div style=\x22color:#FF9100;font-weight:bold;\x22>The Garden is Closing Soon, but will reopen at 6PM for Garden After Dark</div>";
-/**/				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-/**/				return;
-/**/			}
-/**/			
-/**/			if (hours >= 18 && hours < 21) {
-/**/				status = "<div style=\x22color:#FF9100;font-weight:bold;\x22>The Garden is Open for Garden After Dark!</div>";	
-/**/				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-/**/				return;
-/**/			}
-/**/			
-/**/			if (hours == 21) {
-/**/				status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
-/**/				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-/**/				return;
-/**/			}
-/**/			
-/**/			else {
-/**/				status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
-/**/				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-/**/				return;
-/**/			}				
-/**/				
-/**/			return;
-/**/			
-/**/		}
+/**/
+/*~~~~~~~Re-enable this code if one of the GAD events has different hours than the rest~~~~~~~*/		
+//
+//		if ( (month == 10) && (day == gadDay5) ) {
+//			otherNotes = "<div style=\x22color:#FF9100;font-weight:bold;\x22>The Garden will close at 5PM, then open again from 6-10PM for Garden After Dark</div>";
+//			document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
+//			busHours = "9AM-5PM for General Admission<br />6PM-10PM for Garden After Dark";
+//			document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
+//				
+//			if (hours >= 9 && hours < 16) {
+//				status = gardenOpenMessage;	
+//				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+//				return;
+//			}
+//			
+//			if (hours == 16) {
+//				status = "<div style=\x22color:#FF9100;font-weight:bold;\x22>The Garden is Closing Soon, but will reopen at 6PM for Garden After Dark</div>";
+//				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+//				return;
+//			}
+//			
+//			if (hours >= 18 && hours < 21) {
+//				status = "<div style=\x22color:#FF9100;font-weight:bold;\x22>The Garden is Open for Garden After Dark!</div>";	
+//				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+//				return;
+//			}
+//			
+//			if (hours == 21) {
+//				status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
+//				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+//				return;
+//			}
+//			
+//			else {
+//				status = gardenClosedMessage;
+//				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+//				return;
+//			}				
+//				
+//			return;
+//		}		
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
 /**/
 /**/		if ( (month == 10) && (day == gadDay1 || day == gadDay2 || day == gadDay3 || day == gadDay4 || day == gadDay5 || day == gadDay6) ) {
 /**/			otherNotes = "<div style=\x22color:#FF9100;font-weight:bold;\x22>The Garden will close at 5PM, then open again from 6-9PM for Garden After Dark</div>";
@@ -321,7 +337,7 @@ else if ( month == 10 || month == 11 || month == 12) {
 /**/			document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 /**/			
 /**/						if (hours >= 9 && hours < 16) {
-/**/				status = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";	
+/**/				status = gardenOpenMessage;	
 /**/				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/				return;
 /**/			}
@@ -339,13 +355,13 @@ else if ( month == 10 || month == 11 || month == 12) {
 /**/			}
 /**/			
 /**/			if (hours == 20) {
-/**/				status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
+/**/				status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 /**/				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/				return;
 /**/			}
 /**/			
 /**/			else {
-/**/				status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+/**/				status = gardenClosedMessage;
 /**/				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/				return;
 /**/			}	
@@ -362,7 +378,7 @@ else if ( month == 10 || month == 11 || month == 12) {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /**/	
 /**/	if (month == 11 && day == thanksgivingDay) {	
-/**/		status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+/**/		status = gardenClosedMessage;
 /**/		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/		busHours = "";
 /**/		document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
@@ -379,7 +395,7 @@ else if ( month == 10 || month == 11 || month == 12) {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /**/	
 /**/	if (month == 12 && day == holidayPartyDay) {	
-/**/		status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+/**/		status = gardenClosedMessage;
 /**/		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/		busHours = "9AM-1PM";
 /**/		document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
@@ -387,19 +403,19 @@ else if ( month == 10 || month == 11 || month == 12) {
 /**/		document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 /**/	
 /**/		if (hours >= 9 && hours < holidayPartyClosingHour) {
-/**/			status = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";
+/**/			status = gardenOpenMessage;
 /**/			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/			return;
 /**/		}
 /**/	
 /**/		else if (hours == holidayPartyClosingHour) {
-/**/			status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
+/**/			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 /**/			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/			return;
 /**/		}
 /**/	
 /**/		else {
-/**/			status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+/**/			status = gardenClosedMessage;
 /**/			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/			return;
 /**/		}			
@@ -415,7 +431,7 @@ else if ( month == 10 || month == 11 || month == 12) {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /**/			
 /**/		if (month == 12 && day >= 24) {	
-/**/			status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+/**/			status = gardenClosedMessage;
 /**/			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/			busHours = "";
 /**/			document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
@@ -425,19 +441,19 @@ else if ( month == 10 || month == 11 || month == 12) {
 /**/		}
 /**/		
 /**/		else if (hours >= 9 && hours < 16) {
-/**/			status = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";
+/**/			status = gardenOpenMessage;
 /**/			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/			return;
 /**/		}
 /**/		
 /**/		else if (hours == 16) {
-/**/			status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
+/**/			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 /**/			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/			return;
 /**/		}
 /**/		
 /**/		else {
-/**/			status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+/**/			status = gardenClosedMessage;
 /**/			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/			return;
 /**/		}	
@@ -446,19 +462,19 @@ else if ( month == 10 || month == 11 || month == 12) {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 	if (hours >= 9 && hours < 16) {
-		status = "<div style=\x22font-weight:bold;color:#49E20E;\x22>The Garden is Open</div>";	
+		status = gardenOpenMessage;	
 		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 		return;
 	}
 		
 	if (hours == 16) {
-		status = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in "+minutesBeforeOpeningorClosing+" Minutes</div>";
+		status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 		return;
 	}
 		
 	else {
-		status = "<div style=\x22color:red;font-weight:bold;\x22>The Garden is Closed Now</div>";
+		status = gardenClosedMessage;
 		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 		return;
 	}
