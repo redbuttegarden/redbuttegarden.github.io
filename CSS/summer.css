@@ -1033,3 +1033,16 @@ input[type=text]{
 }
 
 /*  End CSS for membership page  */
+
+
+/* Begin Wrapper for Google Maps */
+
+#googlemapswrapper {
+	max-width: 900px;
+	max-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+		
+}
+
+/*End Wrapper for Google Maps */
