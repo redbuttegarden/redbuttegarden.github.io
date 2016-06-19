@@ -14,7 +14,8 @@ hr {
 	color: #196143;
 	background-color: #196143;
 	border: none;
-	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 /* Abby likes shopping */
