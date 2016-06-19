@@ -4,9 +4,17 @@ html * {
      font-family: 'Open Sans';
 }
 
-h1, h2, h3, h4, h5, h6, hr {
+h1, h2, h3, h4, h5, h6 {
 	color: #196143;
 	font-weight: bold;
+}
+
+hr {
+	height: 2px;
+	color: #196143;
+	background-color: #196143;
+	border: none;
+	padding: 0;
 }
 
 /* Abby likes shopping */
