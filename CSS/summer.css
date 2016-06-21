@@ -199,7 +199,7 @@ hr {
 }
 
 @media (max-width: 768px) {
-	.nav-button {
+	.rbgsearch {
 		clear: both;
 	}
 }
