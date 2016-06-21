@@ -209,8 +209,9 @@ hr {
 	.hide-mobile {
 		display:none;
 	}
-	#rbgfooterlinks ul li {
-		clear:both;
+	#rbgfooterlinks li {
+		clear: both;
+		display: list-item;
 	}
 }
 
