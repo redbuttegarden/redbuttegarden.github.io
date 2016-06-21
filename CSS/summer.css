@@ -198,6 +198,12 @@ hr {
 	}
 }
 
+@media (max-width: 768px) {
+	.rbgsearch {
+		float: left;
+	}
+}
+
 /************************/
 /* Begin Search Bar CSS */
 /************************/
