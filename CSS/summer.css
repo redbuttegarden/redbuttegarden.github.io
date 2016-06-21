@@ -209,10 +209,6 @@ hr {
 	.hide-mobile {
 		display:none;
 	}
-	#rbgfooterlinks > ul > li {
-		font-size: 15px;
-		clear: both;
-	}
 }
 
 /************************/
