@@ -209,7 +209,7 @@ hr {
 	.hide-mobile {
 		display:none;
 	}
-	.rbgfooterlinks ul li {
+	#rbgfooterlinks ul li {
 		clear:both;
 	}
 }
