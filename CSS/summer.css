@@ -201,6 +201,7 @@ hr {
 @media (max-width: 768px) {
 	.nav-button-wrapper {
 		clear: both;
+		float: left;
 	}
 }
 
