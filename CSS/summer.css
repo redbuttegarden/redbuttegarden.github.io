@@ -200,7 +200,7 @@ hr {
 
 @media (max-width: 768px) {
 	.rbgsearch {
-		clear: both;
+		clear: right;
 	}
 }
 
