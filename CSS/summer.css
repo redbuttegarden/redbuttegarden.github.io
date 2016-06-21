@@ -18,6 +18,11 @@ hr {
 	margin-bottom: 3px;
 }
 
+a, a:link, a:visited, a:active, a: hover{
+	color: #C4B59E;
+	font-weight: bold;
+}
+
 /*******************************************/
 /************** Begin Nav Bar **************/
 /*******************************************/
