@@ -199,8 +199,8 @@ hr {
 }
 
 @media (max-width: 768px) {
-	.rbgsearch {
-		clear: right;
+	.nav-button-wrapper {
+		clear: both;
 	}
 }
 
