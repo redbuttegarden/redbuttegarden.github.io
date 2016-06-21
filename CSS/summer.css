@@ -209,6 +209,11 @@ hr {
 	.hide-mobile {
 		display:none;
 	}
+	
+	#rbgfooterlinks > ul > li:after {
+    content:"\a";
+    white-space: pre;
+	}
 }
 
 /************************/
