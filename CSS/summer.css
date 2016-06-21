@@ -209,6 +209,9 @@ hr {
 	.hide-mobile {
 		display:none;
 	}
+	.rbgfooterlinks li {
+		clear:both;
+	}
 }
 
 /************************/
