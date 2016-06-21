@@ -184,7 +184,7 @@ hr {
 }
 
 /* Hides Give, Join, and Volunteer Buttons within certain widths */
-@media (min-width: 769px) and (max-width: 1250px) {
+@media (min-width: 769px) and (max-width: 1300px) {
 	.nav-button {
 		display: none;
 	}
