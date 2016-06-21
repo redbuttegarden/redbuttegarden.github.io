@@ -211,6 +211,7 @@ hr {
 	}
 	#rbgfooterlinks > ul > li {
 		font-size: 20px;
+		clear: both;
 	}
 }
 
