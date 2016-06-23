@@ -1053,6 +1053,12 @@ input[type=text]{
 	}
 }
 
+@media (max-width:768px) {
+	#memcontain {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
 
 .meminfo h4 {
 	color: #196134;
