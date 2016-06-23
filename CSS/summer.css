@@ -1017,7 +1017,7 @@ input[type=text]{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	min-height: 225px;
-	
+	width: 175px;
 }
 
 .meminfo {
