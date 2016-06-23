@@ -1057,10 +1057,7 @@ input[type=text]{
 	.meminfo {
 		border-left: none;
 		border-right: none;
-		position: absolute;
-		left: 0;
-		right: 0;
-	}
+		width: 1000px;	}
 }
 
 .meminfo h4 {
