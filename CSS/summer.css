@@ -1006,8 +1006,6 @@ input[type=text]{
 	width: 100%;
 	position: relative;
 	min-height: 225px;
-	border-radius: 20px;
-	
 }
 
 .mempic {
@@ -1031,7 +1029,8 @@ input[type=text]{
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	border-right: 1px solid black;
-	font-size: 12px;	
+	font-size: 12px;
+	border-radius: 2px;	
 }
 
 @media (max-width:1200px) {
