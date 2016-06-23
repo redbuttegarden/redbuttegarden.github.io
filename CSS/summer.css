@@ -1055,7 +1055,7 @@ input[type=text]{
 
 @media (max-width: 768px) {
 	
-	#memcontain .row {
+	#memcontain .col-sm-6 {
 		width: 100% !important;
 	}
 	
