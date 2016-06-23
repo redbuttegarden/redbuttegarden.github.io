@@ -1059,13 +1059,10 @@ input[type=text]{
 	.meminfo {
 		border-left: none;
 		border-right: none;
-		width: 100%;
 	}
 	
-	.memwrap {
-		width: 100%;
-	}
-	
+	#memcontain .col-sm-6
+	width: 100%;
 }
 
 .meminfo h4 {
