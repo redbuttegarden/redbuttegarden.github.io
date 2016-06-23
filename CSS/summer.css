@@ -1060,13 +1060,13 @@ input[type=text]{
 		position: absolute;
 		left: 0;
 		right: 0;
-		margin: 0 auto;
+		
 	}
 	
 	.meminfo {
 		border-left: none;
 		border-right: none;
-		margin: 0 auto;
+		
 		}
 }
 
