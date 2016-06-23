@@ -1055,6 +1055,19 @@ input[type=text]{
 	}
 }
 
+@media (max-width: 768px) {
+	.meminfo {
+		border-left: none;
+		border-right: none;
+		width: 100%;
+	}
+	
+	.memwrap {
+		width: 100%;
+	}
+	
+}
+
 .meminfo h4 {
 	color: #196134;
 	font-weight: bold;
