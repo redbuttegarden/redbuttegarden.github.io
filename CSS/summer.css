@@ -1037,6 +1037,7 @@ input[type=text]{
 	.meminfo {
 		max-width: 1200px;
 		border-left: 1px solid black;
+		border-radius:0px;
 		
 		
 	}
