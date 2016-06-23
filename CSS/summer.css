@@ -1006,6 +1006,7 @@ input[type=text]{
 	width: 100%;
 	position: relative;
 	min-height: 225px;
+	border-radius: 2px;
 	
 }
 
@@ -1048,7 +1049,7 @@ input[type=text]{
 	.mempic {
 		display: none;
 	}
-	.row {
+	#memcontain .row {
 		margin-bottom: 0px !important;
 		
 	}
@@ -1067,7 +1068,7 @@ input[type=text]{
 	
 }
 
-.row {
+#memcontain .row {
 	margin-bottom: 10px;	
 }
 
