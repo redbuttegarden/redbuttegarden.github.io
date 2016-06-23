@@ -1055,8 +1055,8 @@ input[type=text]{
 
 @media (max-width: 768px) {
 	
-	.memwrap {
-		width:100%;
+	#memcontain .row {
+		width: 100% !important;
 	}
 	
 	.meminfo {
