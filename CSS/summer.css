@@ -993,22 +993,19 @@ input[type=text]{
 /*** End Bootstrap Change ***/
 
 /* Begin CSS for Membership page */
-
-  	#memcontain {
+#memcontain {
 	max-width:1200px;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	clear: left;
-	
-	
+	position: relative;
 }
+
 .memwrap{
-	max-width:590px;
-	overflow: hidden;
-		
-	
+	width: 100%;
+	position: relative;
+	min-height: 225px;
 	
 }
 
@@ -1016,56 +1013,77 @@ input[type=text]{
 	float: left;
 	max-width:175px;
 	margin:0;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	min-height: 225px;
 	
 }
-
 
 .meminfo {
 	max-width:395px;
-	float:left;
-	width:100%;
+	float: left;
+	width: 100%;
 	background-color: #f2ede4;
-	min-height: 175px;
+	min-height: 225px;
 	padding: 7px;
-	border: 1px solid black;
-	font-size: 12px;
-	
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	font-size: 12px;	
 }
 
-.meminfo ul {
-	padding-left: 10px;
+@media (max-width:1200px) {
+	.meminfo {
+		max-width: 1200px;
+		border-left: 1px solid black;
+		
+		
+	}
+		.memwrap{
+		border-bottom: 1px solid black;
+		
+		
+	}
+	.mempic {
+		display: none;
+	}
+	.row {
+		margin-bottom: 0px !important;
+		
+	}
 }
-
 
 .meminfo h4 {
 	color: #196134;
 	font-weight: bold;
-	
-	
 	
 }
 
 .meminfo h5 {
 	color: #A26ba2;
 	font-weight: bold;
+	padding-bottom: 0px;
+	
 }
 
 .row {
-	margin-bottom: 10px;
+	margin-bottom: 10px;	
 }
 
-.rbgbutton {
-	background-color:#196143;
-	border: 1px black solid;
-	border-radius: 2px; 			
-	color:#FFFFFF;						
-	font-size:16px;
-	width: 200px;
-	height: 45px;
-	clear: left;
-	float: right;						
+.membutton{
+	background-color: #196143;
+	color: #FFFFFF;
+	width: 190px;
+	height: 40px;
+	font-size: 16px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	position: absolute;
+	bottom: -10px;
+	right: 10px;
+	
 }
-
 /*  End CSS for membership page  */
 
 
