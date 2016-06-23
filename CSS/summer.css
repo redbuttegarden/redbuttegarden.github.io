@@ -1054,10 +1054,15 @@ input[type=text]{
 }
 
 @media (max-width: 768px) {
+	
+	.memwrap {
+		width:100%;
+	}
+	
 	.meminfo {
 		border-left: none;
 		border-right: none;
-		width: 1000px;	}
+		}
 }
 
 .meminfo h4 {
