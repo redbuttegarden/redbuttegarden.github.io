@@ -1053,17 +1053,6 @@ input[type=text]{
 	}
 }
 
-@media (max-width: 768px) {
-	
-	#memcontain .col-sm-6 {
-		width: 100% !important;
-	}
-	
-	.meminfo {
-		border-left: none;
-		border-right: none;
-		}
-}
 
 .meminfo h4 {
 	color: #196134;
