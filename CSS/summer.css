@@ -1097,28 +1097,28 @@ input[type=text]{
 	opacity: .9;
 }
 
-	.meminfowrapper {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 15px;
-		margin-bottom: 15px;
-		width:100%;
-		border-radius: 2px;
-	}
+.meminfowrapper {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width:100%;
+	border-radius: 2px;
+}
 
-	.membenefits  {
-  		max-width: 1250px;
-  		text-align: center;
-  		background-color: #BCAC93;
-  		color: #FFFFFF;
-  		height: 215px;
-  		margin-left: auto;
-  		margin-right: auto;
-  		font-size: 18px;
-  		opacity: 1;
-  		padding: 15px;
-  		margin-bottom: 4px;
-  	}
+.membenefits  {
+	max-width: 1280px;
+	text-align: center;
+	background-color: #BCAC93;
+	color: #FFFFFF;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+	opacity: 1;
+	padding: 15px;
+	margin-bottom: 4px;
+}
 
 /*  	
   	@media (max-width:768px){
