@@ -1109,9 +1109,9 @@ input[type=text]{
 	.membenefits  {
   		max-width: 1250px;
   		text-align: center;
+  		max-height: 215px;
   		background-color: #bcac93;
   		color: #FFFFFF;
-  		min-height: 215px;
   		margin-left: auto;
   		margin-right: auto;
   		font-size: 18px;
