@@ -59,7 +59,7 @@ hr {
 	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
 	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
 	{
-	background-color: #196143 !important; /* Overwrites Bootstrap's !important */
+	background-color: #A26ba2 !important; /* Overwrites Bootstrap's !important */
 }
 
 /* Makes headers of the dropdown menus white and bold */
