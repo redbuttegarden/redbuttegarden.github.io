@@ -59,7 +59,7 @@ hr {
 	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
 	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
 	{
-	background-color: #A26ba2 !important; /* Overwrites Bootstrap's !important */
+	background-color: #196143 !important; /* Overwrites Bootstrap's !important */
 }
 
 /* Makes headers of the dropdown menus white and bold */
@@ -1070,7 +1070,7 @@ input[type=text]{
 }
 
 .meminfo h5 {
-	color: #A26ba2;
+	color: #A26BA2;
 	font-weight: bold;
 	padding-bottom: 0px;
 	
@@ -1096,6 +1096,69 @@ input[type=text]{
 .membutton:hover {
 	opacity: .9;
 }
+
+	.meminfowrapper {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.membenefits  {
+  		max-width: 1250px;
+  		text-align: center;
+  		max-height: 100px;
+  		background-color: #bcac93;
+  		color: #FFFFFF;
+  		height: 215px;
+  		margin-left: auto;
+  		margin-right: auto;
+  		font-size: 18px;
+  		opacity: 1;
+  		padding: 15px;
+  		margin-bottom: 4px;
+  	}
+  	
+  	.membenefits:hover {
+	  	opacity: .9;
+  	}
+  	
+  	 .membenefits:before {      /* create a full-height inline block pseudo-element */
+	    content: ' ';
+	    display: inline-block;
+	    vertical-align: middle; /* vertical alignment of the inline element */
+	    height: 100%;
+	}
+	
+	#membenefits, #mempolicies, #memfaq {
+		max-width: 1250px;
+  		background-color: #F2EDE4;
+  		color: #000000;
+  		margin-left: auto;
+  		margin-right: auto;
+  		font-size: 14px;
+  		opacity: .9;
+  		padding: 15px;
+  		margin-bottom: 4px;
+  		margin-top: -5px;
+	}
+	
+	#memfaqheader {
+		background-color: #196143;
+	}
+	
+	.renewbutton {
+		background-color: #196143;
+		color: #FFFFFF;
+		max-width: 325px;
+		min-height: 40px;
+		font-size: 16px;
+		border: 1px solid black;
+	}
+	
+	.memhighlight {
+		font-weight:bold;
+		color: #A26BA2;
+	}
+
 /*  End CSS for membership page  */
 
 
