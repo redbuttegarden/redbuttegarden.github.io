@@ -1110,7 +1110,7 @@ input[type=text]{
   		max-width: 1250px;
   		text-align: center;
   		max-height: 100px;
-  		background-color: #196143;
+  		background-color: #BCAC93;
   		color: #FFFFFF;
   		height: 215px;
   		margin-left: auto;
@@ -1120,13 +1120,14 @@ input[type=text]{
   		padding: 15px;
   		margin-bottom: 4px;
   	}
-  	
+
+/*  	
   	@media (max-width:768px){
 	  	.membenefits {
 		  	max-height: 250px;
 	  	}
   	}
-  	
+*/   	
   	.membenefits:hover {
 	  	opacity: .9;
   	}
