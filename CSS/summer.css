@@ -1111,8 +1111,7 @@ input[type=text]{
 	text-align: center;
 	background-color: #BCAC93;
 	color: #FFFFFF;
-	max-height: 100px;
-	height: 215px;
+	height: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 18px;
@@ -1125,12 +1124,12 @@ input[type=text]{
   	opacity: .9;
 }
 	
-  	 .membenefits:before {      /* create a full-height inline block pseudo-element */
-	    content: ' ';
-	    display: inline-block;
-	    vertical-align: middle; /* vertical alignment of the inline element */
-	    height: 100%;
-	}
+.membenefits:before {      /* create a full-height inline block pseudo-element */
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle; /* vertical alignment of the inline element */
+	height: 100%;
+}
 
 	#membenefits, #mempolicies, #memfaq {
 		max-width: 1280px;
