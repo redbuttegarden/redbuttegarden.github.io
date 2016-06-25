@@ -1124,14 +1124,9 @@ input[type=text]{
 .membenefits:hover {
   	opacity: .9;
 }
-  	
-  	 .membenefits:before {      /* create a full-height inline block pseudo-element */
-	    content: ' ';
-	    display: inline-block;
-	    vertical-align: middle; /* vertical alignment of the inline element */
-	    height: 100%;
-	}
 	
+
+
 	#membenefits, #mempolicies, #memfaq {
 		max-width: 1280px;
   		background-color: #F2EDE4;
