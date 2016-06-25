@@ -1090,8 +1090,11 @@ input[type=text]{
 	margin-bottom: 20px;
 	position: absolute;
 	bottom: -10px;
-	right: 10px;
-	
+	right: 10px;	
+}
+
+.membutton:hover {
+	opacity: .9;
 }
 /*  End CSS for membership page  */
 
