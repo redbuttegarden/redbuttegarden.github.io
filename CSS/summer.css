@@ -1180,8 +1180,18 @@ input[type=text]{
 
 /* Being CSS for RBG Banner Images */
 
-.rbg-banner {
+	.rbgbanner {
+		max-width: 1280px;
+		margin-left: auto;
+		margin-right: auto;
+		clear: both;
+	}
 	
-}
+	.rbgbanner img {
+		width: 100%;
+		max-height: 150px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 /* */
