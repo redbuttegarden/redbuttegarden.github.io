@@ -1102,6 +1102,7 @@ input[type=text]{
 		margin-right: auto;
 		margin-top: 15px;
 		margin-bottom: 15px;
+		width:100%;
 	}
 
 	.membenefits  {
