@@ -1103,6 +1103,7 @@ input[type=text]{
 		margin-top: 15px;
 		margin-bottom: 15px;
 		width:100%;
+		border-radius: 2px;
 	}
 
 	.membenefits  {
