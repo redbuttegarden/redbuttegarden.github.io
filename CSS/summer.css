@@ -1111,7 +1111,8 @@ input[type=text]{
 	text-align: center;
 	background-color: #BCAC93;
 	color: #FFFFFF;
-	height: 100px;
+	max-height: 100px;
+	height: 215px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 18px;
@@ -1119,15 +1120,10 @@ input[type=text]{
 	padding: 15px;
 	margin-bottom: 4px;
 }
- 	
-@media (max-width:768px){
-  	.membenefits {
-	  	height: 200px;
-  	}
-}   	
-  	.membenefits:hover {
-	  	opacity: .9;
-  	}
+ 	 	
+.membenefits:hover {
+  	opacity: .9;
+}
   	
   	 .membenefits:before {      /* create a full-height inline block pseudo-element */
 	    content: ' ';
