@@ -1208,7 +1208,7 @@ input[type=text]{
 	background-color: #F2EDE4;
 }
 
-#rbgdefaultbody .panel-default a .panel-title a, #rbgdefaultbody .panel-default a:link .panel-title a:link, #rbgdefaultbody .panel-default a:visited .panel-title a:visited, #rbgdefaultbody .panel-default a:active .panel-title a:active {
+#rbgdefaultbody .panel-default a, #rbgdefaultbody .panel-default a:link, #rbgdefaultbody .panel-default a:visited, #rbgdefaultbody .panel-default a:active {
 	color: #000000;
 	text-decoration: none;
 }
