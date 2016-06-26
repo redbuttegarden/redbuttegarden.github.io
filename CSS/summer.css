@@ -1209,16 +1209,20 @@ input[type=text]{
 	background-color: #F2EDE4;
 }
 
-/* sort of works
+
 #rbgdefaultbody .panel-default a, #rbgdefaultbody .panel-default a:link, #rbgdefaultbody .panel-default a:visited, #rbgdefaultbody .panel-default a:active {
 	color: #000000;
 	text-decoration: none;
 }
-*/
 
-#rbgdefaultbody .panel-default a .panel-heading .panel-title a, #rbgdefaultbody .panel-default a:link .panel-heading .panel-title a:link, #rbgdefaultbody .panel-default a:visited .panel-heading .panel-title a:visited, #rbgdefaultbody .panel-default a:active .panel-heading .panel-title a:active {
-	color: #000000;
-	text-decoration: none;
+#rbgdefaultbody .panel-body a, #rbgdefaultbody .panel-body a:link, #rbgdefaultbody .panel-body a:visited, #rbgdefaultbody .panel-body a:active {
+	color: #A7916E;		/* hyperlink color for default pages */
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#rbgdefaultbody .panel-body a:hover {
+	color: #C4B59E;		/* color when hyperlinks hovered over on default pages*/ 
 }
 
 /* End Accordion Panel Colors */
