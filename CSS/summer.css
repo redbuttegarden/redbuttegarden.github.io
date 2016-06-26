@@ -1148,9 +1148,10 @@ input[type=text]{
 		background-color: #196143;
 	}
 	
-	.memfaq a, .memfaq a:hover, .memfaq a:active, .memfaq a:visited {
+	.memfaq a, .membenefits a, .memfaq a:hover, .memfaq a:active, .memfaq a:visited {
 		text-decoration: none;
-		color: #000000;
+		color: #FFFFFF;
+		font-weight: normal;
 	}
 	
 	.renewbutton {
