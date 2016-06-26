@@ -1211,4 +1211,5 @@ input[type=text]{
 .panel-title a, .panel-title a:link, .panel-title a:visited, .panel-title a:active {
 	color: #000000 !important;
 	text-decoration: none !important;
+	font-weight: normal;
 }
