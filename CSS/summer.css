@@ -1215,14 +1215,6 @@ input[type=text]{
 	text-decoration: none;
 }
 
-#rbgdefaultbody .panel-body a, #rbgdefaultbody .panel-body a:link, #rbgdefaultbody .panel-body a:visited, #rbgdefaultbody .panel-body a:active {
-	color: #A7916E;		/* hyperlink color for default pages */
-	font-weight: bold;
-	text-decoration: underline;
-}
 
-#rbgdefaultbody .panel-body a:hover {
-	color: #C4B59E;		/* color when hyperlinks hovered over on default pages*/ 
-}
 
 /* End Accordion Panel Colors */
