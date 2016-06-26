@@ -1210,5 +1210,8 @@ input[type=text]{
 
 .panel a .panel-title, .panel a:link .panel-title, .panel a:visited .panel-title, .panel a:active .panel-title {
 	color: #000000 !important;
-	text-decoration: none !important;
+}
+
+.nounderline {
+	text-decoration: none;
 }
