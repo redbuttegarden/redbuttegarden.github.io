@@ -1208,11 +1208,7 @@ input[type=text]{
 	background-color: #F2EDE4;
 }
 
-#rbgdefaultbody .panel-default a .panel-heading .panel-title, #rbgdefaultbody .panel-default a:link .panel-heading .panel-title, #rbgdefaultbody .panel-default a:visited .panel-heading .panel-title, #rbgdefaultbody .panel-default a:active .panel-heading .panel-title {
+#rbgdefaultbody .panel-default a, #rbgdefaultbody .panel-default a:link, #rbgdefaultbody .panel-default a:visited, #rbgdefaultbody .panel-default a:active {
 	color: #000000 !important;
-	text-decoration: none !important;
-}
-
-.nounderline {
 	text-decoration: none;
 }
