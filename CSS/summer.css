@@ -21,12 +21,11 @@ hr {
 #rbgdefaultbody a, #rbgdefaultbody a:link, #rbgdefaultbody a:visited, #rbgdefaultbody a:active {
 	color: #A7916E;		/* hyperlink color for default pages */
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 #rbgdefaultbody a:hover {
 	color: #C4B59E;		/* color when hyperlinks hovered over on default pages*/ 
-	text-decoration: underline;
 }
 
 /*******************************************/
@@ -1209,7 +1208,7 @@ input[type=text]{
 	background-color: #F2EDE4;
 }
 
-.panel a .panel-heading .panel-title, .panel a:link .panel-heading .panel-title, .panel a:visited .panel-heading .panel-title, .panel a:active .panel-heading .panel-title {
+#rbgdefaultbody .panel a .panel-heading .panel-title, .panel a:link .panel-heading .panel-title, .panel a:visited .panel-heading .panel-title, .panel a:active .panel-heading .panel-title {
 	color: #000000 !important;
 	text-decoration: none !important;
 }
