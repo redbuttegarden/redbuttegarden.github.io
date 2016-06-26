@@ -1208,10 +1208,13 @@ input[type=text]{
 	background-color: #F2EDE4;
 }
 
-.panel a .panel-title, .panel a:link .panel-title, .panel a:visited .panel-title, .panel a:active .panel-title {
+.panel a .panel-heading .panel-title, .panel a:link .panel-heading .panel-title, .panel a:visited .panel-heading .panel-title, .panel a:active .panel-heading .panel-title {
 	color: #000000 !important;
+	text-decoration: none !important;
 }
 
+/*
 .nounderline {
 	text-decoration: none;
 }
+*/
