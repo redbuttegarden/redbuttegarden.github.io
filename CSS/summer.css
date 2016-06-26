@@ -1206,12 +1206,12 @@ input[type=text]{
 /* Begin Accordion Panel Colors */
 
 .panel-heading {
-	background-color: #196143;
+	background-color: #F2EDE4;
 }
 
 
 #rbgdefaultbody .panel-default a, #rbgdefaultbody .panel-default a:link, #rbgdefaultbody .panel-default a:visited, #rbgdefaultbody .panel-default a:active { /* sets link color for panels to black with no underline  */
-	color: #FFFFFF;
+	color: #000000;
 	text-decoration: none;
 }
 
