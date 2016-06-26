@@ -1216,7 +1216,7 @@ input[type=text]{
 }
 */
 
-#rbgdefaultbody .panel-default .panel-heading .panel-title a, #rbgdefaultbody .panel-default .panel-heading .panel-title a:link, #rbgdefaultbody .panel-default .panel-heading .panel-title a:visited, #rbgdefaultbody .panel-default .panel-heading .panel-title a:active {
+#rbgdefaultbody .panel-default a .panel-heading .panel-title a, #rbgdefaultbody .panel-default a:link .panel-heading .panel-title a:link, #rbgdefaultbody .panel-default a:visited .panel-heading .panel-title a:visited, #rbgdefaultbody .panel-default a:active .panel-heading .panel-title a:active {
 	color: #000000;
 	text-decoration: none;
 }
