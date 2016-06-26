@@ -1208,7 +1208,7 @@ input[type=text]{
 	background-color: #F2EDE4;
 }
 
-.panel-title a, .panel-title a:link, .panel-title a:visited, .panel-title a:active {
+.panel-heading a, .panel-heading a:link, .panel-heading a:visited, .panel-heading a:active {
 	color: #000000 !important;
 	text-decoration: none !important;
 	font-weight: normal;
