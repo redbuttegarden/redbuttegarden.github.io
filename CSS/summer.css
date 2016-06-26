@@ -1207,3 +1207,8 @@ input[type=text]{
 .panel-heading {
 	background-color: #F2EDE4;
 }
+
+.panel-heading a {
+	color: #000000;
+	text-decoration: none;
+}
