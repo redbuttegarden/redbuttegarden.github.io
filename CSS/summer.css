@@ -1216,12 +1216,12 @@ input[type=text]{
 }
 
 #rbgdefaultbody .panel-body a, #rbgdefaultbody .panel-body a:link, #rbgdefaultbody .panel-body a:visited, #rbgdefaultbody .panel-body a:active { /* sets link colors inside panels back to site defaults */
-	color: #00502F;		/* hyperlink color for default pages */
+	color: #A7916E;		/* hyperlink color for default pages */
 	text-decoration: underline;
 }
 
 #rbgdefaultbody .panel-body a:hover {
-	color: #196143;		/* sets color when hyperlinks hovered over on pages within panel back to site defaults */ 
+	color: #C4B59E;		/* sets color when hyperlinks hovered over on pages within panel back to site defaults */ 
 }
 
 /* End Accordion Panel Colors */
