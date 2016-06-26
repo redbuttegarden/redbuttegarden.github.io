@@ -1203,6 +1203,7 @@ input[type=text]{
 
 /* */
 
+/* Begin Accordion Panel Colors */
 
 .panel-heading {
 	background-color: #F2EDE4;
@@ -1212,3 +1213,5 @@ input[type=text]{
 	color: #000000;
 	text-decoration: none;
 }
+
+/* End Accordion Panel Colors */
