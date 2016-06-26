@@ -1218,7 +1218,7 @@ input[type=text]{
 #rbgdefaultbody .panel-body a, #rbgdefaultbody .panel-body a:link, #rbgdefaultbody .panel-body a:visited, #rbgdefaultbody .panel-body a:active { /* sets link colors inside panels back to site defaults */
 	color: #A7916E;		/* hyperlink color for default pages */
 	text-decoration: underline;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 #rbgdefaultbody .panel-body a:hover {
