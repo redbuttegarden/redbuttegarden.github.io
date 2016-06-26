@@ -1144,8 +1144,13 @@ input[type=text]{
   		margin-top: -5px;
 	}
 	
-	#memfaqheader {
+	.memfaq {
 		background-color: #196143;
+	}
+	
+	.memfaq a, .memfaq a:hover, .memfaq a:active, .memfaq a:visited {
+		text-decoration: none;
+		color: #000000;
 	}
 	
 	.renewbutton {
@@ -1161,6 +1166,7 @@ input[type=text]{
 		font-weight:bold;
 		color: #A26BA2;
 	}
+
 
 /*  End CSS for membership page  */
 
