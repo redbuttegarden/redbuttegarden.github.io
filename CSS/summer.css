@@ -1213,7 +1213,7 @@ input[type=text]{
 #rbgdefaultbody .panel-default a, #rbgdefaultbody .panel-default a:link, #rbgdefaultbody .panel-default a:visited, #rbgdefaultbody .panel-default a:active { /* sets link color for panels to black with no underline  */
 	color: #000000;
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 #rbgdefaultbody .panel-body a, #rbgdefaultbody .panel-body a:link, #rbgdefaultbody .panel-body a:visited, #rbgdefaultbody .panel-body a:active { /* sets link colors inside panels back to site defaults */
