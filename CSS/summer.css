@@ -1225,4 +1225,8 @@ input[type=text]{
 	color: #C4B59E;		/* sets color when hyperlinks hovered over on pages within panel back to site defaults */ 
 }
 
+.panel-title {
+	font-size: 10px;
+}
+
 /* End Accordion Panel Colors */
