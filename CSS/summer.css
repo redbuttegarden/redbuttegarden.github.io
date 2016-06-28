@@ -1059,7 +1059,6 @@ input[type=text]{
 	}
 	#memcontain .row {
 		margin-bottom: 0px !important;
-		
 	}
 	
 	.memcorp {
@@ -1069,7 +1068,7 @@ input[type=text]{
 }
 
 @media (max-width:768px) {
-	#memcontain, .memwrap {
+	#memcontain, .memwrap, .memcorp {
 		margin-left: 0;
 		margin-right: 0;
 		padding: 0;
