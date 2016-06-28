@@ -1120,6 +1120,7 @@ input[type=text]{
 	margin-right: auto;
 	font-size: 18px;
 	opacity: 1;
+	padding: 15px;
 	margin-bottom: 4px;
 }
  	 	
@@ -1142,6 +1143,7 @@ input[type=text]{
   		margin-right: auto;
   		font-size: 14px;
   		opacity: .9;
+  		padding: 15px;
   		margin-bottom: 4px;
   		margin-top: -5px;
 	}
