@@ -1044,11 +1044,10 @@ input[type=text]{
 }
 
 @media (max-width:1280px) {
-	.meminfo, .memcorp {
+	.meminfo {
 		max-width: 1200px;
 		border-left: 1px solid black;
 		border-radius:0px;
-		border-top: 0;
 	}
 		.memwrap{
 		border-bottom: 1px solid black;
