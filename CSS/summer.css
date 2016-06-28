@@ -1179,7 +1179,7 @@ input[type=text]{
 .memsprite01, .memsprite02, .memsprite03, .memsprite04, .memsprite05, 
 .memsprite06, .memsprite07, .memsprite08, .memsprite09, .memsprite10
 {
-	background: url('png.png') no-repeat;
+	background: url('../images/memsprite.png') no-repeat;
 	}
  
 .memsprite01 { background-position: -0px -0px; width: 175px; height: 225px; }
