@@ -1057,8 +1057,8 @@ input[type=text]{
 	.mempic {
 		display: none;
 	}
-	#memcontain .row, #memcorpcontain .row {
-		margin-bottom: 0px !important;
+	#memcontain .row {
+		
 		
 	}
 	
