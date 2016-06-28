@@ -1040,7 +1040,7 @@ input[type=text]{
 .memcorp {
 	overflow: hidden;
 	border-left: 1px solid black;
-	min-height: 150px;
+	min-height: 175px;
 }
 
 @media (max-width:1280px) {
