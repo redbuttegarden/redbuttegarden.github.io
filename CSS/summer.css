@@ -1037,6 +1037,11 @@ input[type=text]{
 	border-bottom-right-radius: 2px;	
 }
 
+.memcorp {
+	overflow: hidden;
+	border-left: 1px solid black;
+}
+
 @media (max-width:1280px) {
 	.meminfo {
 		max-width: 1200px;
