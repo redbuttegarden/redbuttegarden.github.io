@@ -1166,7 +1166,7 @@ input[type=text]{
 		opacity: .9;
 	}
 	
-	#rbgdefaultbody .memfaq a, #rbgdefaultbody .membenefits a, #rbgdefaultbody .memfaq a:hover, #rbgdefaultbody .memfaq a:active, #rbgdefaultbody .memfaq a:visited {
+	#rbgdefaultbody .memfaqwrap a, #rbgdefaultbody .memfaqwrap a:hover, #rbgdefaultbody .memfaqwrap a:active, #rbgdefaultbody .memfaqwrap a:visited {
 		text-decoration: none;
 		color: #FFFFFF;
 		font-weight: normal;
