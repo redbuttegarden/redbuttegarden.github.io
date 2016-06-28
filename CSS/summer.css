@@ -1075,10 +1075,7 @@ input[type=text]{
 		max-width: 768px;
 		width: 100%;
 	}
-	
-	#memcontain .col-sm-4 {
-		margin-bottom: 0 !important;
-	}
+
 }
 
 .meminfo h4 {
