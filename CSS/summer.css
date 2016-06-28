@@ -1111,7 +1111,7 @@ input[type=text]{
 }
 
 .membenefits  {
-	max-width: 1280px;
+	max-width: 620px;
 	text-align: center;
 	background-color: #BCAC93;
 	color: #FFFFFF;
@@ -1149,6 +1149,16 @@ input[type=text]{
 	}
 	
 	.memfaq {
+		max-width: 620px;
+		text-align: center;
+		color: #FFFFFF;
+		height: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 18px;
+		opacity: 1;
+		padding: 15px;
+		margin-bottom: 4px;
 		background-color: #196143;
 	}
 	
