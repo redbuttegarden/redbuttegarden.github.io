@@ -1057,7 +1057,7 @@ input[type=text]{
 	.mempic {
 		display: none;
 	}
-	#memcontain .row {
+	#memcontain .row, .memcorp .row {
 		margin-bottom: 0px !important;
 		
 	}
@@ -1087,7 +1087,7 @@ input[type=text]{
 }
 
 #memcontain .row {
-	margin-bottom: 0px;	
+	margin-bottom: 10px;	
 }
 
 .membutton{
