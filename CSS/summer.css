@@ -1058,7 +1058,7 @@ input[type=text]{
 		display: none;
 	}
 	#memcontain .row {
-		
+		margin-bottom: 0px !important;
 		
 	}
 	
