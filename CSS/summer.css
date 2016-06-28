@@ -1083,6 +1083,10 @@ input[type=text]{
 	#rbgdefaultbody #memcontain h1 {
 		font-size: 22px;
 	}
+	
+	#rbgdefaultbody #memcontain h1 {
+		font-size: 20px;
+	}
 
 }
 
