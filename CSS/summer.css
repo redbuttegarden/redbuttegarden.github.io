@@ -1039,7 +1039,7 @@ input[type=text]{
 
 .memcorp {
 	border-left: 1px solid black;
-	min-height: 205px;
+	min-height: 210px;
 }
 
 @media (max-width:1280px) {
