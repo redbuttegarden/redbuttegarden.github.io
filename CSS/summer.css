@@ -1047,7 +1047,7 @@ input[type=text]{
 	.meminfo {
 		max-width: 1200px;
 		border-left: 1px solid black;
-		border-radius:0px;
+		border-radius: 0px;
 	}
 		.memwrap{
 		border-bottom: 1px solid black;
@@ -1057,7 +1057,7 @@ input[type=text]{
 	.mempic {
 		display: none;
 	}
-	#memcontain .row {
+	#memcontain .row, #memcorpcontain .row {
 		margin-bottom: 0px !important;
 		
 	}
@@ -1076,7 +1076,6 @@ input[type=text]{
 .meminfo h4 {
 	color: #196134;
 	font-weight: bold;
-	
 }
 
 .meminfo h5 {
@@ -1248,7 +1247,7 @@ input[type=text]{
 		margin-right: auto;
 	}
 
-/* */
+/* End CSS for RBG Banner Images*/
 
 /* Begin Accordion Panel Colors */
 
