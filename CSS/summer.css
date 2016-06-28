@@ -1073,6 +1073,14 @@ input[type=text]{
 	}
 }
 
+@media (max-width: 768px) {
+
+  [class*="col-"]{
+      margin-bottom: 0px;
+  }
+
+}
+
 .meminfo h4 {
 	color: #196134;
 	font-weight: bold;
