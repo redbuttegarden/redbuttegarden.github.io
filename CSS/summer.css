@@ -1061,6 +1061,11 @@ input[type=text]{
 		margin-bottom: 0px !important;
 		
 	}
+	
+	.memcorp {
+		clear:both;
+		margin: 0;
+	}
 }
 
 @media (max-width:768px) {
