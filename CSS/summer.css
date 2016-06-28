@@ -992,7 +992,10 @@ input[type=text]{
 
 /*** End Bootstrap Change ***/
 
-/* Begin CSS for Membership page */
+/**********************************************************/
+/*************  Begin CSS for membership page *************/
+/**********************************************************/
+
 #memcontain {
 	max-width:1200px;
 	margin-left:auto;
@@ -1168,9 +1171,76 @@ input[type=text]{
 		color: #A26BA2;
 	}
 
+/* Begin CSS for membership page sprites */
 
-/*  End CSS for membership page  */
+.memsprite1 {
+	background: url('images/memsprite.png');
+	background-position: -0px -0px;
+	width: 175px;
+	height: 225px; 
+}
+    
+.memsprite2 {
+	background: url('images/memsprite.png');
+	background-position: -0px -225px;
+	width: 175px;
+	height: 225px;	    
+}
+    
+.memsprite3 {
+	background: url('images/memsprite.png');
+	background-position: -0px -450px;
+	width: 175px;
+	height: 225px;	    
+}
+    
+.memsprite4 {
+	background: url('images/memsprite.png');
+	background-position: -0px -675px;
+	width: 175px;
+	height: 225px;	    
+}
+    
+.memsprite5 {
+	background: url('images/memsprite.png');
+	background-position: -0px -900px;
+	width: 175px;
+	height: 225px;	    
+}
+    
+.memsprite6 {
+	background: url('images/memsprite.png');
+	background-position: -0px -1125px;
+	width: 175px;
+	height: 225px;	    
+}
+    
+.memsprite7 {
+	background: url('images/memsprite.png');
+	background-position: -0px -1350px;
+	width: 175px;
+	height: 225px;	    
+}
+    
+.memsprite8 {
+	background: url('images/memsprite.png');
+	background-position: -0px -1575px;
+	width: 175px;
+	height: 225px;	    
+}
+    
+.memsprite9 {
+	background: url('images/memsprite.png');
+	background-position: -0px -1800px;
+	width: 175px;
+	height: 225px;	    
+}
 
+/* End CSS for membership page sprites */
+
+/**********************************************************/
+/**************  End CSS for membership page **************/
+/**********************************************************/
 
 /* Begin Wrapper for Google Maps */
 
@@ -1183,7 +1253,7 @@ input[type=text]{
 		
 }
 
-/*End Wrapper for Google Maps */
+/* End Wrapper for Google Maps */
 
 /* Being CSS for RBG Banner Images */
 
