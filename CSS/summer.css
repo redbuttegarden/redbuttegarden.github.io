@@ -1074,6 +1074,10 @@ input[type=text]{
 		max-width: 768px;
 		width: 100%;
 	}
+	
+	.memcorp {
+		min-height: 100px;
+	}
 
 }
 
