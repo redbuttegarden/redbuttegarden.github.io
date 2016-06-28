@@ -1038,7 +1038,7 @@ input[type=text]{
 }
 
 .memcorp {
-	overflow: hidden;
+	overflow: inherit;
 	border-left: 1px solid black;
 	min-height: 205px;
 }
