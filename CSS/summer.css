@@ -1162,6 +1162,10 @@ input[type=text]{
 		background-color: #196143;
 	}
 	
+	.memfaq:hover {
+		opacity: .9;
+	}
+	
 	.memfaq a, .membenefits a, .memfaq a:hover, .memfaq a:active, .memfaq a:visited {
 		text-decoration: none;
 		color: #FFFFFF;
