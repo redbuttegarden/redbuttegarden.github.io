@@ -1174,63 +1174,63 @@ input[type=text]{
 /* Begin CSS for membership page sprites */
 
 .memsprite1 {
-	background: url('images/memsprite.png');
+	background: url('../images/memsprite.png');
 	background-position: -0px -0px;
 	width: 175px;
 	height: 225px; 
 }
     
 .memsprite2 {
-	background: url('images/memsprite.png');
+	background: url('../images/memsprite.png');
 	background-position: -0px -225px;
 	width: 175px;
 	height: 225px;	    
 }
     
 .memsprite3 {
-	background: url('images/memsprite.png');
+	background: url('../images/memsprite.png');
 	background-position: -0px -450px;
 	width: 175px;
 	height: 225px;	    
 }
     
 .memsprite4 {
-	background: url('images/memsprite.png');
+	background: url('../images/memsprite.png');
 	background-position: -0px -675px;
 	width: 175px;
 	height: 225px;	    
 }
     
 .memsprite5 {
-	background: url('images/memsprite.png');
+	background: url('../images/memsprite.png');
 	background-position: -0px -900px;
 	width: 175px;
 	height: 225px;	    
 }
     
 .memsprite6 {
-	background: url('images/memsprite.png');
+	background: url('../images/memsprite.png');
 	background-position: -0px -1125px;
 	width: 175px;
 	height: 225px;	    
 }
     
 .memsprite7 {
-	background: url('images/memsprite.png');
+	background: url('../images/memsprite.png');
 	background-position: -0px -1350px;
 	width: 175px;
 	height: 225px;	    
 }
     
 .memsprite8 {
-	background: url('images/memsprite.png');
+	background: url('../images/memsprite.png');
 	background-position: -0px -1575px;
 	width: 175px;
 	height: 225px;	    
 }
     
 .memsprite9 {
-	background: url('images/memsprite.png');
+	background: url('../images/memsprite.png');
 	background-position: -0px -1800px;
 	width: 175px;
 	height: 225px;	    
