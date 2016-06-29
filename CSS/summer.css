@@ -1087,6 +1087,11 @@ input[type=text]{
 	#rbgdefaultbody #memcontain h2 {
 		font-size: 20px;
 	}
+	
+	.lowpadding {
+		padding: 0px !important;
+		margin: 0 !important;
+	}
 
 }
 
