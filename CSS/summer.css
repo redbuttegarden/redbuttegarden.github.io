@@ -1194,9 +1194,8 @@ input[type=text]{
 	}
 	
 	.lowpadding {
-		padding: 0 !important;
-		margin-left: 0 !important;
-		margin-right: 0 !important;
+		padding: 5px !important;
+		margin: 0 !important;
 	}
 	
 	#rbgdefaultbody .memfaqwrap a, #rbgdefaultbody .memfaqwrap a:hover, #rbgdefaultbody .memfaqwrap a:active, #rbgdefaultbody .memfaqwrap a:visited, #rbgdefaultbody .memfaqwrap a:link {
