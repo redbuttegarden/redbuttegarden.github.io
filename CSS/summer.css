@@ -1303,3 +1303,278 @@ input[type=text]{
 }
 
 /* End Accordion Panel Colors */
+
+/**********************************************************/
+/**************  Begin CSS for Concerts page **************/
+/**********************************************************/
+
+  	#concertcontent {
+	  	max-width:1280px;
+	  	margin: 0 auto 0 auto;	 
+  	}
+  	 
+  	#concertcontent .container-fluid-no-padding{
+	  	padding: 0px;
+  	}
+  	
+  	.concertinfo{
+  		position: relative;
+  		max-width: 280px;
+  		text-align: center;
+  		max-height: 215px;
+  		background-color: #bcac93;
+  		color: #fff;
+  		height: 215px;
+  		margin: 10px auto 10px auto;
+  		font-size: 16px;
+  		opacity: 1;
+  		text-wrap:normal;
+  		
+  	}
+  	
+  	.concertinfo:hover{
+	  	opacity: .8;
+  	}
+  	
+  	.concertinfo:before {      /* create a full-height inline block pseudo-element */
+	    content: ' ';
+	    display: inline-block;
+	    vertical-align: middle; /* vertical alignment of the inline element */
+	    height: 100%;
+	}	
+		
+	.concertwrapper{ 
+		position: relative;
+		opacity: 1;
+		margin: 0 auto 0 auto;
+	  	text-align:center;
+	  	display: table;
+	  	padding: 0 0 0 0;
+	}
+	
+	.concertwrapper:hover{
+		opacity: .9;
+	}
+	
+	.concertwrapper:hover .buytickets{
+		display:block;
+	} 	 
+	
+	.concertwrapper:hover .addcalendar{
+		display:block;
+	}
+	.past:hover .pasttext{
+		display:block;
+	}
+	
+	 
+	 .bandpic {
+	  	text-align:center;	
+	  	width: 88%;
+	  	padding: 10px 0 0 0;
+	  	position: relative;
+	  	z-index: 2;
+	  	margin: auto;	
+	  	  	 
+  	}
+  
+  	.bandpic img {
+	  	width: 100%;
+	  	display: table;
+	  	overflow: hidden;	  	
+  	}
+
+	.pasttext, .soldout, .concerttext{
+		position: absolute;
+	  	margin:0 auto 0 auto;
+	  	width: 100%;	  
+	}
+	
+	.invisible{
+		display: none;
+	}
+
+	.concerttext{
+		z-index: 3;
+		font-size: 14px;
+		color: white;
+		text-align:  center;
+		text-wrap: normal;
+		position: relative;		
+		overflow: none;
+		width: 88%;
+		height: 90px;
+		display: table;
+		margin: auto;
+	}	
+	
+	.concerttext:before {      /* create a full-height inline block pseudo-element */
+	    content: ' ';
+	    display: inline-block;
+	    vertical-align: middle; /* vertical alignment of the inline element */
+	    height: 100%;
+	}	
+
+	.textwrapper{
+		z-index: 3;
+		font-size: 14px;
+		color: white;
+		text-align:  center;
+		text-wrap: normal;
+		position: relative;		
+		background-color: #00502F;
+		overflow: none;
+		width: 88%;
+		height: 95px;
+		margin:auto;		
+	}	
+
+	.textcenter{
+		display: table-cell;
+		vertical-align: middle;
+	}	
+		
+	.soldout{	
+		margin: 0 auto 0 auto; 
+	  	text-align:center;
+		z-index: 3;
+	  	width: 88%;
+	  	position: absolute;
+		
+		top: 10px;
+		left:6%;
+
+	}
+
+	.soldout img{	 	  
+	  	width: 100%;
+	  	display: block;
+
+	  	 margin: auto;				 	
+	}
+	
+	.pasttext{
+		z-index: 30;
+		top: 25%;
+		left: 10%;
+		color: rgba(255,255,255, 0.7);
+		text-align:  center;
+		height: auto;
+		text-wrap: normal;
+		position: absolute;
+		padding-left:0px;
+		-ms-transform: rotate(-45deg); /* IE 9 */
+		-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+		transform: rotate(-45deg);
+		opacity:1%;
+		overflow: hidden;
+		max-width:80%;
+		font-size: 48px;
+		display: none;
+	}
+	
+
+	.past{
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%)
+	}
+
+  
+  @media (max-width: 992px){ 
+  		
+	  	.concertwrapper{
+		  	clear:both;
+		  	margin-left: auto; 
+		  	margin-right: auto;
+		  	width: 100%;
+		  	max-width: 320px;
+		  	float:none;
+		  	
+	  	}	
+	  	
+	  	.concertinfo{ 
+		  	max-height: 150px;
+	  	}
+  	}
+ 
+ 	.buttonwrapper{
+		z-index: 3;
+		font-size: 14px;
+		color: white;
+		text-align:  center;
+		text-wrap: normal;
+		position: relative;		
+		background-color: #00502F;
+		overflow: none;
+		width: 88%;
+		height: 40px;
+		margin:auto;		
+	}	
+
+   .buytickets {
+		background-color:#00502F;
+		border: 1px solid white;
+		border-radius: 1px; 			
+		color:#FFFFFF;						
+		font-size:16px;
+		width: 33%;
+		
+		top: 25%;
+		left: 56%;
+		z-index:14;
+		position: absolute;	
+							
+	}	
+	.buytickets:hover{
+		background-color: #00643b
+	}
+
+	 .addcalendar {
+		background-color:#00502F;
+		border: 1px solid white;
+		border-radius: 1px; 			
+		color:#FFFFFF;						
+		font-size:16px;
+		width: 40%;
+	
+		top: 25%;
+		left: 9%;
+		z-index:20;
+		position: absolute;	
+	
+		text-wrap: normal;
+		text-overflow: ellipsis;
+		text-align: center;			
+	}
+	
+	.addcalendar:hover{
+		background-color: #00643b
+	}
+	
+	.artistwebsite{
+		background-color:#00502F;
+		border: 0px black solid;
+		border-radius: 2px; 
+		color: #fff;
+		font-size: 11px;
+	}
+	.artistwebsite:hover{
+		background-color: #00643b
+	}
+	
+	.info {
+		z-index; 10;
+		background-color: #f2ede4;
+		padding: 10px 20px 10px 20px;
+		width: 88%;
+		margin: auto;		
+	}
+	
+.row-fluid {
+    overflow: hidden; 
+}
+
+/**********************************************************/
+/***************  End CSS for Concerts page ***************/
+/**********************************************************/
+
