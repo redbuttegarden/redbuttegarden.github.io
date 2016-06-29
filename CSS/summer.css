@@ -1195,6 +1195,7 @@ input[type=text]{
 	
 	.lowpadding {
 		padding: 5px !important;
+		padding-top: 0 !important;
 		margin: 0 !important;
 	}
 	
