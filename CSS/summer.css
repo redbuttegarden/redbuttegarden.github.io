@@ -1188,8 +1188,9 @@ input[type=text]{
 		opacity: .9;
 	}
 	
-	#rbgdefaultbody #memcontain .col-sm-6 {
-		margin: 0;
+	.nopadding {
+		padding: 0 !important;
+		margin: 0 !important;
 	}
 	
 	#rbgdefaultbody .memfaqwrap a, #rbgdefaultbody .memfaqwrap a:hover, #rbgdefaultbody .memfaqwrap a:active, #rbgdefaultbody .memfaqwrap a:visited, #rbgdefaultbody .memfaqwrap a:link {
