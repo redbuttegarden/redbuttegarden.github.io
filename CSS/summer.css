@@ -1171,7 +1171,7 @@ input[type=text]{
 	}
 	
 	.memfaq {
-		width: 100%;
+		max-width: 1280px;
 		text-align: center;
 		color: #FFFFFF;
 		height: 100px;
@@ -1180,6 +1180,7 @@ input[type=text]{
 		font-size: 18px;
 		opacity: 1;
 		margin-bottom: 4px;
+		padding: 0;
 		background-color: #196143;
 	}
 	
