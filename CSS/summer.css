@@ -1142,7 +1142,7 @@ input[type=text]{
 	margin-right: auto;
 	font-size: 18px;
 	opacity: 1;
-
+	padding: 15px;
 	margin-bottom: 4px;
 }
  	 	
@@ -1186,6 +1186,10 @@ input[type=text]{
 	
 	.memfaq:hover {
 		opacity: .9;
+	}
+	
+	#rbgdefaultbody #memcontain .collapse {
+		margin: 0;
 	}
 	
 	#rbgdefaultbody .memfaqwrap a, #rbgdefaultbody .memfaqwrap a:hover, #rbgdefaultbody .memfaqwrap a:active, #rbgdefaultbody .memfaqwrap a:visited, #rbgdefaultbody .memfaqwrap a:link {
