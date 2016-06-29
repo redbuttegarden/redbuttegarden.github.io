@@ -1262,6 +1262,7 @@ input[type=text]{
 
 	.rbgbanner {
 		max-width: 1280px;
+		width:100%;
 		margin-left: auto;
 		margin-right: auto;
 		clear: both;
@@ -1269,7 +1270,7 @@ input[type=text]{
 	
 	.rbgbanner img {
 		width: 100%;
-		max-height: 150px;
+		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 	}
