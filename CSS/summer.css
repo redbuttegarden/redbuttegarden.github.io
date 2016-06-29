@@ -1140,7 +1140,7 @@ input[type=text]{
 .membenefits  {
 	max-width: 630px;
 	text-align: center;
-	background-color: #BCAC93;
+	background-color: #196143;
 	color: #FFFFFF;
 	height: 100px;
 	margin-left: auto;
@@ -1195,7 +1195,6 @@ input[type=text]{
 	
 	.lowpadding {
 		padding: 0 5px 0 5px !important;
-
 		margin: 0 !important;
 	}
 	
