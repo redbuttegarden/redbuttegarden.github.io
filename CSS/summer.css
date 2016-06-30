@@ -311,22 +311,12 @@ input[type=text]{
 	font-size: 11px;
 }
 
-#gardenHours {
-	color: #FFF000;
-}
-
 #rbginfobg {
 	background-color: rgba(0,0,0,0.5); /* IMPORTANT: Use ONLY rbga here instead of rbg or hex so that opacity of the background color is not inherited */
 	width: 100%;
 	min-height: 180px;
 	position: absolute;
 	bottom: 0;
-}
-
-#serviceanimals {
-	width: 100%;
-	color: red;
-	font-size: 11px;
 }
 
 .float-left {
