@@ -216,7 +216,7 @@ else if (month == 4) {
 else if (month == 5 || month == 6 || month == 7 || month == 8) { 	
 	
 	busHours = "May 1-Aug 31: 9AM-9PM*"; 
-	otherNotes = "*On Concert Days, Garden Hours are 9AM-5PM";
+	otherNotes = "*Garden Hours on Concert Days: 9AM-5PM";
 	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 	document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 	
@@ -245,7 +245,7 @@ else if (month == 5 || month == 6 || month == 7 || month == 8) {
 else if (month == 9) { 	
 	
 	busHours = "Sep 1-30: 9AM-7:30PM*";
-	otherNotes = "*On Concert Days, Garden Hours are 9AM-5PM";
+	otherNotes = "*Garden Hours on Concert Days: 9AM-5PM";
 	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 	document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 
