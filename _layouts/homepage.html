@@ -62,9 +62,10 @@
 	<div id="rbginfobg">
 	
 		<div id="rbginfo" class="row">			
-			<div id="rbghours" class="col-sm-3" onclick="hoursHoverOn()"><a href="#"><div class="rbghours"></div></a>
+			<div id="rbghours" class="col-sm-3"><a href="/hours-admission"><div class="rbghours"></div></a>
 				<div id="gardenHours"></div>
 				<div id="gardenStatus"></div>
+				<div id="otherNotes"></div>
 			</div>
 			<div id="rbgadmission" class="col-sm-3" onclick="admissionHoverOn()"><a href="#"><div class="rbgadmission"></div></a></div>
 			<div id="rbgdirections" class="col-sm-3"><a href="/directions"><div class="rbgdirections"></div></a></div>
@@ -290,18 +291,6 @@
     <script>
     
 /* Hover On Functions */
-
-	function hoursHoverOn() {
-
-		var rbgHoursOn = "<b>GARDEN HOURS (MDT)</b><div id=\x22gardenHours\x22></div><div id=\x22gardenStatus\x22></div><br /><div id=\x22otherNotes\x22></div><br /><div>Only Service Animals are allowed in the garden</div><br /><a href=\x22#\x22 style=\x22text-decoration:none;color:#FFFFFF;font-size:12px\x22>CLICK TO SEE ALL HOURS</a>";
-		document.getElementById("rbghours").innerHTML = rbgHoursOn;
-		
-		// Clicking and activating this div will run the gardenYearlyHours() function
-		gardenYearlyHours();
-		
-		// Clicking this div will restore other active divs:
-		admissionHoverOut();
-	}
 	
 	function admissionHoverOn() {
 		var rbgAdmissionHidden = document.getElementById('rbgadmission2');
@@ -309,30 +298,8 @@
 		rbgAdmission.innerHTML = rbgAdmissionHidden.innerHTML;
 		
 		// Clicking this div will restore other active divs:
-		hoursHoverOut(); 
 	}
-	
-
-/* Hover Out Functions */
-	
-	function hoursHoverOut() {
-		var rbgHoursOut = "<a href=\x22#\x22><div class=\x22rbghours\x22></div></a><div id=\x22gardenHours\x22></div><div id=\x22gardenStatus\x22></div>";
-		document.getElementById("rbghours").innerHTML = rbgHoursOut;
 		
-		var gardenHours2 = document.getElementById('gardenHours2');
-		var gardenHours = document.getElementById('gardenHours');
-		gardenHours.innerHTML = gardenHours2.innerHTML;
-		
-		var gardenStatus2 = document.getElementById('gardenStatus2');
-		var gardenStatus = document.getElementById('gardenStatus');
-		gardenStatus.innerHTML = gardenStatus2.innerHTML;
-	}
-	
-	function admissionHoverOut() {
-		var rbgAdmissionOut = "<a href=\x22#\x22><div class=\x22rbgadmission\x22></div></a>";
-		document.getElementById("rbgadmission").innerHTML = rbgAdmissionOut;	
-	}
-	
 	</script>
 </body>
 </html>
