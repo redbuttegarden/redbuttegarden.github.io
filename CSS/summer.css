@@ -302,8 +302,12 @@ input[type=text]{
 	clear: both;
 }
 
-#gardenHours, #gardenStatus, #otherNotes {
+#gardenHours, #gardenStatus {
 	margin-top: 2px;
+}
+
+#otherNotes {
+	
 }
 
 #gardenHours {
