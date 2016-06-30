@@ -314,6 +314,11 @@ input[type=text]{
 	bottom: 0;
 }
 
+#serviceanimals {
+	width: 100%;
+	background-color: rgba(0,0,0,0.5); /* IMPORTANT: Use ONLY rbga here instead of rbg or hex so that opacity of the background color is not inherited */
+}
+
 #rbginfobg2 {
 	position: relative;
 }
@@ -362,7 +367,7 @@ input[type=text]{
 
 .rbghours {
 	display: block;
-	margin: 30px auto 0 auto;
+	margin: 27px auto 0 auto;
 	width: 138px;
 	height: 84px;
 	background: url('../images/sprites.png') -0px -320px ;
@@ -374,7 +379,7 @@ input[type=text]{
 
 .rbgadmission{
 	display:block;
-	margin: 30px auto 0 auto;
+	margin: 27px auto 0 auto;
 	width:138px;
 	height:84px;
 	background: url('../images/sprites.png') -140px -325px ;
@@ -386,7 +391,7 @@ input[type=text]{
 
 .rbgdirections {
 	display: block;
-	margin: 30px auto 0 auto;
+	margin: 27px auto 0 auto;
 	width:138px;
 	height: 84px;
 	background: url('../images/sprites.png') -310px -169px ;
@@ -398,7 +403,7 @@ input[type=text]{
 
 .rbgweather {
 	display: block;
-	margin: 30px auto 0 auto;
+	margin: 27px auto 0 auto;
 	width:138px;
 	height: 84px;
 	background: url('../images/sprites.png') -172px -169px ;
