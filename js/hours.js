@@ -130,13 +130,13 @@ if (hours == 8 ) {
 		
 			if (hours == 16) {
 				status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
-				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML status;
+				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 				return;
 		}
 		
 			else {
 				status = gardenClosedMessage;
-				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML status;
+				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 				return;
 		}
 	
