@@ -328,6 +328,10 @@ input[type=text]{
 	font-size: 11px;
 }
 
+.float-left {
+	float: left;
+}
+
 #rbginfobg2 {
 	position: relative;
 }
