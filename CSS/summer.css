@@ -308,6 +308,7 @@ input[type=text]{
 
 #otherNotes {
 	clear: none;
+	font-size: 11px;
 }
 
 #gardenHours {
@@ -317,7 +318,7 @@ input[type=text]{
 #rbginfobg {
 	background-color: rgba(0,0,0,0.5); /* IMPORTANT: Use ONLY rbga here instead of rbg or hex so that opacity of the background color is not inherited */
 	width: 100%;
-	height: 180px;
+	min-height: 180px;
 	position: absolute;
 	bottom: 0;
 }
