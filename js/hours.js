@@ -485,5 +485,3 @@ else if ( month == 10 || month == 11 || month == 12) {
 return;
 	   
 }
-
-// Inner divs for busHours variable values <div style="float:left;overflow:hidden;"></div> <div style="float:right;overflow:hidden;"></div>
