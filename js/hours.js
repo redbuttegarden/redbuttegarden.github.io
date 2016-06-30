@@ -120,23 +120,23 @@ if (hours == 8 ) {
 			otherNotes = "The Garden Will Close at 5PM for a Special Gala Event";
 		}
 		
-		document.getElementById("otherNotes").innerHTML = otherNotes;
+		document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 		
 			if (hours >= 9 && hours < 16) {
 			status = gardenOpenMessage;	
-			document.getElementById("gardenStatus").innerHTML = status;
+			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
 		
 			if (hours == 16) {
 				status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
-				document.getElementById("gardenStatus").innerHTML = status;
+				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML status;
 				return;
 		}
 		
 			else {
 				status = gardenClosedMessage;
-				document.getElementById("gardenStatus").innerHTML = status;
+				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML status;
 				return;
 		}
 	
