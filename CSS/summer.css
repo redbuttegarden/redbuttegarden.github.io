@@ -306,6 +306,11 @@ input[type=text]{
 	margin-top: 2px;
 }
 
+#garden-hours {
+	font-weight: bold;
+	color: red;
+}
+
 #rbginfobg {
 	background-color: rgba(0,0,0,0.5); /* IMPORTANT: Use ONLY rbga here instead of rbg or hex so that opacity of the background color is not inherited */
 	width: 100%;
