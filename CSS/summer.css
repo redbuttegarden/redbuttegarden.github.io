@@ -18,7 +18,7 @@ hr {
 	margin-bottom: 3px;
 }
 
-.hover {
+.hover:img {
 	opacity: .9;
 }
 
