@@ -262,7 +262,7 @@ input[type=text]{
 		*/
 }
 
-.rbgsearch input[type=text]{
+ input[type=text]{
 	border: 1px solid #acb1b7;
 	background-color :#FFFFFF;
 }
