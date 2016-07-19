@@ -1612,6 +1612,10 @@ input[type=text]{
 	padding: 5px;
 }
 
+.sponinfo table {
+	border: 1px solid black;
+}
+
 /**********************************************************/
 /**********  End CSS for Sponsors Packages Page ***********/
 /**********************************************************/
@@ -1623,6 +1627,10 @@ input[type=text]{
 .red {
 	font-weight: bold;
 	color: #FF0000;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 /**********************************************************/
