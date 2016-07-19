@@ -1610,6 +1610,7 @@ input[type=text]{
 .sponinfo td {
 	text-align: left;
 	padding: 5px;
+	border: 1px solid black;
 }
 
 .sponinfo table {
