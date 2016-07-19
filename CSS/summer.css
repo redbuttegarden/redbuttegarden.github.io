@@ -1607,6 +1607,11 @@ input[type=text]{
 	border-radius: 2px;
 }
 
+.sponinfo td {
+	text-align: left;
+	padding: 5px;
+}
+
 /**********************************************************/
 /**********  End CSS for Sponsors Packages Page ***********/
 /**********************************************************/
