@@ -1226,11 +1226,6 @@ input[type=text]{
 		font-size: 16px;
 		border: 1px solid black;
 	}
-	
-	.memhighlight {
-		font-weight:bold;
-		color: #A26BA2;
-	}
 
 /* Begin CSS for membership page sprites */
 
@@ -1628,6 +1623,11 @@ input[type=text]{
 
 .bold {
 	font-weight: bold;
+}
+
+.lilac {
+	font-weight:bold;
+	color: #A26BA2;
 }
 
 /**********************************************************/
