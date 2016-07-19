@@ -1592,14 +1592,22 @@ input[type=text]{
 /***************  End CSS for Concerts page ***************/
 /**********************************************************/
 
+/**********************************************************/
+/*********  Begin CSS for Sponsors Packages Page **********/
+/**********************************************************/
+
 .sponinfo {
 	max-width:620px;
 	float: left;
 	width: 100%;
 	background-color: #f2ede4;
-	min-height: 227px;
+	min-height: 300px;
 	padding: 7px;
 	border: 1px solid black;
 	font-size: 12px;
 	border-radius: 2px;
 }
+
+/**********************************************************/
+/**********  End CSS for Sponsors Packages Page ***********/
+/**********************************************************/
