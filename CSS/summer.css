@@ -1598,7 +1598,6 @@ input[type=text]{
 
 .sponinfo {
 	max-width:620px;
-	float: left;
 	width: 100%;
 	background-color: #f2ede4;
 	min-height: 300px;
