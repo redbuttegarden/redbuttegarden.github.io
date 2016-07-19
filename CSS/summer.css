@@ -1109,12 +1109,12 @@ input[type=text]{
 
 }
 
-.meminfo h4, .sponinfo h4 {
+.meminfo h4 {
 	color: #196134;
 	font-weight: bold;
 }
 
-.meminfo h5 {
+.meminfo h5, .sponinfo h5 {
 	color: #A26BA2;
 	font-weight: bold;
 	padding-bottom: 0px;
