@@ -1010,7 +1010,7 @@ input[type=text]{
 /*************  Begin CSS for membership page *************/
 /**********************************************************/
 
-#memcontain, #sponcontain {
+#memcontain {
 	max-width:1200px;
 	margin-left:auto;
 	margin-right:auto;
@@ -1083,7 +1083,7 @@ input[type=text]{
 }
 
 @media (max-width:768px) {
-	#memcontain, .memwrap, #sponcontain {
+	#memcontain, .memwrap {
 		margin-left: 0;
 		margin-right: 0;
 		padding: 0;
