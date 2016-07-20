@@ -1601,6 +1601,7 @@ input[type=text]{
 	border: 1px solid black;
 	font-size: 12px;
 	border-radius: 2px;
+	padding-bottom: 10px;
 }
 
 .sponinfo td {
