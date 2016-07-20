@@ -1122,7 +1122,7 @@ input[type=text]{
 	
 }
 
-#memcontain .row {
+#memcontain .row, #sponcontain .row {
 	margin-bottom: 10px;	
 }
 
