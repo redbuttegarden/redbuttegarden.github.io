@@ -1063,14 +1063,15 @@ input[type=text]{
 		border-left: 1px solid black;
 		border-radius: 0px;
 	}
-		.memwrap{
-		border-bottom: 1px solid black;
-		
-		
+	
+	.memwrap{
+		border-bottom: 1px solid black;	
 	}
+	
 	.mempic {
 		display: none;
 	}
+	
 	#memcontain .row {
 		margin-bottom: 0px !important;
 	}
@@ -1608,6 +1609,14 @@ input[type=text]{
 	border: 1px solid black !important;
 }
 
+@media (max-width:1280px) {
+
+	.sponinfo {
+		max-width: 1200px;
+		border-radius: 0px;
+	}
+
+}
 /**********************************************************/
 /**********  End CSS for Sponsors Packages Page ***********/
 /**********************************************************/
