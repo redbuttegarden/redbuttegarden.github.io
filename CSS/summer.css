@@ -1010,7 +1010,7 @@ input[type=text]{
 /*************  Begin CSS for membership page *************/
 /**********************************************************/
 
-#memcontain {
+#memcontain, #sponcontain {
 	max-width:1200px;
 	margin-left:auto;
 	margin-right:auto;
@@ -1072,7 +1072,7 @@ input[type=text]{
 		display: none;
 	}
 	
-	#memcontain .row {
+	#memcontain .row, #sponcontain .row {
 		margin-bottom: 0px !important;
 	}
 	
@@ -1083,7 +1083,7 @@ input[type=text]{
 }
 
 @media (max-width:768px) {
-	#memcontain, .memwrap {
+	#memcontain, .memwrap, #sponcontain {
 		margin-left: 0;
 		margin-right: 0;
 		padding: 0;
@@ -1601,7 +1601,6 @@ input[type=text]{
 	border: 1px solid black;
 	font-size: 12px;
 	border-radius: 2px;
-	padding-bottom: 10px;
 }
 
 .sponinfo td {
