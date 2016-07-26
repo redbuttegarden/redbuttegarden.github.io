@@ -1360,8 +1360,6 @@ input[type=text]{
 	  	text-align:center;
 	  	display: table;
 	  	padding: 0 0 0 0;
-	  	max-width: 320px;
-	  	float: none;
 	}
 	
 	.concertwrapper:hover{
@@ -1379,7 +1377,6 @@ input[type=text]{
 		display:block;
 	}
 	
-	 
 	 .bandpic {
 	  	text-align:center;	
 	  	width: 88%;
