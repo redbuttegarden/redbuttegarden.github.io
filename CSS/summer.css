@@ -1362,6 +1362,14 @@ input[type=text]{
 	  	padding: 0 0 0 0;
 	}
 	
+	@media (max-width: 768px) {
+		
+		.concertwrapper{
+			max-width: 320px;
+		}
+		  
+	}
+	
 	.concertwrapper:hover{
 		opacity: .9;
 	}
