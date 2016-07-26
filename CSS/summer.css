@@ -1496,7 +1496,7 @@ input[type=text]{
 		  	clear:both;
 		  	margin-left: auto; 
 		  	margin-right: auto;
-
+		  	width: 100%;
 		  	max-width: 320px;
 		  	float:none;
 		  	
