@@ -995,7 +995,7 @@ input[type=text]{
 
 /* Added to make Bootstrap row divs with pictures the same height  */
 
-.row {
+.row, .row-fluid {
     overflow: hidden; 
 }
 
