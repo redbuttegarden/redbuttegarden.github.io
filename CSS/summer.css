@@ -1488,6 +1488,21 @@ input[type=text]{
 		-webkit-filter: grayscale(100%);
 		filter: grayscale(100%)
 	}
+
+  
+  @media (max-width: 992px){ 
+  		
+	  	.concertwrapper{
+
+		  	max-width: 320px;
+
+		  	
+	  	}	
+	  	
+	  	.concertinfo{ 
+		  	max-height: 150px;
+	  	}
+  	}
  
  	.buttonwrapper{
 		z-index: 3;
