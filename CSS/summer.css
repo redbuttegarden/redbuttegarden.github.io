@@ -1496,6 +1496,7 @@ input[type=text]{
 		/*
 		  	clear:both;
 		  	*/
+		  	background-color: red;
 		  	margin-left: auto; 
 		  	margin-right: auto;
 		  	width: 100%;
