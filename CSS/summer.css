@@ -1361,6 +1361,7 @@ input[type=text]{
 	  	display: table;
 	  	padding: 0 0 0 0;
 	  	max-width: 320px;
+	  	float: none;
 	}
 	
 	.concertwrapper:hover{
