@@ -1360,6 +1360,7 @@ input[type=text]{
 	  	text-align:center;
 	  	display: table;
 	  	padding: 0 0 0 0;
+	  	max-width: 320px;
 	}
 	
 	.concertwrapper:hover{
@@ -1489,8 +1490,21 @@ input[type=text]{
 		filter: grayscale(100%)
 	}
 
-  
+ /* 
+  @media (max-width: 992px){ 
+  		
+	  	.concertwrapper{
 
+		  	max-width: 320px;
+		  	float: none;
+		  	
+	  	}	
+	  	
+	  	.concertinfo{ 
+		  	max-height: 150px;
+	  	}
+  	}
+  	*/
  
  	.buttonwrapper{
 		z-index: 3;
