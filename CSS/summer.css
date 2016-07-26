@@ -1490,22 +1490,7 @@ input[type=text]{
 	}
 
   
-  @media (max-width: 992px){ 
-  		
-	  	.concertwrapper{
-		  	clear:both;
-		  	margin-left: auto; 
-		  	margin-right: auto;
-		  	width: 100%;
-		  	max-width: 320px;
 
-		  	
-	  	}	
-	  	
-	  	.concertinfo{ 
-		  	max-height: 150px;
-	  	}
-  	}
  
  	.buttonwrapper{
 		z-index: 3;
