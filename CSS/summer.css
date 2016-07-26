@@ -1489,23 +1489,7 @@ input[type=text]{
 		filter: grayscale(100%)
 	}
 
-  
-  @media (max-width: 992px){ 
-  		
-	  	.concertwrapper{
 
-		  	margin-left: auto; 
-		  	margin-right: auto;
-		  	width: 100%;
-		  	max-width: 320px;
-		  	float:none;
-		  	
-	  	}	
-	  	
-	  	.concertinfo{ 
-		  	max-height: 150px;
-	  	}
-  	}
  
  	.buttonwrapper{
 		z-index: 3;
