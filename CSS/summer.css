@@ -1686,3 +1686,7 @@ input[type=text]{
 /**********************************************************/
 /****************  End Generic Classes ******************/
 /**********************************************************/
+
+.table-responsive .table {		/* Fixes responsive table horizontal glitch on phones */
+    max-width: none;
+}
