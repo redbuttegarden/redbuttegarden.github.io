@@ -1630,7 +1630,7 @@ input[type=text]{
 @media (max-width:970px) {
 	
 	.sponinfo {
-		min-height: 250px;
+		min-height: 150px;
 	}
 }
 /**********************************************************/
