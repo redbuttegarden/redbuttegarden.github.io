@@ -1627,12 +1627,6 @@ input[type=text]{
 
 }
 
-@media (max-width:970px) {
-	
-	.sponinfo col-sm-12{
-		min-height: 150px !important;
-	}
-}
 /**********************************************************/
 /**********  End CSS for Sponsors Packages Page ***********/
 /**********************************************************/
