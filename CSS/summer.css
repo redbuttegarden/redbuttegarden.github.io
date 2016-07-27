@@ -1654,8 +1654,8 @@ input[type=text]{
 }
 
 #sponcontain > .panel, #sponcontain > .panel-default {
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 /**********************************************************/
