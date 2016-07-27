@@ -1629,8 +1629,8 @@ input[type=text]{
 
 @media (max-width:970px) {
 	
-	.sponinfo {
-		min-height: 150px;
+	.sponinfo col-sm-12{
+		min-height: 150px !important;
 	}
 }
 /**********************************************************/
