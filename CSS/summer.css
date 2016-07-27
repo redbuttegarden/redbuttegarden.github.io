@@ -1653,7 +1653,10 @@ input[type=text]{
 	margin-bottom: 4px;
 }
 
-
+.panel {
+	padding-left: 0;
+	padding-right: 0;
+}
 
 /**********************************************************/
 /**********  End CSS for Sponsors Packages Page ***********/
@@ -1680,6 +1683,14 @@ input[type=text]{
 .white {
 	font-weight: bold;
 	color: #FFFFFF;
+}
+
+.swag {
+	
+}
+
+.hover:hover {
+	opacity: .9;
 }
 
 /**********************************************************/
