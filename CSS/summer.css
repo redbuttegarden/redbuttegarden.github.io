@@ -1653,7 +1653,7 @@ input[type=text]{
 	margin-bottom: 4px;
 }
 
-.panel {
+#sponcontain > .panel {
 	padding-left: 0;
 	padding-right: 0;
 }
