@@ -1628,8 +1628,7 @@ input[type=text]{
 }
 
 .spon-table  {
-		max-width: 100%;
-		width: 1280px;
+		width: 100% !important;
 		text-align: center;
 		max-height: 100px;
 		background-color: #bcac93;
