@@ -1192,9 +1192,9 @@ published: true
 
 <script>
 
-window.onload = gardenYearlyHours;
+window.onload = concertDates;
 
-function gardenYearlyHours() {
+function concertDates() {
 
 var d = new Date();
 var offset = d.getTimezoneOffset()/60;
@@ -1211,7 +1211,44 @@ var concertday = document.getElementById("concertday28"),
 	
 if (month > concertdate) {
 	$("#concert28").addClass("past")
-}
+} 
+
+if (
+		(month == 5 && day == 25)					// Concert 1 	- The Lumineers
+	|| 	(month == 6 && day == 1) 					// Concert 2 	- Buddy Guy & Jonny Lang
+	|| 	(month == 6 && day == 16)					// Concert 3 	- The Monkees
+	|| 	(month == 6 && day == 20)					// Concert 4 	- Edward Sharpe and the Magnetic Zeros
+	|| 	(month == 6 && day == 29)					// Concert 5 	- Ben Harper & the Innocent Criminals
+	|| 	(month == 9 && day == 20)					// Concert 6 	- Tears for Fears (date changed)
+	|| 	(month == 7 && day == 8)					// Concert 7 	- Case / Lang / Veirs
+	|| 	(month == 7 && day == 13) 					// Concert 8 	- Barenaked Ladies / OMD / Howard Jones
+	|| 	(month == 7 && day == 14)					// Concert 9 	- JJ Grey & Mofro / Josh Ritter
+	|| 	(month == 7 && day == 19)					// Concert 10 	- Boz Scaggs
+	|| 	(month == 7 && day == 26)					// Concert 11 	- The Avett Brothers
+	|| 	(month == 7 && day == 28)					// Concert 12 	- Willie Nelson & Family
+	|| 	(month == 7 && day == 31)					// Concert 13 	- Gary Clark Jr.
+	|| 	(month == 8 && day == 5)					// Concert 14	- Weird Al
+	|| 	(month == 8 && day == 7)					// Concert 15	- Tedeschi Trucks Band
+	|| 	(month == 8 && day == 8)					// Concert 16	- Culture Club
+	|| 	(month == 8 && day == 9)					// Concert 17	- Michael Franti & Spearhead
+	|| 	(month == 8 && day == 11)					// Concert 18	- Utah Symphony & Milos
+	|| 	(month == 8 && day == 14)					// Concert 19	- Lake Street Dive
+	|| 	(month == 8 && day == 15)					// Concert 20	- Ryan Adams
+	|| 	(month == 8 && day == 17)					// Concert 21	- Pat Benatar & Neil Giraldo / Melissa Etheridge
+	|| 	(month == 8 && day == 18)					// Concert 22	- Grace Potter
+	|| 	(month == 8 && day == 24)					// Concert 23	- Jackson Browne
+	|| 	(month == 8 && day == 30)					// Concert 24	- Wilco
+	|| 	(month == 9 && day == 7)					// Concert 25	- Blondie
+	|| 	(month == 9 && day == 8)					// Concert 26	- Kacey Musgraves
+	|| 	(month == 9 && day == 11)					// Concert 27	- Bonnie Raitt
+	|| 	(month == 9 && day == 13)					// Concert 28	- NEEDTOBREATHE
+	|| 	(month == 9 && day == 14)					// Concert 29	- Goo Goo Dolls
+	|| 	(month == 9 && day == 15)					// Concert 30	- Jason Isbell
+	|| 	(month == 8 && day == 22)					// Concert 31	- Old Crow Medicine Show
+
+	
+	)
+
 
 }
 

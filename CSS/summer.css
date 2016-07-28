@@ -1333,8 +1333,8 @@ input[type=text]{
   		max-width: 280px;
   		text-align: center;
   		max-height: 215px;
-  		background-color: #bcac93;
-  		color: #fff;
+  		background-color: none;
+  		color: #000;
   		height: 215px;
   		margin: 10px auto 10px auto;
   		font-size: 16px;
