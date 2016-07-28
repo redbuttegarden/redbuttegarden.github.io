@@ -1657,6 +1657,10 @@ input[type=text]{
 	text-align: center;
 }
 
+#sponcontain th {
+	background-color:#F5F5DC;
+}
+
 /**********************************************************/
 /**********  End CSS for Sponsors Packages Page ***********/
 /**********************************************************/
