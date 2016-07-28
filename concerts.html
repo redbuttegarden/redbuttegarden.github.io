@@ -1034,7 +1034,8 @@ published: true
 					<div class="concerttext">
 						<p class="textcenter">NEEDTOBREATHE
 						<br><small>Mat Kearney, John Mark McMillan, Welshly Arms</small>
-						 <br>Tuesday, September 13 @ 6:30PM	</p>	 
+						 <br>Tuesday, September 13 @ 6:30PM	</p>
+						 <div style="display:none;" id="concertdate28">09.13</div>	 
 					</div>
 					 	
 				</div>								
@@ -1189,5 +1190,28 @@ published: true
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 <script>
-	$( ".past" ).insertAfter( $("#future") );
+
+window.onload = gardenYearlyHours;
+
+function gardenYearlyHours() {
+
+var d = new Date();
+var offset = d.getTimezoneOffset()/60;
+var offsetDifference = offset - 6;
+
+var month = d.getMonth() + 1;
+var day = d.getDate();
+
+var concertdate = document.getElementById("concertdate28"),
+        value = element.innerHTML;
+
+	
+if ((month + "." + day) > concertdate) {
+	$("#concert28").addClass("past")
+}
+
+}
+
+$( ".past" ).insertAfter( $("#future") );
 </script>
+
