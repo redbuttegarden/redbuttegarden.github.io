@@ -1653,7 +1653,7 @@ input[type=text]{
 	margin-bottom: 4px;
 }
 
-#sponcontain td {
+#sponcontain td, #sponcontain th {
 	text-align: center;
 }
 
