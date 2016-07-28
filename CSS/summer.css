@@ -1653,6 +1653,10 @@ input[type=text]{
 	margin-bottom: 4px;
 }
 
+#sponcontain td {
+	text-align: center;
+}
+
 /**********************************************************/
 /**********  End CSS for Sponsors Packages Page ***********/
 /**********************************************************/
