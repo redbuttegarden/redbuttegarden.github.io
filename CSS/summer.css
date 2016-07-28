@@ -1659,10 +1659,6 @@ input[type=text]{
 	background-color:#F5F5DC;
 }
 
-#sponcontain > panel, #sponcontain > panel-default {
-	width: 2000px;
-}
-
 /**********************************************************/
 /**********  End CSS for Sponsors Packages Page ***********/
 /**********************************************************/
