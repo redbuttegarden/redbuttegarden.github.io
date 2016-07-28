@@ -1627,8 +1627,6 @@ input[type=text]{
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 18px;
-		
-		padding: 15px;
 }
 	
 .spon-table:before {      		/* create a full-height inline block pseudo-element */
