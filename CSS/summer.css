@@ -1659,7 +1659,7 @@ input[type=text]{
 	background-color:#F5F5DC;
 }
 
-#sponcontain panel {
+#sponcontain > panel, #sponcontain > panel-default {
 	width: 2000px;
 }
 
