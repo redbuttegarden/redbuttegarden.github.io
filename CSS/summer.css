@@ -1713,7 +1713,7 @@ input[type=text]{
 	max-width: 770px;
 }
 
-.eventwrap img{
+.eventwrapsmall img, .eventwrapbig img{
 	width: 100%;
 	height: auto;
 }
@@ -1746,7 +1746,6 @@ input[type=text]{
 	font-size: 18px;
 	text-transform: lowercase;
 }
-
 /**********************************************************/
 /****************  End Event Images CSS *******************/
 /**********************************************************/
