@@ -1713,7 +1713,7 @@ input[type=text]{
 	max-width: 770px;
 }
 
-.eventwrapsmall img, .eventwrapbig {
+.eventwrap img{
 	width: 100%;
 	height: auto;
 }
