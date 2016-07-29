@@ -1708,6 +1708,7 @@ input[type=text]{
 	width: 100%;
 	height: auto;
 	position: relative !important;
+	margin-top: 10px;
 }
 
 .eventwrapbig {
