@@ -1706,7 +1706,7 @@ input[type=text]{
 	max-width: 385px;
 	width: 100%;
 	height: auto;
-	position: relative;
+	position: relative !important;
 }
 
 .eventwrapbig {
@@ -1719,7 +1719,7 @@ input[type=text]{
 }
 
 .eventinfo {
-	position: absolute;
+	position: absolute !important;
 	width: 80%;
 	z-index: 10;
 	bottom: 60px;
