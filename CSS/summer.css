@@ -997,6 +997,7 @@ input[type=text]{
 
 .row, .row-fluid {
     overflow: hidden !important; 
+    margin: 10px !important;
 }
 
 [class*="col-"]{
