@@ -1698,6 +1698,61 @@ input[type=text]{
 /****************  End Generic Classes ******************/
 /**********************************************************/
 
+/**********************************************************/
+/***************  Begin  Event Images CSS *****************/
+/**********************************************************/
+
+.eventwrapsmall, .eventwrapbig {
+	max-width: 385px;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.eventwrapbig {
+	max-width: 770px;
+}
+
+.eventwrap img{
+	width: 100%;
+	height: auto;
+}
+
+.eventinfo {
+	position: absolute;
+	width: 80%;
+	z-index: 1;
+	bottom: 60px;
+	background-color: #196143;
+	padding: 15px;
+}
+
+.eventname {
+	font-size: 27px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.eventdate {
+	font-size: 20px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.eventnotes {
+	color: #FFFFFF;
+	font-style: italic;
+	width: 65%;
+	font-size: 18px;
+	text-transform: lowercase;
+}
+
+/**********************************************************/
+/****************  End Event Images CSS *******************/
+/**********************************************************/
+
 .table-responsive .table {		/* Fixes responsive table horizontal glitch on phones */
     max-width: none !important;
 }
+
+
