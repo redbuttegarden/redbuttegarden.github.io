@@ -1749,6 +1749,21 @@ input[type=text]{
 	text-transform: lowercase;
 }
 
+@media (max-width:768px) {
+	
+	.eventname {
+		font-size: 18px;
+	}
+	
+	.eventdate {
+		font-size: 14px;
+	}
+	
+	.eventenotes {
+		font-size: 12px;
+	}
+}
+
 /**********************************************************/
 /****************  End Event Images CSS *******************/
 /**********************************************************/
