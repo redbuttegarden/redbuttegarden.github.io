@@ -1535,10 +1535,10 @@ input[type=text]{
 		margin: 0 auto 0 auto; 
 	  	text-align:center;
 		z-index: 10;
-	  	width: 10%;
+	  	width: 20%;
 	  	position: absolute;
-		top: 65%;
-		left:30%;		
+		top: 75%;
+		left:60%;		
 		background-color: red;					
 	}		
 	.buytickets:img {
