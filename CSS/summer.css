@@ -1524,7 +1524,6 @@ input[type=text]{
 		text-align:  left;
 		text-wrap: normal;
 		position: relative;		
-		background-color: #00502F;
 		overflow: none;
 		width: 88%;
 		height: 40px;
@@ -1532,13 +1531,12 @@ input[type=text]{
 	}	
 
    .buytickets {
-		background-color:#00502F;
-		border: 1px solid white;
+		
 		border-radius: 1px; 			
 		color:#FFFFFF;						
 		font-size:16px;
 		width: 33%;
-		
+		opacity: .8;
 		top: 25%;
 		left: 56%;
 		z-index:14;
@@ -1546,22 +1544,18 @@ input[type=text]{
 							
 	}	
 	.buytickets:hover{
-		background-color: #00643b
+		opacity:1;
 	}
 
 	 .addcalendar {
-		background-color:#00502F;
-		border: 1px solid white;
-		border-radius: 1px; 			
-		color:#FFFFFF;						
+		opacity: .8%;
+		border-radius: 1px; 						
 		font-size:16px;
 		width: 40%;
-	
 		top: 25%;
 		left: 9%;
 		z-index:20;
 		position: absolute;	
-	
 		text-wrap: normal;
 		text-overflow: ellipsis;
 		text-align: center;			
