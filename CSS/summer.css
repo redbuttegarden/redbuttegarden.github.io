@@ -1322,10 +1322,11 @@ input[type=text]{
 
   	#concertcontent {
 	  	max-width:1280px;
-	  	margin: 0 auto 0 auto;	 
+	  	margin: 0 auto 0 auto;
+	  	padding: 0px;	 
   	}
   	 
-  	#concertcontent .container-fluid-no-padding{
+ .container-fluid-no-padding{
 	  	padding: 0px;
   	}
   	
