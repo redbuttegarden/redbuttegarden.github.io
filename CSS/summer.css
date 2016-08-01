@@ -1538,7 +1538,7 @@ input[type=text]{
 	  	position: absolute;
 		top: 80%;
 		left:55%;
-		opacity:.8;		
+	
 					
 	}		
 	.buytickets:img {
@@ -1546,9 +1546,7 @@ input[type=text]{
 	  	display: block;
 	  	margin: auto;	
 	}
-	.buytickets:hover{
-		opacity:1;
-	}
+
 
    .addcalendar {
 		margin: 0 auto 0 auto; 
@@ -1557,8 +1555,8 @@ input[type=text]{
 	  	width: 15%;
 	  	position: absolute;
 		top: 80%;
-		left:45%;
-		opacity:.8;		
+		left:30%;
+		
 					
 	}		
 	.addcalendar:img {
@@ -1567,9 +1565,7 @@ input[type=text]{
 	  	margin: auto;	
 	}
 	
-	.addcalendar:hover{
-		opacity:1;
-	}
+	
 	
 	.artistwebsite{
 		background-color:#00502F;
