@@ -1531,14 +1531,14 @@ input[type=text]{
 	}	
 
    .buytickets {
-		
 		margin: 0 auto 0 auto; 
 	  	text-align:center;
 		z-index: 10;
 	  	width: 15%;
 	  	position: absolute;
-		top: 75%;
-		left:60%;		
+		top: 80%;
+		left:55%;
+		opacity:.8;		
 					
 	}		
 	.buytickets:img {
@@ -1550,22 +1550,25 @@ input[type=text]{
 		opacity:1;
 	}
 
-	 .addcalendar {
-		opacity: .8%;
-		border-radius: 1px; 						
-		font-size:16px;
-		width: 40%;
-		top: 25%;
-		left: 9%;
-		z-index:20;
-		position: absolute;	
-		text-wrap: normal;
-		text-overflow: ellipsis;
-		text-align: center;			
+   .addcalendar {
+		margin: 0 auto 0 auto; 
+	  	text-align:center;
+		z-index: 10;
+	  	width: 15%;
+	  	position: absolute;
+		top: 80%;
+		left:45%;
+		opacity:.8;		
+					
+	}		
+	.addcalendar:img {
+		width: 100%;
+	  	display: block;
+	  	margin: auto;	
 	}
 	
 	.addcalendar:hover{
-		background-color: #00643b
+		opacity:1;
 	}
 	
 	.artistwebsite{
