@@ -1401,7 +1401,7 @@ input[type=text]{
   
   	.bandpic img {
 	  	width: 100%;
-	  	display: table;
+	  	
 	  	overflow: hidden;	  	
   	}
 
