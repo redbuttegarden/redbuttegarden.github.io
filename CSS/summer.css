@@ -1550,7 +1550,7 @@ input[type=text]{
    .addcalendar {
 		margin: 0 auto 0 auto; 
 	  	text-align:center;
-		z-index: 50 !important;
+		z-index: 55 !important;
 	  	width: 15%;
 	  	position: absolute;
 		top: 80%;
