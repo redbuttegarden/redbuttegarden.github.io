@@ -1390,7 +1390,7 @@ input[type=text]{
 	 .bandpic {
 	  	text-align:center;	
 	  	width: 88%;
-	  	padding: 10px 0 0 0;
+	  	padding: 0 0 0 0;
 	  	position: relative;
 	  	z-index: 1;
 	  	margin: auto;	
