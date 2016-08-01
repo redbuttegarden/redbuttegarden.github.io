@@ -1420,7 +1420,7 @@ input[type=text]{
 		z-index: 3;
 		font-size: 14px;
 		color: #000;
-		text-align:  center;
+		text-align:  left;
 		text-wrap: normal;
 		position: relative;		
 		overflow: none;
@@ -1441,7 +1441,7 @@ input[type=text]{
 		z-index: 3;
 		font-size: 14px;
 		color: #000;
-		text-align:  center;
+		text-align:  left;
 		text-wrap: normal;
 		position: relative;		
 		background-color: none;
@@ -1523,7 +1523,7 @@ input[type=text]{
 		color: white;
 		text-align:  left;
 		text-wrap: normal;
-		position: relative;		
+		position: absolute;		
 		overflow: none;
 		width: 88%;
 		height: 40px;
