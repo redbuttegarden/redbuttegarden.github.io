@@ -1535,14 +1535,14 @@ input[type=text]{
 		margin: 0 auto 0 auto; 
 	  	text-align:center;
 		z-index: 10;
-	  	width: 88%;
+	  	width: 10%;
 	  	position: absolute;
-		top: 10px;
+		top: 60%;
 		left:6%;		
 		background-color: red;					
 	}		
 	.buytickets:img {
-		width: 10%;
+		width: 100%;
 	  	display: block;
 	  	margin: auto;	
 	}
