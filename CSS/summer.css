@@ -1359,7 +1359,7 @@ input[type=text]{
 	.concertwrapper{ 
 		position: relative;
 		opacity: 1;
-		margin: 0 auto 0 auto;
+		margin: 0 0 0 0;
 	  	text-align:center;
 
 	  	padding: 0 0 0 0;
@@ -1517,18 +1517,7 @@ input[type=text]{
   	}
   	*/
  
- 	.buttonwrapper{
-		z-index: 3;
-		font-size: 14px;
-		color: white;
-		text-align:  left;
-		text-wrap: normal;
-		position: absolute;		
-		overflow: none;
-		width: 88%;
-		height: 40px;
-		margin:auto;		
-	}	
+
 
    .buytickets {
 		margin: 0 auto 0 auto; 
