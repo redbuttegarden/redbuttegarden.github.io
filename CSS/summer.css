@@ -1392,7 +1392,7 @@ input[type=text]{
 	  	width: 88%;
 	  	padding: 10px 0 0 0;
 	  	position: relative;
-	  	z-index: 2;
+	  	z-index: 1;
 	  	margin: auto;	
 	  	  	 
   	}
@@ -1400,7 +1400,7 @@ input[type=text]{
   	.bandpic img {
 	  	width: 100%;
 	  	overflow: hidden;
-	  	position: relative;	
+	  	
 	  	z-index: 2;  	
   	}
 
