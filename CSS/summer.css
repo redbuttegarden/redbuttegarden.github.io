@@ -1399,7 +1399,7 @@ input[type=text]{
   
   	.bandpic img {
 	  	width: 100%;
-	 
+	  	position: relative;
 	  	
 	  	z-index: 2;  	
   	}
