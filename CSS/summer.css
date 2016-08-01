@@ -1399,7 +1399,9 @@ input[type=text]{
   
   	.bandpic img {
 	  	width: 100%;
-	  	overflow: hidden;	  	
+	  	overflow: hidden;
+	  	position: relative;	
+	  	z-index: 2;  	
   	}
 
 	.pasttext, .soldout, .concerttext{
