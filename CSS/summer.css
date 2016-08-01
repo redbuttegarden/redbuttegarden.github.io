@@ -1532,17 +1532,20 @@ input[type=text]{
 
    .buytickets {
 		
-		border-radius: 1px; 			
-		color:#FFFFFF;						
-		font-size:16px;
-		width: 33%;
-		opacity: .8;
-		top: 25%;
-		left: 56%;
-		z-index:14;
-		position: absolute;	
-							
+		margin: 0 auto 0 auto; 
+	  	text-align:center;
+		z-index: 3;
+	  	width: 88%;
+	  	position: absolute;
+		top: 10px;
+		left:6%;							
 	}	
+	
+	.buytickets:img {
+		width: 10%;
+	  	display: block;
+	  	margin: auto;	
+	}
 	.buytickets:hover{
 		opacity:1;
 	}
