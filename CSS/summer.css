@@ -1362,6 +1362,8 @@ input[type=text]{
 	  	text-align:center;
 	  	display: table;
 	  	padding: 0 0 0 0;
+	  	z-index: 45;
+	  
 	}
 	
 	@media (max-width: 768px) {
@@ -1371,18 +1373,14 @@ input[type=text]{
 			margin-left: auto;
 			margin-right: auto;
 			float: none;
+			position: relative;
 		}
 		  
 	}
 	
 	.concertwrapper:hover{
 		opacity: .9;
-	}
-	
-	.concertwrapper:hover .buytickets{
-		display:block;
-	} 	 
-	
+	}	
 	
 	
 	.past:hover .pasttext{
@@ -1401,14 +1399,14 @@ input[type=text]{
   
   	.bandpic img {
 	  	width: 100%;
-	  	
 	  	overflow: hidden;	  	
   	}
 
 	.pasttext, .soldout, .concerttext{
 		position: absolute;
 	  	margin:0 auto 0 auto;
-	  	width: 100%;	  
+	  	width: 100%;	
+	  	  
 	}
 	
 	.invisible{
