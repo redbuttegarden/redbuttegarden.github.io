@@ -1537,8 +1537,8 @@ input[type=text]{
 		z-index: 10;
 	  	width: 10%;
 	  	position: absolute;
-		top: 200px;
-		left:6%;		
+		top: 65%;
+		left:30%;		
 		background-color: red;					
 	}		
 	.buytickets:img {
