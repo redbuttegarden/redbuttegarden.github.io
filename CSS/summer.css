@@ -1582,7 +1582,7 @@ input[type=text]{
 
 .pastbar {
 	height:2px;
-	width: 100%;
+	width: 500px;
 	background-color: (125,125,125);
 }
 
