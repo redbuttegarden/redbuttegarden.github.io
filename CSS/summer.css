@@ -1377,12 +1377,8 @@ input[type=text]{
 			position: relative;
 		}
 		
-		.pastbar1 {
-			display:none;
-		}
-		
-		.pastbar2 {clear:both;
-			
+		.pastdivide hr {
+			width: 10%;
 		}
 		  
 	}
