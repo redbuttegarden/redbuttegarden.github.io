@@ -1582,7 +1582,7 @@ input[type=text]{
 
 .pastbar1 {
 	float:left;
-	top:2px;
+	top:10px;
 	}
 	
 .pastbar2{
@@ -1592,6 +1592,7 @@ input[type=text]{
 .pastdivide{
 	text-align: center;
 	width: 100%;
+	bottom: 5px;
 	
 }
 
