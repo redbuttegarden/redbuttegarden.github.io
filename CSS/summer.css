@@ -1597,10 +1597,9 @@ input[type=text]{
 }
 
 .pastdivide hr {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto 0 auto;
 	width: 40%;
-	top: 2px;
+	padding: 0;
 }
 /**********************************************************/
 /***************  End CSS for Concerts page ***************/
