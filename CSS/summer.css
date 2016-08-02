@@ -1597,9 +1597,9 @@ input[type=text]{
 }
 
 .pastdivide hr {
-	margin: 0 auto 0 auto;
+	margin: 5px auto 0 auto;
 	width: 40%;
-	padding-top: 4px;
+	
 	color: (125, 125, 125, 1)
 }
 /**********************************************************/
