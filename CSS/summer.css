@@ -1377,8 +1377,12 @@ input[type=text]{
 			position: relative;
 		}
 		
-		.pastdivide hr{
-			width: 25%;
+		.pastbar1 {
+			display:none;
+		}
+		
+		.pastbar2 {clear:both;
+			
 		}
 		  
 	}
