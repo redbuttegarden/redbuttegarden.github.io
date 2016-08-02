@@ -1387,6 +1387,7 @@ input[type=text]{
 		
 		#smallbar {
 			display:block;
+			width: 100%;
 		}
 		  
 	}
