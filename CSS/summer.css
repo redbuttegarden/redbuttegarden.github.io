@@ -1580,12 +1580,18 @@ input[type=text]{
     overflow: hidden; 
 }
 
-.pastbar {
+.pastbar1 {
+	float:left;
 	height:2px;
 	width: 500px;
 	background-color: (125,125,125);
 }
+.pastbar2{
+	float:left;}
 
+.pastdivide{
+	float:left;
+}
 /**********************************************************/
 /***************  End CSS for Concerts page ***************/
 /**********************************************************/
