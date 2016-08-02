@@ -1384,6 +1384,10 @@ input[type=text]{
 		.pastdivide {
 			font-weight: bold;
 		}
+		
+		#smallbar {
+			display:block;
+		}
 		  
 	}
 	
