@@ -1376,6 +1376,10 @@ input[type=text]{
 			float: none;
 			position: relative;
 		}
+		
+		.pastdivide hr{
+			width: 25%;
+		}
 		  
 	}
 	
