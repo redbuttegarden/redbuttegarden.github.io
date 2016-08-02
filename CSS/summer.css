@@ -1582,16 +1582,22 @@ input[type=text]{
 
 .pastbar1 {
 	float:left;
-	height:2px;
-	width: 500px;
-	background-color: (125,125,125);
-}
+	}
+	
 .pastbar2{
-	float:right;}
+	float:right;
+	}
 
 .pastdivide{
 	text-align: center;
-	float: right;
+	width: 100%;
+	
+}
+
+.pastdivide hr {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 }
 /**********************************************************/
 /***************  End CSS for Concerts page ***************/
