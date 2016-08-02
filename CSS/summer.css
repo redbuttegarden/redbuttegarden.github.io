@@ -1593,7 +1593,7 @@ input[type=text]{
 	text-align: center;
 	width: 100%;
 	
-	font-color: (125, 125, 125, 1);
+	color: (125, 125, 125, 1);
 	margin-left: auto;
 	margin-right: auto;
 
