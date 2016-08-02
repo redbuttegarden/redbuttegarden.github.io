@@ -1593,7 +1593,7 @@ input[type=text]{
 	text-align: center;
 	width: 100%;
 	height: 30px;
-
+	font-color: (125, 125, 125, 1)
 	
 	
 }
@@ -1602,7 +1602,7 @@ input[type=text]{
 	margin: 5px auto 0 auto;
 	width: 40%;
 	
-	color: (125, 125, 125, 1)
+	
 }
 /**********************************************************/
 /***************  End CSS for Concerts page ***************/
