@@ -1595,6 +1595,7 @@ input[type=text]{
 	height: 30px;
 	font-color: (125, 125, 125, 1);
 	clear:both;
+	position:relative;
 	
 	
 }
