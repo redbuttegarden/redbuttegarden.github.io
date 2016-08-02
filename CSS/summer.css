@@ -1378,7 +1378,11 @@ input[type=text]{
 		}
 		
 		.pastdivide hr {
-			width: 40px;
+			display: none;
+		}
+		
+		.pastdivide {
+			border-bottom: 2px;
 		}
 		  
 	}
