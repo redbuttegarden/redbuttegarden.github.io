@@ -1587,10 +1587,10 @@ input[type=text]{
 	background-color: (125,125,125);
 }
 .pastbar2{
-	float:left;}
+	float:right;}
 
 .pastdivide{
-	float:left;
+	text-align: center;
 }
 /**********************************************************/
 /***************  End CSS for Concerts page ***************/
