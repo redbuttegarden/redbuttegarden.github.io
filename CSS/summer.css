@@ -1592,10 +1592,11 @@ input[type=text]{
 .pastdivide{
 	text-align: center;
 	width: 100%;
-	height: 100px;
+	max-height: 100px;
 	font-color: (125, 125, 125, 1);
 	clear:both;
 	position:relative;
+	margin: 10px auto 10px auto;
 	
 	
 }
