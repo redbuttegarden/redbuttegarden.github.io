@@ -1594,9 +1594,10 @@ input[type=text]{
 	width: 100%;
 
 	font-color: (125, 125, 125, 1);
-	clear:both;
+
 	position:relative;
-	margin: 0 auto 0 auto;
+	margin-top: auto;
+	margin-bottom: auto;
 	
 	
 }
