@@ -1582,6 +1582,7 @@ input[type=text]{
 
 .pastbar1 {
 	float:left;
+	top: 2px;
 	}
 	
 .pastbar2{
