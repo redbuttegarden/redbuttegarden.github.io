@@ -319,18 +319,6 @@ input[type=text]{
      width:1px;		
 }
 
-.hidesearch {
-	background-color: #2F7055;
-	width: 15px;
-	text-align: center;
-	display: inline;
-	padding-top: 10px;
-}
-
-.hidesearch:hover {
-	background-color: #;
-}
-
 .searchwrap {
 	display: inline;
 }
