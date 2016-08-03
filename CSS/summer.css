@@ -1335,14 +1335,14 @@ input[type=text]{
 
 	.rbgbanner {
 		max-width: 1280px;
+		width:100%;
 		margin-left: auto;
 		margin-right: auto;
 		clear: both;
 	}
 	
 	.rbgbanner img {
-		max-width: 1120px;
-
+		width: 100%;
 		height: auto;
 		margin-left: auto;
 		margin-right: auto;
