@@ -237,8 +237,8 @@ hr {
 #gsa_searchbox {
     border:0;
     color: #666;
-    font:18px;
-    height:24px;
+    font:15px;
+    height:20px;
     padding:3px 5px;
     width:215px;
     	border-radius: 15px;
@@ -250,7 +250,6 @@ hr {
 	right:0;
 	top:0;
 	width:20px;
-
 }
 		
 #gsa_searchbutton:focus,
