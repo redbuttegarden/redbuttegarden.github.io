@@ -314,11 +314,6 @@ input[type=text]{
      width:1px;		
 }
 
-.searchicon:hover {
-	background-color: green;
-	color: white;
-}
-
 .hidesearch {
 	background-color: gray;
 	width: 15px;
