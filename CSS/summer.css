@@ -235,6 +235,7 @@ hr {
 	
 #gsa_searchbox {
     border:0;
+    border-radius: 15px;
     color: #666;
     font:15px;
     height:20px;
