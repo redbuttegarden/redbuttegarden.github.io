@@ -24,34 +24,7 @@
   <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
   <link rel="stylesheet" href="/CSS/summer.css"> <!-- Additional local CSS -->
   
-	<!-- Begin Search Bar Toggle Script-->
-		<script type="text/javascript"> 
-		
-		$(function(){
-		$(".searchbar").hide();
-		
-		$(".searchicon").on("click", 
-			function(){
-		
-				if( $( ".searchbar" ).is( ":hidden" ) ) {
-				
-				    $(".nav-button-wrapper, .searchbar").toggle(300);
-				    $()
-				
-				}
-				
-				else { 
-					
-					$(".searchbar, .nav-button-wrapper").toggle(0);
-					
-					}
-		});
-		
-		});
-
-		
-		</script>
-	<!-- End Search Bar Toggle Script -->
+{% include searchbar-toggle.html %}
   
 </head>
 <body>
