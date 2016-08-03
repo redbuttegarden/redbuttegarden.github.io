@@ -312,6 +312,7 @@ input[type=text]{
 
 .searchbar {
 	padding-top: 15px;
+	float: left;
 }
 			
 #gsa_search label {
