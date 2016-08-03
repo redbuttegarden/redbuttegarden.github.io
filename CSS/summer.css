@@ -304,6 +304,11 @@ input[type=text]{
 #gsa_searchbutton:active {
      background-color:#F2EDE4;
 }
+
+.searchicon {
+	padding-top: 11px;
+	float: left;
+}
 			
 #gsa_search label {
      height:1px;
