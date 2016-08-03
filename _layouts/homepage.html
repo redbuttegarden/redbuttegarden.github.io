@@ -29,9 +29,16 @@
 		
 		$(function(){
 		$(".searchbar").hide();
+		
 		$(".searchicon").on("click", function(){
 		    $(".nav-button-wrapper, .searchbar").toggle(300);
 		});
+		
+		$(".searchicon").on("click", function(){
+		    $(".searchbar, .nav-button-wrapper").toggle(0);
+		});
+		
+		
 		});
 		
 
