@@ -29,13 +29,22 @@
 		
 		$(function(){
 		$(".searchbar").hide();
-	
-		$(".searchicon").on("click", function(){
-		    $(".nav-button-wrapper, .searchbar").toggle(100);
-		});
-	
-		$(".searchicon").on("click", function(){
-		    $(".nav-button-wrapper, .searchbar").toggle(0);
+		
+		$(".searchicon").on("click", 
+			function(){
+		
+				if( $( ".searchbar" ).is( ":hidden" ) ) {
+				
+				    $(".nav-button-wrapper, .searchbar").toggle(300);
+				    $()
+				
+				}
+				
+				else { 
+					
+					$(".searchbar, .nav-button-wrapper").toggle(0);
+					
+					}
 		});
 		
 		});
