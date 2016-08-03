@@ -231,7 +231,7 @@ hr {
     position:relative;
 	text-align:left;
     width: 250px;
-
+    border-radius: 15px; 
 }
 	
 #gsa_searchbox {
@@ -250,7 +250,7 @@ hr {
 	right:0;
 	top:0;
 	width:20px;
-		border-radius: 15px;
+
 }
 		
 #gsa_searchbutton:focus,
