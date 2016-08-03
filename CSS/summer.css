@@ -231,11 +231,11 @@ hr {
     position:relative;
 	text-align:left;
     width: 250px; 
+        border-radius: 15px;
 }
 	
 #gsa_searchbox {
     border:0;
-    border-radius: 15px;
     color: #666;
     font:15px;
     height:20px;
