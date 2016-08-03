@@ -1792,6 +1792,14 @@ input[type=text]{
 	opacity: .9;
 }
 
+.caps {
+	text-transform: capitalize;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
 /**********************************************************/
 /****************  End Generic Classes ******************/
 /**********************************************************/
