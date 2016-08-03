@@ -229,6 +229,8 @@ hr {
 /* Begin Search Bar CSS */
 /************************/
 
+/* Old */
+
 form {
 	width: 100px;
 }
@@ -265,6 +267,71 @@ input[type=text]{
  input[type=text]{
 	border: 1px solid #acb1b7;
 	background-color :#FFFFFF;
+}
+
+/* New */
+
+#gsa_search{
+	background:#fff;
+    border:1px solid black;
+	float:right;
+    margin: 0;
+    padding:0;
+    position:relative;
+	text-align:left;
+    width: 250px; 
+}
+	
+#gsa_searchbox {
+    border:0;
+    color: #666;
+    font:15px;
+    height:20px;
+    padding:3px 5px;
+    width:215px;
+}
+
+#gsa_searchbutton {	
+	padding:3px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:20px;
+}
+		
+#gsa_searchbutton:focus,
+#gsa_searchbutton:hover,
+#gsa_searchbutton:active {
+     background-color:#F2EDE4;
+}
+			
+#gsa_search label {
+     height:1px;
+     left:-10000px;
+     overflow:hidden;
+     position:absolute;
+     top:auto;
+     width:1px;		
+}
+
+.searchicon:hover {
+	background-color: green;
+	color: white;
+}
+
+.hidesearch {
+	background-color: gray;
+	width: 15px;
+	text-align: center;
+	display: inline;
+}
+
+.hidesearch:hover {
+	background-color: red;
+}
+
+.searchwrap {
+	display: inline;
 }
 
 /************************/
