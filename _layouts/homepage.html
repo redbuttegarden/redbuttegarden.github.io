@@ -30,22 +30,21 @@
 		$(function(){
 		$(".searchbar").hide();
 		
-		$(".searchicon").on("click", function(){
+		$(".searchicon").on("click", 
+			function(){
 		
-			if( $( ".searchbar" ).is( ":hidden" ) ) {
-			
-			    $(".nav-button-wrapper, .searchbar").toggle(300);
-			
-			}
-			
-			else { 
+				if( $( ".searchbar" ).is( ":hidden" ) ) {
 				
-				$(".searchbar, .nav-button-wrapper").toggle(0);
+				    $(".nav-button-wrapper, .searchbar").toggle(300);
 				
 				}
-		
+				
+				else { 
+					
+					$(".searchbar, .nav-button-wrapper").toggle(0);
+					
+					}
 		});
-		
 		
 		});
 
