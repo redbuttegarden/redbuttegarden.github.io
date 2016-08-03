@@ -305,7 +305,7 @@ input[type=text]{
      background-color:#F2EDE4;
 }
 
-.searchicon {
+.searchicon, .searchbar {
 	padding-top: 11px;
 	float: left;
 }
