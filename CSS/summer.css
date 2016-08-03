@@ -321,15 +321,14 @@ input[type=text]{
 
 .hidesearch {
 	background-color: #2F7055;
-	color: #FFFFFF;
 	width: 15px;
 	text-align: center;
 	display: inline;
+	padding-top: 10px;
 }
 
 .hidesearch:hover {
 	background-color: #;
-	color: #000000;
 }
 
 .searchwrap {
