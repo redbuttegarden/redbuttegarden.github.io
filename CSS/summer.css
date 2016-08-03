@@ -251,7 +251,7 @@ hr {
 	top:0;
 	width:20px;
 	background-color: #C4B59E;
-	border-radius: 15px 15px 0px 0px;
+	border-radius: 0px 15px 15px 0px;
 }
 		
 #gsa_searchbutton:focus,
