@@ -266,6 +266,10 @@ hr {
 	float: left;
 }
 
+.searchicon:hover {
+	background-color: #00502F;
+}
+
 .searchbar {
 	padding-top: 13px;
 	padding-left: 15px;
