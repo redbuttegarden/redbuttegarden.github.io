@@ -96,11 +96,31 @@
 			     
 			     <div>
 				     
+				    <div class="searchicon"><img src="../images/search.png"></div>
+
+					<div class="searchbar">
+						<div style="display: inline;">
+							<form id="gsa_search" action="http://gsa.search.utah.edu/search" method="get" name="search" value="test">
+								<label for="gsa_searchbox">Search Site:</label> 
+								<input id="gsa_searchbox" type="text" name="q" value="" title="enter search terms" placeholder="Search Entire Site..." onfocus="noWatermark();" onblur="watermark();" /> 
+								<input type="hidden" name="site" value="Look-only-in-red-butte-garden-website" /> 
+								<input type="hidden" name="client" value="red-butte-garden_frontend" /> 
+								<input type="hidden" name="output" value="xml_no_dtd" /> 
+								<input type="hidden" name="proxystylesheet" value="red-butte-garden_frontend"/> <input type="hidden" name="numgm" value="10" /> 
+								<input id="gsa_searchbutton" type="image" name="btnG" value="Submit Search" src="http://uwebresources.utah.edu/_images/search/gsa_search_btn.png" title="submit search" alt="submit search" />
+								
+							</form>
+						</div>
+						<div class="hidesearch" style="display: inline;">X Hide</div>
+					</div>
+				     
+				     <!--
 				     <div class="rbgsearch">
 						<form>
 							<span><input type="text" class="search rounded" placeholder="Search..."></span>
 						</form>
 					 </div>
+					 -->
 					 	     
 					 <div class="nav-button-wrapper">
 					     <div class="nav-button">
@@ -115,6 +135,7 @@
 					     	<a href="https://55218.blackbaudhosting.com/55218/Annual-Gift"><img src="../images/give.png"></a>
 					     </div>
 					 </div>
+					 
 			     </div>
 			     
 			    </div>
