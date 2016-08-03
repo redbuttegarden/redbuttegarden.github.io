@@ -1290,6 +1290,15 @@ input[type=text]{
 		font-size: 16px;
 		border: 1px solid black;
 	}
+	
+	.navbutton {
+		background-color: #A26BA2;
+		color: #FFFFFF;
+		max-width: 325px;
+		min-height: 40px;
+		font-size: 16px;
+		border: 1px solid black;
+	}
 
 /* Begin CSS for membership page sprites */
 
