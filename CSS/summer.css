@@ -205,13 +205,6 @@ hr {
 	
 }
 
-/* Hides Search Bar within certain widths  */
-@media (min-width: 769px) and (max-width: 1100px) {
-	.rbgsearch {
-		display: none;
-	}
-}
-
 @media (max-width: 768px) {
 	.nav-button-wrapper {
 		clear: both;
@@ -252,16 +245,6 @@ form {
 input[type=text]{
 	color: #000000;
 	font-size: 11px;
-}
-
-.rbgsearch { 
-	padding-top: 11px;
-	float: left;
-		/* div containing search form 
-	width:95%;
-	height: 50px;
-	padding: 40px 25px;
-		*/
 }
 
  input[type=text]{
