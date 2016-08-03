@@ -31,14 +31,23 @@
 		$(".searchbar").hide();
 		
 		$(".searchicon").on("click", function(){
-		    $(".nav-button-wrapper, .searchbar").toggle(300);
+		
+			if $( ".searchbar" ).is( ":hidden" ) {
+			
+			    $(".nav-button-wrapper, .searchbar").toggle(300);
+			
+			}
+			
+			else { 
+				
+				$(".searchbar, .nav-button-wrapper").toggle(300);
+				
+				}
+		
 		});
 		
 		
-		
 		});
-		
-
 
 		
 		</script>
