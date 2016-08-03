@@ -295,7 +295,7 @@ input[type=text]{
 
 .searchbar {
 	padding-top: 13px;
-	padding-left: 10px;
+	padding-left: 15px;
 	float: left;
 }
 			
@@ -310,6 +310,12 @@ input[type=text]{
 
 .searchwrap {
 	display: inline;
+}
+
+@media (min-width: 769px) and (max-width: 1150px) {
+	.searchbar {
+		display: none;
+	}
 }
 
 /************************/
