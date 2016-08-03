@@ -222,38 +222,6 @@ hr {
 /* Begin Search Bar CSS */
 /************************/
 
-/* Old */
-
-form {
-	width: 100px;
-}
-
-.search { 
-	padding:3px 15px 3px 22px;
-	margin:3px; 
-	background: url('../images/search.png') no-repeat 8px 3px;
-	background-size: 12px 12px;
-	background-repeat: no-repeat;
-	width: 165px;
-	
-}
-
-.rounded { 
-	border-radius:15px;
-}
-
-input[type=text]{
-	color: #000000;
-	font-size: 11px;
-}
-
- input[type=text]{
-	border: 1px solid #acb1b7;
-	background-color :#FFFFFF;
-}
-
-/* New */
-
 #gsa_search{
 	background:#fff;
     border:1px solid black;
