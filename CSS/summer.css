@@ -1759,7 +1759,7 @@ hr {
 	text-transform: lowercase;
 }
 
-.responsive img {
+.responsive {
 	width: 100%; 
 	height: auto;
 }
