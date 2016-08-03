@@ -231,7 +231,6 @@ hr {
     position:relative;
 	text-align:left;
     width: 250px; 
-        border-radius: 15px;
 }
 	
 #gsa_searchbox {
@@ -266,6 +265,7 @@ hr {
 	padding-top: 13px;
 	padding-left: 15px;
 	float: left;
+	border-radius: 15px;
 }
 			
 #gsa_search label {
