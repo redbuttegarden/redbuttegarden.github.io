@@ -1298,6 +1298,7 @@ input[type=text]{
 		min-height: 40px;
 		font-size: 16px;
 		border: 1px solid black;
+		padding-top: 7px;
 	}
 
 /* Begin CSS for membership page sprites */
