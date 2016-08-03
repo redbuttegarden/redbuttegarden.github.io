@@ -305,9 +305,13 @@ input[type=text]{
      background-color:#F2EDE4;
 }
 
-.searchicon, .searchbar {
-	padding-top: 11px;
-	float: right;
+.searchicon {
+	padding-top: 10px;
+	float: left;
+}
+
+.searchbar {
+	padding-top: 15px;
 }
 			
 #gsa_search label {
