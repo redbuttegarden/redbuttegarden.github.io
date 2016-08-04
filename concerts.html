@@ -1364,7 +1364,7 @@ var d = new Date();
 var offset = d.getTimezoneOffset()/60;
 var offsetDifference = offset - 6;
 
-var month = d.getMonth() + 1;
+var month = Date.prototype.getUTCMonth() + 1;
 var day = d.getDate();
 
 var concertmonth = document.getElementById("concertmonth28"),
