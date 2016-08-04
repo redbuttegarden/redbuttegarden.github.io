@@ -232,7 +232,7 @@ hr {
     position:relative;
 	text-align:left;
     width: 250px;
-    border-radius: 10px; 
+    border-radius: 5px; 
 }
 	
 #gsa_searchbox {
@@ -242,7 +242,7 @@ hr {
     height:20px;
     padding:3px 5px;
     width:215px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #gsa_searchbutton {	
@@ -252,7 +252,7 @@ hr {
 	top:0;
 	width:20px;
 	background-color: #C4B59E;
-	border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 5px 5px 0px;
 }
 		
 #gsa_searchbutton:focus,
