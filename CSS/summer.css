@@ -595,7 +595,7 @@ hr {
 }
 
 .slide-header {
-	font-size: 70px;
+	font-size: 80px;
 	color: white;
 	text-transform: capitalize;
 	text-align: center;
@@ -603,7 +603,7 @@ hr {
 	top: 500px;
 	background-color: red;
 	font-weight: bold;
-	width: 100%;
+	width: 80%;
 	
 }
 
