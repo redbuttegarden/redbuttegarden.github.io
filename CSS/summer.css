@@ -590,7 +590,7 @@ hr {
 	left: 0px;
 	top: 0px;
 	width: 1280px;
-	height: 100%;
+	height: 500px;
 	overflow: hidden;
 }
 
@@ -600,12 +600,11 @@ hr {
 	text-transform: capitalize;
 	text-align: center;
 	position: absolute;
-
+	vertical-align: middle;
 	font-weight: bold;
 	width: 100%;
-	height: 100%;
 	line-height: 100%;
-		vertical-align: middle;
+	
 }
 
 
