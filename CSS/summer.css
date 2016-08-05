@@ -607,8 +607,9 @@ hr {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 1%;
+    height: 100%;
     margin: auto;
+    vertical-align: middle;
 	
 	
 	
