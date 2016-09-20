@@ -145,8 +145,8 @@ hr {
 }
 
 .logo {
-	width:202px;
-	height: 23px;
+	max-width:202px;
+	height: auto;
 	background: url('../images/sprites.png') -171px -301px ;
 }
 
