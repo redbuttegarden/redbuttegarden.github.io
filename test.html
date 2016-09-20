@@ -111,6 +111,13 @@
 	background-color: #F2EDE4;		/* color when div hovered over on event pages*/ 
 }
 
+.ev-tickets:before, .ev-cal:before {      /* create a full-height inline block pseudo-element */
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle; /* vertical alignment of the inline element */
+	height: 100%;
+}
+
 .ev-tickets {
 	
 }
