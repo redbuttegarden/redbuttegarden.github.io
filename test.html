@@ -99,7 +99,7 @@
     margin: 0px; 
 }
 
-.ev-sub, .event-date {
+.ev-sub, .ev-date {
 	font-size: 18px;
 }
 
@@ -124,15 +124,19 @@
 }
 
 @media (min-width: 769px) {
-	.ev-title-mobile, .event-date-mobile {
+	.ev-title-mobile, .ev-date-mobile {
 		display: none;	
 	}
 	
 }
 
 @media (max-width: 769px) {
-	.ev-title-reg, .event-date, .ev-space {
+	.ev-title-reg, .ev-date, .ev-space {
 		display: none;
+	}
+	
+	.ev-date-mobile, .ev-title-mobile {
+		text-align: center;
 	}
 	
 }
@@ -300,9 +304,10 @@
 			<div class="ev-title-mobile">
 		  	  	<h3><div class="ev-title">WILLIE NELSON & FAMILY</div></h3>
 		  	  	<div class="ev-sub">with special guest Tony Holiday</div>
+		  	  	<br />
 	  	  	</div>
 			
-	  	  	<div class="event-date-mobile">
+	  	  	<div class="ev-date-mobile">
 				THURSDAY, July 28 @ 7:30PM
 			</div>
 			
@@ -350,7 +355,7 @@
   	  	
   	   <br />
   	   
-  	   <div class="event-date">THURSDAY, July 28 @ 7:30PM</div>
+  	   <div class="ev-date">THURSDAY, July 28 @ 7:30PM</div>
   	   
   	   <div class="ev-space"><br /><br /></div>
   	   
