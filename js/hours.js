@@ -18,23 +18,23 @@ var hoursInfo;
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* 		Variables to Change Yearly					  										  */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/**/	var daylightEndDay = 1;				// Day that Daylight Savings Time Ends in November of the current year
-/**/	var daylightStartDay = 13;			// Day that Daylight Savings Time Begins in March of the next year
+/**/	var daylightEndDay = 6;				// Day that Daylight Savings Time Ends in November of the current year
+/**/	var daylightStartDay = 12;			// Day that Daylight Savings Time Begins in March of the next year
 /**/
-/**/	var thanksgivingDay = 26;			// Day of Month of Thanksgiving Holiday in November
+/**/	var thanksgivingDay = 24;			// Day of Month of Thanksgiving Holiday in November
 /**/
-/**/	var holidayPartyDay = 20;			// Day of Month we close for Holiday Party in December
-/**/	var holidayPartyClosingHour = 13; 	// Hour we close on day of Holiday Party (military time)
+/**/	var holidayPartyDay = 0;			// Day of Month we close for Holiday Party in December
+/**/	var holidayPartyClosingHour = 0; 	// Hour we close on day of Holiday Party (military time)
 /**/
-/**/	var galaMonth = 9;					// Month of Gala
-/**/	var galaDay = 24; 					// Day of month of Gala in September
+/**/	var galaMonth = 0;					// Month of Gala
+/**/	var galaDay = 0; 					// Day of month of Gala
 /**/
-/**/	var gadDay1 = 22;					// Day of month in October for 1st day of Garden After Dark
-/**/	var gadDay2 = 23;					// Day of month in October for 2nd day of Garden After Dark
-/**/	var gadDay3 = 24;					// Day of month in October for 3rd day of Garden After Dark
-/**/	var gadDay4 = 29;					// Day of month in October for 4th day of Garden After Dark
-/**/	var gadDay5 = 30;					// Day of month in October for 5th day of Garden After Dark
-/**/	var gadDay6 = 0;					// Day of month in October for 6th day of Garden After Dark (if applicable; if none, set to zero)
+/**/	var gadDay1 = 20;					// Day of month in October for 1st day of Garden After Dark
+/**/	var gadDay2 = 21;					// Day of month in October for 2nd day of Garden After Dark
+/**/	var gadDay3 = 22;					// Day of month in October for 3rd day of Garden After Dark
+/**/	var gadDay4 = 27;					// Day of month in October for 4th day of Garden After Dark
+/**/	var gadDay5 = 28;					// Day of month in October for 5th day of Garden After Dark
+/**/	var gadDay6 = 29;					// Day of month in October for 6th day of Garden After Dark (if applicable; if none, set to zero)
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
