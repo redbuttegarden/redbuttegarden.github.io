@@ -1025,7 +1025,6 @@ hr {
 
 .row, .row-fluid {
     overflow: hidden !important; 
-
 }
 
 [class*="col-"]{
