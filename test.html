@@ -147,7 +147,11 @@
 }
 
 .ev-public-sale, .ev-member-sale {
-	clear:none;
+	float: left;
+}
+
+.left {
+	float: left;
 }
 
 </style>
@@ -338,12 +342,14 @@
 			<div class="ev-info-header">Registration Info:</div>
 			
 			<div>
-				<div style="float:left;">Garden Members On Sale -&nbsp;</div>
+				<div class="left">Garden Members On Sale -&nbsp;</div>
 				<div class="ev-member-sale" style="float:left;">April 25</div>
-			
 			</div>
 			
-			<div class="ev-public-sale">General Public On Sale - May 2</div>
+			<div>
+				<div class="left">General Public On Sale -&nbsp;</div>
+				<div class="ev-public-sale">May 2</div>
+			</div>
 			
 			<br />
 			<div class="ev-info-header">Cost:</div>
