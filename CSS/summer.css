@@ -1025,7 +1025,7 @@ hr {
 
 .row, .row-fluid {
     overflow: hidden !important; 
-    padding: 10px !important;
+
 }
 
 [class*="col-"]{
@@ -1764,11 +1764,117 @@ hr {
 }
 
 /**********************************************************/
-/****************  End Generic Classes ******************/
+/****************  End Generic Classes ********************/
 /**********************************************************/
 
+
+.table-responsive .table {		/* Fixes responsive table horizontal glitch on phones */
+    max-width: none !important;
+}
+
+/*****************************************************/
+/****************  Begin Event CSS *******************/
+/*****************************************************/
+
+.event-pic, .ev-tickets, .ev-cal, .ev-hr, .ev-tickets, .ev-cal {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 280px;
+	text-transform: capitalize;
+}
+
+.event-pic img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 2;
+}
+
+.ev-tickets img, .ev-cal img {
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+	margin: 4px 0 4px 0;
+}
+
+.ev-hr {
+	background-color: gray;
+	clear: both;
+}
+
+.ev-tickets, .ev-cal {
+	clear: none;
+	
+}
+
+.ev-title-reg {
+	
+}
+
+.ev-title {
+	line-height: 75%;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.ev-title, .ev-title-reg, .ev-title-reg h1, .ev-sub, ev-title-mobile, ev-title-mobile h3, .ev-sub {
+	padding: 0px;
+    margin: 0px; 
+}
+
+.ev-sub, .ev-date {
+	font-size: 18px;
+}
+
+.ev-tickets, .ev-cal {
+	max-width: 280px;
+}
+
+.ev-tickets:hover, .ev-cal:hover {
+	background-color: #F2EDE4;
+}
+
+.ev-info-header {
+	font-weight: bold;
+	clear: both;
+}
+
+@media (min-width: 769px) {
+	.ev-title-mobile, .ev-date-mobile {
+		display: none;	
+	}
+	
+}
+
+@media (max-width: 769px) {
+	.ev-title-reg, .ev-date, .ev-space {
+		display: none;
+	}
+	
+	.ev-date-mobile, .ev-title-mobile {
+		text-align: center;
+	}
+	
+	.ev-title {
+		font-size: 24px;
+		font-weight: bold;
+	}
+		
+	.ev-date-mobile {
+		font-weight: bold;
+	}
+}
+
+.inline, .ev-member-sale, .ev-public-sale, .ev-member-cost, .ev-public-cost {
+	display: inline;
+}
+
+/******************************************************/
+/****************  End Event CSS **********************/
+/******************************************************/
+
 /**********************************************************/
-/***************  Begin  Event Images CSS *****************/
+/***************  Begin Event Images CSS ******************/
 /**********************************************************/
 
 .eventwrapsmall, .eventwrapbig {
@@ -1835,9 +1941,5 @@ hr {
 /**********************************************************/
 /****************  End Event Images CSS *******************/
 /**********************************************************/
-
-.table-responsive .table {		/* Fixes responsive table horizontal glitch on phones */
-    max-width: none !important;
-}
 
 
