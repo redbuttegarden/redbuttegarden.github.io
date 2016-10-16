@@ -147,7 +147,7 @@ hr {
 .logo {
 	width:202px;
 	height: 23px;
-	background: url('../images/sprites.png') -171px -301px ;
+	background: url('/images/sprites.png') -171px -301px ;
 }
 
 .logo:hover {
