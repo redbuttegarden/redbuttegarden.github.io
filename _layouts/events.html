@@ -28,7 +28,7 @@
 
 </head>
 <body>
-{% include navbar.html %}
+{% include navbar.html %} 
 
 <div id="rbgdefaultbody" class="container-fluid">
 
@@ -44,12 +44,12 @@
 			
 			<div class="ev-title-mobile">
 				<br />
-		  	  	<div class="ev-title">{{ Event Title }}</div>
-		  	  	<div class="ev-sub">{{ Event Subtitle }}</div>
+		  	  	<div class="ev-title">{{ page.title }}</div>
+		  	  	<div class="ev-sub">{{ page.subtitle }}</div>
 	  	  	</div>
 			
 	  	  	<div class="ev-date-mobile">
-				{{ Event Date(s) }}
+				{{ page.event-dates }}
 			</div>
 			
 			<a class="ev-ticket-link" href="{{ Event Buy Tickets Link }}">
@@ -64,7 +64,7 @@
 			
 			<br />
 			<div class="ev-info-header">Location:</div>
-			<div class="ev-location">{{ Event Location }}</div>
+			<div class="ev-location">{{ page.event-location }}</div>
 			
 			<br />
 			
@@ -73,12 +73,12 @@
 			
 			<div>
 				<div class="inline">Garden Members On Sale -&nbsp;</div>
-				<div class="ev-member-sale">{{ Member On Sale Date}}</div>
+				<div class="ev-member-sale">{{ page.member-sale-date }}</div>
 			</div>
 			
 			<div>
 				<div class="inline">General Public On Sale -&nbsp;</div>
-				<div class="ev-public-sale">{{ Public On Sale Date }}</div>
+				<div class="ev-public-sale">{{ page.public-sale-date }}</div>
 			</div>
 			
 			<!-- Price Info -->
@@ -87,12 +87,12 @@
 			
 			<div>
 				<div class="inline">Garden Members:&nbsp;</div>
-				<div class="ev-member-cost">{{ Event Cost for Members }}</div>
+				<div class="ev-member-cost">{{ page.member-cost }}</div>
 			</div>
 			
 			<div>
 				<div class="inline">General Public:&nbsp;</div>
-				<div class="ev-public-cost">{{ Event Cost for Public }}</div>
+				<div class="ev-public-cost">{{ page.public-cost }}</div>
 			</div>
 			
 			<br />
@@ -105,18 +105,18 @@
   	  <div class="col-sm-9">
   	  
   	  	<div class="ev-title-reg">
-	  	  	<div class="ev-title">{{ Event Title }}</div>
-	  	  	<div class="ev-sub">{{ Event Subtitle }}</div>
+	  	  	<div class="ev-title">{{ page.title }}</div>
+	  	  	<div class="ev-sub">{{ page.subtitle }}</div>
   	  	</div>
   	  	
   	  	<br />
   	   
-  	  	<div class="ev-date">{{ Event Date }}</div>
+  	  	<div class="ev-date">{{ page.event-dates }}</div>
   	   
   	  	<div class="ev-space"><br /><br /></div>
   	   
   	  	<div class="ev-desc">
-	   		{{ Event Description }}     
+	   		{{ content }}     
 	   	</div>
   	  	
   	  </div>
