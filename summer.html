@@ -8,6 +8,15 @@ published: true
 
 	<img class="rbgbanner" src="#" alt="Summer Events at Red Butte Garden" title="Summer Events at Red Butte Garden">
 
+<ul>
+  {% for page in site.categories.whats-blooming limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
 	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 		<!-- Begin GROW YOUR OWN HERBS Event-->
 		<div class="eventwrapsmall hover">
