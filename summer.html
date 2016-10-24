@@ -9,13 +9,12 @@ published: true
 	<img class="rbgbanner" src="#" alt="Summer Events at Red Butte Garden" title="Summer Events at Red Butte Garden">
 
 <ul>
-  {% for post in site.categories.summer limit:3 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+  {% for post in site.categories.summer %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
   {% endfor %}
 </ul>
-Test
 
 	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 		<!-- Begin GROW YOUR OWN HERBS Event-->
