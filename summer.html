@@ -9,9 +9,9 @@ published: true
 	<img class="rbgbanner" src="#" alt="Summer Events at Red Butte Garden" title="Summer Events at Red Butte Garden">
 
 <ul>
-  {% for page in site.categories.summer limit:3 %}
-    <li>2
-      <a href="{{ page.url }}">{{ page.title }}</a>
+  {% for post in site.posts.summer limit:3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
