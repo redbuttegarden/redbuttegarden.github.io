@@ -1919,7 +1919,7 @@ hr {
 }
 
 .eventname {
-	font-size: 80%;
+	font-size: 18;
 	font-weight: bold;
 	color: #FFFFFF;
 }
@@ -1934,22 +1934,22 @@ hr {
 	color: #FFFFFF;
 	font-style: italic;
 	width: 65%;
-	font-size: 14px;
+	font-size: 12px;
 	text-transform: lowercase;
 }
 
 @media (max-width:768px) {
 	
 	.eventname {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	
 	.eventdate {
-		font-size: 14px;
+		font-size: 12px;
 	}
 	
 	.eventenotes {
-		font-size: 10px;
+		font-size: 8px;
 	}
 }
 
