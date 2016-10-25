@@ -26,12 +26,12 @@ published: true
 		<a href="{{ post.url }}">
 		<div class="eventwrapsmall hover">
 		
-			<img src="../images/events/{{ page.event-image }}">
+			<img src="../images/events/{{ post.event-image }}">
 			
 			<div class="eventinfo">
 				<div class="eventname">{{ post.title }}</div>
 				<div class="eventdate">{{ post.event-dates }}</div>
-				<div class="eventnotes">${{ page.event-notes}}</div>
+				<div class="eventnotes">{{ post.event-notes}}</div>
 			</div>
 	
 		</div>
