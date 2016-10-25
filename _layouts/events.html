@@ -53,11 +53,11 @@
 			</div>
 			
 			<a class="ev-ticket-link" href="{{ page.tickets-link }}">
-					<div class="ev-tickets hover {{ page.tickets-button}}"><img src="{{ page.button-type }}"></div>
+					<div class="ev-tickets hover {{ page.button-type }} {{ page.tickets-button}}"></div>
 			</a>
 			
 			<a class="ev-cal-link" href="{{ page.calendar-link }}">
-				<div class="ev-cal hover {{ page.calendar-button }}"><img src="/images/add-to-cal.png"></div>
+				<div class="ev-cal hover calendar {{ page.calendar-button }}"></div>
 			</a>
 			
 			<hr class="ev-hr {{ page.calendar-button }}">
@@ -87,12 +87,12 @@
 			
 			<div>
 				<div class="inline">Garden Members:&nbsp;</div>
-				<div class="ev-member-cost">${{ page.member-cost }}</div>
+				<div class="ev-member-cost">{{ page.member-cost }}</div>
 			</div>
 			
 			<div>
 				<div class="inline">General Public:&nbsp;</div>
-				<div class="ev-public-cost">${{ page.public-cost }}</div>
+				<div class="ev-public-cost">{{ page.public-cost }}</div>
 			</div>
 			
 			<br />
