@@ -1919,13 +1919,13 @@ hr {
 }
 
 .eventname {
-	font-size: 18;
+	font-size: 16px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
 
 .eventdate {
-	font-size: 16px;
+	font-size: 14px;
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
