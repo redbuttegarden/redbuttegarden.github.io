@@ -22,8 +22,8 @@ hr {
 	opacity: .9;
 }
 
-.stButton, .stBubble_count { 
-	height: 41px!important; 
+.stwrapper {
+	text-align: center;
 }
 
 #rbgdefaultbody a, #rbgdefaultbody a:link, #rbgdefaultbody a:visited, #rbgdefaultbody a:active {
