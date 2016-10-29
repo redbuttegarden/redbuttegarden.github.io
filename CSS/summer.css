@@ -22,6 +22,11 @@ hr {
 	opacity: .9;
 }
 
+.stbutton {
+	display:block;
+	height:16px;
+}
+
 #rbgdefaultbody a, #rbgdefaultbody a:link, #rbgdefaultbody a:visited, #rbgdefaultbody a:active {
 	color: #A7916E;		/* hyperlink color for default pages */
 	font-weight: bold;
