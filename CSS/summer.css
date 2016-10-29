@@ -22,7 +22,7 @@ hr {
 	opacity: .9;
 }
 
-.stbutton {
+.st_facebook_hcount, .st_twitter_hcount, .st_sharethis_hcount {
 	display:block;
 	height:16px;
 }
