@@ -23,7 +23,7 @@ hr {
 }
 
 .stwrapper {
-	text-align: center;
+	height: auto;
 }
 
 #rbgdefaultbody a, #rbgdefaultbody a:link, #rbgdefaultbody a:visited, #rbgdefaultbody a:active {
