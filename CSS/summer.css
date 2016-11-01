@@ -1870,7 +1870,7 @@ hr {
 }
 
 @media (min-width: 769px) {
-	.ev-title-mobile, .ev-date-mobile {
+	.ev-title-mobile, .ev-date-mobile, .ev-media-mobile {
 		display: none;	
 	}
 	
@@ -1892,10 +1892,6 @@ hr {
 		
 	.ev-date-mobile {
 		font-weight: bold;
-	}
-	
-	.ev-media-mobile {
-		display: none;
 	}
 }
 
