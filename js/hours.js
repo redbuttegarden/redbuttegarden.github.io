@@ -81,16 +81,25 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	
 	
 	var seniorAdm = document.getElementById("senior-adm").innerHTML;
-	
+	var seniorHalf = (parseInt(seniorAdm, 10))/2;
+	document.getElementById("senior-adm").innerHTML = "<span style=\x22text-decoration:line-through;\x22>"+seniorAdm+"</span>";
+	document.getElementById("senior-half").innerHTML = "&nbsp;&nbsp;$"+seniorHalf;
 	
 	var milAdm = document.getElementById("mil-adm").innerHTML;
-	
+	var milHalf = (parseInt(milAdm, 10))/2;
+	document.getElementById("mil-adm").innerHTML = "<span style=\x22text-decoration:line-through;\x22>"+milAdm+"</span>";
+	document.getElementById("mil-half").innerHTML = "&nbsp;&nbsp;$"+milHalf;
 	
 	var childAdm = document.getElementById("child-adm").innerHTML;
+	var childHalf = (parseInt(childAdm, 10))/2;
+	document.getElementById("child-adm").innerHTML = "<span style=\x22text-decoration:line-through;\x22>"+childAdm+"</span>";
+	document.getElementById("child-half").innerHTML = "&nbsp;&nbsp;$"+childHalf;
 	
 	
 	var staffAdm = document.getElementById("staff-adm").innerHTML;
-	
+	var staffHalf = (parseInt(staffAdm, 10))/2;
+	document.getElementById("staff-adm").innerHTML = "<span style=\x22text-decoration:line-through;\x22>"+staffAdm+"</span>";
+	document.getElementById("staff-half").innerHTML = "&nbsp;&nbsp;$"+staffHalf;
 		
 	
 
