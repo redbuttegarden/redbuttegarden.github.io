@@ -74,8 +74,7 @@ if (hours == 8 ) {
 
 if ( (month == 12) || (month == 1) || (month == 2) ){
 
-	var place1a = "$"+gardenOpenMessage;
-	//"<td class=\x22td-padding strikethrough\x22>";
+	var place1a = "<td class=\x22td-padding strikethrough\x22>";
 	document.getElementById("place1a").innerHTML = place1a;
 	
 	
