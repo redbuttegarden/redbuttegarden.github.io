@@ -1965,6 +1965,7 @@ hr {
 	.strikethrough {
 		text-decoration: line-through;
 		color: #158FBF;
+		font-weight: bold;
 	}
 	
 	.strikethrough .no-strike {
