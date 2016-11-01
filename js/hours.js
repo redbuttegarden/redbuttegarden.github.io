@@ -288,7 +288,7 @@ else if ( month == 10 || month == 11 || month == 12) {
 /* Garden After Dark Additional Hours (change gadDay# variables at top yearly)				  */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /**/
-/*~~~~~~~Re-enable this code if one of the GAD events has different hours than the rest~~~~~~~*/		
+/*~~~~~~~Re-enable and edit this code if one of the GAD events has different hours than the rest~~~~~~~*/		
 //
 //		if ( (month == 10) && (day == gadDay5) ) {
 //			otherNotes = "<div style=\x22color:#FF9100;font-weight:bold;\x22>The Garden will close at 5PM, then open again from 6-10PM for Garden After Dark</div>";
