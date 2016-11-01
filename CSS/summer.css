@@ -1972,7 +1972,7 @@ hr {
 /****************  End Event Images CSS *******************/
 /**********************************************************/
 
-.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices, .stButton .stButton_gradient {
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices, .stButton .stButton_gradient, st_facebook_hcount, st_twitter_hcount, st_sharethis_hcount {
 height: 22px !important;
 line-height: 20px;
 }
