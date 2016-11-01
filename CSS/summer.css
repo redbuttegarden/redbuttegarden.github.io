@@ -1877,7 +1877,7 @@ hr {
 }
 
 @media (max-width: 769px) {
-	.ev-title-reg, .ev-date, .ev-space {
+	.ev-title-reg, .ev-date, .ev-space, .ev-media {
 		display: none;
 	}
 	
