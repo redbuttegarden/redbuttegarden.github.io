@@ -75,13 +75,16 @@ if (hours == 8 ) {
 if ( (month == 12) || (month == 1) || (month == 2) ){
 
 	var adultAdm = document.getElementById("adult-adm").innerHTML;
+	var adultHalf = (parseInt(adultAdm, 10))/2;
+	document.getElementById("adult-adm").innerHTML = "<span style=\x22text-decoration:line-through;\x22>"+adultAdm+"</span>";
+	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$"+adultHalf;
+	
+	
 	var seniorAdm = document.getElementById("senior-adm").innerHTML;
 	var milAdm = document.getElementById("mil-adm").innerHTML;
 	var childAdm = document.getElementById("child-adm").innerHTML;	
 	
-	var adultHalf = (parseInt(adultAdm, 10))/2;
-	document.getElementById("adult-adm").innerHTML = "<span style=\x22text-decoration:line-through;\x22>"+adultAdm+"</span>";
-	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$"+adultHalf;
+
 
 }
 
