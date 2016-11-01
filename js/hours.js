@@ -77,6 +77,7 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	var place1a = "<td class=\x22td-padding strikethrough\x22>";
 	document.getElementById("place1a").innerHTML = place1a;
 	
+	
 	var place1b  = "<span class=\x22inner\x22>";
 	document.getElementById("place1b").innerHTML = place1b;
 	var place1c = "</span>";
