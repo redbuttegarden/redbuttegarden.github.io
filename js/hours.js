@@ -6,7 +6,9 @@ var d = new Date();
 var offset = d.getTimezoneOffset()/60;
 var offsetDifference = offset - 6;
 
-var month = d.getMonth() + 1;
+// var month = d.getMonth() + 1;
+
+var month = 12;
 var day = d.getDate();
 var hours = d.getHours() + offsetDifference;
 var minutes = d.getMinutes();
