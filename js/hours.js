@@ -70,7 +70,7 @@ if (hours == 8 ) {
 
 // Takes admission prices and divides them by two for December, January, and February
 
-if (month == 12) || (month == 1) || (month == 2) {
+if ( (month == 12) || (month == 1) || (month == 2) ){
 
 	place1a  == "<span class=\x22inner strikethrough\x22>";
 	document.getElementById("place1a").innerHTML = place1a;
