@@ -70,7 +70,7 @@ if (hours == 8 ) {
 	return;
 }
 
-// Takes admission prices, converts them to integers, and divides them by two for December, January, and February
+// Takes admission prices, converts them to integers, and divides them by two for half admission in December, January, and February
 
 if ( (month == 12) || (month == 1) || (month == 2) ){
 
