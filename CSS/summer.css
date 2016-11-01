@@ -1893,6 +1893,10 @@ hr {
 	.ev-date-mobile {
 		font-weight: bold;
 	}
+	
+	.ev-media-mobile {
+		display: none;
+	}
 }
 
 .inline, .ev-member-sale, .ev-public-sale, .ev-member-cost, .ev-public-cost {
