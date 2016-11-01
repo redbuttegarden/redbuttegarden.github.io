@@ -78,9 +78,7 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	document.getElementById("place1a").innerHTML = place1a;
 	
 	
-	var place1b  = "<span style=\x22text-decoration: line-through;
-		color: #158FBF;
-		font-weight: bold;\x22>";
+	var place1b  = "<span style=\x22text-decoration:line-through;color:#158FBF;font-weight:bold;\x22>";
 	document.getElementById("place1b").innerHTML = place1b;
 	var place1c = "</span>";
 	document.getElementById("place1c").innerHTML = place1c;
