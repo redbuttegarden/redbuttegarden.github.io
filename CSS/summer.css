@@ -1967,8 +1967,7 @@ hr {
 
 /* Begin seasonal strikethrough admission code */
 
-	
-	#adult-half, #senior-half, #mil-half, #child-half {
+	#adult-half, #senior-half, #mil-half, #child-half, #staff-half {
 		color: #158FBF;
 		font-weight: bold;
 	}
