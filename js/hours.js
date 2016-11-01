@@ -77,18 +77,7 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	var adultAdm = document.getElementById("adult-adm").innerHTML;
 	var seniorAdm = document.getElementById("senior-adm").innerHTML;
 	var milAdm = document.getElementById("mil-adm").innerHTML;
-	var childAdm = document.getElementById("child-adm").innerHTML;
-
-	var place1a = "<td class=\x22td-padding strikethrough\x22>";
-	document.getElementById("place1a").innerHTML = place1a;
-	
-	
-	var place1b  = "<span style=\x22text-decoration:line-through;color:#158FBF;font-weight:bold;\x22>";
-	document.getElementById("place1b").innerHTML = place1b;
-	var place1c = "</span>";
-	document.getElementById("place1c").innerHTML = place1c;
-	
-	
+	var childAdm = document.getElementById("child-adm").innerHTML;	
 	
 	var adultHalf = (parseInt(adultAdm, 10))/2;
 	document.getElementById("adult-adm").innerHTML = "<span style=\x22text-decoration:line-through;\x22>"+adultAdm+"</span>";
