@@ -1957,4 +1957,19 @@ hr {
 /****************  End Event Images CSS *******************/
 /**********************************************************/
 
+/* Begin seasonal strikethrough admission code */
+
+	.inner {
+		color: #000000;
+	}
+	.strikethrough {
+		text-decoration: line-through;
+		color: #158FBF;
+	}
+	
+	.strikethrough .no-strike {
+		text-decoration: none;
+		position:absolute;	
+	}
+
 
