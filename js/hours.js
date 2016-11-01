@@ -85,7 +85,7 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	
 	var adultAdm = document.getElementById("adult-adm").innerHTML;
 	var adultHalf = (parseInt(adultAdm, 10))/2;
-	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$"+adultHalf;
+	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$yourmom"+adultHalf;
 
 }
 
