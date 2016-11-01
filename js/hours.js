@@ -68,6 +68,21 @@ if (hours == 8 ) {
 	return;
 }
 
+// Takes admission prices and divides them by two for December, January, and February
+
+if (month == 12) || (month == 1) || (month == 2) {
+
+	place1a  == "<span class=\x22inner strikethrough\x22>";
+	document.getElementById("place1a").innerHTML = place1a;
+	place1b == "</span>";
+	document.getElementById("place1b").innerHTML = place1b;
+	
+	document.getElementById("adult-adm").innerHTML = adultAdm;
+	adultHalf = (parseInt(adultAdm, 10))/2;
+	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$"+adultHalf;
+
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* CHANGE YEARLY: Early Closing Days for Concerts and Gala  								  */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
