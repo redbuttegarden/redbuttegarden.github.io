@@ -1960,9 +1960,6 @@ hr {
 
 /* Begin seasonal strikethrough admission code */
 
-	.inner {
-		color: #000000;
-	}
 	.strikethrough {
 		text-decoration: line-through;
 		color: #158FBF;
