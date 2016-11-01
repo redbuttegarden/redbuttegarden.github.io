@@ -91,7 +91,7 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	
 	
 	var adultHalf = (parseInt(adultAdm, 10))/2;
-	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$"+adultHalf;
+	document.getElementById("adult-half").innerHTML = "<span style=\x22text-decoration:line-through;color:#158FBF;font-weight:bold;\x22>"+adultAdm+"</span>"+"&nbsp;&nbsp;$"+adultHalf;
 
 }
 
