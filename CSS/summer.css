@@ -379,6 +379,11 @@ hr {
 	width: 215px;
 }
 
+#admissionDiscount {
+	text-align: center;
+	font-size: 12px;
+}
+
 .td-title{
 	font-size: 10px;
 	padding-top: 5px;

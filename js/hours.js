@@ -47,7 +47,7 @@ var hoursInfo;
 /**/	var gardenWillOpenMessageStart = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Open in ";	
 /**/	var gardenWillCloseMessageStart = "<div style=\x22font-weight:bold;color:#FF0000;\x22>The Garden Will Close in ";
 /**/	var gardenMessageEnd = " Minutes</div>";
-/**/	var halfOffAdmission = "<span style=\x22text-align:center;font-size:12px;\x22>Enjoy half-price admission December, January, and February</span>";
+/**/	var halfOffAdmission = "Enjoy half-price admission December, January, and February";
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 minutesBeforeOpeningorClosing = 60 - minutes;
