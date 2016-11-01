@@ -101,7 +101,6 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	document.getElementById("staff-adm").innerHTML = "<span style=\x22text-decoration:line-through;\x22>"+staffAdm+"</span>";
 	document.getElementById("staff-half").innerHTML = "&nbsp;&nbsp;$"+staffHalf;
 
-
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
