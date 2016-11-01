@@ -79,7 +79,7 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	place1b == "</span>";
 	document.getElementById("place1b").innerHTML = place1b;
 	
-	document.getElementById("adult-adm").innerHTML = adultAdm;
+	var adultAdm = document.getElementById("adult-adm").innerHTML;
 	adultHalf = (parseInt(adultAdm, 10))/2;
 	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$"+adultHalf;
 
