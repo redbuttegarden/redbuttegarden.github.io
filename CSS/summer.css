@@ -1742,7 +1742,8 @@ hr {
 }
 
 .swag {
-	
+	color: purple;
+	background-color: yellow;
 }
 
 .hover:hover {
