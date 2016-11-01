@@ -74,13 +74,13 @@ if (hours == 8 ) {
 
 if ( (month == 12) || (month == 1) || (month == 2) ){
 
-	place1a  == "<span class=\x22inner strikethrough\x22>";
+	var place1a  == "<span class=\x22inner strikethrough\x22>";
 	document.getElementById("place1a").innerHTML = place1a;
-	place1b == "</span>";
+	var place1b == "</span>";
 	document.getElementById("place1b").innerHTML = place1b;
 	
 	var adultAdm = document.getElementById("adult-adm").innerHTML;
-	adultHalf = (parseInt(adultAdm, 10))/2;
+	var adultHalf = (parseInt(adultAdm, 10))/2;
 	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$"+adultHalf;
 
 }
