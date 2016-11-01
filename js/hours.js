@@ -81,8 +81,17 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	
 	
 	var seniorAdm = document.getElementById("senior-adm").innerHTML;
+	
+	
 	var milAdm = document.getElementById("mil-adm").innerHTML;
-	var childAdm = document.getElementById("child-adm").innerHTML;	
+	
+	
+	var childAdm = document.getElementById("child-adm").innerHTML;
+	
+	
+	var staffAdm = document.getElementById("staff-adm").innerHTML;
+	
+		
 	
 
 
