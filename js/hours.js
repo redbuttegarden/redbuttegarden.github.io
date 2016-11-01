@@ -172,7 +172,7 @@ if (month == 1 || month == 2 || month == 3) {
 	
 	if (month == 1 || month == 2) {
 		admissionNotes = halfOffAdmission;
-		document.getElementById("admissionDiscount").innerHTML = document.getElementById("admissionDiscount2").innerHTML = admissionNotes;
+		document.getElementById("admissionDiscount").innerHTML =  admissionNotes;
 	}
 	
 	
@@ -301,7 +301,7 @@ else if ( month == 10 || month == 11 || month == 12) {
 	
 	if (month == 12) {
 		admissionNotes = halfOffAdmission;
-		document.getElementById("admissionDiscount").innerHTML = document.getElementById("admissionDiscount2").innerHTML = admissionNotes;
+		document.getElementById("admissionDiscount").innerHTML =  admissionNotes;
 	}
 	
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
