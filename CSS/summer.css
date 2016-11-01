@@ -1972,6 +1972,7 @@ hr {
 /****************  End Event Images CSS *******************/
 /**********************************************************/
 
-.stButton * {
-box-sizing: content-box;
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices, .stButton .stButton_gradient {
+height: 22px !important;
+line-height: 20px;
 }
