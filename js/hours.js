@@ -74,8 +74,8 @@ if (hours == 8 ) {
 
 if ( (month == 12) || (month == 1) || (month == 2) ){
 
-	var place1a = "<td class=\x22 td-padding strikethrough \x22>"
-	document.getElementById().innerHTML = place1a
+	var place1a = "<td class=\x22 td-padding strikethrough \x22>";
+	document.getElementById("place1a").innerHTML = place1a;
 	
 	var place1b  = "<span class=\x22inner strikethrough\x22>";
 	document.getElementById("place1a").innerHTML = place1b;
