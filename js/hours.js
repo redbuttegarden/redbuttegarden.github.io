@@ -74,7 +74,8 @@ if (hours == 8 ) {
 
 if ( (month == 12) || (month == 1) || (month == 2) ){
 
-	var place1a = "<td class=\x22td-padding strikethrough\x22>";
+	var place1a = "$"+gardenOpenMessage;
+	//"<td class=\x22td-padding strikethrough\x22>";
 	document.getElementById("place1a").innerHTML = place1a;
 	
 	
@@ -85,7 +86,7 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	
 	var adultAdm = document.getElementById("adult-adm").innerHTML;
 	var adultHalf = (parseInt(adultAdm, 10))/2;
-	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$yourmom"+adultHalf;
+	document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$"+adultHalf;
 
 }
 
