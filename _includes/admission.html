@@ -10,7 +10,19 @@
 	</tr>
 	<tr>
 		<td>ADULTS (ages 18-64):</td>
-		<td class="td-padding strikethrough"><span class="normal-adm">$<span id="adults-adm">12</span></span>	<span class="half-adm"><span class="no-strike" id="adult-half">&nbsp;&nbsp;$6</span></span></td></td>
+		<td class="td-padding strikethrough">
+		
+		<span class="normal-adm">
+			
+			<span id="place1a"></span>
+				$<span id="adults-adm">12</span>
+			<span id="place1b"</span>
+			
+		</span>
+		
+		<span class="half-adm"><span class="no-strike" id="adult-half">&nbsp;&nbsp;$6</span></span>
+		
+		</td></td>
 	</tr>
 	<tr>
 		<td>SENIORS (ages 65+):</td>
@@ -42,9 +54,17 @@
 
 <!--
 
-IF (month == 12) || (month == 1) || (month == 2)
+if (month == 12) || (month == 1) || (month == 2) {
 
+place1a  == "<span class=\x22inner strikethrough\x22>";
+document.getElementById("place1a").innerHTML = place1a;
+place1b == "</span>";
+document.getElementById("place1b").innerHTML = place1b;
 
+document.getElementById("adult-adm").innerHTML = adultAdm;
+adultHalf = (parseInt(adultAdm, 10))/2;
+document.getElementById("adult-half").innerHTML = "&nbsp;&nbsp;$"+adultHalf;
 
+}
 
 -->
