@@ -74,9 +74,9 @@ if (hours == 8 ) {
 
 if ( (month == 12) || (month == 1) || (month == 2) ){
 
-	var place1a  == "<span class=\x22inner strikethrough\x22>";
+	var place1a  = "<span class=\x22inner strikethrough\x22>";
 	document.getElementById("place1a").innerHTML = place1a;
-	var place1b == "</span>";
+	var place1b = "</span>";
 	document.getElementById("place1b").innerHTML = place1b;
 	
 	var adultAdm = document.getElementById("adult-adm").innerHTML;
