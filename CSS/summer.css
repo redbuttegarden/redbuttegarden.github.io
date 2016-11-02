@@ -79,6 +79,10 @@ hr {
 	background-color: #F2EDE4;
 }
 
+.dropdown-menu blog-li {
+	background-color: red;
+}
+
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 }
