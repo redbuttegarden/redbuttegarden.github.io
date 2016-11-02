@@ -80,7 +80,7 @@ hr {
 }
 
 blog-li {
-	background-color: red;
+	background-color: red !important;
 }
 
 .dropdown-menu li > a:hover {
