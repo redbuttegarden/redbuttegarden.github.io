@@ -79,7 +79,7 @@ hr {
 	background-color: #F2EDE4;
 }
 
-.dropdown-menu li blog-li {
+.dropdown-menu li > blog-li {
 	background-color: red;
 }
 
