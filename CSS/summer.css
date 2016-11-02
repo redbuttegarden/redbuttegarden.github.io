@@ -97,13 +97,9 @@ hr {
 	color: #000000;
 }
 
-/* Code allows one list item to have different background color - must be declared after */
+/* Allows one list item of specific class to have different background color - must be declared after */
 .dropdown-menu .concert-li {
 	background-color: #0D9DDC;
-	color: #FFFFFF;
-}
-
-.dropdown-menu li .concert-li, .dropdown-menu .concert-li a {
 	color: #FFFFFF;
 }
 
