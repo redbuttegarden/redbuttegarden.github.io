@@ -84,16 +84,16 @@ hr {
 	background-color: red;
 }
 
-.dropdown-menu .blog-li a:hover{
-	background-color: blue;
+.dropdown-menu .blog-li li:hover{
+	background-color: green;
 }
 
-.dropdown-menu .gad-li {
+.dropdown-menu .gad-li a {
 	background-color: orange;
 	color: white;
 }
 
-.dropdown-menu .concert-li {
+.dropdown-menu .concert-li a {
 	background-color: blue;
 	color: white;
 }
