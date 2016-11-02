@@ -79,7 +79,7 @@ hr {
 	background-color: #F2EDE4;
 }
 
-.dropdown-menu li > blog-li {
+blog-li {
 	background-color: red;
 }
 
@@ -1976,6 +1976,7 @@ hr {
 /****************  End Event Images CSS *******************/
 /**********************************************************/
 
+/* Fixes ShareThis social media button heights */
 .stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices, .stButton .stButton_gradient, st_facebook_hcount, st_twitter_hcount, st_sharethis_hcount {
 height: 22px !important;
 line-height: 20px;
