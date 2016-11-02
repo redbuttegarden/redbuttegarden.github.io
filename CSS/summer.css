@@ -98,17 +98,13 @@ hr {
 }
 
 /* Code allows one list item to have different background color - must be declared after */
-.dropdown-menu .concert-li{
+.dropdown-menu .concert-li {
 	background-color: #0D9DDC;
-	color: white;
-}
-
-.dropdown-menu .concert-li a {
 	color: #FFFFFF;
 }
 
-#rbgnavbar .concert-li a:hover, .concert-li a, .concert-li li, .dropdown-menu .concert-li:hover {
-    color: #FFFFFF;
+.dropdown-menu li .concert-li, .dropdown-menu .concert-li a {
+	color: #FFFFFF;
 }
 
 .dropdown {
