@@ -84,8 +84,8 @@ hr {
 	background-color: red;
 }
 
-.dropdown-menu .blog-li:hover {
-	background-color: #F2EDE4;
+.dropdown-menu li:hover .blog-li:hover {
+	background-color: blue;
 }
 
 .dropdown-menu li > a:hover {
