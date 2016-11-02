@@ -88,12 +88,12 @@ hr {
 	background-color: green;
 }
 
-.dropdown-menu .gad-li a {
+.dropdown-menu .gad-li {
 	background-color: orange;
 	color: white;
 }
 
-.dropdown-menu .concert-li a {
+.dropdown-menu .concert-li{
 	background-color: blue;
 	color: white;
 }
