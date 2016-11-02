@@ -100,7 +100,7 @@ hr {
 /* Code allows one list item to have different background color - must be declared after */
 .dropdown-menu .concert-li{
 	background-color: #0D9DDC;
-	color: white;
+	color: white !important;
 }
 
 .dropdown {
