@@ -80,19 +80,6 @@ hr {
 }
 
 /* Code allows one list item to have different background color - must be declared after */
-.dropdown-menu .blog-li {
-	background-color: red;
-}
-
-.dropdown-menu .blog-li li:hover{
-	background-color: green;
-}
-
-.dropdown-menu .gad-li {
-	background-color: orange;
-	color: white;
-}
-
 .dropdown-menu .concert-li{
 	background-color: #0D9DDC;
 	color: white;
