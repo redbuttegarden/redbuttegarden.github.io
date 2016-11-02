@@ -107,6 +107,10 @@ hr {
 	color: #FFFFFF;
 }
 
+#rbgnavbar .concert-li a:hover, .concert-li a, .concert-li li, .dropdown-menu .concert-li:hover {
+    color: #FFFFFF;
+}
+
 .dropdown {
 	font-size: 12px;
 	padding: 0;
