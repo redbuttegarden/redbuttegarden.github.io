@@ -80,7 +80,7 @@ hr {
 }
 
 /* Code allows one list item to have different background color - must be declared after */
-.dropdown-menu li .blog-li {
+.dropdown-menu .blog-li {
 	background-color: red;
 }
 
