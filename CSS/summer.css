@@ -1995,3 +1995,8 @@ line-height: 20px;
 	text-align: center;
 }
 
+@media (max-width:768px) {
+	.grid-header {
+		font-size: 22px;
+	}
+}
