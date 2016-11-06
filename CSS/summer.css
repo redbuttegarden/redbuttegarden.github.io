@@ -1984,11 +1984,8 @@ height: 22px !important;
 line-height: 20px;
 }
 
-/*
-.eventdivide hr {
-	width: 75%;
-}
-*/
+
+/* Begin Grid Page Header Code */
 
 .grid-header {
 	font-size: 30px;
@@ -2000,3 +1997,5 @@ line-height: 20px;
 		font-size: 22px;
 	}
 }
+
+/* End Grid Page Header Code */
