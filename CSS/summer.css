@@ -1993,6 +1993,13 @@ line-height: 20px;
 	text-transform: uppercase;
 }
 
+.winter-banner {
+	height: 10px;
+	border: none;
+	color: #A26BA2;
+	background-color: #A26BA2;
+}
+
 @media (max-width:768px) {
 	.grid-header {
 		font-size: 22px;
