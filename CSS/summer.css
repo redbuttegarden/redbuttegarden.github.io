@@ -1988,8 +1988,9 @@ line-height: 20px;
 /* Begin Grid Page Header Code */
 
 .grid-header {
-	font-size: 30px;
+	font-size: 36px;
 	text-align: center;
+	font-weight: bold;
 }
 
 @media (max-width:768px) {
