@@ -161,17 +161,6 @@ hr {
 	opacity: .9;
 }
 
-.nav-button {
-	clear: none;
-	margin-left: auto;
-	margin-right: auto;
-	float: right;
-}
-
-.nav-button img:hover {
-	opacity: .9;
-}
-
 /* Adjusts width of dropdown menu */
 .dropdown-menu a, .dropdown-menu li {
   min-width: 150px;
@@ -211,13 +200,6 @@ hr {
 		display: none;
 	}
 	
-}
-
-@media (max-width: 768px) {
-	.nav-button-wrapper {
-		clear: both;
-		float: left;
-	}
 }
 
 @media (max-width:768px) {
