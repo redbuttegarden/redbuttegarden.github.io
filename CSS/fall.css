@@ -5,7 +5,7 @@
 	.navbar-inverse .navbar-toggle:active, 		/* menu icon background color when button is active */
 	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
 	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
-	#rbgnavbar .nav .dropdown .navbutton		/* Give/Join/Volunteer nav buttons */
+	.navbar-inverse .dropdown .navbutton		/* Give/Join/Volunteer nav buttons */
 	{
 	background-color: #B7330E !important; /* Overwrites Bootstrap's !important */
 }
