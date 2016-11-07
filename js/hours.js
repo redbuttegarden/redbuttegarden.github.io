@@ -61,6 +61,7 @@ if ( (month == 11 && day >= daylightEndDay) || (month == 12) || (month == 1) || 
 // Code to load new CSS file to change dropdown colors for different seasons
 
 if ( (month == 9) || (month == 10 ) || (month == 11) ) {
+	document.write("<link rel='stylesheet' href='CSS/summer.css' type='text/css'>");
 	document.write("<link rel='stylesheet' href='CSS/fall.css' type='text/css'>");
 }
 
