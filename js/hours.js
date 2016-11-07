@@ -58,6 +58,20 @@ if ( (month == 11 && day >= daylightEndDay) || (month == 12) || (month == 1) || 
 
 }
 
+// Code to load new CSS file to change dropdown colors for different seasons
+
+if ( (month == 9) || (month == 10 ) || (month == 11) ) {
+	document.write("<link rel='stylesheet' href='fall.css' type='text/css'>");
+}
+
+if ( (month == 12) || (month == 1 ) || (month == 2) ) {
+	document.write("<link rel='stylesheet' href='winter.css' type='text/css'>");
+}
+
+if ( (month == 3) || (month == 4 ) || (month == 5) ) {
+	document.write("<link rel='stylesheet' href='spring.css' type='text/css'>");
+}
+
 // Between 8AM and 9AM: shows how many minutes before the garden opens
 
 if (hours == 8 ) {
