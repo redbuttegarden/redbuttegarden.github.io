@@ -9,7 +9,7 @@
 	background-color: #B7330E !important; /* Overwrites Bootstrap's !important */
 }
 
-.navbar .navbar-inverse .navbar-static-top #navbarbg #rbgnavbar .nav .navbar-nav .dropdown .navbuttoncolor { /* Give/Join/Volunteer nav buttons */
+.navbar .navbar-inverse .navbar-static-top #navbarbg #rbgnavbar .nav .navbar-nav .dropdown .navbuttoncolor li a { /* Give/Join/Volunteer nav buttons */
      background-color: #B7330E !important;
      color: blue !important;
 }
