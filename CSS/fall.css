@@ -4,13 +4,12 @@
 	.dropdown-toggle:hover, 					/*  */
 	.navbar-inverse .navbar-toggle:active, 		/* menu icon background color when button is active */
 	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
-	.navbar-inverse .navbar-toggle:hover, 		/* menu icon background color when hovered over */
-	.navbar-inverse .navbar-nav .dropdown .navbuttoncolor		/* Give/Join/Volunteer nav buttons */
-	
+	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
 	{
 	background-color: #B7330E !important; /* Overwrites Bootstrap's !important */
 }
 
-.navbar-inverse .dropdown-menu {
+.navbar .navbar-inverse .navbar-static-top #navbarbg #rbgnavbar .nav .navbar-nav .dropdown .navbuttoncolor { /* Give/Join/Volunteer nav buttons */
      background-color: #B7330E !important;
+     color: blue !important;
 }
