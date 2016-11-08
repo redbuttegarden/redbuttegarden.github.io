@@ -235,6 +235,10 @@ hr {
     border-radius: 2px;
 }
 
+#gsa_searchbox:focus {
+	color: #FFF;
+}
+
 #gsa_searchbutton {	
 	padding:3px;
 	position:absolute;
