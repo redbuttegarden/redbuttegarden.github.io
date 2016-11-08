@@ -215,7 +215,6 @@ hr {
 #gsa_search{
 	background:transparent;
     border-bottom :1px solid white;
-    color: #FFFFFF;
 	float:right;
     margin: 0;
     padding:0;
@@ -227,7 +226,7 @@ hr {
 	
 #gsa_searchbox {
     border:0;
-    color: #666;
+    color: #FFFFFF;
     font:15px;
     height:20px;
     padding:3px 5px;
