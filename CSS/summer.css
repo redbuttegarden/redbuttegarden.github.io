@@ -271,10 +271,6 @@ hr {
 	float: left;
 }
 
-.searchicon img {
-	padding: 7px;
-}
-
 .searchicon:hover {
 	background-color: #196143;
 }
