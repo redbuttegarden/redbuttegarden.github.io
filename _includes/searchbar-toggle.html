@@ -26,11 +26,7 @@
 				$(".searchbar").hide(300);
 				$(".navbutton").show(300);
 				$(".searchicon").css("background-color", "transparent");
-				$(".searchicon").mouseover(function() {
-				    $(this).find(" > div").css("background-color","#196143");
-				}).mouseout(function() {
-				    $(this).find(" > div").css("background-color","transparent");
-				});
+				$('head').append('<style>.searchicon:hover div {background-color : #196143;}</style>')
 				
 				/*
 				$(".searchicon").css("background-color","transparent");
