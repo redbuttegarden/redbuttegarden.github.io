@@ -213,7 +213,7 @@ hr {
 /************************/
 
 #gsa_search{
-	background:#fff;
+	background:transparent;
     border:1px solid black;
 	float:right;
     margin: 0;
@@ -240,7 +240,7 @@ hr {
 	right:0;
 	top:0;
 	width:20px;
-	background-color: #C4B59E;
+	background-color: transparent;
 	border-radius: 0px 2px 2px 0px;
 }
 		
