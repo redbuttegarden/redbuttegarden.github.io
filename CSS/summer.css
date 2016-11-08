@@ -255,6 +255,10 @@ hr {
      background-color:#F2EDE4;
 }
 
+.search {
+	padding-right: 10px;
+}
+
 .searchicon {
 	margin-top: 10px;
 	float: left;
