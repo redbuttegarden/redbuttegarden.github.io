@@ -8,9 +8,3 @@
 	{
 	background-color: #B7330E !important; /* Overwrites Bootstrap's !important */
 }
-
-.navbar-inverse li:nth-last-child(3), .navbar-inverse li:nth-last-child(2), .navbar-inverse li:nth-last-child(1){ /* Give/Join/Volunteer nav buttons */
-     background-color: #196143 !important;
-	 text-decoration: underline;
-	 padding-right: 1px;
-}
