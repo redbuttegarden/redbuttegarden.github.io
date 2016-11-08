@@ -236,11 +236,9 @@ hr {
 }
 
 #gsa_searchbutton {	
-	padding:3px;
 	position:absolute;
 	right:0;
 	top:0;
-	
 	background-color: #F2EDE4;
 	border-radius: 0px 2px 2px 0px;
 }
