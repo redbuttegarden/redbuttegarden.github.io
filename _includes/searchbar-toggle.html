@@ -11,7 +11,9 @@
 	
 			if( $( ".searchbar" ).is( ":hidden" ) ) {
 			
-			    $(".navbutton, .searchbar").toggle(300);
+			    //$(".navbutton, .searchbar").toggle(300);
+			    $(".navbutton").hide(300);
+			    $(".searchbar").show(300);
 			    $(".searchicon").css("background-color", "#196143");
 			    
 			    return;
@@ -20,8 +22,11 @@
 			
 			else if ( $( ".navbutton" ).is( ":hidden" ) ) { 
 				
-				$(".searchbar, .navbutton").toggle(0);
-				$(".searchbar").hide();
+				//$(".searchbar, .navbutton").toggle(0);
+				$(".searchbar").hide(300);
+				$(".navbutton").show(300);
+				$(".searchicon").css("background-color", "transparent");
+				/*
 				$(".searchicon").css("background-color","transparent");
 				
 				  $('.searchicon').hover(
@@ -35,6 +40,9 @@
 				    }
 				  ); 
 				return;
+				*/
+				
+				
 			}
 			return;
 	});
