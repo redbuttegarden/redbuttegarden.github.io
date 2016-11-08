@@ -227,7 +227,7 @@ hr {
 #gsa_searchbox {
     border:0;
     color: #FFFFFF;
-    font:15px;
+    font-size: 18px;
     height:20px;
     padding:3px 5px;
     width:230px;
