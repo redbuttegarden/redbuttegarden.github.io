@@ -213,8 +213,9 @@ hr {
 /************************/
 
 #gsa_search{
-	background:#fff;
-    border:1px solid black;
+	background:transparent;
+    border-bottom:1px solid white;
+    color: #FFFFFF;
 	float:right;
     margin: 0;
     padding:0;
