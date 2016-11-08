@@ -21,7 +21,20 @@
 			else if ( $( ".navbutton" ).is( ":hidden" ) ) { 
 				
 				$(".searchbar, .navbutton").toggle(0);
-
+				$(".searchbar").hide();
+				$(".searchicon").css("background-color","transparent");
+				
+				  $('.searchicon').hover(
+				    function() {
+				      var $this = $(this);
+				      $this.data('transparent', $this.css('background-color')).css('background-color', '#196143');
+				    },
+				    function() {
+				      var $this = $(this);
+				      $this.css('background-color', $this.data('transparent'));
+				    }
+				  ); 
+				return;
 			}
 			return;
 	});
