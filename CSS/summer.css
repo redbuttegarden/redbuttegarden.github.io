@@ -66,6 +66,12 @@ hr {
 	background-color: #196143 !important; /* Overwrites Bootstrap's !important */
 }
 
+/* Underlines the last three items in the navbar */
+.navbar-inverse li:nth-last-child(3), .navbar-inverse li:nth-last-child(2), .navbar-inverse li:nth-last-child(1){ /* Give/Join/Volunteer nav buttons */
+	 text-decoration: underline;
+	 padding-right: 1px;
+}
+
 /* Makes headers of the dropdown menus white and bold */
 .navbar-inverse .nav li .dropdown-toggle, .navbar-inverse .nav li .dropdown-toggle:hover  {
     color: #FFFFFF !important; /* Overwrites Bootstrap's !important */
