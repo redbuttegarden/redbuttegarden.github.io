@@ -23,7 +23,7 @@
 				$(".searchbar, .navbutton").toggle(0);
 				$(".searchicon").css("background-color","transparent");
 				
-				  $('.searchicon').hover(
+				  $('.searchicon').on("hover",
 				    function() {
 				      var $this = $(this);
 				      $this.data('bgcolor', $this.css('background-color')).css('background-color', '#196143');
