@@ -67,9 +67,8 @@ hr {
 }
 
 /* Underlines the last three items in the navbar */
-.navbar-inverse li .dropdown-toggle:nth-last-child(3), .navbar-inverse li .dropdown-toggle:nth-last-child(2), .navbar-inverse li .dropdown-toggle:nth-last-child(1){ /* Give/Join/Volunteer nav buttons */
+.navbar-inverse li:nth-last-child(3) .dropdown, .navbar-inverse li:nth-last-child(2) .dropdown, .navbar-inverse li:nth-last-child(1) .dropdown { /* Give/Join/Volunteer nav buttons */
 	 text-decoration: underline;
-	 padding-right: 1px;
 }
 
 /* Makes headers of the dropdown menus white and bold */
@@ -226,7 +225,7 @@ hr {
     padding:0;
     position:relative;
 	text-align:left;
-    width: 250px;
+    width: 225px;
     border-radius: 2px; 
 }
 	
@@ -236,7 +235,7 @@ hr {
     font-size: 18px;
     height:20px;
     padding:3px 5px;
-    width:250px;
+    width:225px;
     background-color: transparent;
     border-radius: 2px;
 }
@@ -262,7 +261,7 @@ hr {
 }
 
 .search {
-	padding-right: 25px;
+	padding-right: 15px;
 	padding-left: 10px;
 }
 
