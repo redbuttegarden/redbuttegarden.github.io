@@ -73,10 +73,6 @@ hr {
 }
 
 
-/* Makes headers of the dropdown menus white and bold */
-.navbar-inverse .nav li .dropdown-toggle, .navbar-inverse .nav li .dropdown-toggle:hover  {
-    color: #FFFFFF !important; /* Overwrites Bootstrap's !important */
-}
 
 .dropdown-menu li {
 	background-color: #FFFFFF;
