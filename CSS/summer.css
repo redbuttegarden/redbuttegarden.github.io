@@ -70,6 +70,7 @@ hr {
 .navbar-inverse li:nth-last-child(3) .dropdown-toggle, .navbar-inverse li:nth-last-child(2) .dropdown-toggle, .navbar-inverse li:nth-last-child(1) .dropdown-toggle { /* Give/Join/Volunteer nav buttons */
 	 text-decoration: underline;
 	 background-color: #B7330E;
+	 border-radius: 15px 15px  15px 15px;
 }
 
 /* Makes headers of the dropdown menus white and bold */
