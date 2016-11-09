@@ -69,6 +69,7 @@ hr {
 /* Underlines the last three items in the navbar */
 .navbar-inverse li:nth-last-child(3) .dropdown-toggle, .navbar-inverse li:nth-last-child(2) .dropdown-toggle, .navbar-inverse li:nth-last-child(1) .dropdown-toggle { /* Give/Join/Volunteer nav buttons */
 	 text-decoration: underline;
+	 background-color: #B7330E;
 }
 
 /* Makes headers of the dropdown menus white and bold */
@@ -2022,12 +2023,3 @@ line-height: 20px;
 }
 
 /* End Grid Page Header Code */
-
-/* Begin Seasonal Underline Colors */
-
-.underline-color{
-  color: red;
-  text-decoration: underline;
-}
-
-/* End Seasonal Underline Colors */
