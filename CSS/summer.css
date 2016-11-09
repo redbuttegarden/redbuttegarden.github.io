@@ -67,7 +67,7 @@ hr {
 }
 
 /* Underlines the last three items in the navbar */
-.navbar-inverse li:nth-last-child(3), .navbar-inverse li:nth-last-child(2), .navbar-inverse li:nth-last-child(1) { /* Give/Join/Volunteer nav buttons */
+.navbar-inverse li:nth-last-child(3) .dropdown-toggle, .navbar-inverse li:nth-last-child(2) .dropdown-toggle, .navbar-inverse li:nth-last-child(1) .dropdown-toggle { /* Give/Join/Volunteer nav buttons */
 	 text-decoration: underline;
 	 border-bottom: 1px solid red;
 }
