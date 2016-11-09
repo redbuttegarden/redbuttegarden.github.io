@@ -2023,3 +2023,11 @@ line-height: 20px;
 
 /* End Grid Page Header Code */
 
+/* Begin Seasonal Underline Colors */
+
+.underline-color{
+  color: red;
+  text-decoration: underline;
+}
+
+/* End Seasonal Underline Colors */
