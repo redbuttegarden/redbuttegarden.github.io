@@ -12,7 +12,7 @@ published: true
 
 <br />
 
-<div class="row-fluid">
+<div class="col-xs-12">
 
 	<br />
 	
@@ -73,26 +73,27 @@ published: true
 			<li><a href="/spyhop-heatwave">SPYHOP Heatwave Festival - July 18, 2016</a></li><br />
 		</ul>
 		-->
-		
+		<center>
 		{% for post in site.categories.free %}
-	    {% if post.url %}        
-		<div class="col-xs-12">
-			<a href="{{ post.url }}">
-			<div class="eventwrapsmall hover">
-			
-				<img src="../images/events/{{ post.event-image }}">
+		    {% if post.url %}        
+			<div class="col-xs-12">
+				<a href="{{ post.url }}">
+				<div class="eventwrapsmall hover">
 				
-				<div class="eventinfo">
-					<div class="eventname">{{ post.title }}</div>
-					<div class="eventdate">{{ post.event-dates }}</div>
-					<div class="eventnotes">{{ post.event-notes}}</div>
+					<img src="../images/events/{{ post.event-image }}">
+					
+					<div class="eventinfo">
+						<div class="eventname">{{ post.title }}</div>
+						<div class="eventdate">{{ post.event-dates }}</div>
+						<div class="eventnotes">{{ post.event-notes}}</div>
+					</div>
+			
 				</div>
-		
+				</a> 
 			</div>
-			</a> 
-		</div>
-	    {% endif %} 
-	  {% endfor %}
+		    {% endif %} 
+		{% endfor %}
+		</center>
   
   	</div>
 	
