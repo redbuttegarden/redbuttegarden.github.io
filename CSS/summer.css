@@ -208,7 +208,7 @@ hr {
 }
 
 /* Hides Search icon within certain widths */
-@media (min-width: 769px) and (max-width: 1068px) {	
+@media (min-width: 769px) and (max-width: 1170px) {	
 	#navhide4 {
 		display: none;
 	}
