@@ -215,7 +215,7 @@ hr {
 }
 
 @media (max-width: 768px) {
-	#navhide4 img {
+	#navhide4 img, #navhide3, #navhide2, #navhide1 {
 		clear: both;
 	}
 }
