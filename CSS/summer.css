@@ -252,6 +252,7 @@ hr {
     width:225px;
     background-color: transparent;
     border-radius: 2px;
+    font-weight: normal !important;
 }
 
 #gsa_searchbox:focus {
