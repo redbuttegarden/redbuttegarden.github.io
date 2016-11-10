@@ -12,7 +12,7 @@ published: true
 
 <br />
 
-<div class="col-xs-12">
+<div class="row-fluid">
 
 	<br />
 	
@@ -63,36 +63,36 @@ published: true
 	</div>
 	
 	<div class="col-sm-6">
-	<h2>FREE EVENTS AT RED BUTTE GARDEN</h2>		
-	<hr>
-	
-	<!--
-	<ul>
-		<li><a href="/sundance">Sundance Institute Summer Film Series</a></li><br />
-		<li><a href="/horticulture-lecture-series">Horticulture Spotlight Lecture Series</a></li><br />
-		<li><a href="/spyhop-heatwave">SPYHOP Heatwave Festival - July 18, 2016</a></li><br />
-	</ul>
-	-->
-	
-	{% for post in site.categories.free %}
-    {% if post.url %}        
-	<div class="col-xs-12">
-		<a href="{{ post.url }}">
-		<div class="eventwrapsmall hover">
+		<h2>FREE EVENTS AT RED BUTTE GARDEN</h2>		
+		<hr>
 		
-			<img src="../images/events/{{ post.event-image }}">
+		<!--
+		<ul>
+			<li><a href="/sundance">Sundance Institute Summer Film Series</a></li><br />
+			<li><a href="/horticulture-lecture-series">Horticulture Spotlight Lecture Series</a></li><br />
+			<li><a href="/spyhop-heatwave">SPYHOP Heatwave Festival - July 18, 2016</a></li><br />
+		</ul>
+		-->
+		
+		{% for post in site.categories.free %}
+	    {% if post.url %}        
+		<div class="col-xs-12">
+			<a href="{{ post.url }}">
+			<div class="eventwrapsmall hover">
 			
-			<div class="eventinfo">
-				<div class="eventname">{{ post.title }}</div>
-				<div class="eventdate">{{ post.event-dates }}</div>
-				<div class="eventnotes">{{ post.event-notes}}</div>
+				<img src="../images/events/{{ post.event-image }}">
+				
+				<div class="eventinfo">
+					<div class="eventname">{{ post.title }}</div>
+					<div class="eventdate">{{ post.event-dates }}</div>
+					<div class="eventnotes">{{ post.event-notes}}</div>
+				</div>
+		
 			</div>
-	
+			</a> 
 		</div>
-		</a> 
-	</div>
-    {% endif %} 
-  {% endfor %}
+	    {% endif %} 
+	  {% endfor %}
   
   	</div>
 	
