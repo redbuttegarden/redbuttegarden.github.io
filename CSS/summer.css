@@ -201,7 +201,7 @@ hr {
 
 /* Hides Give, Join, and Volunteer Buttons within certain widths */
 @media (min-width: 769px) and (max-width: 1325px) {
-	#navhide1, #navhide2, #navhide3 {
+	#navhide1, #navhide2, #navhide3, #navhide4 {
 		display: none;
 	 }
 	
