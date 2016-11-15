@@ -2011,6 +2011,10 @@ line-height: 20px;
 	text-transform: uppercase;
 }
 
+.eventdivide {
+	height: 10px;
+}
+
 .winter-banner, .spring-banner, .summer-banner, .fall-banner {
 	border: none;
 }
