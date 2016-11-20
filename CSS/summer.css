@@ -2008,7 +2008,7 @@ line-height: 20px;
 .grid-header {
 	font-size: 36px;
 	text-align: center;
-/*	text-transform: uppercase; */
+	text-transform: uppercase;
 }
 
 .eventdivide hr {
