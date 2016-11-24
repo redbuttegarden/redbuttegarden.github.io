@@ -2052,3 +2052,7 @@ line-height: 20px;
 	background-color: #F2EDE4;
 	border: 1px solid #000;
 }
+
+.buy-mem {
+	max-width: 100%;
+}
