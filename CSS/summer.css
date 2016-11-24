@@ -2047,8 +2047,8 @@ line-height: 20px;
 
 /* End Grid Page Header Code */
 
+/* Colors grid of local retail partner grid items*/
 .local-retail-partner {
 	background-color: #F2EDE4;
-	border: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border: 1px solid #000 !important;
 }
