@@ -2050,5 +2050,9 @@ line-height: 20px;
 /* Colors grid of local retail partner grid items*/
 .local-retail-partner {
 	background-color: #F2EDE4;
-	border: 1px solid #000 !important;
+	border: 1px solid #000;
+}
+
+.col-sm-4 .local-retail-partner {
+	border-bottom: 1px solid #000;
 }
