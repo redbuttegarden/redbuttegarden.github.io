@@ -1967,6 +1967,7 @@ hr {
 	font-size: 14px;
 	color: #FFFFFF;
 	text-transform: uppercase;
+	font-weight: normal;
 }
 
 .eventnotes {
@@ -1975,6 +1976,7 @@ hr {
 	width: 65%;
 	font-size: 12px;
 	text-transform: lowercase;
+	font-weight: normal;
 }
 
 @media (max-width:768px) {
