@@ -1817,6 +1817,15 @@ hr {
 	color: #196143;
 }
 
+.green-button {
+	background-color: #196143;
+	max-width: 100%;
+	color: #FFF;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
 /**********************************************************/
 /****************  End Generic Classes ********************/
 /**********************************************************/
