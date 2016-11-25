@@ -1817,13 +1817,23 @@ hr {
 	color: #196143;
 }
 
-.green-button {
-	background-color: #196143;
+.green-button, .tan-button {
 	max-width: 100%;
 	color: #FFF;
 	text-align: center;
 	font-size: 18px;
-	font-weight: bold;
+}
+
+a .green-button, a .tan-button {
+	color: #FFF;
+}
+
+.green-button {
+	background-color: #196143;
+}
+
+.tan-button {
+	background-color: #;
 }
 
 /**********************************************************/
