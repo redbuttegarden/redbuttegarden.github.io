@@ -1838,6 +1838,10 @@ a .green-button, a:hover .green-button, a:visited .green-button {
 	background-color: #;
 }
 
+.green-button:hover, .tan-button:hover {
+	opacity: .9;
+}
+
 /**********************************************************/
 /****************  End Generic Classes ********************/
 /**********************************************************/
