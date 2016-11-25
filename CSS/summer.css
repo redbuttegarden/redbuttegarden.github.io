@@ -1825,7 +1825,7 @@ hr {
 	height: 100px;
 }
 
-div a .green-button, div a:hover .green-button, div a:visited .green-button, div a:link .green-button, div a:active .green-button {
+a div.green-button, a:hover div.green-button, a:visited div.green-button, a:link div.green-button, a:active div.green-button {
 	color: #FFF;
 	text-decoration: none;
 }
