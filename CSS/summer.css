@@ -1232,7 +1232,7 @@ hr {
   	opacity: .9;
 }
 	
-.membenefits:before, .memfaq:before {      /* create a full-height inline block pseudo-element */
+.membenefits:before, .memfaq:before, .green-button:before, .tan-button:before {      /* create a full-height inline block pseudo-element */
 	content: ' ';
 	display: inline-block;
 	vertical-align: middle; /* vertical alignment of the inline element */
