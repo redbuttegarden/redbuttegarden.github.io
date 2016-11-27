@@ -1819,11 +1819,18 @@ hr {
 
 .green-button, .tan-button {
 	border: none;
-	background-color: #196143;
 	padding: 10px 15px 10px 15px;
 	font-size: 18px;
 	color: #FFF;
 	font-weight: bold;
+}
+
+.green-button {
+	background-color: #196143;
+}
+
+.tan-button {
+	background-color: #C4B59E;
 }
 
 .green-button:hover, .tan-button:hover {
