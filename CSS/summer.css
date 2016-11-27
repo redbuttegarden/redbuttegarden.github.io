@@ -1818,7 +1818,7 @@ hr {
 }
 
 .green-button, .tan-button {
-	border: 1px solid #000;
+	border: none;
 	background-color: #196143;
 	padding: 15px;
 	font-size: 18px;
