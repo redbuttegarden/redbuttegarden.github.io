@@ -1232,7 +1232,7 @@ hr {
   	opacity: .9;
 }
 	
-.membenefits:before, .memfaq:before, .green-button:before, .tan-button:before {      /* create a full-height inline block pseudo-element */
+.membenefits:before, .memfaq:before {      /* create a full-height inline block pseudo-element */
 	content: ' ';
 	display: inline-block;
 	vertical-align: middle; /* vertical alignment of the inline element */
@@ -1818,11 +1818,10 @@ hr {
 }
 
 .green-button, .tan-button {
-	max-width: 100%;
-	color: #FFF;
-	text-align: center;
+	border: 1px solid #ddd;
+	background-color: #196143;
+	padding: 4px 12px;
 	font-size: 18px;
-	height: 100px;
 }
 
 a div.green-button, a:hover div.green-button, a:visited div.green-button, a:link div.green-button, a:active div.green-button {
