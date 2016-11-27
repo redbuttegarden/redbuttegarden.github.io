@@ -1822,6 +1822,8 @@ hr {
 	background-color: #196143;
 	padding: 15px;
 	font-size: 18px;
+	color: #FFF;
+	font-weight: bold;
 }
 
 .green-button:hover, .tan-button:hover {
