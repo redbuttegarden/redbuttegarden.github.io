@@ -1818,18 +1818,10 @@ hr {
 }
 
 .green-button, .tan-button {
-	border: 1px solid #ddd;
+	border: 1px solid #000;
 	background-color: #196143;
 	padding: 1px;
 	font-size: 18px;
-}
-
-.green-button {
-	background-color: #196143;
-}
-
-.tan-button {
-	background-color: #;
 }
 
 .green-button:hover, .tan-button:hover {
