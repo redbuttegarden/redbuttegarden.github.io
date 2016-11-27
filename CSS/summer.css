@@ -1820,13 +1820,8 @@ hr {
 .green-button, .tan-button {
 	border: 1px solid #ddd;
 	background-color: #196143;
-	padding: 4px 12px;
+	padding: 1px;
 	font-size: 18px;
-}
-
-a div.green-button, a:hover div.green-button, a:visited div.green-button, a:link div.green-button, a:active div.green-button {
-	color: #FFF;
-	text-decoration: none;
 }
 
 .green-button {
