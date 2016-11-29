@@ -2074,3 +2074,7 @@ line-height: 20px;
 	background-color: #F2EDE4;
 	border: 1px solid #000;
 }
+
+.test {
+	background-color: rgba(29,108,182, 0.7);
+}
