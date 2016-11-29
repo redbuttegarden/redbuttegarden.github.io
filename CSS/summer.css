@@ -32,15 +32,6 @@ hr {
 	color: #C4B59E;		/* color when hyperlinks hovered over on default pages*/ 
 }
 
-.link {
-	color: #A7916E;
-	text-decoration: underline;
-}
-
-.link:hover {
-	color: #C4B59E;	
-}
-
 /*******************************************/
 /************** Begin Nav Bar **************/
 /*******************************************/
