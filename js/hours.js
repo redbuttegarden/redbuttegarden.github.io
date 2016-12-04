@@ -26,7 +26,7 @@ var hoursInfo;
 /**/	var holidayPartyDay = 13;			// Day of Month we close for Holiday Party in December
 /**/	var holidayPartyClosingHour = 13; 	// Hour we close on day of Holiday Party (military time)
 /**/
-/**/	var galaMonth = ;					// Month of Gala
+/**/	var galaMonth = 0;					// Month of Gala
 /**/	var galaDay = 0; 					// Day of month of Gala
 /**/
 /**/	var gadDay1 = 20;					// Day of month in October for 1st day of Garden After Dark
