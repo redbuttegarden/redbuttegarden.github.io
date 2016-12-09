@@ -3,62 +3,66 @@ title: "Volunteer | Red Butte Garden"
 layout: "default"
 published: true
 ---
-<div class="eventdivide">
-	<hr>
-		<div class="grid-header">Volunteer</div>		
-	<hr>
+<div class="row-fluid clearfix">
+	<div class=" col-xs-12 eventdivide">
+			<hr class="summer-banner">
+				<div class="grid-header">Volunteer</div>		
+			<hr class="summer-banner">
+	</div>
 </div>
-<br />
-
-<h2> Ways to Get Involved </h2>
 
 <div class="row-fluid">
-  
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<a href="#">
+
+  {% for post in site.categories.summer %}
+    {% if post.url %}        
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<a href="{{ post.url }}">
+		<div class="eventwrapsmall hover">
+		
+			<img src="../images/events/{{ post.event-image }}">
+			
+			<div class="eventinfo">
+				<div class="eventname">{{ post.title }}</div>
+				<div class="eventdate">{{ post.event-dates }}</div>
+				<div class="eventnotes">{{ post.event-notes}}</div>
+			</div>
+	
+		</div>
+		</a> 
+	</div>
+    {% endif %} 
+  {% endfor %}
+
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<!-- Begin GROW YOUR OWN HERBS Event-->
 		<div class="eventwrapsmall hover">
 		
 			<img src="../images/events/grow-herbs.jpg">
 			
 			<div class="eventinfo">
 				<div class="eventname">Horticulture</div>
+
 			</div>
 	
 		</div>
-		</a> 
+		<!-- End GROW YOUR OWN HERBS Event -->
 	</div>
 	
-	<div class="row-fluid">
-  
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<a href="#">
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<!-- Begin GROW YOUR OWN HERBS Event-->
 		<div class="eventwrapsmall hover">
 		
 			<img src="../images/events/grow-herbs.jpg">
 			
 			<div class="eventinfo">
 				<div class="eventname">Education</div>
+
 			</div>
 	
 		</div>
-		</a> 
+		<!-- End GROW YOUR OWN HERBS Event -->
 	</div>
 	
-	<div class="row-fluid">
-  
-	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<a href="#">
-		<div class="eventwrapsmall hover">
-		
-			<img src="../images/events/grow-herbs.jpg">
-			
-			<div class="eventinfo">
-				<div class="eventname">Special Events</div>
-			</div>
-	
-		</div>
-		</a> 
-	</div>
-
-
 	<br />
+	
+
