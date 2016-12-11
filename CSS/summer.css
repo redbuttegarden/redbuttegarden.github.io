@@ -220,13 +220,6 @@ hr {
 	}
 }
 
-
-@media (max-width:768px) {
-	.hide-mobile {
-		display:none;
-	}
-}
-
 /************************/
 /* Begin Search Bar CSS */
 /************************/
@@ -1800,6 +1793,12 @@ hr {
 
 .hide {
 	display: none;
+}
+
+@media (max-width:768px) {
+	.hide-mobile {
+		display:none;
+	}
 }
 
 .tickets {
