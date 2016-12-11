@@ -1095,7 +1095,7 @@ hr {
 	max-width:415px;
 	float: left;
 	width: 100%;
-	background-color: #f2ede4;
+	background-color: #F2EDE4;
 	min-height: 227px;
 	padding: 7px;
 	border-top: 1px solid black;
@@ -1220,6 +1220,7 @@ hr {
 	padding: 15px;
 	margin-bottom: 4px;
 }
+
  	 	
 .membenefits:hover {
   	opacity: .9;
@@ -1718,6 +1719,10 @@ hr {
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 18px;
+}
+
+.private-rental {
+	background-color: #196143
 }
 	
 .spon-table:before {      		/* create a full-height inline block pseudo-element */
