@@ -1246,7 +1246,7 @@ hr {
   		margin-top: -5px;
 	}
 	
-	.memfaq {
+	.memfaq, .volbutton {
 		max-width: 1190px;
 		text-align: center;
 		color: #FFFFFF;
@@ -2088,3 +2088,9 @@ line-height: 20px;
 .test {
 	background-color: rgba(29,108,182, 0.3);
 }
+
+/* Volunteer Panel Code */
+.volbutton {
+		height: 50px;
+	
+	}
