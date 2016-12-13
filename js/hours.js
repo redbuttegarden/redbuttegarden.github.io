@@ -427,6 +427,12 @@ else if ( month == 10 || month == 11 || month == 12) {
 /* Day/Time Garden Closes for Holiday Party (Change holidayPartyDay variable at top yearly)	  */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /**/	
+/**/	if (month == 12 && day == (holidayPartyDay - 1)) {
+/**/		otherNotes = "The Garden Will Close Early Tomorrow at 1PM";
+/**/		document.getElementById("otherNotes").innerHTML =  otherNotes;
+/**/			return;
+/**/		}
+/**/
 /**/	if (month == 12 && day == holidayPartyDay) {	
 /**/		status = gardenClosedMessage;
 /**/		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
