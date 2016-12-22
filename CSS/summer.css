@@ -1399,6 +1399,11 @@ hr {
   		
   	}
   	
+  	.concertheaderbackground{
+	  	background-color: #00502f;
+	  	padding: 0px;
+  	}
+  	
   	.concertinfo:hover{
 	  	opacity: .8;
   	}
