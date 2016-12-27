@@ -2096,7 +2096,8 @@ line-height: 20px;
 
 /* Volunteer Panel Code */
 .volbutton {
-		height: 65px;
+		max-height: 70px;
+		height: 100%;
 		min-width: 100px;
 		max-width: 1219px;
 		width: 100%;
