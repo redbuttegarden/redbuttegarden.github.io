@@ -1077,17 +1077,17 @@ hr {
 .memwrap{
 	width: 100%;
 	position: relative;
-	min-height: 225px;
+	min-height: 227px;
 }
 
 .mempic {
 	float: left;
 	max-width:175px;
 	margin:0;
-	/**border-left: 1px solid black;
+	border-left: 1px solid black;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	min-height: 223px;
+	/**min-height: 223px;
 	width: 175px;**/
 }
 
