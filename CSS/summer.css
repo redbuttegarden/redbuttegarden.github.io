@@ -1085,9 +1085,9 @@ hr {
 	max-width:175px;
 	margin:0;
 	/**border-left: 1px solid black;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;**/
-	min-height: 230px;
+	border-top: 1px solid black;**/
+	border-bottom: 1px solid black;
+	min-height: 225px;
 	width: 175px;
 }
 
