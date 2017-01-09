@@ -1087,7 +1087,7 @@ hr {
 	/**border-left: 1px solid black;
 	border-top: 1px solid black;**/
 	border-bottom: 1px solid black;
-	height: 229px;
+	min-height: 227px;
 	width: 175px;
 }
 
