@@ -1085,10 +1085,10 @@ hr {
 	max-width:175px;
 	margin:0;
 	/**border-left: 1px solid black;
-	border-top: 1px solid black;**/
+	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	min-height: 227px;
-	width: 175px;
+	min-height: 223px;
+	width: 175px;**/
 }
 
 .meminfo {
@@ -1096,7 +1096,7 @@ hr {
 	float: left;
 	width: 100%;
 	background-color: #F2EDE4;
-	min-height: 227px;
+	min-height: 223px;
 	padding: 7px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
