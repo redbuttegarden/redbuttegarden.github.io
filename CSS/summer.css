@@ -2108,7 +2108,7 @@ line-height: 20px;
 	margin-top: -4px;
 }
 
-/* Begin code to get rid of button borders and blue border around selected button */
+/* Begin panel code to get rid of button borders and blue border around selected button */
 
 .no-button-outline button:focus {	
 	outline: 0;
@@ -2119,4 +2119,4 @@ line-height: 20px;
 	border: none;
 }
 
-/* End code to get rid of button borders and blue border around selected button */
+/* End panel code to get rid of button borders and blue border around selected button */
