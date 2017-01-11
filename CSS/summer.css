@@ -2103,11 +2103,13 @@ line-height: 20px;
 		background-color:#c4b59e;
 		padding: 0;
 		border: none;
-
-	}
+}
+	
+.volbutton	button:focus {	/* Gets rid of blue border around button */
+	outline: 0;
+}
 
 #volunteer-apps {
 	background-color:#f2ede4;
 	margin-top: -4px;
 }
-
