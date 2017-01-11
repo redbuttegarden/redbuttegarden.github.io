@@ -2101,12 +2101,15 @@ line-height: 20px;
 		max-width: 1219px;
 		width: 100%;
 		background-color:#c4b59e;
-		padding: 0;
-		border: none;
 }
 	
 .no-button-outline button:focus {	/* Gets rid of blue border around button */
 	outline: 0;
+}
+
+.no-button-outline .volbutton {
+	padding: 0;
+	border: none;
 }
 
 #volunteer-apps {
