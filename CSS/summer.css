@@ -2105,7 +2105,7 @@ line-height: 20px;
 		border: none;
 }
 	
-button:focus .volbutton {	/* Gets rid of blue border around button */
+.no-button-outline button:focus {	/* Gets rid of blue border around button */
 	outline: 0;
 }
 
