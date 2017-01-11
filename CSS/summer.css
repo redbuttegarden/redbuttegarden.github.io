@@ -2102,8 +2102,15 @@ line-height: 20px;
 		width: 100%;
 		background-color:#c4b59e;
 }
-	
-.no-button-outline button:focus {	/* Gets rid of blue border around button */
+
+#volunteer-apps {
+	background-color:#f2ede4;
+	margin-top: -4px;
+}
+
+/* Begin code to get rid of button borders and blue border around selected button */
+
+.no-button-outline button:focus {	
 	outline: 0;
 }
 
@@ -2112,7 +2119,4 @@ line-height: 20px;
 	border: none;
 }
 
-#volunteer-apps {
-	background-color:#f2ede4;
-	margin-top: -4px;
-}
+/* End code to get rid of button borders and blue border around selected button */
