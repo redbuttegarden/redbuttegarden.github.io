@@ -1,6 +1,6 @@
 language: ruby
 rvm:
   - 2.4.0
-install: gem install jekyll -v 3.4.0 && gem install s3_website && gem install RedCloth -v 4.2.9
+install: gem install jekyll -v 3.4.0 && gem install s3_website && gem install RedCloth -v 4.2.9 && gem install nokogiri
 script: jekyll build
 after_success: s3_website push
