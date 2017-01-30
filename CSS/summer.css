@@ -1260,6 +1260,10 @@ hr {
 		background-color: #196143;
 	}
 	
+	.memfaq {
+		max-width: 1280px;
+	}
+	
 	.memfaq:hover {
 		opacity: .9;
 	}
