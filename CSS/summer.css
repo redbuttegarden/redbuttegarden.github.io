@@ -1835,7 +1835,7 @@ hr {
 	font-weight: bold;
 }
 
-.green-button {
+.green-button, .green-bg {
 	background-color: #196143;
 }
 
