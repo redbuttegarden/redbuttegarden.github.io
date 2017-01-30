@@ -1835,7 +1835,7 @@ hr {
 	font-weight: bold;
 }
 
-.green-button, .green-bg {
+.green-button {
 	background-color: #196143;
 }
 
@@ -2105,6 +2105,10 @@ line-height: 20px;
 		max-width: 1219px;
 		width: 100%;
 		background-color:#c4b59e;
+}
+
+.green-bg {
+	background-color: #196143;
 }
 
 #volunteer-apps {
