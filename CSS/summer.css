@@ -2116,6 +2116,11 @@ line-height: 20px;
 	margin-top: -4px;
 }
 
+.panel-border {
+	margin-top: -4px;
+	border: 1px solid #D3D3D3;
+}
+
 /* Begin panel code to get rid of button borders and blue border around selected button */
 
 .no-button-outline button:focus {	
