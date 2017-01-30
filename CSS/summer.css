@@ -2119,6 +2119,7 @@ line-height: 20px;
 .panel-border {
 	margin-top: -4px;
 	border: 1px solid #D3D3D3;
+	border-top: 0px;
 }
 
 .tall-button {
