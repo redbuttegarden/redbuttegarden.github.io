@@ -2147,3 +2147,12 @@ line-height: 20px;
 }
 
 /* End panel code to get rid of button borders and blue border around selected button */
+
+/* Hides <br /> on mobile devices */ 
+@media (max-width:768px) {
+
+	.br-hide br {
+		display: none;
+	}
+
+}
