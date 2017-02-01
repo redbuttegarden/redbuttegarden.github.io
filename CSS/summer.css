@@ -146,8 +146,8 @@ hr {
 /* Border thickness and color between dropdown menu li, padding */
 .dropdown-menu li, .dropdown-menu > a > li {
 	border-top: 2px double #D3D3D3;
-	padding-top: 7px;
-	padding-bottom: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 /* Background color of li in navbar when hovered over */
