@@ -118,7 +118,7 @@ hr {
 	color: #000000;
 }
 
-.dropdown-menu li, .dropdown-menu a {
+.dropdown-menu li, .dropdown-menu > a > li {
 	text-align: center;
 	color: #000000;
 }
