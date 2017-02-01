@@ -317,7 +317,7 @@ hr {
 /************************/
 
 
-
+/**************************************/
 /*** TESTING *****/
 @media (max-width: 1000px) {
     .navbar-header {
@@ -355,6 +355,17 @@ hr {
   		display:block !important;
 	}
 }
+
+
+
+
+@media (min-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
+}
+
+
 /**************************************/
 
 
