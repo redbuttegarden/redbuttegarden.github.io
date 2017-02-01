@@ -144,7 +144,7 @@ hr {
 }
 
 /* Border thickness and color between dropdown menu li, padding */
-.dropdown-menu li, .dropdown-menu a > li {
+.dropdown-menu li, .dropdown-menu a li {
 	border-top: 2px double #D3D3D3;
 	padding-top: 5px;
 	padding-bottom: 5px;
