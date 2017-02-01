@@ -95,7 +95,7 @@ hr {
 	text-decoration: none;
 }
 
-.dropdown-menu a:hover > li {
+.dropdown-menu a:hover {
 	text-decoration: none;
 }
 /**********/
