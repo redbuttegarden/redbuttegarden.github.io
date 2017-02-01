@@ -84,6 +84,13 @@ hr {
 	background-color: #F2EDE4;
 }
 
+.dropdown-menu a:hover li {
+	background-color: #F2EDE4
+}
+
+
+
+
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 }
