@@ -95,16 +95,19 @@ hr {
 	text-decoration: none;
 }
 
-
+.dropdown-menu a:hover > li {
+	text-decoration: none;
+}
 /**********/
 
 
 
 
-
+/*
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 }
+*/
 
 .navbar-inverse a:hover {
 	color: #FFFFFF;
