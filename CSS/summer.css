@@ -84,9 +84,20 @@ hr {
 	background-color: #F2EDE4;
 }
 
+
+
+
+
+/**********/
+/* TESTING */
 .dropdown-menu a:hover li {
-	background-color: #F2EDE4
+	background-color: #F2EDE4;
+	text-decoration: none;
 }
+
+
+/**********/
+
 
 
 
