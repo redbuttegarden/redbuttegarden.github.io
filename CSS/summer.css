@@ -2229,7 +2229,7 @@ tan-bg {
 /* Hides <br /> on mobile devices */ 
 @media (max-width:768px) {
 
-	.br-hide br {
+	.br-hide {
 		display: none;
 	}
 
