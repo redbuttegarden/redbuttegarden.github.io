@@ -2236,7 +2236,7 @@ tan-bg {
 }
 
 /* Hides <br /> on large devices */ 
-@media (min-width:769px) {
+@media (min-width:769px) and (max-width:12000px) {
 
 	.br-hide-lg br {
 		display: none;
