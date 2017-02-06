@@ -31,4 +31,4 @@ exclude:
   - Gemfile.lock
   - .travis.yml
 timezone: America/Denver
-permalink: title
+permalink: :title
