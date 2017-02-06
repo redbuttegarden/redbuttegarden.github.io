@@ -2234,3 +2234,12 @@ tan-bg {
 	}
 
 }
+
+/* Hides <br /> on large devices */ 
+@media (min-width:769px) {
+
+	.br-hide-lg br {
+		display: none;
+	}
+
+}
