@@ -1464,11 +1464,16 @@ hr {
   		/* height: 215px; */
   		height: 75px;
   		margin: 10px auto 10px auto;
-  		/* font-size: 16px; */
-  		font-size: 1.5em;
+  		font-size: 16px;
   		opacity: 1;
   		text-wrap:normal;
   		
+  	}
+  	
+  	@media (min-width: 768px){
+	  	.concertinfo {
+		  	font-size: 1em;
+	  	}
   	}
   	
   	.concertheaderbackground{
