@@ -2258,15 +2258,15 @@ tan-bg {
 
 /* Concert information CSS */
 .con-title {
-	font-size: 1.15em;
+	font-size: 1em;
 	font-weight: bold;
 }
 
 .con-sub {
-	font-size: 1em;
+	font-size: .9em;
 }
 
 .con-date {
-	font-size: .95em;
+	font-size: .8em;
 	font-weight: bold;
 }
