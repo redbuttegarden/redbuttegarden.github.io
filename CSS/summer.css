@@ -1397,7 +1397,7 @@ hr {
 /* Being CSS for RBG Banner Images */
 
 	.rbgbanner {
-		max-width: 800px;
+		max-width: 1280px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
@@ -1407,6 +1407,7 @@ hr {
 	.rbgbanner img {
 		width: 100%;
 		height: auto;
+        max-height: 200px;
 		margin-left: auto;
 		margin-right: auto;
 	}
