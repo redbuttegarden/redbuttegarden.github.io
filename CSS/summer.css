@@ -1610,15 +1610,12 @@ hr {
 	  	position: absolute;
 		left:70%;
 		top: 10px;
-		
-
 	}
 
 	.soldout img{	 	  
 	  	width: 100%;
 	  	display: block;
-
-	  	 margin: auto;				 	
+	  	margin: auto;				 	
 	}
 	
 	.pasttext{
@@ -1663,7 +1660,6 @@ hr {
   	*/
  
 
-
    .buytickets {
 		margin: 0 auto 0 auto; 
 	  	text-align:center;
@@ -1671,16 +1667,14 @@ hr {
 	  	width: 15%;
 	  	position: absolute;
 		top: 80%;
-		left:55%;
-	
-					
-	}		
+		left:55%;				
+	}
+			
 	.buytickets:img {
 		width: 100%;
 	  	display: block;
 	  	margin: auto;	
 	}
-
 
    .addcalendar {
 		margin: 0 auto 0 auto; 
@@ -2264,12 +2258,12 @@ tan-bg {
 
 /* Concert information CSS */
 .con-title {
-	font-size: 1.25em;
+	font-size: 1.15em;
 	font-weight: bold;
 }
 
 .con-sub {
-	font-size: 1.05em;
+	font-size: 1em;
 }
 
 .con-date {
