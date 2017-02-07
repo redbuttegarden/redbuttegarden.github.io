@@ -1470,7 +1470,7 @@ hr {
   		
   	}
   	
-  	@media (min-width: 768px){
+  	@media (max-width: 768px){
 	  	.concertinfo {
 		  	font-size: 1em;
 	  	}
