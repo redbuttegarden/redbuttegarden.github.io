@@ -1461,7 +1461,8 @@ hr {
   		max-height: 215px;
   		background-color: #bcac93;
   		color: #fff;
-  		height: 215px;
+  		/* height: 215px; */
+  		height: 100px;
   		margin: 10px auto 10px auto;
   		font-size: 16px;
   		opacity: 1;
