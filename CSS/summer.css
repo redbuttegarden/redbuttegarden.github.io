@@ -2244,7 +2244,7 @@ tan-bg {
 
 }
 
-/* Reduces size of headers on mobile devices */
+/* Reduces size of headers on small screens and devices */
 @media (max-width: 768px){
 	
 	h1{font-size: 2em;}
