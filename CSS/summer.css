@@ -1464,7 +1464,8 @@ hr {
   		/* height: 215px; */
   		height: 75px;
   		margin: 10px auto 10px auto;
-  		font-size: 16px;
+  		/* font-size: 16px; */
+  		font-size: 1.5em;
   		opacity: 1;
   		text-wrap:normal;
   		
