@@ -1397,21 +1397,22 @@ hr {
 /* Being CSS for RBG Banner Images */
 
 	.rbgbanner {
-		max-width: 1280px;
 		max-height: 175px;
-		width: 100%;
+		width: auto;
 		margin-left: auto;
 		margin-right: auto;
 		clear: both;
 	}
 	
+	/*
 	.rbgbanner img {
-		width: 100%;
+		 width: 100%;
 		height: auto;
-        max-height: 150px;
+        max-height: 150px; 
 		margin-left: auto;
 		margin-right: auto;
 	}
+	*/
 
 /* End CSS for RBG Banner Images*/
 
