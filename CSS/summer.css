@@ -1398,6 +1398,8 @@ hr {
 
 	.rbgbanner {
 		max-width: 1280px;
+		max-height: 175px;
+		height:auto;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
