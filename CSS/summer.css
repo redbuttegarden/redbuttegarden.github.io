@@ -1477,6 +1477,7 @@ hr {
   	.concertheaderbackground{
 	  	background-color: #00502f;
 	  	padding: 0 15px;
+	  	max-height: 175px;
   	}
   	
   	.concertinfo:hover{
