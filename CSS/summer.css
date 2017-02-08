@@ -1401,7 +1401,7 @@ hr {
 		width: auto;
 		margin-left: auto;
 		margin-right: auto;
-		clear: both;
+	/*	clear: both;	*/
 	}
 	
 	/*
