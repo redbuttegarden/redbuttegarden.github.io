@@ -1398,7 +1398,7 @@ hr {
 
 	.rbgbanner {
 		max-height: 175px;
-		width: auto;
+		width: 100%;
 		position: absolute;
 	/*	clear: both;	*/
 	}
