@@ -1409,6 +1409,7 @@ hr {
 		height: 100%;
 		width: auto;
         background-color: red;
+        position: relative;
 	}
 
 /* End CSS for RBG Banner Images*/
