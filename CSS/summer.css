@@ -1397,7 +1397,7 @@ hr {
 /* Being CSS for RBG Banner Images */
 
   	.concertbanner {
-		max-height: 175px;
+		max-height: 175px; /* IMPORTANT!!! Determines max height of banner on large screens - banner image should adjust */
 		max-width: 100%;
 		margin-left: auto;
 		margin-right: auto;
