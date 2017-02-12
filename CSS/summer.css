@@ -2260,6 +2260,7 @@ tan-bg {
 
 .con-opener {
 	font-size: 1.2em;
+	text-transform: capitalize;
 }
 
 .con-date {
@@ -2267,11 +2268,11 @@ tan-bg {
 	font-weight: bold;
 }
 
-.con-start {
+.con-price {
 	font-size: 1.0em;
 }
 
-.con-price {
+.con-times {
 	font-size: 1.0em;
 }
 
