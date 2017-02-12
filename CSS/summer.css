@@ -1398,7 +1398,10 @@ hr {
 
   	.concertbanner {
 		max-height: 175px;
-		width: auto;
+		max-width: 1280px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #00502f;
 	/*	clear: both;	*/
 	}
 	
@@ -1474,10 +1477,6 @@ hr {
 	  	.concertinfo {
 		  	font-size: .85em;
 	  	}
-  	}
-  	
-  	.concertheaderbackground{
-	  	background-color: #00502f;
   	}
   	
   	.concertinfo:hover{
