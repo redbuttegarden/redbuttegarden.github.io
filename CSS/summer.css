@@ -1550,6 +1550,10 @@ hr {
 	  	width: 100%;	
 	  	  
 	}
+	
+	.invisible{
+		display: none;
+	}
 
 	.concerttext{
 		z-index: 3;
@@ -1559,7 +1563,7 @@ hr {
 		position: relative;		
 		overflow: none;
 		width: 88%;
-		height: 90px;
+		height: 120px;
 		display: table;
 		margin: auto;
 	}	
