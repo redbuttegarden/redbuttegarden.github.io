@@ -1396,7 +1396,7 @@ hr {
 
 /* Being CSS for RBG Banner Images */
 
-	.concertbanner {
+  	.concertbanner {
 		max-height: 175px;
 		width: auto;
 	/*	clear: both;	*/
@@ -1406,9 +1406,9 @@ hr {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		height: auto;
-		width: auto;
-        background-color: orange;
+		max-height: 100%;
+		max-width: 100%;
+        background-color: red;
 	}
 
 /* End CSS for RBG Banner Images*/
@@ -1479,7 +1479,6 @@ hr {
   	.concertheaderbackground{
 	  	background-color: #00502f;
 	  	padding: 0 15px;
-	  	max-height: 175px;
   	}
   	
   	.concertinfo:hover{
