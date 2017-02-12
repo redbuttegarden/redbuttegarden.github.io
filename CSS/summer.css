@@ -1411,7 +1411,6 @@ hr {
 		margin-right: auto;
 		max-height: 175px; 			/* IMPORTANT!!! Determines max height of banner on large screens - must match .concertbanner max-height value */
 		max-width: 100%;
-        background-color: red;
 	}
 
 /* End CSS for RBG Banner Images*/
