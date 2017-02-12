@@ -1396,7 +1396,7 @@ hr {
 
 /* Being CSS for RBG Banner Images */
 
-	.rbgbanner {
+	.concertbanner {
 		max-height: 175px;
 		width: auto;
 	/*	clear: both;	*/
@@ -1406,6 +1406,8 @@ hr {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		height: 100%;
+		width: auto;
         background-color: red;
 	}
 
