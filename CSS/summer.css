@@ -1402,7 +1402,7 @@ hr {
 		margin-left: auto;
 		margin-right: auto;
 		background-color: #00502f;
-		clear: both;	
+		overflow: hidden;	
 	}
 	
 	.concertbanner img {
@@ -1865,7 +1865,6 @@ hr {
 .responsive, .responsive img {
 	width: 100%; 
 	height: auto;
-	/** border: 1px solid #000; **/
 }
 
 .hide {
