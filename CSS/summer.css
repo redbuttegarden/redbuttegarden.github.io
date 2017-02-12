@@ -1398,7 +1398,7 @@ hr {
 
   	.concertbanner {
 		max-height: 175px;
-		max-width: 1280px;
+		max-width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		background-color: #00502f;
