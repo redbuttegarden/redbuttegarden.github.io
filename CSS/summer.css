@@ -1406,10 +1406,9 @@ hr {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		height: 100%;
+		height: auto;
 		width: auto;
         background-color: red;
-        position: relative;
 	}
 
 /* End CSS for RBG Banner Images*/
