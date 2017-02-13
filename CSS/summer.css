@@ -1555,7 +1555,7 @@ hr {
 		display: none;
 	}
 
-	.concerttext{
+	.concerttext {
 		z-index: 3;
 		font-size: 14px;
 		color: #000;
@@ -1563,7 +1563,7 @@ hr {
 		position: relative;		
 		overflow: none;
 		width: 95%;
-		height: 120px;
+		/* height: 120px; */
 		display: table;
 		margin: auto;
 	}	
@@ -1575,7 +1575,7 @@ hr {
 	    height: 100%;
 	}	
 
-	.textwrapper{
+	.textwrapper {
 		z-index: 3;
 		font-size: 14px;
 		color: #000;
@@ -1585,16 +1585,16 @@ hr {
 		background-color: none;
 		overflow: none;
 		width: 95%;
-		height: 125px;
+		height: 155px;
 		margin:auto;		
 	}	
 
-	.textcenter{
+	.textcenter {
 		display: table-cell;
 		vertical-align: middle;
 	}	
 		
-	.soldout{	
+	.soldout {	
 		margin: 0 auto 0 auto; 
 	  	text-align:center;
 		z-index: 3;
