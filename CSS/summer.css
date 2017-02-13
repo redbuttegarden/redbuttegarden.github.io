@@ -1456,7 +1456,7 @@ hr {
 	  	padding: 0px;
   	}
   	
-  	.concertinfo{
+  	.concertinfo, .concert-test {
   		position: relative;
   		max-width: 280px;
   		text-align: center;
@@ -1470,6 +1470,11 @@ hr {
   		opacity: 1;
   		text-wrap:normal;
   		
+  	}
+  	
+  	.concert-test {
+	  	max-height: 40px;
+	  	
   	}
   	
   	@media (max-width: 768px){
