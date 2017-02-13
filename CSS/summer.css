@@ -2284,3 +2284,7 @@ tan-bg {
 	font-size: .9em;
 	font-style: italic;
 }
+
+.con-button {
+	display:inline;
+}
