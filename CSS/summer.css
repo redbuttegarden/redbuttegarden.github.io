@@ -1477,11 +1477,7 @@ hr {
 		  	font-size: .85em;
 	  	}
   	}
-  	
-  	.concertinfo:hover{
-	  	opacity: .8;
-  	}
-  	
+
   	.concertinfo:before {      /* create a full-height inline block pseudo-element */
 	    content: ' ';
 	    display: inline-block;
@@ -1518,11 +1514,6 @@ hr {
 		}
 		  
 	}
-	
-	.concertwrapper:hover{
-		opacity: .9;
-	}	
-	
 	
 	.past:hover .pasttext{
 		display:block;
