@@ -1549,12 +1549,10 @@ hr {
 	.concerttext {
 		z-index: 3;
 		font-size: 14px;
-		color: #000;
 		text-wrap: normal;
 		position: relative;		
 		overflow: none;
 		width: 95%;
-		/* height: 120px; */
 		display: table;
 		margin: auto;
 	}	
@@ -1568,7 +1566,6 @@ hr {
 
 	.textwrapper {
 		z-index: 3;
-		color: #000;
 		text-align:  center;
 		text-wrap: normal;
 		position: relative;		
