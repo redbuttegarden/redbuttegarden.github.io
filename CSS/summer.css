@@ -2304,7 +2304,7 @@ tan-bg {
 	position: absolute;
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 1570px) {
 	#concert-sponsors-banner {
 		display: none;
 	}
