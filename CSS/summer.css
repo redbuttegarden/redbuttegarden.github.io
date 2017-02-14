@@ -2284,3 +2284,11 @@ tan-bg {
 .con-button:hover {
 	background-color: #F2EDE4 ;
 }
+
+
+/* Event Carousel CSS */
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
