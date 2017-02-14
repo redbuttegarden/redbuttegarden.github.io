@@ -2300,8 +2300,8 @@ tan-bg {
 /* Concert Sponsors Banner */
 
 .concert-sponsors-banner {
-	margin-top: 80px;
-	margin-right: 100px;
+	top: 80px;
+	right: 50px;
 	position: absolute;
 }
 
