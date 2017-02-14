@@ -2285,7 +2285,6 @@ tan-bg {
 	background-color: #F2EDE4 ;
 }
 
-
 /* Event Carousel CSS */
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -2299,14 +2298,14 @@ tan-bg {
 
 /* Concert Sponsors Banner */
 
-.concert-sponsors-banner {
+#concert-sponsors-banner {
 	top: 80px;
 	right: 50px;
 	position: absolute;
 }
 
 @media (max-width: 1100px) {
-	.concert-sponsors-banner {
+	#concert-sponsors-banner {
 		display: none;
 	}
 }
