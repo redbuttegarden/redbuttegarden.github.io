@@ -2299,12 +2299,12 @@ tan-bg {
 /* Concert Sponsors Banner */
 
 #concert-sponsors-banner {
-	top: 80px;
+	top: 130px;
 	right: 50px;
 	position: absolute;
 }
 
-@media (max-width: 1430px) {
+@media (max-width: 1400px) {
 	#concert-sponsors-banner {
 		display: none;
 	}
