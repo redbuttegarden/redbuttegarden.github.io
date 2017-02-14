@@ -2310,3 +2310,10 @@ tan-bg {
 	}
 }
 
+/* Homepage down arrow */
+
+.page-down {
+	z-index: 10;
+	bottom: 0;
+	position: absolute;
+}
