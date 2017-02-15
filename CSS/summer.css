@@ -2312,11 +2312,11 @@ tan-bg {
 
 /* Homepage down arrow */
 
-.page-down {
+#page-down {
 	z-index: 10;
 	bottom: 0;
 	position: absolute;
-	font-size: .5em;
+	font-size: 2em;
 	width: 20px;
 	height: 20px;
 }
