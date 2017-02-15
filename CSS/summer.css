@@ -2317,4 +2317,6 @@ tan-bg {
 	bottom: 0;
 	position: absolute;
 	font-size: 2em;
+	width: 20px;
+	height: 20px;
 }
