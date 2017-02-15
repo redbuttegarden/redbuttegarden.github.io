@@ -2319,4 +2319,6 @@ tan-bg {
 	font-size: 2em;
 	width: 20px;
 	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
