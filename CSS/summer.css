@@ -2244,11 +2244,15 @@ tan-bg {
 	width: 275px;
 }
 
-.con-title, .con-title > a, .con-title > a:visited {
+.con-title, .con-title > a, .con-title > a:visited, con-title > a:link, con-title > a:active {
 	font-size: 1.6em;
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
+}
+
+.con-title > a:hover {
+	color:;
 }
 
 .con-sub {
