@@ -2252,7 +2252,8 @@ tan-bg {
 }
 
 .con-title > a:hover {
-	color:;
+	color: #;
+	text-decoration: underline;
 }
 
 .con-sub {
