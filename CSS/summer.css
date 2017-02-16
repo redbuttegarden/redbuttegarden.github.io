@@ -1553,7 +1553,7 @@ hr {
 
 	.concerttext {
 		z-index: 3;
-		font-size: 14px;
+		font-size: 1.1em;
 		text-wrap: normal;
 		position: relative;		
 		overflow: none;
