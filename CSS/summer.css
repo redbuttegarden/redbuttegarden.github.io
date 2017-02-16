@@ -2244,7 +2244,7 @@ tan-bg {
 	width: 275px;
 }
 
-.con-title, .con-artist-info {
+.con-title, .con-title a, .con-title a:visited {
 	font-size: 1.6em;
 	font-weight: bold;
 	text-decoration: none;
