@@ -2248,11 +2248,11 @@ tan-bg {
 	font-size: 1.4em;
 	font-weight: bold;
 	text-decoration: none;
-	color: #000 !important;
+	color: #000;
 }
 
-.con-title > a:hover {
-	color: #F2EDE4;
+.con-title  a:hover {
+	color: #C4B59E;
 	text-decoration: underline;
 }
 
