@@ -2248,7 +2248,7 @@ tan-bg {
 	font-size: 1.4em;
 	font-weight: bold;
 	text-decoration: none;
-	color: #000;
+	color: #000 !important;
 }
 
 .con-title > a:hover {
