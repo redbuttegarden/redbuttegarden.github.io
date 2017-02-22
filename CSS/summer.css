@@ -2244,7 +2244,7 @@ tan-bg {
 	width: 275px;
 }
 
-.con-title, .con-title > a, .con-title > a:visited, con-title > a:link, con-title > a:active {
+.textwrapper .concerttext .con-title, .textwrapper .concerttext .con-title > a, .textwrapper .concerttext .con-title > a:visited, .textwrapper .concerttext .con-title > a:link, .con-title > a:active {
 	font-size: 1.3em;
 	font-weight: bold;
 	text-decoration: none;
