@@ -1553,7 +1553,7 @@ hr {
 
 	.concerttext {
 		z-index: 3;
-		font-size: 1.1em;
+		/* font-size: 1.1em; */
 		text-wrap: normal;
 		position: relative;		
 		overflow: none;
@@ -1621,28 +1621,10 @@ hr {
 		font-size: 48px;
 		display: none;
 	}
-	
 
 	.past{
 		opacity:.5;
-	}
-
- /* 
-  @media (max-width: 992px){ 
-  		
-	  	.concertwrapper{
-
-		  	max-width: 320px;
-		  	float: none;
-		  	
-	  	}	
-	  	
-	  	.concertinfo{ 
-		  	max-height: 150px;
-	  	}
-  	}
-  	*/
- 
+	} 
 
    .buytickets {
 		margin: 0 auto 0 auto; 
@@ -2245,7 +2227,7 @@ tan-bg {
 }
 
 .textwrapper .concerttext .con-title, .textwrapper .concerttext .con-title > a, .textwrapper .concerttext .con-title > a:visited, .textwrapper .concerttext .con-title > a:link, .con-title > a:active {
-	font-size: 1.3em;
+	font-size: 1.25em;
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
