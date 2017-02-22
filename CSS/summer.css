@@ -2244,7 +2244,7 @@ tan-bg {
 	width: 275px;
 }
 
-.con-title, .con-title  a, .con-title  a:visited, con-title  a:link, con-title  a:active {
+.con-title, .con-title > a, .con-title > a:visited, con-title > a:link, con-title > a:active {
 	font-size: 1.3em;
 	font-weight: bold;
 	text-decoration: none;
@@ -2258,7 +2258,7 @@ tan-bg {
 	color: #000;
 }
 
-.con-title  a:hover {
+.con-title > a:hover {
 	color: #C4B59E;
 	text-decoration: underline;
 }
