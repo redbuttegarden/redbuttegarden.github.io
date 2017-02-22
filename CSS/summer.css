@@ -2251,6 +2251,13 @@ tan-bg {
 	color: #000;
 }
 
+.con-test, .con-test  a, .con-test  a:visited, con-test  a:link, con-test  a:active {
+	font-size: 1.25em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+
 .con-title  a:hover {
 	color: #C4B59E;
 	text-decoration: underline;
