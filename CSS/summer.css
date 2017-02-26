@@ -2104,30 +2104,6 @@ line-height: 20px;
 	height: 3px;
 }
 
-.winter-banner, .spring-banner, .summer-banner, .fall-banner {
-	border: none;
-}
-
-.winter-banner {
-	color: #158FBF;
-	background-color: #158FBF;
-}
-
-.spring-banner {
-	color: #A26BA2;
-	background-color: #A26BA2;
-}
-
-.summer-banner {
-	color: #196143;
-	background-color: #196143;
-}
-
-.fall-banner {
-	color: #B7330E;
-	background-color: #B7330E;
-}
-
 @media (max-width:768px) {
 	.grid-header {
 		font-size: 22px;
