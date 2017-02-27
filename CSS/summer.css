@@ -2295,4 +2295,6 @@ tan-bg {
 .separator, .separator img {
 	width: 70%;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
