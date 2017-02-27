@@ -2305,7 +2305,7 @@ tan-bg {
     width: 28%;
 }
 
-@media (max-width: 768px;) {
+@media (max-width: 768px) {
 	.separator {
 		font-size: 2em;
 	}
