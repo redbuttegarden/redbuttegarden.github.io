@@ -2296,13 +2296,13 @@ tan-bg {
     color: #196143;
     background-color: #FFF;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 3em;
     position: relative;
     margin: -25px 0 0 20px;
     margin-left: auto;
     margin-right: auto;
     text-align:center;
-    width: 25%;
+    width: 28%;
 }
 
 .hr-separator {
