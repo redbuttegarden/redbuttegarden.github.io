@@ -2298,11 +2298,17 @@ tan-bg {
     font-weight: bold;
     font-size: 3em;
     position: relative;
-    margin: -25px 0 0 20px;
+    margin: -45px 0 0 20px;
     margin-left: auto;
     margin-right: auto;
     text-align:center;
     width: 28%;
+}
+
+@media (max-width: 768px;) {
+	.separator {
+		font-size: 2em;
+	}
 }
 
 .hr-separator {
