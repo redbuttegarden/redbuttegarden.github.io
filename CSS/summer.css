@@ -2178,9 +2178,6 @@ tan-bg {
 }
 
 /* Concert information CSS */
-.con-button-wrap {
-	width: 275px;
-}
 
 .textwrapper .concerttext .con-title, .textwrapper .concerttext .con-title > a, .textwrapper .concerttext .con-title > a:visited, .textwrapper .concerttext .con-title > a:link, .con-title > a:active {
 	font-size: 1.25em;
@@ -2229,11 +2226,11 @@ tan-bg {
 	font-style: italic;
 }
 
-.con-button {
+.con-button img {
 	background-color: #00502F;
 }
 
-.con-button:hover {
+.con-button img:hover {
 	background-color: #196143;
 }
 
