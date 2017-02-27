@@ -2289,3 +2289,12 @@ tan-bg {
 .PageNavigation .next {
   text-align: right;
 }
+
+/* Begin Homepage Separator */
+
+.separator img {
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
