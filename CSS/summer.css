@@ -2243,11 +2243,11 @@ tan-bg {
 }
 
 .con-button {
-	display:inline;
+	background-color: #00502F;
 }
 
 .con-button:hover {
-	background-color: #F2EDE4 ;
+	background-color: #196143;
 }
 
 /* Event Carousel CSS */
