@@ -2310,6 +2310,7 @@ tan-bg {
 	.separator {
 		font-size: 2em;
 		width: 40%;
+		margin: -25px 0 0 20px;
 	}
 	
 	.hr-separator {
