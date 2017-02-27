@@ -51,16 +51,7 @@
   	  	<!-- <div class="container-fluid"> -->
   	  	<div class="rbgbanner"><img src="/images/banners/{{ page.blog-banner }}"></div>
   	  	
-  	  	<!-- Begin previous and next post area -->
-  	  	<div class="PageNavigation">
-		  {% if page.previous.url %}
-		    <a class="prev" href="{{page.previous.url}}">&laquo; PREVIOUS POST: {{page.previous.title}}</a>
-		  {% endif %}
-		  {% if page.next.url %}
-		    <a class="next" href="{{page.next.url}}">{{page.next.title}} NEXT POST: &raquo;</a>
-		  {% endif %}
-		</div>
-		<!-- End previous and next posts -->
+  	  	{% include blog-posts.hmtl %}
   	  	
         <h2>{{ page.title }}</h2>
         <h5>Submitted {{ page.post-date }} at {{ page.post-time }} </h5>
@@ -69,18 +60,9 @@
         {{ content }}
   	  	</div>
   	  	
-  	  	<!-- Begin previous and next post area -->
-  	  	<div class="PageNavigation">
-		  {% if page.previous.url %}
-		    <a class="prev" href="{{page.previous.url}}">&laquo; PREVIOUS POST: {{page.previous.title}}</a>
-		  {% endif %}
-		  {% if page.next.url %}
-		    <a class="next" href="{{page.next.url}}">{{page.next.title}} NEXT POST: &raquo;</a>
-		  {% endif %}
-		</div>
-		<!-- End previous and next posts -->
+  	  	{% include blog-posts.hmtl %}
 		
-    <!-- </div> -->
+  	  	<!-- </div> -->
   </div>
 </div>
 
