@@ -1659,19 +1659,6 @@ hr {
 	  	margin: auto;	
 	}
 	
-	
-	
-	.artistwebsite{
-		background-color:#00502F;
-		border: 0px black solid;
-		border-radius: 2px; 
-		color: #fff;
-		font-size: 11px;
-	}
-	.artistwebsite:hover{
-		background-color: #00643b
-	}
-	
 	.info {
 		z-index; 10;
 		background-color: none;
