@@ -1981,14 +1981,14 @@ hr {
 }
 
 @media (min-width: 769px) {
-	.ev-title-mobile, .ev-date-mobile, .ev-media-mobile {
+	.ev-title-mobile, .ev-date-mobile {
 		display: none;	
 	}
 	
 }
 
 @media (max-width: 769px) {
-	.ev-title-reg, .ev-date, .ev-space, .ev-media {
+	.ev-title-reg, .ev-date, .ev-space {
 		display: none;
 	}
 	
