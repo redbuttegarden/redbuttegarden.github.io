@@ -2085,13 +2085,6 @@ hr {
 /****************  End Event Images CSS *******************/
 /**********************************************************/
 
-/* Fixes ShareThis social media button heights */
-.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices, .stButton .stButton_gradient, st_facebook_hcount, st_twitter_hcount, st_sharethis_hcount {
-height: 22px !important;
-line-height: 20px;
-}
-
-
 /* Begin Grid Page Header Code */
 
 .grid-header {
