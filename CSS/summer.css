@@ -2306,9 +2306,16 @@ tan-bg {
 }
 
 @media (max-width: 768px) {
+
 	.separator {
 		font-size: 2em;
+		width: 40%;
 	}
+	
+	.hr-separator {
+		width: 65%;
+	}	
+	
 }
 
 .hr-separator {
