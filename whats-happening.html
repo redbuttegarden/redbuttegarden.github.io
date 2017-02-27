@@ -4,7 +4,9 @@ layout: default
 published: true
 ---
 
-<h1>What's Happening</h1>
+<div class="row-fluid">
+	<img id="blog-banner" class="responsive" src="/images/banners/whats-happening-summer.jpg" alt="What's Happening at Red Butte Garden" title="What's Happening at Red Butte Garden" />
+</div>
 
 <h3>Most Recent Posts</h3>
 
@@ -46,8 +48,4 @@ published: true
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
 
-<script>
-
-
-
-</script>
+{% include whats-happening-banner-js.html %}
