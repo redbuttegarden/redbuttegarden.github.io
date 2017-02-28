@@ -2193,7 +2193,7 @@ tan-bg {
 	color: #000;
 }
 
-.con-title > a:hover {
+.con-title:hover {
 	color: #C4B59E !important;
 	text-decoration: underline;
 }
