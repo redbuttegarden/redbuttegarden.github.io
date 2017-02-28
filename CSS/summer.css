@@ -2186,7 +2186,7 @@ tan-bg {
 }
 
 
-.con-title:hover {
+.con-title a:hover {
 	color: #C4B59E !important;
 	text-decoration: none;
 }
