@@ -2193,7 +2193,8 @@ tan-bg {
 	color: #000;
 }
 
-.textwrapper .concerttext .con-title .con-test a {
+
+#rbgdefaultbody .con-title a, #rbgdefaultbody .con-title a:link, #rbgdefaultbody .con-title a:visited, #rbgdefaultbody .con-title a:active {
 	font-size: 1.25em !important;
 	font-weight: bold;
 	text-decoration: none;
