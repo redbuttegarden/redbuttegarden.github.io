@@ -2172,6 +2172,7 @@ tan-bg {
 /* Concert information CSS */
 
 .con-title {
+	font-size: 1.5em !important;
 	font-weight: bold;
 	text-decoration: none;
 	color: #000 !important;
