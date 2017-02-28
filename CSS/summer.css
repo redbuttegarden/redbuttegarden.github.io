@@ -2193,7 +2193,7 @@ tan-bg {
 	color: #000;
 }
 
-.con-test {
+.con-test a {
 	font-size: 1.25em !important;
 	font-weight: bold;
 	text-decoration: none;
