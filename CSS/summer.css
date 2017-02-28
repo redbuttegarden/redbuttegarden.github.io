@@ -2186,7 +2186,7 @@ tan-bg {
 	color: #000 !important;
 }
 
-.con-test  a, .con-test  a:visited, con-test  a:link, con-test  a:active {
+.con-title  a, .con-title  a:visited, con-title  a:link, con-title  a:active {
 	font-size: 1.25em;
 	font-weight: bold;
 	text-decoration: none;
