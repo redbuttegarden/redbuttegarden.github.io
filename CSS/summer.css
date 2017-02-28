@@ -2227,10 +2227,6 @@ tan-bg {
 }
 
 .con-button, .con-button img {
-	background-color: #00502F;
-}
-
-.con-button:hover, .con-button img:hover {
 	background-color: #196143;
 }
 
