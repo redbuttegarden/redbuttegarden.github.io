@@ -2303,6 +2303,11 @@ tan-bg {
     width: 28%;
 }
 
+.hr-separator {
+	width: 50%;
+	border: 1px solid #196143;
+}
+
 @media (max-width: 768px) {
 
 	.separator {
@@ -2315,9 +2320,4 @@ tan-bg {
 		width: 85%;
 	}	
 	
-}
-
-.hr-separator {
-	width: 50%;
-	border: 1px solid #196143;
 }
