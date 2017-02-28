@@ -2199,6 +2199,7 @@ tan-bg {
 .con-opener {
 	font-size: 1.0em;
 	text-transform: capitalize;
+	color: #000 !important;
 }
 
 #rbgdefaultbody .con-opener a, #rbgdefaultbody .con-opener a:link, #rbgdefaultbody .con-opener a:visited, #rbgdefaultbody .con-opener a:active {
