@@ -2226,11 +2226,11 @@ tan-bg {
 	font-style: italic;
 }
 
-.con-button img {
+.con-button, .con-button img {
 	background-color: #00502F;
 }
 
-.con-button img:hover {
+.con-button:hover, .con-button img:hover {
 	background-color: #196143;
 }
 
