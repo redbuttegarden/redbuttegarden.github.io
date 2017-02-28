@@ -2186,7 +2186,7 @@ tan-bg {
 }
 
 
-.con-title a:hover {
+.con-title a:hover, .con-opener a:hover {
 	color: #C4B59E !important;
 	text-decoration: none;
 }
@@ -2199,6 +2199,13 @@ tan-bg {
 .con-opener {
 	font-size: 1.0em;
 	text-transform: capitalize;
+}
+
+#rbgdefaultbody .con-opener a, #rbgdefaultbody .con-opener a:link, #rbgdefaultbody .con-opener a:visited, #rbgdefaultbody .con-opener a:active {
+	/* font-size: 1em !important; */
+	font-weight: normal;
+	text-decoration: none;
+	color: #000;
 }
 
 .con-date {
