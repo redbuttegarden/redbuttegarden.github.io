@@ -2298,9 +2298,7 @@ tan-bg {
     font-weight: bold;
     font-size: 3em;
     position: relative;
-    margin: -35px 0 0 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: -35px auto 0 auto;
     text-align:center;
     width: 28%;
 }
@@ -2314,7 +2312,7 @@ tan-bg {
 	}
 	
 	.hr-separator {
-		width: 65%;
+		width: 85%;
 	}	
 	
 }
