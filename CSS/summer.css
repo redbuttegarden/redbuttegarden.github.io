@@ -151,7 +151,6 @@ hr {
 
 #rbgnavbar {
 	max-width: 1280px;
-	max-height: 50px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#00502F;
@@ -170,8 +169,9 @@ hr {
 }
 */
 
-.logo {
+#logo img {
 	max-width: 202px;
+	height: auto;
 }
 
 .logo:hover {
