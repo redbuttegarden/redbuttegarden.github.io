@@ -157,7 +157,7 @@ hr {
 }
 
 #logo {
-	margin-top: 13px;
+	/* margin-top: 13px; */
 	padding-right: 40px;
 }
 
@@ -168,6 +168,10 @@ hr {
 	background: url('../images/sprites.png') -171px -301px ;
 }
 */
+
+.logo {
+	max-height: 50px;
+}
 
 .logo:hover {
 	opacity: .9;
