@@ -172,7 +172,8 @@ hr {
 #logo img {
 	max-height: 50px;
 	width: auto;
-	padding: 2px;
+	padding: 3px 0 3px 0;
+	
 }
 
 /* Adjusts width of dropdown menu */
