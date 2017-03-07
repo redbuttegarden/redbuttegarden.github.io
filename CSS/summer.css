@@ -169,11 +169,6 @@ hr {
 }
 */
 
-.logo {
-	max-width:202px;
-	height: auto;
-}
-
 .logo:hover {
 	opacity: .9;
 }
