@@ -161,10 +161,17 @@ hr {
 	padding-right: 40px;
 }
 
+/*
 .logo {
 	width:202px;
 	height: 23px;
 	background: url('../images/sprites.png') -171px -301px ;
+}
+*/
+
+.logo {
+	max-width:202px;
+	height: auto;
 }
 
 .logo:hover {
