@@ -172,7 +172,8 @@ hr {
 #logo img {
 	max-height: 50px;
 	width: auto;
-	padding: 1px;
+	padding: 2px;
+	opacity: 1;
 }
 
 .logo:hover {
