@@ -33,3 +33,11 @@ exclude:
   - .travis.yml
 timezone: America/Denver
 permalink: pretty
+
+defaults:
+    -
+        scope: 
+            path: ""
+            type: "posts"
+        values:
+            permalink: :title
