@@ -40,4 +40,4 @@ defaults:
             path: ""
             type: "posts"
         values:
-            permalink: :title
+            permalink: :title/
