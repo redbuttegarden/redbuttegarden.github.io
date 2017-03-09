@@ -162,9 +162,7 @@ hr {
 #logo {
 	/* margin-top: 13px; */
 	padding-right: 30px;
-	
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+	opacity: 1 !important;
 }
 
 /*
@@ -179,7 +177,7 @@ hr {
 	max-height: 50px;
 	width: auto;
 	padding: 3px 0 3px 0;
-	
+	opacity: 1 !important;
 }
 
 /* Adjusts width of dropdown menu */
