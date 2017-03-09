@@ -4,6 +4,10 @@ html * {
 	font-family: 'Open Sans';
 }
 
+img {
+	image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: #000000;
 	font-weight: bold;
@@ -370,11 +374,6 @@ hr {
 
 
 ***********************/
-
-
-
-
-
 
 /* Makes space between navbar and slideshow disappear after collapse - required for relative positioning so menu makes divs below the navbar move down when open */ 
  @media all and (max-width: 950px ){
@@ -1891,8 +1890,9 @@ hr {
 /****************  End Generic Classes ********************/
 /**********************************************************/
 
+/* Fixes responsive table horizontal glitch on phones */
 
-.table-responsive .table {		/* Fixes responsive table horizontal glitch on phones */
+.table-responsive .table {		
     max-width: none !important;
 }
 
