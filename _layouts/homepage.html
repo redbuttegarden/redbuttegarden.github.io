@@ -80,16 +80,11 @@
 			<div id="rbgweather" class="col-sm-3"><a href="http://legacy.weather.weatherbug.com/weather-safety/online-weather-center/OnlineWeatherCenter.aspx?aid=4842" target="_blank"><div class="rbgweather"></div></a></div>
 
 			<!-- Begin Page Down Code -->
-			<div id="page-down" class="col-sm-12 glyphicon">
-				<span class="page-down-icon">&#xe259;Stuff</span>
+			<div id="page-down" class="col-sm-12">
+				<!-- <span class="page-down-icon"><img src="/images/rbg-favicon-leaf-32x32.png"/></span> -->
+				<span class="page-down-icon" style="background-color:red;"><span class="jssora21l"></span></span>
 			</div>
 			<!-- End Page Down Code -->
-			
-			<!-- Begin Page Down Code 
-			<div id="page-down" class="col-sm-12 glyphicon">
-				<span class="page-down-icon">&#xe259;</span>
-			</div>
-			 End Page Down Code -->
 			
 		</div>
 		
@@ -168,20 +163,6 @@
 {% include dropdown-menu-behavior.html %}
 
 {% include page-down.html %}
-
-<script>
-
-function fadeDivIn(){
-    $("#page-down").animate({color: "#fff" }, 1000, function(){fadeDivOut();});
-}
-
-function fadeDivOut(){
-    $("#page-down").animate({color: "#d3d3d3" }, 1000, function(){fadeDivIn();});
-}
-
-fadeDivIn();
-
-</script>
 	
 </body>
 </html>
