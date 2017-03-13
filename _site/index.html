@@ -274,9 +274,8 @@
     <div id="rbg-info-wrapper1">
 	<div id="rbginfobg">
 	
-		<div id="rbginfo" class="row">
-		
-			<div class="row">		
+		<div id="rbginfo" class="row-fluid clearfix">
+					
 			<div id="rbghours" class="col-sm-3"><a href="/general-info"><div class="rbghours"></div></a>
 				<div id="gardenHours"></div>
 				<div id="gardenStatus"></div>
@@ -285,18 +284,18 @@
 			<div id="rbgadmission" class="col-sm-3" onclick="admissionHoverOn()"><a href="#"><div class="rbgadmission"></div></a></div>
 			<div id="rbgdirections" class="col-sm-3"><a href="/directions/"><div class="rbgdirections"></div></a></div>
 			<div id="rbgweather" class="col-sm-3"><a href="http://legacy.weather.weatherbug.com/weather-safety/online-weather-center/OnlineWeatherCenter.aspx?aid=4842" target="_blank"><div class="rbgweather"></div></a></div>
+
+			<!-- Begin Page Down Code -->
+			<div id="page-down" class="col-sm-12 glyphicon">
+				<span class="page-down-icon">&#xe259;Stuff</span>
 			</div>
+			<!-- End Page Down Code -->
 			
-			<div class="row">
-				<div class="col-sm-12" id="page-down">
-					<!-- <span class="glyphicon .glyphicon-menu-down lilac"></span>MORE -->
-					<span class="glyphicon lilac">&#xe259;</span>
-				</div>
+			<!-- Begin Page Down Code 
+			<div id="page-down" class="col-sm-12 glyphicon">
+				<span class="page-down-icon">&#xe259;</span>
 			</div>
-			
-			
-			
-			
+			 End Page Down Code -->
 			
 		</div>
 		
@@ -754,6 +753,20 @@ $('#page-down').click(function(){
     $("html, body").animate({ scrollTop: $(window).height()}, 600);
     return false;
 });
+
+</script>
+
+<script>
+
+function fadeDivIn(){
+    $("#page-down").animate({color: "#fff" }, 1000, function(){fadeDivOut();});
+}
+
+function fadeDivOut(){
+    $("#page-down").animate({color: "#d3d3d3" }, 1000, function(){fadeDivIn();});
+}
+
+fadeDivIn();
 
 </script>
 	

@@ -427,7 +427,7 @@ hr {
 #rbginfobg {
 	background-color: rgba(0,0,0,0.7); /* IMPORTANT: Use ONLY rbga here instead of rbg or hex so that opacity of the background color is not inherited */
 	width: 100%;
-	min-height: 180px;
+	min-height: 180px; /* Careful with this value! */
 	position: absolute;
 	bottom: 0;
 }
@@ -465,6 +465,25 @@ hr {
 	font-size: 11px;
 	font-weight: bold;
 	color: #158FBF;
+}
+
+/* Homepage down arrow */
+
+#page-down {
+	display: block;
+	font-size: 2em;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+	z-index: 10;
+}
+
+.page-down-icon {
+	bottom: 0;
+	position: absolute;
+}
+
+.page-down-icon:hover {
+	opacity: .7;
 }
 
 /* Begin seasonal strikethrough admission code */
@@ -2263,17 +2282,6 @@ tan-bg {
 	#concert-sponsors-banner {
 		display: none;
 	}
-}
-
-/* Homepage down arrow */
-
-#page-down {
-	z-index: 10;
-	bottom: 0;
-	position: absolute;
-	font-size: 2em;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 /* Begin CSS for Blog Post Navigation */ 
