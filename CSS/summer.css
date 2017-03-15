@@ -166,8 +166,8 @@ hr {
 }
 
 #logo {
-	/* margin-top: 13px; */
-	padding-right: 30px;
+	/* margin-top: 13px; 
+	padding-right: 30px; */
 }
 
 /*
@@ -2336,3 +2336,10 @@ hr {
 	}	
 	
 }
+
+.field-class-info {
+	min-height: 305px;
+	border: none;	
+}
+
+
