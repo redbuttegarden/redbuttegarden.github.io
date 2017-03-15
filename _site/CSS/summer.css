@@ -78,11 +78,12 @@ hr {
 /* Underlines the last three items in the navbar */
 .navbar-inverse li:nth-last-child(3) .dropdown-toggle, .navbar-inverse li:nth-last-child(2) .dropdown-toggle, .navbar-inverse li:nth-last-child(1) .dropdown-toggle { /* Give/Join/Volunteer nav buttons */
 	 text-decoration: underline;
+	 color: yellow !important;
 }
 
 /* Makes headers of the dropdown menus white and bold */
 .navbar-inverse .nav li .dropdown-toggle, .navbar-inverse .nav li .dropdown-toggle:hover  {
-    color: #FFFFFF !important; /* Overwrites Bootstrap's !important */
+    color: #FFF !important; /* Overwrites Bootstrap's !important */
 }
 
 .dropdown-menu li {
@@ -170,18 +171,10 @@ hr {
 	padding-right: 30px; */
 }
 
-/*
-.logo {
-	width:202px;
-	height: 23px;
-	background: url('/images/sprites.png') -171px -301px ;
-}
-*/
-
 #logo img {
 	max-height: 50px;
 	width: auto;
-	padding: 3px 0 3px 0;	
+	padding: 3px 0 3px 0;
 }
 
 /* Adjusts width of dropdown menu */
@@ -2338,8 +2331,9 @@ hr {
 }
 
 .field-class-info {
-	min-height: 305px;
-	border: none;	
+	min-height: 305px;	
 }
 
-
+#navhide1 > a, #navhide2 > a, #navhide3 > a {
+	color: yellow !important;
+}
