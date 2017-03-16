@@ -77,7 +77,7 @@ hr {
 
 /* Underlines the last three items in the navbar */
 .navbar-inverse li:nth-last-child(3) .dropdown-toggle, .navbar-inverse li:nth-last-child(2) .dropdown-toggle, .navbar-inverse li:nth-last-child(1) .dropdown-toggle { /* Give/Join/Volunteer nav buttons */
-	 text-decoration: underline;
+	 /* text-decoration: underline; */
 	 color: yellow !important;
 }
 
@@ -85,6 +85,18 @@ hr {
 .navbar-inverse .nav li .dropdown-toggle, .navbar-inverse .nav li .dropdown-toggle:hover  {
     color: #FFF !important; /* Overwrites Bootstrap's !important */
 }
+
+/* Changes color of last 3 dropdown menu items to yellow */
+#navhide1 > a, #navhide2 > a, #navhide3 > a {
+	color: yellow !important;
+	/* background-color: #A26BA2; */
+}
+
+/*
+#navhide1 > a:hover, #navhide2 > a:hover, #navhide3 > a:hover {
+	 background-color: red !important;
+}
+*/
 
 .dropdown-menu li {
 	background-color: #FFFFFF;
@@ -2133,6 +2145,14 @@ hr {
 	background-color: #F2EDE4;
 }
 
+.dark-tan-bg {
+	background-color:#C4B59E;
+}
+
+.white-bg {
+	background-color: #FFF;
+}
+
 #volunteer-apps {
 	background-color:#f2ede4;
 	margin-top: -4px;
@@ -2332,8 +2352,4 @@ hr {
 
 .field-class-info {
 	min-height: 305px;	
-}
-
-#navhide1 > a, #navhide2 > a, #navhide3 > a {
-	color: yellow !important;
 }
