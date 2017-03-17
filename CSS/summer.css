@@ -1897,7 +1897,7 @@ hr {
 	opacity: .9;
 }
 
-.img-center {
+.img-center, .img-center img {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -2353,3 +2353,35 @@ hr {
 .field-class-info {
 	min-height: 305px;	
 }
+
+/* Begin Botany Bin Table */
+
+.botany-bin-table table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.botany-bin-table th {
+	color: #FFF;
+	background-color: #007600;
+	text-align: center;
+	font-size: 1.25em;
+	height: 28px;
+}
+
+.botany-bin-table td {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.botany-bin-table tr:nth-child(odd) {
+	background-color: #D7F5D7;
+}
+
+.botany-bin-table tr:nth-child(even) {
+	background-color: #A9EAA9;
+}
+
+/* End Botany Bin Table */
