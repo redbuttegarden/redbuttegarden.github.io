@@ -86,15 +86,21 @@ hr {
     color: #FFF !important; /* Overwrites Bootstrap's !important */
 }
 
+#navhide1, #navhide2, #navhide3 {
+	padding-right: 1px;
+}
+
 /* Changes color of last 3 dropdown menu items to yellow */
 #navhide1 > a, #navhide2 > a, #navhide3 > a {
-	color: yellow !important;
-	/* background-color: #A26BA2; */
+	/* color: #000 !important; */
+	background-color: #196143;
+	/* border-radius: 5px 5px 0px 0px; */
 }
 
 /*
 #navhide1 > a:hover, #navhide2 > a:hover, #navhide3 > a:hover {
-	 background-color: red !important;
+	  background-color: red !important; 
+	 opacity: .7;
 }
 */
 
