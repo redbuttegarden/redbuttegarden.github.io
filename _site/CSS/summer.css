@@ -432,7 +432,7 @@ hr {
 #rbginfobg {
 	background-color: rgba(0,0,0,0.7); /* IMPORTANT: Use ONLY rbga here instead of rbg or hex so that opacity of the background color is not inherited */
 	width: 100%;
-	min-height: 180px; /* Careful with this value! */
+	min-height: 150px; /* Careful with this value! */
 	position: absolute;
 	bottom: 0;
 }
@@ -1814,6 +1814,10 @@ hr {
 	font-weight: bold;
 }
 
+.italic {
+	font-style: italic;
+}
+
 .lilac {
 	font-weight:bold;
 	color: #A26BA2;
@@ -2354,9 +2358,32 @@ hr {
 	min-height: 305px;	
 }
 
-/* Begin Botany Bin Table */
+/* Offsite Pickup Table for Botany Bins */
 
-.botany-bin-table table {
+ 
+.offsite-pickup-table th {
+	color: #FFF;
+	background-color: #196143;
+	text-align: center;
+	font-size: 1.25em;
+	height: 28px;
+}
+
+.offsite-pickup-table tr:nth-child(odd) {
+	background-color: #F2EDE4;
+}
+
+.offsite-pickup-table tr:nth-child(even) {
+	background-color: #FFF;
+}
+
+.offsite-pickup-table tr td:nth-child(1) {
+	font-weight: bold;
+}
+
+/* Botany Bin Table */
+
+.botany-bin-table table, .offsite-pickup-table table {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -2370,7 +2397,7 @@ hr {
 	height: 28px;
 }
 
-.botany-bin-table td {
+.botany-bin-table td, offsite-pickup-table td {
 	text-align: center;
 	font-weight: bold;
 	padding: 10px;
@@ -2384,4 +2411,45 @@ hr {
 	background-color: #A9EAA9;
 }
 
-/* End Botany Bin Table */
+
+
+
+/********************************/
+/* Test Sprite for Presentation */
+/********************************/
+
+.rbgadmission, .rbghours, .rbgdirections, .rbgweather
+{ max-width: 100%; background-size: 100%; background-image: url('/images/core/sprite-test.png'); }
+
+.rbghours {
+	display:block;
+	margin: 20px auto 0 auto;
+	width:196px;
+	height:84px;
+	background: url('/images/core/sprite-test.png') 0px -84px ;
+}
+
+.rbgadmission {
+	display:block;
+	margin: 20px auto 0 auto;
+	width:196px;
+	height:84px;
+	background: url('/images/core/sprite-test.png') 0px 0px ;
+}
+
+.rbgdirections {
+	display:block;
+	margin: 20px auto 0 auto;
+	width:196px;
+	height:84px;
+	background: url('/images/core/sprite-test.png') 0px -168px ;
+}
+
+.rbgweather {
+	display:block;
+	margin: 20px auto 0 auto;
+	width:196px;
+	height:84px;
+	background: url('/images/core/sprite-test.png') 0px -254px ;
+}
+
