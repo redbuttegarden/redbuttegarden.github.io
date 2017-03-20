@@ -92,9 +92,21 @@ hr {
 
 /* Changes color of last 3 dropdown menu items to yellow */
 #navhide1 > a, #navhide2 > a, #navhide3 > a {
-	/* color: #000 !important; */
-	background-color: #196143;
-	/* border-radius: 5px 5px 0px 0px; */
+	/* color: yellow !important; */
+	/* background-color: #468068; */
+	 background-color: #2f7055; 
+	/* background-color: #C4B59E; */
+	/* border-radius: 30px 30px 30px 30px; */
+	/* background-color: #299e6d; */
+	/* background-color: #238a5f; */
+	/* background-color: #FF6A32; */
+}
+
+@media (max-width: 1042px) {
+	
+	#navhide1 > a, #navhide2 > a, #navhide3 > a {
+		padding-bottom: 5px;
+	}
 }
 
 /*
@@ -229,7 +241,7 @@ hr {
 }
 
 /* Hides Give, Join, and Volunteer Buttons within certain widths */
-@media (min-width: 769px) and (max-width: 1325px) {
+@media (min-width: 1043px) and (max-width: 1325px) {
 	#navhide1, #navhide2, #navhide3, #navhide4 {
 		display: none;
 	 }
@@ -237,13 +249,13 @@ hr {
 }
 
 /* Hides Search icon within certain widths */
-@media (min-width: 769px) and (max-width: 1100px) {	
+@media (min-width: 1043px) and (max-width: 1100px) {	
 	#navhide4 {
 		display: none;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1043px) {
 	#navhide4 img, #navhide3, #navhide2, #navhide1 {
 		clear: both;
 	}
@@ -307,6 +319,12 @@ hr {
 	float: left;
 }
 
+@media (max-width:1042px){
+	.searchicon img {
+		padding: 15px;
+	}
+}
+
 .searchicon:hover {
 	background-color: #196143;
 }
@@ -340,56 +358,73 @@ hr {
 /** End Search Bar CSS **/
 /************************/
 
-
-/************************ TESTING
-@media (max-width: 1000px) {
-    .navbar-header {
-        float: none;
+/* Code Collapses Navbar Earlier for more Mobile Compatibility */
+@media (min-width: 768px) and (max-width: 1043px) {
+        .navbar-nav .open .dropdown-menu {
+            position: static;
+            float: none;
+            width: auto;
+            margin-top: 0;
+            background-color: transparent;
+            border: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+        .navbar-nav .open .dropdown-menu > li > a {
+            line-height: 20px;
+        }
+        .navbar-nav .open .dropdown-menu > li > a,
+        .navbar-nav .open .dropdown-menu .dropdown-header {
+            padding: 5px 15px 5px 25px;
+        }
+        .dropdown-menu > li > a {
+            display: block;
+            padding: 3px 20px;
+            clear: both;
+            font-weight: normal;
+            line-height: 1.42857143;
+            color: #333;
+            white-space: nowrap;
+        }
+        .navbar-header {
+            float: none;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+            /*margin: 7.5px -15px;*/
+            margin: 7.5px 50px 7.5px -15px
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .navbar-text {
+            float: none;
+            margin: 15px 0;
+        }
+        /* since 3.1.0 */
+        .navbar-collapse.collapse.in { 
+            display: block!important;
+        }
+        .collapsing {
+            overflow: hidden!important;
+        }
     }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-		top: 0;
-		border-width: 0 0 1px;
-	}
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-		margin-top: 7.5px;
-	}
-	.navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-  		display:block !important;
-	}
-}
-
-
-
-
-@media (min-width: 768px) and (max-width: 1000px) {
-   .collapse {
-       display: none !important;
-   }
-}
-
-
-***********************/
+    
+    
 
 /* Makes space between navbar and slideshow disappear after collapse - required for relative positioning so menu makes divs below the navbar move down when open */ 
  @media all and (max-width: 950px ){
@@ -481,21 +516,36 @@ hr {
 /* Homepage down arrow */
 
 #page-down {
-	display: block;
-	font-size: 2em;
 	padding: 0px 10px 0px 10px;
-	text-align: center;
 	z-index: 10;
 }
 
 .page-down-icon {
 	bottom: 0;
 	position: absolute;
-	transform: rotate(270deg);
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-animation: fadein 1s linear infinite;
+	left: auto;
+
+}
+
+.page-down-icon img {
+	display: block;
+	max-width: 65px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@-webkit-keyframes fadein{
+    from { opacity: .5; }
+    to { opacity: 1; }
 }
 
 .page-down-icon:hover {
 	opacity: .7;
+	background-color: green;
 }
 
 /* Begin seasonal strikethrough admission code */
@@ -527,6 +577,8 @@ hr {
 #admission-left, #admission-right {
 	float: left;
 }
+
+/* 
 
 .rbghours {
 	display: block;
@@ -588,6 +640,8 @@ hr {
 #rbgweatherhidden {
 	height: 100%
 }
+
+*/
 
 .infoempty1, .infoempty2 {
 	min-width: 233px;
