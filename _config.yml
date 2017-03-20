@@ -41,3 +41,11 @@ defaults:
             type: "posts"
         values:
             permalink: :title/
+            
+prose: 
+    events:
+        _posts:
+            - name: "layout"
+              field:
+                  element: "hidden"
+                  value: "events"
