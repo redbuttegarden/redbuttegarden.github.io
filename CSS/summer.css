@@ -14,7 +14,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #000000;
+	color: #000;
 	font-weight: bold;
 }
 
@@ -56,12 +56,12 @@ hr {
 }
 
 #rbgnavbar a:hover, a, li, .dropdown-menu li:hover {
-    color: #000000;
+    color: #000;
 }
 
 .dropdown-menu li:hover {
 	background-color: #F2EDE4;
-	color: #000000;
+	color: #000;
 }
 
 /* Makes dropdown menu headers change color when selected or clicked, as well as mobile menu icon (Hamburger Menu icon) change to same color */
@@ -117,7 +117,7 @@ hr {
 */
 
 .dropdown-menu li {
-	background-color: #FFFFFF;
+	background-color: #FFF;
 }
 
 .dropdown-menu li:hover {
@@ -134,23 +134,23 @@ hr {
 }
 
 .navbar-inverse a:hover {
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 /* Changes the color of link text <a> after navbar has collapsed for small screen or mobile mode */
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:visited {
-	color: #000000;
+	color: #000;
 }
 
 .dropdown-menu li, .dropdown-menu a {
 	text-align: center;
-	color: #000000;
+	color: #000;
 }
 
 /* Allows one list item of specific class to have different background color - must be declared after
 .dropdown-menu .concert-li {
 	background-color: #299E6D;
-	color: #FFFFFF;
+	color: #FFF;
 }
 */
 
@@ -226,7 +226,7 @@ hr {
   
 	.dropdown-menu li, .dropdown-menu li a, .dropdown-menu ul {
 		text-align: center;
-		color: #000000;
+		color: #000;
 		list-style: none;
 		padding-left: 0 !important;
 	}
@@ -268,29 +268,30 @@ hr {
 #gsa_search{
 	background:transparent;
     border-bottom :1px solid white;
-	float:right;
     margin: 0;
     padding:0;
     position:relative;
 	text-align:left;
-    width: 225px;
+    width: 100%;
+    max-width: 1280px;
     border-radius: 2px; 
 }
 	
 #gsa_searchbox {
-    border:0;
-    color: #FFFFFF;
-    font-size: 18px;
-    height:20px;
+    border:1 px solid black;
+    color: #196143;
+    font-size: 3em;
+    height:auto;
     padding:3px 5px;
-    width:225px;
+    width: 100%;
+    max-width: 1280px;
     background-color: transparent;
-    border-radius: 2px;
+    border-radius: 5px;
     font-weight: normal !important;
 }
 
 #gsa_searchbox:focus {
-	color: #FFF;
+	color: #196143;
 }
 
 #gsa_searchbutton {	
@@ -298,8 +299,7 @@ hr {
 	position:absolute;
 	right:0;
 	top:0;
-	width:20px;
-	background-color: transparent;
+	background-color: #196143;
 	border-radius: 0px 2px 2px 0px;
 }
 		
@@ -490,7 +490,7 @@ hr {
 #rbginfo, #rbginfo2 {
 	max-width: 1280px;
 	margin: 0 auto 0 auto;
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 #rbghours {
@@ -502,7 +502,7 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 11px;
-	color: #FFFFFF;
+	color: #FFF;
 	width: 215px;
 }
 
@@ -887,7 +887,7 @@ hr {
 #prefooterbg {
 	background-color: #F2EDE4;
 	width: 100%;
-	border-top: 1px solid #000000;
+	border-top: 1px solid #000;
 	border-bottom: 1px solid #2E7258;
 	clear:both;
 }
@@ -972,7 +972,7 @@ hr {
   background-color:#00502F;
 }
 
-#rbgfooterlinks {
+.rbgfooterlinks {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1280px;
@@ -980,28 +980,28 @@ hr {
 	text-align: center;
 }
 
-#rbgfooterlinks ul {
+.rbgfooterlinks ul {
     margin: 0 auto;                  /* center container */
     padding-left: 0;                 /* remove list padding */
     font-size: 0;                    /* remove inline-block white space; see http://stackoverflow.com/a/32801275/3597276 */
 }
 
-#rbgfooterlinks li {
+.rbgfooterlinks li {
     display: inline-block;
     font-size: 10px;
     list-style-type: none;
     box-sizing: border-box;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
 }
 
-#rbgfooterlinks a:link, a:visited, a:active {
-	color: #FFFFFF;
+.rbgfooterlinks a:link, a:visited, a:active {
+	color: #FFF;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-#rbgfooterlinks a:hover {
+.rbgfooterlinks a:hover {
 	color: #C4B59E;
 }
 
@@ -1184,7 +1184,7 @@ hr {
 
 #contactinfo1 {
 	text-align: center;
-	color: #FFFFFF;
+	color: #FFF;
 	font-size: 86%;
 }
 
@@ -1337,7 +1337,7 @@ hr {
 
 .membutton{
 	background-color: #196143;
-	color: #FFFFFF;
+	color: #FFF;
 	width: 190px;
 	height: 40px;
 	font-size: 16px;
@@ -1365,7 +1365,7 @@ hr {
 	max-width: 630px;
 	text-align: center;
 	background-color: #196143;
-	color: #FFFFFF;
+	color: #FFF;
 	height: 100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -1390,7 +1390,7 @@ hr {
 	#membenefits, #mempolicies {
 		max-width: 640px;
   		background-color: #F2EDE4;
-  		color: #000000;
+  		color: #000;
   		margin-left: auto;
   		margin-right: auto;
   		font-size: 14px;
@@ -1403,7 +1403,7 @@ hr {
 	.memfaq, .volbutton {
 		max-width: 1190px;
 		text-align: center;
-		color: #FFFFFF;
+		color: #FFF;
 		height: 100px;
 		margin-left: auto;
 		margin-right: auto;
@@ -1434,13 +1434,13 @@ hr {
 	
 	#rbgdefaultbody .memfaqwrap a, #rbgdefaultbody .memfaqwrap a:hover, #rbgdefaultbody .memfaqwrap a:active, #rbgdefaultbody .memfaqwrap a:visited, #rbgdefaultbody .memfaqwrap a:link {
 		text-decoration: none;
-		color: #FFFFFF;
+		color: #FFF;
 		font-weight: normal;
 	}
 	
 	.renewbutton {
 		background-color: #196143;
-		color: #FFFFFF;
+		color: #FFF;
 		max-width: 325px;
 		min-height: 40px;
 		font-size: 16px;
@@ -1516,7 +1516,7 @@ hr {
 
 
 #rbgdefaultbody .panel-default a, #rbgdefaultbody .panel-default a:link, #rbgdefaultbody .panel-default a:visited, #rbgdefaultbody .panel-default a:active { /* sets link color for panels to black with no underline  */
-	color: #000000;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -1826,7 +1826,7 @@ hr {
 		text-align: center;
 		max-height: 100px;
 		background-color: #BCAC93;
-		color: #FFFFFF;
+		color: #FFF;
 		height: 215px;
 		margin-left: auto;
 		margin-right: auto;
@@ -1885,7 +1885,7 @@ hr {
 
 .white {
 	font-weight: bold;
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 .swag {
@@ -1967,7 +1967,7 @@ hr {
 }
 
 .border {
-	border: 1px solid #000000;
+	border: 1px solid #000;
 }
 
 .no-border {
@@ -2124,18 +2124,18 @@ hr {
 .eventname {
 	font-size: 16px;
 	font-weight: bold;
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 .eventdate {
 	font-size: 14px;
-	color: #FFFFFF;
+	color: #FFF;
 	text-transform: uppercase;
 	font-weight: normal;
 }
 
 .eventnotes {
-	color: #FFFFFF;
+	color: #FFF;
 	font-style: italic;
 	width: 65%;
 	font-size: 12px;

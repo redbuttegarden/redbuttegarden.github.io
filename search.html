@@ -5,74 +5,27 @@ published: true
 ---
 
 
-<h1 class="text-center green">Search Red Butte Garden's Website</h1>
+<h1 class="text-center green">Search Red Butte Garden's Entire Website</h1>
 
-<br /><br />
-
-<hr>
+<h3 class="text-center">Type in your search below, then press Enter</h3>
 
 <br />
 
+<div>
 
-
-
-
-
-<form id="gsa_search" action="http://gsa.search.utah.edu/search" method="get" name="search" value="test" onsubmit="myFunction()">
-	<label for="gsa_searchbox">Search Site:</label> 
-	<input id="gsa_searchbox" type="text" name="q" value="" title="enter search terms" placeholder="Search Entire Site..." /> 
-	<input type="hidden" name="site" value="Look-only-in-red-butte-garden-website" /> 
-	<input type="hidden" name="client" value="red-butte-garden_frontend" /> 
-	<input type="hidden" name="output" value="xml_no_dtd" /> 
-	<input type="hidden" name="proxystylesheet" value="red-butte-garden_frontend"/> <input type="hidden" name="numgm" value="10" />
-	<!-- <input id="gsa_searchbutton" type="image" name="btnG" value="Submit Search" src="http://uwebresources.utah.edu/_images/search/gsa_search_btn.png" title="Submit Search" alt="Submit Search" /> -->
-</form>
-
-
-<button onclick="myFunction()">
-Click me!
-
-</button>
-
-
-
-
-
-
-
-
-
-<iframe id="rbgsitesearch" src="" width="100%" height="100%" background-color="red">
-
-
-</iframe>
-
-
-<script>
-
-var A = 'http://gsa.search.utah.edu/search?q=';
-var B = 'indian';
-var C = '&site=Look-only-in-red-butte-garden-website&client=red-butte-garden_frontend&output=xml_no_dtd&proxystylesheet=red-butte-garden_frontend&numgm=10';
-var D = A+B+C;
-
-function myFunction() {
-    document.getElementById("rbgsitesearch").src = "http://gsa.search.utah.edu/search?q=indian&site=Look-only-in-red-butte-garden-website&client=red-butte-garden_frontend&output=xml_no_dtd&proxystylesheet=red-butte-garden_frontend&numgm=10";
-}
-
-</script>
-
-<div style="display:none">
-
-http://gsa.search.utah.edu/search?q=indian&site=Look-only-in-red-butte-garden-website&client=red-butte-garden_frontend&output=xml_no_dtd&proxystylesheet=red-butte-garden_frontend&numgm=10
-
-http://gsa.search.utah.edu/search?q=indian+food&site=Look-only-in-red-butte-garden-website&client=red-butte-garden_frontend&output=xml_no_dtd&proxystylesheet=red-butte-garden_frontend&numgm=10
-
-http://gsa.search.utah.edu/search?q=indian+food&btnG=Start+Search%3A+Red+Butte+Garden+Website&client=red-butte-garden_frontend&output=xml_no_dtd&proxystylesheet=red-butte-garden_frontend&numgm=10&ulang=en&sort=date%3AD%3AL%3Ad1&wc=200&wc_mc=1&oe=UTF-8&ie=UTF-8&ud=1&exclude_apps=1&site=Look-only-in-red-butte-garden-website
-
-
-function myFunction() {
-    location.replace("https://www.w3schools.com")
-}
-
+	<form id="gsa_search" action="http://gsa.search.utah.edu/search" method="get" name="search" value="test">
+	
+		<label for="gsa_searchbox">Search Site:</label> 
+		<input id="gsa_searchbox" type="text" name="q" value="" title="enter search terms" placeholder="Search Entire Site..." /> 
+		<input type="hidden" name="site" value="Look-only-in-red-butte-garden-website" /> 
+		<input type="hidden" name="client" value="red-butte-garden_frontend" /> 
+		<input type="hidden" name="output" value="xml_no_dtd" /> 
+		<input type="hidden" name="proxystylesheet" value="red-butte-garden_frontend"/> <input type="hidden" name="numgm" value="10" />
+		
+		<!-- 
+		<input id="gsa_searchbutton" type="image" name="btnG" value="Submit Search" src="http://uwebresources.utah.edu/_images/search/gsa_search_btn.png" title="Submit Search" alt="Submit Search" />
+		-->
+		
+	</form>
 
 </div>
