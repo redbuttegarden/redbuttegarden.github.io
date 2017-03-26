@@ -752,10 +752,11 @@ hr {
 	color: red;
 }
 
-@media (max-width: 768px;) {
+@media (max-width: 768px) {
 	
 	.slide-description {
-		font-size: 10px;
+		font-size: 2em;
+		top: 40%;
 	}
 
 }
