@@ -749,7 +749,7 @@ hr {
 	font-weight: bold;
 	color:#fff;
 	padding: 0 5px 0 5px;
-	color: red;
+	text-transform: capitalize;
 }
 
 @media (max-width: 768px) {
