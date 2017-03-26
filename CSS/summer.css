@@ -740,7 +740,7 @@ hr {
 
 .slide-description {
 	position:absolute;
-	top: 47%;
+	top: 45%;
 	bottom: 50%;
 	margin-left:auto;
 	margin-right:auto;
@@ -750,11 +750,11 @@ hr {
 	font-weight: bold;
 	color:#fff;
 	padding: 0 5px 0 5px;
-	line-height:60px;
+	color: red;
 }
 
 @media (max-width: 768px;) {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #slider-wrapper {
