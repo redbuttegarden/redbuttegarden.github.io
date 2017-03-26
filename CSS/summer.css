@@ -738,13 +738,6 @@ hr {
 /***************** Begin Slider Wrapper CSS ******************/
 /*************************************************************/
 
-@media (max-width: 768px;) {
-	#slider-wrapper, #inner-slider-wrapper1, #inner-slider-wrapper2, #slider1_container, #slides {
-		height: 500px;
-	}
-	
-}
-
 .slide-description {
 	position:absolute;
 	top: 47%;
@@ -755,9 +748,12 @@ hr {
 	z-index:0;
 	font-size: 4.41em;
 	font-weight: bold;
-	color:#ffffff;
+	color:#fff;
 	line-height:60px;
-	color: red;
+}
+
+@media (max-width: 768px;) {
+	font-size: 2em;
 }
 
 #slider-wrapper {

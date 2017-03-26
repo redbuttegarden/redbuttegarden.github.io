@@ -755,9 +755,12 @@ hr {
 	z-index:0;
 	font-size: 4.41em;
 	font-weight: bold;
-	color:#ffffff;
+	color:#fff;
 	line-height:60px;
-	color: red;
+}
+
+@media (max-width: 768px;) {
+	font-size: 2em;
 }
 
 #slider-wrapper {
