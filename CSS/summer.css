@@ -147,13 +147,6 @@ hr {
 	color: #000;
 }
 
-/* Allows one list item of specific class to have different background color - must be declared after
-.dropdown-menu .concert-li {
-	background-color: #299E6D;
-	color: #FFF;
-}
-*/
-
 .dropdown {
 	font-size: 12px;
 	padding: 0;
@@ -518,19 +511,28 @@ hr {
 
 /* Homepage down arrow */
 
-#page-down {
+#page-down, #page-down2 {
 	padding: 0px 10px 0px 10px;
 	z-index: 10;
 }
 
+#page-down2 {
+	bottom: 60px;
+}
+
+@media (min-width:768px) {
+	#page-down2 {
+		display: none;
+	}
+}
+
 .page-down-icon {
 	bottom: 0;
+	margin: auto;
 	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
+	left: 0;
+	right: 0;
 	-webkit-animation: fadein 1s linear infinite;
-	left: auto;
-
 }
 
 .page-down-icon img {
@@ -546,9 +548,9 @@ hr {
     to { opacity: 1; }
 }
 
-.page-down-icon:hover {
+.page-down-icon img:hover {
 	opacity: .7;
-	background-color: green;
+	background-color: #196143;
 }
 
 /* Begin seasonal strikethrough admission code */
@@ -706,7 +708,6 @@ hr {
 	padding: 15px;
 }
 
-
 #rbghomebody img {
 	margin: 5px auto 5px auto;
 	width: 100%;
@@ -724,13 +725,6 @@ hr {
 	float: none;
 	padding: 65px 15px 15px 15px;
 }
-
-/*
-#rbgdefaultbody h1, h2, h3, p {
-	padding-left: 5px;
-	padding-right: 5px;
-}
-*/
 
 /* End Default Template Body */
 
@@ -1540,7 +1534,6 @@ hr {
 	background-color: #F2EDE4;
 }
 
-
 #rbgdefaultbody .panel-default a, #rbgdefaultbody .panel-default a:link, #rbgdefaultbody .panel-default a:visited, #rbgdefaultbody .panel-default a:active { /* sets link color for panels to black with no underline  */
 	color: #000;
 	text-decoration: none;
@@ -1588,12 +1581,10 @@ hr {
   		font-size: 16px;
   		opacity: 1;
   		text-wrap:normal;
-  		
   	}
   	
   	.concert-test {
 	  	height: 40px;
-	  	
   	}
   	
   	@media (max-width: 768px){
@@ -1616,7 +1607,6 @@ hr {
 	  	text-align:center;
 	  	padding: 0 0 0 0;
 	  	z-index: 45;
-	  
 	}
 	
 	@media (max-width: 768px) {
@@ -1650,7 +1640,6 @@ hr {
 	  	position: relative;
 	  	z-index: 1;
 	  	margin: auto;	
-	  	  	 
   	}
   
   	.bandpic img {
@@ -1663,7 +1652,6 @@ hr {
 		position: absolute;
 	  	margin:0 auto 0 auto;
 	  	width: 100%;	
-	  	  
 	}
 	
 	.invisible{
@@ -1767,9 +1755,7 @@ hr {
 	  	width: 15%;
 	  	position: absolute;
 		top: 80%;
-		left:30%;
-		
-					
+		left:30%;					
 	}		
 	.addcalendar:img {
 		width: 100%;
@@ -1783,8 +1769,6 @@ hr {
 		padding: 10px 20px 10px 20px;
 		width: 88%;
 		margin: auto;
-	
-		
 	}
 	
 .row-fluid {
@@ -2317,7 +2301,6 @@ hr {
 	color: #000;
 }
 
-
 .con-title a:hover, .con-opener a:hover {
 	color: #C4B59E !important;
 	text-decoration: none;
@@ -2446,7 +2429,6 @@ hr {
 
 /* Offsite Pickup Table for Botany Bins */
 
- 
 .offsite-pickup-table th {
 	color: #FFF;
 	background-color: #196143;
@@ -2496,9 +2478,6 @@ hr {
 .botany-bin-table tr:nth-child(even) {
 	background-color: #A9EAA9;
 }
-
-
-
 
 /********************************/
 /* Test Sprite for Presentation */

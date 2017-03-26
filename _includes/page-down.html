@@ -1,12 +1,6 @@
-<!--
-<div id="page-down">
-	<span class="glyphicon glyphicon-chevron-down"></span>
-</div>
--->
-
 <script>
 
-$('#page-down').click(function(){
+$('#page-down,#page-down2').click(function(){
     $("html, body").animate({ scrollTop: $(window).height()}, 600);
     return false;
 });
