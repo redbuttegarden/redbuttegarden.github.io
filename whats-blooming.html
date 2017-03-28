@@ -11,7 +11,7 @@ published: true
 <h2 class="text-center green">Most Recent Posts</h2>
 
 <div class="row-fluid">
-  {% for post in site.categories.whats-blooming limit:3 %}
+  {% for post in site.categories.whats-blooming limit:6 %}
 	{% if post.url %}        
 	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		<a href="{{ post.url }}">
