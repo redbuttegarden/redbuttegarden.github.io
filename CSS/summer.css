@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
-        
+
 html * {
 	font-family: 'Open Sans';
 }
@@ -38,7 +38,7 @@ hr {
 }
 
 #rbgdefaultbody a:hover {
-	color: #C4B59E;		/* color when hyperlinks hovered over on default pages*/ 
+	color: #C4B59E;		/* color when hyperlinks hovered over on default pages*/
 }
 
 /*******************************************/
@@ -94,7 +94,7 @@ hr {
 #navhide1 > a, #navhide2 > a, #navhide3 > a {
 	/* color: yellow !important; */
 	/* background-color: #468068; */
-	 background-color: #2f7055; 
+	 background-color: #2f7055;
 	/* background-color: #C4B59E; */
 	/* border-radius: 30px 30px 30px 30px; */
 	/* background-color: #299e6d; */
@@ -103,7 +103,7 @@ hr {
 }
 
 @media (max-width: 1042px) {
-	
+
 	#navhide1 > a, #navhide2 > a, #navhide3 > a {
 		padding-bottom: 5px;
 	}
@@ -111,7 +111,7 @@ hr {
 
 /*
 #navhide1 > a:hover, #navhide2 > a:hover, #navhide3 > a:hover {
-	  background-color: red !important; 
+	  background-color: red !important;
 	 opacity: .7;
 }
 */
@@ -190,7 +190,7 @@ hr {
 }
 
 #logo {
-	/* margin-top: 13px; 
+	/* margin-top: 13px;
 	padding-right: 30px; */
 }
 
@@ -207,23 +207,23 @@ hr {
 
 /* Adjusts center alignment of dropdown menu under main categories when navbar has not collapsed */
 @media only screen and (min-width : 769px) {
-	
+
 	.dropdown-menu {
 	    left: 50% !important;
 	    margin-left: -78px;
 	}
 }
 
-/* For small devices, and after navbar collapses */ 
+/* For small devices, and after navbar collapses */
 @media only screen and (max-width : 768px) {
-  
+
 	.dropdown-menu li, .dropdown-menu li a, .dropdown-menu ul {
 		text-align: center;
 		color: #000;
 		list-style: none;
 		padding-left: 0 !important;
 	}
-	
+
 }
 
 @media only screen and (max-width : 950px) {
@@ -238,11 +238,11 @@ hr {
 	#navhide1, #navhide2, #navhide3, #navhide4 {
 		display: none;
 	 }
-	
+
 }
 
 /* Hides Search icon within certain widths */
-@media (min-width: 1043px) and (max-width: 1100px) {	
+@media (min-width: 1043px) and (max-width: 1100px) {
 	#navhide4 {
 		display: none;
 	}
@@ -267,9 +267,9 @@ hr {
 	text-align:left;
     width: 100%;
     max-width: 1280px;
-    border-radius: 2px; 
+    border-radius: 2px;
 }
-	
+
 #gsa_searchbox {
     border:1 px solid black;
     color: #196143;
@@ -287,7 +287,7 @@ hr {
 	color: #196143;
 }
 
-#gsa_searchbutton {	
+#gsa_searchbutton {
 	padding:3px;
 	position:absolute;
 	right:0;
@@ -295,7 +295,7 @@ hr {
 	background-color: #196143;
 	border-radius: 0px 2px 2px 0px;
 }
-		
+
 #gsa_searchbutton:focus,
 #gsa_searchbutton:hover,
 #gsa_searchbutton:active {
@@ -327,14 +327,14 @@ hr {
 	padding-left: 15px;
 	float: left;
 }
-			
+
 #gsa_search label {
      height:1px;
      left:-10000px;
      overflow:hidden;
      position:absolute;
      top:auto;
-     width:1px;		
+     width:1px;
 }
 
 .searchwrap {
@@ -379,11 +379,11 @@ hr {
             color: #333;
             white-space: nowrap;
         }
-        
+
         .dropdown-menu > a > li {
 	    	margin-left: 78px; /* Fixes glitch where dropdown menu bleeds off screen to left */
         }
-        
+
         .navbar-header {
             float: none;
         }
@@ -414,29 +414,29 @@ hr {
             margin: 15px 0;
         }
         /* since 3.1.0 */
-        .navbar-collapse.collapse.in { 
+        .navbar-collapse.collapse.in {
             display: block!important;
         }
         .collapsing {
             overflow: hidden!important;
         }
     }
-    
-/* Makes space between navbar and slideshow disappear after collapse - required for relative positioning so menu makes divs below the navbar move down when open */ 
+
+/* Makes space between navbar and slideshow disappear after collapse - required for relative positioning so menu makes divs below the navbar move down when open */
  @media all and (max-width: 950px ){
-	 
+
 	 .navbar-wrapper {
 	 	clear:right;
 	 	position: relative;
 	 	padding-bottom: 0px;
 	 }
-                       
+
 	 #slider-wrapper  {
 	 	margin-top: -20px;
 	    position: relative;
 	    clear: right;
 	 }
-	 
+
 	 #rbgdefaultbody {
 		margin-top: -65px;
 	    position: relative;
@@ -583,7 +583,7 @@ hr {
 	float: left;
 }
 
-/* 
+/*
 
 .rbghours {
 	display: block;
@@ -652,28 +652,28 @@ hr {
 	min-width: 233px;
 }
 
-/* For small devices, and after navbar collapses */ 
+/* For small devices, and after navbar collapses */
 @media only screen and (max-width : 950px) {
-  	
+
   	#rbg-info-wrapper1 {
 	  	display: none;
   	}
-  	
+
   	#rbginfobg {
 	  	position: relative;
   	}
-  
+
 	#rbgdirections img, #rbgweather img {
 		margin: 5px auto 5px auto;
 	}
-	
+
 	#rbghours, #rbgadmission, #rbgadmission2, #rbgdirections, #rbgweather {
 		background-color: #196143;
 		border-top: black 1px solid;
 		clear: both;
 		width: 100%;
 	}
-	
+
 	/* Padding around these divs and their images after collapsing */
 	.rbgdirections, .rbgweather {
 		margin: 5px auto 10px auto;
@@ -682,15 +682,15 @@ hr {
 }
 
 @media only screen and (min-width: 950px) {
-	
+
 	#rbg-info-wrapper2 {
 		display: none;
 	}
-	
+
 }
 
 @media only screen and (max-width: 950px) {
-	
+
 	#rbg-info-wrapper1{
 		display: none;
 	}
@@ -747,7 +747,7 @@ hr {
 }
 
 @media (max-width: 768px) {
-	
+
 	.slide-description {
 		font-size: 2.5em;
 		top: 40%;
@@ -756,8 +756,8 @@ hr {
 }
 
 #slider-wrapper {
-	position: relative; 
-	width: 100%; 
+	position: relative;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -822,21 +822,21 @@ hr {
     overflow: hidden;
     cursor: pointer;
 }
-                
-.jssorb21 div { 
-	background-position: -5px -5px; 
+
+.jssorb21 div {
+	background-position: -5px -5px;
 }
-	
+
 .jssorb21 div:hover, .jssorb21 .av:hover {
-	background-position: -35px -5px; 
+	background-position: -35px -5px;
 }
 
 .jssorb21 .av {
-	background-position: -65px -5px; 
+	background-position: -65px -5px;
 }
 
-.jssorb21 .dn, .jssorb21 .dn:hover { 
-	background-position: -95px -5px; 
+.jssorb21 .dn, .jssorb21 .dn:hover {
+	background-position: -95px -5px;
 }
 
 /***************************************************/
@@ -865,27 +865,27 @@ hr {
     background: url(/images/a21.png) center center no-repeat;
     overflow: hidden;
 }
-                
+
 .jssora21l {
 	background-position: -3px -33px;
 }
-                
+
 .jssora21r {
 	background-position: -63px -33px;
 }
-                
+
 .jssora21l:hover {
 	background-position: -123px -33px;
 }
-                
+
 .jssora21r:hover {
 	background-position: -183px -33px;
 }
-                
+
 .jssora21l.jssora21ldn {
 	background-position: -243px -33px;
 }
-                
+
 .jssora21r.jssora21rdn {
 	background-position: -303px -33px;
 }
@@ -931,7 +931,7 @@ hr {
 
 #prefooter img:hover {
 	background-color: #FBF9F6;
-	
+
 }
 
 .footer-membership {
@@ -971,7 +971,7 @@ hr {
 }
 
 @media only screen and (max-width : 950px) {
-	
+
 	.prefooter {
 		position: relative;
 	}
@@ -1224,7 +1224,7 @@ hr {
 /* Added to make Bootstrap row divs with pictures the same height  */
 
 .row, .row-fluid {
-    overflow: hidden !important; 
+    overflow: hidden !important;
 }
 
 [class*="col-"]{
@@ -1277,7 +1277,7 @@ hr {
 	border-right: 1px solid black;
 	font-size: 12px;
 	border-top-right-radius: 2px;
-	border-bottom-right-radius: 2px;	
+	border-bottom-right-radius: 2px;
 }
 
 .memcorp {
@@ -1292,19 +1292,19 @@ hr {
 		border-left: 1px solid black;
 		border-radius: 0px;
 	}
-	
+
 	.memwrap{
-		border-bottom: 1px solid black;	
+		border-bottom: 1px solid black;
 	}
-	
+
 	.mempic {
 		display: none;
 	}
-	
+
 	#memcontain .row, #sponcontain .row {
 		margin-bottom: 0px !important;
 	}
-	
+
 	.memcorp {
 		clear:both;
 		margin: 0;
@@ -1319,19 +1319,19 @@ hr {
 		max-width: 768px;
 		width: 100%;
 	}
-	
+
 	.memcorp {
 		min-height: 227px;
 	}
-	
+
 	#rbgdefaultbody #memcontain h1 {
 		font-size: 22px;
 	}
-	
+
 	#rbgdefaultbody #memcontain h2 {
 		font-size: 20px;
 	}
-	
+
 	.lowpadding {
 		padding: 0px !important;
 		margin: 0 !important;
@@ -1348,24 +1348,27 @@ hr {
 	color: #A26BA2;
 	font-weight: bold;
 	padding-bottom: 0px;
-	
+
 }
 
 #memcontain .row, #sponcontain .row {
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
 }
 
-.membutton{
+.membutton, .apply-button {
 	background-color: #196143;
 	color: #FFF;
 	width: 190px;
 	height: 40px;
 	font-size: 16px;
 	border: 1px solid black;
+}
+
+.membutton {
 	margin-bottom: 20px;
 	position: absolute;
 	bottom: -10px;
-	right: 10px;	
+	right: 10px;
 }
 
 .membutton:hover {
@@ -1395,11 +1398,11 @@ hr {
 	margin-bottom: 4px;
 }
 
- 	 	
+
 .membenefits:hover {
   	opacity: .9;
 }
-	
+
 .membenefits:before, .memfaq:before, .volbutton:before {      /* create a full-height inline block pseudo-element */
 	content: ' ';
 	display: inline-block;
@@ -1419,7 +1422,7 @@ hr {
   		margin-bottom: 4px;
   		margin-top: -5px;
 	}
-	
+
 	.memfaq, .volbutton {
 		max-width: 1190px;
 		text-align: center;
@@ -1433,31 +1436,31 @@ hr {
 		padding: 0;
 		background-color: #196143;
 	}
-	
+
 	.memfaq {
 		max-width: 1280px;
 	}
-	
+
 	.memfaq:hover {
 		opacity: .9;
 	}
-	
+
 	.lowpadding {
 		padding: 0 5px 0 5px !important;
 		margin: 0 !important;
 	}
-	
+
 	.nopadding {
 		padding: 0px !important;
 		margin: auto !important:
 	}
-	
+
 	#rbgdefaultbody .memfaqwrap a, #rbgdefaultbody .memfaqwrap a:hover, #rbgdefaultbody .memfaqwrap a:active, #rbgdefaultbody .memfaqwrap a:visited, #rbgdefaultbody .memfaqwrap a:link {
 		text-decoration: none;
 		color: #FFF;
 		font-weight: normal;
 	}
-	
+
 	.renewbutton {
 		background-color: #196143;
 		color: #FFF;
@@ -1466,17 +1469,17 @@ hr {
 		font-size: 16px;
 		border: 1px solid black;
 	}
-	
+
 /* Begin CSS for membership page sprites */
 
 /* Generated by http://css.spritegen.com CSS Sprite Generator */
- 
-.memsprite01, .memsprite02, .memsprite03, .memsprite04, .memsprite05, 
+
+.memsprite01, .memsprite02, .memsprite03, .memsprite04, .memsprite05,
 .memsprite06, .memsprite07, .memsprite08, .memsprite09, .memsprite10
 {
 	background: url('/images/memsprite.png') no-repeat;
 	}
- 
+
 .memsprite01 { background-position: -0px -0px; width: 175px; height: 225px; }
 .memsprite02 { background-position: -175px -0px; width: 175px; height: 225px; }
 .memsprite03 { background-position: -350px -0px; width: 175px; height: 225px; }
@@ -1502,7 +1505,7 @@ hr {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-		
+
 }
 
 /* End Wrapper for Google Maps */
@@ -1515,9 +1518,9 @@ hr {
 		margin-left: auto;
 		margin-right: auto;
 		background-color: #00502f;
-		overflow: hidden;	
+		overflow: hidden;
 	}
-	
+
 	.concertbanner img {
 		display: block;
 		margin-left: auto;
@@ -1545,7 +1548,7 @@ hr {
 }
 
 #rbgdefaultbody .panel-body a:hover {
-	color: #C4B59E;		/* sets color when hyperlinks hovered over on pages within panel back to site defaults */ 
+	color: #C4B59E;		/* sets color when hyperlinks hovered over on pages within panel back to site defaults */
 }
 
 .panel-title {
@@ -1561,13 +1564,13 @@ hr {
   	#concertcontent {
 	  	max-width:1280px;
 	  	margin: 0 auto 0 auto;
-	  	padding: 0px;	 
+	  	padding: 0px;
   	}
-  	 
+
  .container-fluid-no-padding{
 	  	padding: 0px;
   	}
-  	
+
   	.concertinfo, .concert-test {
   		position: relative;
   		max-width: 280px;
@@ -1582,11 +1585,11 @@ hr {
   		opacity: 1;
   		text-wrap:normal;
   	}
-  	
+
   	.concert-test {
 	  	height: 40px;
   	}
-  	
+
   	@media (max-width: 768px){
 	  	.concertinfo {
 		  	font-size: .85em;
@@ -1598,9 +1601,9 @@ hr {
 	    display: inline-block;
 	    vertical-align: middle; /* vertical alignment of the inline element */
 	    height: 100%;
-	}	
-		
-	.concertwrapper{ 
+	}
+
+	.concertwrapper{
 		position: relative;
 		opacity: 1;
 		margin: 0 0 0 0;
@@ -1608,9 +1611,9 @@ hr {
 	  	padding: 0 0 0 0;
 	  	z-index: 45;
 	}
-	
+
 	@media (max-width: 768px) {
-		
+
 		.concertwrapper{
 			max-width: 420px;
 			margin-left: auto;
@@ -1618,42 +1621,42 @@ hr {
 			float: none;
 			position: relative;
 		}
-		
+
 		.pastdivide hr {
 			display: none;
 		}
-		
+
 		.pastdivide {
 			font-weight: bold;
 		}
-		  
+
 	}
-	
+
 	.past:hover .pasttext{
 		display:block;
 	}
-	
+
 	 .bandpic {
-	  	text-align:center;	
+	  	text-align:center;
 	  	width: 90%;
 	  	padding: 10px 0 0 0;
 	  	position: relative;
 	  	z-index: 1;
-	  	margin: auto;	
+	  	margin: auto;
   	}
-  
+
   	.bandpic img {
 	  	width: 100%;
 	  	position: relative;
-	  	z-index: 2;  	
+	  	z-index: 2;
   	}
 
 	.pasttext, .soldout, .concerttext{
 		position: absolute;
 	  	margin:0 auto 0 auto;
-	  	width: 100%;	
+	  	width: 100%;
 	}
-	
+
 	.invisible{
 		display: none;
 	}
@@ -1661,39 +1664,39 @@ hr {
 	.concerttext {
 		z-index: 3;
 		text-wrap: normal;
-		position: relative;		
+		position: relative;
 		overflow: none;
 		width: 95%;
 		display: table;
 		margin: auto;
-	}	
-	
+	}
+
 	.concerttext:before {      /* create a full-height inline block pseudo-element */
 	    content: ' ';
 	    display: inline-block;
 	    vertical-align: middle; /* vertical alignment of the inline element */
 	    height: 100%;
-	}	
+	}
 
 	.textwrapper {
 		z-index: 3;
 		text-align:  center;
 		text-wrap: normal;
-		position: relative;		
+		position: relative;
 		background-color: none;
 		overflow: none;
 		width: 95%;
 		max-height: 300px;
-		margin:auto;		
-	}	
+		margin:auto;
+	}
 
 	.textcenter {
 		display: table-cell;
 		vertical-align: middle;
-	}	
-		
-	.soldout {	
-		margin: 0 auto 0 auto; 
+	}
+
+	.soldout {
+		margin: 0 auto 0 auto;
 	  	text-align:center;
 		z-index: 3;
 	  	width: 30%;
@@ -1702,12 +1705,12 @@ hr {
 		top: 10px;
 	}
 
-	.soldout img{	 	  
+	.soldout img{
 	  	width: 100%;
 	  	display: block;
-	  	margin: auto;				 	
+	  	margin: auto;
 	}
-	
+
 	.pasttext{
 		z-index: 30;
 		top: 25%;
@@ -1730,39 +1733,39 @@ hr {
 
 	.past{
 		opacity:.5;
-	} 
+	}
 
    .buytickets {
-		margin: 0 auto 0 auto; 
+		margin: 0 auto 0 auto;
 	  	text-align:center;
 		z-index: 50;
 	  	width: 15%;
 	  	position: absolute;
 		top: 80%;
-		left:55%;				
+		left:55%;
 	}
-			
+
 	.buytickets:img {
 		width: 100%;
 	  	display: block;
-	  	margin: auto;	
+	  	margin: auto;
 	}
 
    .addcalendar {
-		margin: 0 auto 0 auto; 
+		margin: 0 auto 0 auto;
 	  	text-align:center;
 		z-index: 55 ;
 	  	width: 15%;
 	  	position: absolute;
 		top: 80%;
-		left:30%;					
-	}		
+		left:30%;
+	}
 	.addcalendar:img {
 		width: 100%;
 	  	display: block;
-	  	margin: auto;	
+	  	margin: auto;
 	}
-	
+
 	.info {
 		z-index; 10;
 		background-color: none;
@@ -1770,16 +1773,16 @@ hr {
 		width: 88%;
 		margin: auto;
 	}
-	
+
 .row-fluid {
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .pastbar1 {
 	float:left;
 
 }
-	
+
 .pastbar2{
 	float:right;
 }
@@ -1791,11 +1794,11 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 	float:none;
-	position: relative;	
+	position: relative;
 }
 
 .pastdivide hr {
-	width: 40%;	
+	width: 40%;
 }
 /**********************************************************/
 /***************  End CSS for Concerts page ***************/
@@ -1846,7 +1849,7 @@ hr {
 .private-rental {
 	background-color: #196143
 }
-	
+
 .spon-table:before {      		/* create a full-height inline block pseudo-element */
     content: ' ';
     display: inline-block;
@@ -1917,7 +1920,7 @@ hr {
 }
 
 .responsive, .responsive img {
-	width: 100%; 
+	width: 100%;
 	height: auto;
 }
 
@@ -1996,7 +1999,7 @@ hr {
 
 /* Fixes responsive table horizontal glitch on phones */
 
-.table-responsive .table {		
+.table-responsive .table {
     max-width: none !important;
 }
 
@@ -2032,11 +2035,11 @@ hr {
 
 .ev-tickets, .ev-cal {
 	clear: none;
-	
+
 }
 
 .ev-title-reg {
-	
+
 }
 
 .ev-title {
@@ -2047,7 +2050,7 @@ hr {
 
 .ev-title, .ev-title-reg, .ev-title-reg h1, .ev-sub, ev-title-mobile, ev-title-mobile h3, .ev-sub {
 	padding: 0px;
-    margin: 0px; 
+    margin: 0px;
 }
 
 .ev-sub, .ev-date {
@@ -2069,25 +2072,25 @@ hr {
 
 @media (min-width: 769px) {
 	.ev-title-mobile, .ev-date-mobile {
-		display: none;	
+		display: none;
 	}
-	
+
 }
 
 @media (max-width: 769px) {
 	.ev-title-reg, .ev-date, .ev-space {
 		display: none;
 	}
-	
+
 	.ev-date-mobile, .ev-title-mobile {
 		text-align: center;
 	}
-	
+
 	.ev-title {
 		font-size: 24px;
 		font-weight: bold;
 	}
-		
+
 	.ev-date-mobile {
 		font-weight: bold;
 	}
@@ -2154,15 +2157,15 @@ hr {
 }
 
 @media (max-width:768px) {
-	
+
 	.eventname {
 		font-size: 16px;
 	}
-	
+
 	.eventdate {
 		font-size: 12px;
 	}
-	
+
 	.eventenotes {
 		font-size: 8px;
 	}
@@ -2244,7 +2247,7 @@ hr {
 
 /* Begin panel code to get rid of button borders and blue border around selected button */
 
-.no-button-outline button:focus {	
+.no-button-outline button:focus {
 	outline: 0;
 }
 
@@ -2255,7 +2258,7 @@ hr {
 
 /* End panel code to get rid of button borders and blue border around selected button */
 
-/* Hides <br /> on mobile devices */ 
+/* Hides <br /> on mobile devices */
 @media (max-width:768px) {
 
 	.br-hide {
@@ -2264,7 +2267,7 @@ hr {
 
 }
 
-/* Hides <br /> on large devices */ 
+/* Hides <br /> on large devices */
 @media (min-width:769px) {
 
 	.br-hide-lg {
@@ -2275,14 +2278,14 @@ hr {
 
 /* Reduces size of headers on small screens and devices */
 @media (max-width: 768px){
-	
+
 	h1{font-size: 2em;}
 	h2{font-size: 1.5em;}
 	h3{font-size: 1.17em;}
 	h4{font-size: 1em;}
 	h5{font-size: .83em;}
 	h6{font-size: .75em;}
-	
+
 }
 
 /* Concert information CSS */
@@ -2371,7 +2374,7 @@ hr {
 	}
 }
 
-/* Begin CSS for Blog Post Navigation */ 
+/* Begin CSS for Blog Post Navigation */
 
 .PageNavigation {
   font-size: 14px;
@@ -2416,15 +2419,15 @@ hr {
 		width: 40%;
 		margin: -25px auto 0 auto;
 	}
-	
+
 	.hr-separator {
 		width: 85%;
-	}	
-	
+	}
+
 }
 
 .field-class-info {
-	min-height: 305px;	
+	min-height: 305px;
 }
 
 /* Offsite Pickup Table for Botany Bins */
@@ -2517,4 +2520,3 @@ hr {
 	height:84px;
 	background: url('/images/core/sprite-test.png') 0px -254px ;
 }
-
