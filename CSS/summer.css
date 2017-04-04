@@ -1669,6 +1669,7 @@ hr {
 		width: 95%;
 		display: table;
 		margin: auto;
+		height: 305px; /* This value might need to be changed each season */
 	}
 
 	.concerttext:before {      /* create a full-height inline block pseudo-element */
@@ -1686,13 +1687,29 @@ hr {
 		background-color: none;
 		overflow: none;
 		width: 95%;
-		max-height: 300px;
+		/* height: 300px; */
 		margin:auto;
 	}
 
 	.textcenter {
 		display: table-cell;
 		vertical-align: middle;
+	}
+
+	.con-band-wrap {
+		position: absolute;
+		top: 0;
+		text-align: center;
+		text-wrap: normal;
+		overflow: none;
+		width: 100%;
+		display: table;
+		margin: auto;
+	}
+
+	.con-but-wrap {
+		position: absolute;
+		bottom: 0;
 	}
 
 	.soldout {
@@ -2297,6 +2314,10 @@ hr {
 	color: #000 !important;
 }
 
+.con-smaller {
+	font-size: 1.25em !important;
+}
+
 #rbgdefaultbody .con-title a, #rbgdefaultbody .con-title a:link, #rbgdefaultbody .con-title a:visited, #rbgdefaultbody .con-title a:active {
 	/* font-size: 1em !important; */
 	font-weight: bold;
@@ -2311,7 +2332,7 @@ hr {
 
 .con-sub {
 	font-size: .9em;
-	font-style: italic
+	font-style: italic;
 }
 
 .con-opener {
