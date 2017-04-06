@@ -1,37 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-06T15:07:25-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">Call for Poetry</title><link href="http://localhost:4000/call-for-poetry/" rel="alternate" type="text/html" title="Call for Poetry" /><published>2017-03-27T00:00:00-06:00</published><updated>2017-03-28T08:25:04-06:00</updated><id>http://localhost:4000/call-for-poetry</id><content type="html" xml:base="http://localhost:4000/call-for-poetry/">&lt;p&gt;Are you interested in having your poem featured in one of Red Butte Garden’s eleven poetry boxes this April during National Poetry Month?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-06T16:01:55-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">Welcome Spring 2017!</title><link href="http://localhost:4000/welcome-spring-2017/" rel="alternate" type="text/html" title="Welcome Spring 2017!" /><published>2017-03-31T01:00:00-06:00</published><updated>2017-04-06T15:35:54-06:00</updated><id>http://localhost:4000/welcome-spring-2017</id><content type="html" xml:base="http://localhost:4000/welcome-spring-2017/">&lt;p class=&quot;text-center&quot;&gt;What a great time of year spring is. The blanket of snow melts and reveals the buds and blossoms we all look forward to.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Please submit your entry to LaraLee Smith&lt;/strong&gt; at &lt;a href=&quot;mailto:laralee.smith@redbutte.utah.edu&quot;&gt;laralee.smith@redbutte.utah.edu&lt;/a&gt;, &lt;strong&gt;on or before Saturday, February 20th&lt;/strong&gt;.&lt;/p&gt;
+&lt;center&gt;
+  &lt;img src=&quot;/images/blogs/Floral%20Walk%20Daffodils%20JWB17.JPG&quot; width=&quot;550&quot; height=&quot;433&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+  &lt;p class=&quot;text-center&quot;&gt;Yes, it's that time! Our daffodils are up and looking fantastic!&lt;/p&gt;
+&lt;/center&gt;
 
-&lt;br /&gt;
 
-&lt;h5 class=&quot;green&quot;&gt;Entries must include&lt;/h5&gt;
- 
-&lt;ul&gt;
-	&lt;li&gt;Author(s) name&lt;/li&gt;
-	&lt;li&gt;Phone number&lt;/li&gt;
-	&lt;li&gt;E-mail address&lt;/li&gt;
-	&lt;li&gt;A note specifying whether they are entering the adult (poets aged 18 and over) or youth (poets aged 5 to 17) category&lt;/li&gt;
-	&lt;li&gt;The poem itself&lt;/li&gt;
-	&lt;li&gt;&lt;span class=&quot;red&quot;&gt;One entry per person&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;center&gt;
+  &lt;img src=&quot;/images/blogs/Magnolia%20x%20loebneri%20%27Leonard%20Messel%27%20Flowers%20JWB17%20%20.JPG&quot; width=&quot;550&quot; height=&quot;749&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+  &lt;p class=&quot;text-center&quot;&gt;Leonard Messel Magnolia &amp;nbsp;&amp;nbsp;&lt;i&gt; Magnolia&lt;/i&gt; x &lt;i&gt; stellata&lt;/i&gt; 'Leonard Messel'&lt;/p&gt;
+  &lt;p class=&quot;text-center&quot;&gt;This beauty is hard to miss as you enter the Courtyard.&lt;/p&gt;
+&lt;/center&gt;
 
-&lt;br /&gt;
 
-&lt;h5 class=&quot;green&quot;&gt;Poems will be judged according to the following criteria:&lt;/h5&gt;
+&lt;center&gt;
+  &lt;img src=&quot;/images/blogs/Pulmonaria%20%27Silver%20Bouquet%27%20Flowers%20JWB17.JPG&quot; width=&quot;550&quot; height=&quot;569&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+  &lt;p class=&quot;text-center&quot;&gt;Silver Bouquet Lungwort &amp;nbsp;&amp;nbsp;&lt;i&gt; Pulmonaria&lt;/i&gt; 'Silver Bouquet'&lt;/p&gt;
+  &lt;p class=&quot;text-center&quot;&gt;A lover of shade, this perennial is planted under the trees along the upper Floral Walk.&lt;/p&gt;
+&lt;/center&gt;
 
-&lt;ul&gt;
-	&lt;li&gt;Inspired by nature&lt;/li&gt;
-	&lt;li&gt;Relevant to the spring season&lt;/li&gt;
-	&lt;li&gt;Pertinent to the Garden&lt;/li&gt;
-	&lt;li&gt;24 lines or shorter&lt;/li&gt;
-	&lt;li&gt;Appropriate for all ages&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;br /&gt;
+&lt;center&gt;
+  &lt;img src=&quot;/images/blogs/Magnolia%20stellata%20%27Royal%20Star%27%20Flower%20JWB17.JPG&quot; width=&quot;550&quot; height=&quot;532&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+  &lt;p class=&quot;text-center&quot;&gt;Royal Star Magnolia &amp;nbsp;&amp;nbsp;&lt;i&gt; Magnolia stellata&lt;/i&gt; 'Royal Star'&lt;/p&gt;
+  &lt;p class=&quot;text-center&quot;&gt;As you stroll down the Floral Walk, these show stoppers are sure to catch your eye.&lt;/p&gt;
+&lt;/center&gt;
 
-&lt;p&gt;Chosen authors will be invited to provide an audio recording of themselves performing a reading of their poem and participate in additional programming related to National Poetry Month.&lt;/p&gt;
 
-&lt;p&gt;By submitting your poems, the author grants Red Butte Garden a license to publish and reproduce the poem online and in other media.&lt;/p&gt;</content><summary type="html">Are you interested in having your poem featured in one of Red Butte Garden’s eleven poetry boxes this April during National Poetry Month?</summary></entry><entry><title type="html">Behind the Scenes</title><link href="http://localhost:4000/behind-the-scenes/" rel="alternate" type="text/html" title="Behind the Scenes" /><published>2017-01-13T00:00:00-07:00</published><updated>2017-03-30T20:06:46-06:00</updated><id>http://localhost:4000/behind-the-scenes</id><content type="html" xml:base="http://localhost:4000/behind-the-scenes/">&lt;div class=&quot;text-center&quot;&gt;&lt;p&gt;Here is a sneak peak of behind the scenes and inside of our Greenhouses, which is where the magic begins at Red Butte Garden.&lt;/p&gt;&lt;/div&gt;
+&lt;center&gt;
+  &lt;img src=&quot;/images/blogs/Narcissus%20%27Wisley%27%20Flower%20JWB17.JPG&quot; width=&quot;550&quot; height=&quot;580&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+  &lt;p class=&quot;text-center&quot;&gt;Wisley Daffodil &amp;nbsp;&amp;nbsp;&lt;i&gt; Narcissus&lt;/i&gt; 'Wisley'&lt;/p&gt;
+  &lt;p class=&quot;text-center&quot;&gt;Red Butte Garden is home to more than 160 cultivars of Daffodil. How many can you count?&lt;/p&gt;
+&lt;/center&gt;
+
+
+&lt;center&gt;
+  &lt;img src=&quot;/images/blogs/Astragalus%20cibarius%20Flower%20JWB17.JPG&quot; width=&quot;550&quot; height=&quot;429&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+  &lt;p class=&quot;text-center&quot;&gt;Browse Milkvetch &amp;nbsp;&amp;nbsp;&lt;i&gt; Astragalus cibarius&lt;/i&gt;&lt;/p&gt;
+  &lt;p class=&quot;text-center&quot;&gt;Why not go for a hike in the Natural Area and enjoy our native flora?&lt;/p&gt;
+&lt;/center&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;The weather is getting warmer and the days longer, why not come check out what Red Butte has to offer.&lt;/p&gt;
+
+&lt;h5 class=&quot;text-center green&quot;&gt;Photos by Jason W. Baker&lt;/h5&gt;</content><summary type="html">What a great time of year spring is. The blanket of snow melts and reveals the buds and blossoms we all look forward to.</summary></entry><entry><title type="html">Behind the Scenes</title><link href="http://localhost:4000/behind-the-scenes/" rel="alternate" type="text/html" title="Behind the Scenes" /><published>2017-01-13T00:00:00-07:00</published><updated>2017-03-30T20:06:46-06:00</updated><id>http://localhost:4000/behind-the-scenes</id><content type="html" xml:base="http://localhost:4000/behind-the-scenes/">&lt;div class=&quot;text-center&quot;&gt;&lt;p&gt;Here is a sneak peak of behind the scenes and inside of our Greenhouses, which is where the magic begins at Red Butte Garden.&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&quot;text-center&quot;&gt;
 	
