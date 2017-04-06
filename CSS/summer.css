@@ -2482,6 +2482,26 @@ hr {
 	font-weight: bold;
 }
 
+.memfaq-con-table th {
+	color: #FFF;
+	background-color: #196143;
+	text-align: center;
+	font-size: 1em;
+	width: 200px;
+	padding: 1px;
+	border: 1px solid #000;
+}
+
+.memfaq-con-table td:nth-child(odd) {
+	padding-left: 10px;
+	border: 1px solid #000;
+}
+
+.memfaq-con-table td:nth-child(even) {
+	text-align: center;
+	border: 1px solid #000;
+}
+
 /* Botany Bin Table */
 
 .botany-bin-table table, .offsite-pickup-table table {
