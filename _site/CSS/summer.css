@@ -2248,6 +2248,10 @@ hr {
 	background-color: #FFF;
 }
 
+.red-bg {
+	background-color: red;
+}
+
 #volunteer-apps {
 	background-color:#f2ede4;
 	margin-top: -4px;
