@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-07T13:25:59-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">GARDEN POETRY READING</title><link href="http://localhost:4000/poetry-reading/" rel="alternate" type="text/html" title="GARDEN POETRY READING" /><published>2017-04-07T00:00:00-06:00</published><updated>2017-04-07T12:04:08-06:00</updated><id>http://localhost:4000/poetry-reading</id><content type="html" xml:base="http://localhost:4000/poetry-reading/">&lt;p&gt;Celebrate spring and go on a walk through the Garden with the winners of our spring poetry contest! Throughout the month of April the Garden is hosting 11 poetry boxes, showcasing works from local poets in honor of National Poetry Month. Stroll the Garden with the poets to hear live readings and gain details about the meaning behind their words.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-07T13:35:16-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">CERTIFICATE OF WESTERN HORTICULTURE OPEN HOUSE</title><link href="http://localhost:4000/western-horticulture/" rel="alternate" type="text/html" title="CERTIFICATE OF WESTERN HORTICULTURE OPEN HOUSE" /><published>2017-04-07T00:00:00-06:00</published><updated>2017-04-07T13:35:16-06:00</updated><id>http://localhost:4000/western-horticulture</id><content type="html" xml:base="http://localhost:4000/western-horticulture/">&lt;p class=&quot;text-center&quot;&gt;Red Butte Garden and Lifelong Learning invite you to a special open house on Earth Day, Saturday April 22.&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Come learn more about the Certificate of Western Horticulture, a certificate designed to help Wasatch Front gardeners learn techniques to become more successful gardeners. Enjoy a tour of Red Butte Garden, meet fellow gardeners, instructors, and friends. Beverages and bagels provided.&lt;/p&gt;
+
+&lt;p class=&quot;text-center red bold&quot;&gt;REGISTRATION REQIRED&lt;/p&gt;</content><summary type="html">Red Butte Garden and Lifelong Learning invite you to a special open house on Earth Day, Saturday April 22.</summary></entry><entry><title type="html">GARDEN POETRY READING</title><link href="http://localhost:4000/poetry-reading/" rel="alternate" type="text/html" title="GARDEN POETRY READING" /><published>2017-04-07T00:00:00-06:00</published><updated>2017-04-07T12:04:08-06:00</updated><id>http://localhost:4000/poetry-reading</id><content type="html" xml:base="http://localhost:4000/poetry-reading/">&lt;p&gt;Celebrate spring and go on a walk through the Garden with the winners of our spring poetry contest! Throughout the month of April the Garden is hosting 11 poetry boxes, showcasing works from local poets in honor of National Poetry Month. Stroll the Garden with the poets to hear live readings and gain details about the meaning behind their words.&lt;/p&gt;
 
 &lt;p&gt;Authors in attendance will include:&lt;/p&gt;
 
@@ -21,7 +25,7 @@
 &lt;center&gt;
 	&lt;p class=&quot;red&quot;&gt;SOLD OUT! Click Below To Be Added to Waiting List&lt;/p&gt;
 	&lt;a href=&quot;https://redbuttegarden.formstack.com/forms/poetry_walk_waitlist&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Waiting List&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
-&lt;/center&gt;</content><summary type="html">Celebrate spring and go on a walk through the Garden with the winners of our spring poetry contest! Throughout the month of April the Garden is hosting 11 poetry boxes, showcasing works from local poets in honor of National Poetry Month. Stroll the Garden with the poets to hear live readings and gain details about the meaning behind their words.</summary></entry><entry><title type="html">ARBOR DAY</title><link href="http://localhost:4000/arbor-day/" rel="alternate" type="text/html" title="ARBOR DAY" /><published>2017-04-07T00:00:00-06:00</published><updated>2017-04-07T13:25:59-06:00</updated><id>http://localhost:4000/arbor-day</id><content type="html" xml:base="http://localhost:4000/arbor-day/">&lt;p class=&quot;text-center&quot;&gt;There’s no better place than Red Butte Garden to celebrate Arbor Day! As Utah’s very own arboretum, we can't wait to share the wonderful world of trees. Due to the generous support of Rocky Mountain Power, join us for a fun day of activities and leave with a free tree to take home (while supplies last).&lt;/p&gt;
+&lt;/center&gt;</content><summary type="html">Celebrate spring and go on a walk through the Garden with the winners of our spring poetry contest! Throughout the month of April the Garden is hosting 11 poetry boxes, showcasing works from local poets in honor of National Poetry Month. Stroll the Garden with the poets to hear live readings and gain details about the meaning behind their words.</summary></entry><entry><title type="html">ARBOR DAY</title><link href="http://localhost:4000/arbor-day/" rel="alternate" type="text/html" title="ARBOR DAY" /><published>2017-04-07T00:00:00-06:00</published><updated>2017-04-07T13:06:10-06:00</updated><id>http://localhost:4000/arbor-day</id><content type="html" xml:base="http://localhost:4000/arbor-day/">&lt;p class=&quot;text-center&quot;&gt;There’s no better place than Red Butte Garden to celebrate Arbor Day! As Utah’s very own arboretum, we can't wait to share the wonderful world of trees. Due to the generous support of Rocky Mountain Power, join us for a fun day of activities and leave with a free tree to take home (while supplies last).&lt;/p&gt;
 
 &lt;p class=&quot;text-center&quot;&gt;Thanks to funding in part by &lt;strong&gt;Salt Lake County Zoo, Arts, and Parks Program (ZAP)&lt;/strong&gt; Arbor Day is a ZAP Free Day! Everyone enjoys free Garden admission.&lt;/p&gt;
 
@@ -449,64 +453,4 @@
 
 &lt;/div&gt; 
 
-&lt;h5 class=&quot;text-center green&quot;&gt;Photos by Heidi Simper&lt;/h5&gt;</content><summary type="html">Flowers, fruit, leaves, insects, and cooler weather! Thanks to Fall, Red Butte Garden has it all! Now is a good time to visit the Garden to see plants in all various life stages.</summary></entry><entry><title type="html">Fantastic Fall Flowers</title><link href="http://localhost:4000/fantastic-fall-flowers/" rel="alternate" type="text/html" title="Fantastic Fall Flowers" /><published>2016-09-29T00:00:00-06:00</published><updated>2017-03-30T20:06:46-06:00</updated><id>http://localhost:4000/fantastic-fall-flowers</id><content type="html" xml:base="http://localhost:4000/fantastic-fall-flowers/">&lt;p class=&quot;text-center&quot;&gt;Fall is officially here and every corner of the Garden is filled with color.&lt;/p&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-	&lt;img src=&quot;/images/blogs/Acer%20griseum%20Bark%20JWB16.JPG&quot; width=&quot;550&quot; height=&quot;556&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-	&lt;p&gt;Paper Bark Maple &amp;nbsp;&amp;nbsp;&lt;i&gt;Acer griseum&lt;/i&gt;&lt;/p&gt;
-	&lt;p&gt;Look for the beautiful peeling bark of this Maple along the Floral Walk and near the Amphitheatre&lt;/p&gt;
-	
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-	&lt;img src=&quot;/images/blogs/Aster%20%27Woods%20Light%20Blue%27%20Inflorescence%20JWB16.JPG&quot; width=&quot;550&quot; height=&quot;452&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-	&lt;p&gt;Woods' Light Blue Aster &amp;nbsp;&amp;nbsp;&lt;i&gt;Aster&lt;/i&gt; 'Woods' Light Blue'&lt;/p&gt;
-	&lt;p&gt;Plant Asters in your garden to give bees the nectar they need in the fall.&lt;/p&gt;
-	
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-	&lt;img src=&quot;/images/blogs/Eupatorium%20rugosum%20%27Chocolate%27%20Flowers%20JWB16.JPG&quot; width=&quot;550&quot; height=&quot;438&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-	&lt;p&gt;Chocolate Snakeroot &amp;nbsp;&amp;nbsp;&lt;i&gt;Eupatorium rugosum&lt;/i&gt; 'Chocolate'&lt;/p&gt;
-	&lt;p&gt;These pure white flowers can be found growing under the Pear Arbors.&lt;/p&gt;
-	
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-	&lt;img src=&quot;/images/blogs/Origanum%20%27Bristol%20Cross%27%20Flowers%20JWB16.JPG&quot; width=&quot;550&quot; height=&quot;405&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-	&lt;p&gt;Ornamental Oregano &amp;nbsp;&amp;nbsp;&lt;i&gt;Origanum&lt;/i&gt; 'Bristol Cross'&lt;/p&gt;
-	&lt;p&gt;This low-growing Oregano looks great in any location.&lt;/p&gt;
-	
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-	&lt;img src=&quot;/images/blogs/Pennisetum%20orientale%20on%20Floral%20Walk%20JWB16.JPG&quot; width=&quot;550&quot; height=&quot;413&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-	&lt;p&gt;Oriental Fountain Grass &amp;nbsp;&amp;nbsp;&lt;i&gt;Pennisetum orientale&lt;/i&gt;&lt;/p&gt;
-	&lt;p&gt;Plant grasses in your garden to bring a feathery texture to your garden.&lt;/p&gt;
-	
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-	&lt;img src=&quot;/images/blogs/Rosa%20%27ANDeli%27%20Flower%20JWB16.JPG&quot; width=&quot;550&quot; height=&quot;463&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-	&lt;p&gt;Double Delight™ Rose &amp;nbsp;&amp;nbsp;&lt;i&gt;Rosa &lt;/i&gt;'ANDeli'&lt;/p&gt;
-	&lt;p&gt;Exposure UV light stimulates the white petals to change red.&lt;/p&gt;
-	
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-	&lt;img src=&quot;/images/blogs/Rosa%20woodsii%20Fruits%20JWB16.JPG&quot; width=&quot;550&quot; height=&quot;479&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-	&lt;p&gt;Woods' Rose &amp;nbsp;&amp;nbsp;&lt;i&gt;Rosa woodsii &lt;/i&gt;&lt;/p&gt;
-	&lt;p&gt;The hips of this native rose are a great food source for birds during the winter.&lt;/p&gt;
-	
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;The leaves are changing, the grasses are stunning, and the temperature is mild, making right now a great time to visit Red Butte Garden.&lt;/div&gt;
-
-&lt;h5 class=&quot;text-center green&quot;&gt;Photos by Jason Baker&lt;/h5&gt;</content><summary type="html">Fall is officially here and every corner of the Garden is filled with color.</summary></entry></feed>
+&lt;h5 class=&quot;text-center green&quot;&gt;Photos by Heidi Simper&lt;/h5&gt;</content><summary type="html">Flowers, fruit, leaves, insects, and cooler weather! Thanks to Fall, Red Butte Garden has it all! Now is a good time to visit the Garden to see plants in all various life stages.</summary></entry></feed>
