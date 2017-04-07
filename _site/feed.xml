@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-07T12:48:15-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">GARDEN POETRY READING</title><link href="http://localhost:4000/poetry-reading/" rel="alternate" type="text/html" title="GARDEN POETRY READING" /><published>2017-04-07T00:00:00-06:00</published><updated>2017-04-07T12:04:08-06:00</updated><id>http://localhost:4000/poetry-reading</id><content type="html" xml:base="http://localhost:4000/poetry-reading/">&lt;p&gt;Celebrate spring and go on a walk through the Garden with the winners of our spring poetry contest! Throughout the month of April the Garden is hosting 11 poetry boxes, showcasing works from local poets in honor of National Poetry Month. Stroll the Garden with the poets to hear live readings and gain details about the meaning behind their words.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-07T13:04:28-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">ARBOR DAY</title><link href="http://localhost:4000/arbor-day/" rel="alternate" type="text/html" title="ARBOR DAY" /><published>2017-04-07T00:00:00-06:00</published><updated>2017-04-07T12:33:12-06:00</updated><id>http://localhost:4000/arbor-day</id><content type="html" xml:base="http://localhost:4000/arbor-day/">&lt;p class=&quot;text-center&quot;&gt;There’s no better place than Red Butte Garden to celebrate Arbor Day! As Utah’s very own arboretum, we can't wait to share the wonderful world of trees. Due to the generous support of Rocky Mountain Power, join us for a fun day of activities and leave with a free tree to take home (while supplies last).&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Thanks to funding in part by &lt;strong&gt;Salt Lake County Zoo, Arts, and Parks Program (ZAP)&lt;/strong&gt; Arbor Day is a ZAP Free Day! Everyone enjoys free Garden admission.&lt;/p&gt;
+
+&lt;h3 class=&quot;text-center green&quot;&gt;Schedule of Events&lt;/h3&gt;
+&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;Tree Giveaway&lt;/strong&gt; - Children’s Garden, All Day&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Thanks to the generous support of &lt;storng&gt;Rocky Mountain Power&lt;/storng&gt;, all guests leave with a free White Fir, Abies concolor, to take home. Trees available while supplies last!&lt;/p&gt;
+
+&lt;br /&gt;&lt;hr width=&quot;40%&quot; /&gt;&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;Tree Scavenger Hunt&lt;/strong&gt; - Throughout the Garden, All Day&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Red Butte Garden has an amazing collection of trees! See if you can find the ten trees we’ve highlighted for your Arbor Day visit as you explore the Garden today.&lt;/p&gt;
+
+&lt;br /&gt;&lt;hr width=&quot;40%&quot; /&gt;&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;Exploration Stops&lt;/strong&gt; - Throughout the Garden, All Day&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Discover the amazing world of trees as you stroll through the Garden! Using your senses, discover the vital role leaves, trunks, roots, and seeds play in the life of a tree.&lt;/p&gt;
+
+&lt;br /&gt;&lt;hr width=&quot;40%&quot; /&gt;&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;American Conifer Society Booth&lt;/strong&gt; - Courtyard Garden, 9AM-Noon&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Curious about conifers? Stop by the courtyard to meet David Olszyk of the American Conifer Society (ACS) and become an ACS member! Membership grants you exclusive access to ConiferQuarterly and all the latest conifer news.&lt;/p&gt;
+
+&lt;br /&gt;&lt;hr width=&quot;40%&quot; /&gt;&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;Poster Contest Ceremony&lt;/strong&gt; - Orangerie, 10-10:45AM&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Students across the state have been busy learning about trees and creating their own posters to illustrate this year’s theme, &quot;Trees are Terrific Storytellers of the Past!” Help us recognize this year’s contest winners at the official Utah State Arbor Day Ceremony.&lt;/p&gt;
+
+&lt;br /&gt;&lt;hr width=&quot;40%&quot; /&gt;&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;Tree Planting&lt;/strong&gt; - Rose Garden, 10:45-11:00AM&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Participate in our 2017 Arbor Day tree planting! A new tree will be added to the Garden’s collection to commemorate this important holiday.&lt;/p&gt;
+
+&lt;br /&gt;&lt;hr width=&quot;40%&quot; /&gt;&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;The Diversity of Deciduous Trees&lt;/strong&gt; - Courtyard Garden, April 28 from 11:30AM-12:30PM&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Stop by for a lunchtime tour with Crystal Kim, Garden Horticulturist, to explore deciduous trees in the Garden. Discover unique trees that are good candidates for your own yard and how they can lower your energy bill year round. Bring your questions and leave with a free tree to take home due to the generous support of Rocky Mountain Power.&lt;/p&gt;
+
+&lt;p class=&quot;text-center italic&quot;&gt;Tour meets in the Courtyard Garden. Space limited to 20 guests.&lt;/p&gt;
+
+&lt;center&gt;
+  &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/The-Diversity-of-Deciduous-Trees&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+
+&lt;br /&gt;&lt;hr width=&quot;40%&quot; /&gt;&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;Incredible Conifers!&lt;/strong&gt; - Courtyard Garden, April 28 from 1-2PM&lt;/p&gt;
+
+&lt;p&gt;Join David Olszyk of the American Conifer Society and members of the Garden’s conifer planning committee on a tour to discuss the Garden’s amazing collection and how conifers can add interest to your winter landscape. Bring your conifer-related questions and leave with a free tree to take home due to the generous support of Rocky Mountain Power.&lt;/p&gt;
+
+&lt;p class=&quot;italic text-center&quot;&gt;Tour meets in the Courtyard Garden. Space limited to 20 guests.&lt;/p&gt;
+
+&lt;center&gt;
+  &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/Incredible-Conifersrock&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+
+&lt;br /&gt;
+
+&lt;center&gt;
+  &lt;img src=&quot;/images/misc/rocky-mountain-power.jpg&quot; alt=&quot;Red Butte Garden thanks Rocky Mountain Power for it's generous support!&quot; title=&quot;Red Butte Garden thanks Rocky Mountain Power for it's generous support!&quot; class=&quot;responsive&quot; style=&quot;max-width:200px;&quot; /&gt;
+&lt;/center&gt;</content><summary type="html">There’s no better place than Red Butte Garden to celebrate Arbor Day! As Utah’s very own arboretum, we can't wait to share the wonderful world of trees. Due to the generous support of Rocky Mountain Power, join us for a fun day of activities and leave with a free tree to take home (while supplies last).</summary></entry><entry><title type="html">GARDEN POETRY READING</title><link href="http://localhost:4000/poetry-reading/" rel="alternate" type="text/html" title="GARDEN POETRY READING" /><published>2017-04-07T00:00:00-06:00</published><updated>2017-04-07T12:04:08-06:00</updated><id>http://localhost:4000/poetry-reading</id><content type="html" xml:base="http://localhost:4000/poetry-reading/">&lt;p&gt;Celebrate spring and go on a walk through the Garden with the winners of our spring poetry contest! Throughout the month of April the Garden is hosting 11 poetry boxes, showcasing works from local poets in honor of National Poetry Month. Stroll the Garden with the poets to hear live readings and gain details about the meaning behind their words.&lt;/p&gt;
 
 &lt;p&gt;Authors in attendance will include:&lt;/p&gt;
 
@@ -440,49 +509,4 @@
 
 &lt;div class=&quot;text-center&quot;&gt;The leaves are changing, the grasses are stunning, and the temperature is mild, making right now a great time to visit Red Butte Garden.&lt;/div&gt;
 
-&lt;h5 class=&quot;text-center green&quot;&gt;Photos by Jason Baker&lt;/h5&gt;</content><summary type="html">Fall is officially here and every corner of the Garden is filled with color.</summary></entry><entry><title type="html">Happy Labor Day weekend!</title><link href="http://localhost:4000/happy-labor-day-weekend/" rel="alternate" type="text/html" title="Happy Labor Day weekend!" /><published>2016-09-02T00:00:00-06:00</published><updated>2017-03-30T20:06:46-06:00</updated><id>http://localhost:4000/happy-labor-day-weekend</id><content type="html" xml:base="http://localhost:4000/happy-labor-day-weekend/">&lt;div class=&quot;text-center&quot;&gt;For all of you hard workers out there, come spend your long weekend up here at the Garden. What better way to relax than to be surrounded by nature's beauty!&lt;/div&gt;
-
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-  &lt;img src=&quot;/images/blogs/Campanula%20%27Pink%20Octopus%27%20Flower%20HMS16.jpg&quot; width=&quot;560&quot; height=&quot;488&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-  &lt;p&gt;Pink Octopus &lt;p&gt;Bellflower &amp;nbsp;&amp;nbsp;&lt;i&gt;Campanula&lt;/i&gt; 'Pink Octopus'&lt;/p&gt;
-  &lt;p&gt;Can you tell why this flower is called Pink Octopus?&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-  &lt;img src=&quot;/images/blogs/Magnolia%20x%20loebneri%20%27Merrill%27%20Fruit%20HMS16.jpg&quot; width=&quot;560&quot; height=&quot;487&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-  &lt;p&gt;Loebner Magnolia &amp;nbsp;&amp;nbsp;&lt;i&gt;Magnolia&lt;/i&gt; x&lt;i&gt; loebneri&lt;/i&gt; 'Merrill'&lt;/p&gt;
-  &lt;p&gt;Hey Miss Magnolia, what unusual fruit you have!&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-  &lt;img src=&quot;/images/blogs/Clematis%20crispa%20Flower%20HMS16.jpg&quot; width=&quot;560&quot; height=&quot;502&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-  &lt;p&gt;Swamp Leather Flower &amp;nbsp;&amp;nbsp;&lt;i&gt;Clematis crispa&lt;/i&gt;&lt;/p&gt;
-  &lt;p&gt;This gorgeous flower can be seen along the Floral Walk.&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-  &lt;img src=&quot;/images/blogs/Capsicum%20annuum%20%27Bulgarian%20Carrot%27%20Fruit%20HMS16.jpg&quot; width=&quot;560&quot; height=&quot;770&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-  &lt;p&gt;Bulgarian Carrot &amp;nbsp;&amp;nbsp;&lt;i&gt;Capsicum annuum&lt;/i&gt; 'Bulgarian Carrot'&lt;/p&gt;
-  &lt;p&gt;These peppers in the Herb Garden may look like carrots, but they sure don't taste like them!&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-
-  &lt;img src=&quot;/images/blogs/Rubus%20pentalobus%20Fruit%20HMS16.jpg&quot; width=&quot;560&quot; height=&quot;404&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
-  &lt;p&gt;Creeping Raspberry &amp;nbsp;&amp;nbsp;&lt;i&gt;Rubus pentalobus&lt;/i&gt;&lt;/p&gt;
-  &lt;p&gt;Orange raspberries! Did you know there was such a thing? Not to mention they are quite tasty.&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;With a three day weekend, there is no excuse not to come to the Garden. Come thank yourself for all the hard work you do by enjoying a relaxing stroll through the Garden.&lt;/div&gt;
-
-&lt;h5 class=&quot;text-center green&quot;&gt;Photos by Heidi Simper&lt;/h5&gt;</content><summary type="html">For all of you hard workers out there, come spend your long weekend up here at the Garden. What better way to relax than to be surrounded by nature's beauty!</summary></entry></feed>
+&lt;h5 class=&quot;text-center green&quot;&gt;Photos by Jason Baker&lt;/h5&gt;</content><summary type="html">Fall is officially here and every corner of the Garden is filled with color.</summary></entry></feed>
