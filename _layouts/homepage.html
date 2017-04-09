@@ -24,7 +24,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" href="/CSS/summer.css?v=1"> <!-- Additional local CSS -->
-  
+
 </head>
 <body>
 
@@ -36,31 +36,31 @@
 
     <div id="inner-slider-wrapper1">
     <div id="inner-slider-wrapper2">
-    
+
         <!-- Jssor Slider Begin -->
         <div id="slider1_container">
             <!-- Slides Container -->
             <div id="slides" u="slides">
-            
+
             {% include eventslides.html %}
-            
+
             </div>
-            
+
             <!-- bullet navigator container -->
             <div u="navigator" class="jssorb21" style="top: 68px;">
                 <!-- bullet navigator item prototype -->
                 <div u="prototype"></div>
             </div>
-            
+
             <!-- Arrow Left -->
             <span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;"></span>
-            
+
             <!-- Arrow Right -->
             <span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;"></span>
-            
+
         </div>
         <!-- Jssor Slider End -->
-                            
+
         <!-- Begin Page Down Code -->
 		<div id="page-down2" class="col-xs-12">
 			<span class="page-down-icon"><img src="/images/core/down-arrow.png" /></span>
@@ -68,24 +68,25 @@
 			<!-- <span class="page-down-icon" style="background-color:red;"><span class="jssora21l"></span></span> -->
 		</div>
 		<!-- End Page Down Code -->
-        
+
     </div>
     </div>
     <!-- Begin Inner Info Div -->
     <div id="rbg-info-wrapper1">
 	<div id="rbginfobg">
-	
+
 		<div id="rbginfo" class="row-fluid clearfix">
-					
+
 			<div id="rbghours" class="col-xs-3"><a href="/general-info"><div class="rbghours hover"></div></a>
-				<div id="gardenHours"></div>
+				<div class="red text-center bold">The Garden is Closed Today due to Inclement Weather</div>
+				<!-- <div id="gardenHours"></div>
 				<div id="gardenStatus"></div>
-				<div id="otherNotes"></div>
+				<div id="otherNotes"></div> -->
 			</div>
 			<div id="rbgadmission" class="col-xs-3" onclick="admissionHoverOn()"><a href="#"><div class="rbgadmission hover"></div></a></div>
 			<div id="rbgdirections" class="col-xs-3"><a href="{% link directions.html %}"><div class="rbgdirections hover"></div></a></div>
 			<div id="rbgweather" class="col-xs-3"><a href="http://legacy.weather.weatherbug.com/weather-safety/online-weather-center/OnlineWeatherCenter.aspx?aid=4842" target="_blank"><div class="rbgweather hover"></div></a></div>
-			
+
 			<!-- Begin Page Down Code for Slides on Mobile -->
 			<div id="page-down" class="col-xs-12">
 				<center><span class="page-down-icon"><img src="/images/core/down-arrow.png" /></span></center>
@@ -93,9 +94,9 @@
 				<!-- <span class="page-down-icon" style="background-color:red;"><span class="jssora21l"></span></span> -->
 			</div>
 			<!-- End Page Down Code for Slides on Mobile -->
-			
+
 		</div>
-		
+
 	</div>
 
 	</div>
@@ -107,25 +108,26 @@
 
 <div id="rbg-info-wrapper2">
 	<div id="rbginfobg2">
-	
+
 		<div id="rbginfo" class="row">
 			<div id="rbghours" class="col-sm-3">
 					<b>GARDEN HOURS (MDT)</b>
-					<div id="gardenHours2"></div>
+					<div class="text-center red bold">The Garden is Closed Today due to Inclement Weather</div>
+					<!-- <div id="gardenHours2"></div>
 					<div id="gardenStatus2"></div>
-					<div id="otherNotes2"></div><br />
+					<div id="otherNotes2"></div><br /> -->
 					<div>Only Service Animals are allowed in the garden</div><br />
 						<a href="/general-info" style="text-decoration:none;color:#FFFFFF;font-size:12px">CLICK TO SEE ALL HOURS</a>
 			</div>
 			<div id="rbgadmission2" class="col-sm-3">
-				
+
 				{% include admission.html %}
-				
+
 			</div>
 			<div id="rbgdirections" class="col-sm-3"><a href="/directions"><div class="rbgdirections"></div></a></div>
 			<div id="rbgweather" class="col-sm-3"><a href="http://legacy.weather.weatherbug.com/weather-safety/online-weather-center/OnlineWeatherCenter.aspx?aid=4842" target="_blank"><div class="rbgweather"></div></a></div>
 		</div>
-	
+
 	</div>
 </div>
 
@@ -140,9 +142,9 @@
 <div id="rbghomebody" class="container-fluid">
   <div class="row">
   	  <div class="col-sm-12">
-  	  
+
   	  {{ content }}
-  	  
+
   	  </div>
   </div>
 </div>
@@ -159,11 +161,11 @@
     <script src="js/hours.js"></script>
     <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
 	{% include seasonal-css-js.html %}
-	
-	{% include jssor-slideshow-js.html %}    	
-	
-	
-	
+
+	{% include jssor-slideshow-js.html %}
+
+
+
 <!-- Google Analytics Code -->
 
 {% include google-analytics.html %}
@@ -171,6 +173,6 @@
 {% include dropdown-menu-behavior.html %}
 
 {% include page-down.html %}
-	
+
 </body>
 </html>
