@@ -2327,6 +2327,12 @@ hr {
 	font-size: 1.25em !important;
 }
 
+@media (max-width:768px) {
+	.con-smaller {
+		font-size: 1.1em !important;
+	}
+}
+
 #rbgdefaultbody .con-title a, #rbgdefaultbody .con-title a:link, #rbgdefaultbody .con-title a:visited, #rbgdefaultbody .con-title a:active {
 	/* font-size: 1em !important; */
 	font-weight: bold;
