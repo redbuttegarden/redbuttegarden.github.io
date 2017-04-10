@@ -2327,7 +2327,7 @@ hr {
 	font-size: 1.25em !important;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 	.con-smaller {
 		font-size: 1.1em !important;
 	}
