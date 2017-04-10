@@ -9,16 +9,14 @@ layout: default
 
 <h2 class="text-center green">Most Recent Posts</h2>
 
-<h3 class="text-center red">COMING SOON!</h3>
-
 <div class="row-fluid">
-  {% for post in site.categories.whats-happening limit:3 %}
+  {% for post in site.categories.whats-happening limit:6 %}
 	{% if post.url %}
 	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		<a href="{{ post.url }}">
 		<div class="eventwrapsmall hover">
 
-			<img src="/images/events/{{ post.event-image }}">
+			<img src="/images/blogs/{{ post.blog-image }}">
 
 			<div class="eventinfo">
 				<div class="eventname">{{ post.title }}</div>
@@ -31,7 +29,6 @@ layout: default
     {% endif %}
   {% endfor %}
 </div>
-
 
 <br />
 <h2 class="text-center green">Previous Posts</h2>
