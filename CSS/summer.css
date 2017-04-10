@@ -1676,6 +1676,10 @@ hr {
 		height: 305px; /* This value might need to be changed each season */
 	}
 
+	.donor-height {
+		height: 250px; /* This value might need to be changed each season for donor-package.html */
+	}
+
 	.concerttext:before {      /* create a full-height inline block pseudo-element */
 	    content: ' ';
 	    display: inline-block;
