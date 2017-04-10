@@ -2512,6 +2512,34 @@ hr {
 	border: 1px solid #000;
 }
 
+.donor-table th {
+	color: #FFF;
+	background-color: #196143;
+	text-align: center;
+	font-size: 1.25em;
+	height: 28px;
+}
+
+.donor-table tr:nth-child(odd) {
+	background-color: #F2EDE4;
+}
+
+.donor-table tr:nth-child(even) {
+	background-color: #FFF;
+}
+
+.donor-table tr td:nth-child(1) {
+	font-weight: bold;
+}
+
+.donor-table td {
+	text-align: center;
+}
+
+#donor-table1 {
+	margin-top: -5px;
+}
+
 /* Botany Bin Table */
 
 .botany-bin-table table, .offsite-pickup-table table {
