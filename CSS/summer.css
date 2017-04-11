@@ -2000,8 +2000,8 @@ hr {
 }
 
 .img-center, .img-center img {
-	margin-left: auto;
-	margin-right: auto;
+	display: block;
+	margin: 0 auto;
 }
 
 .border {
