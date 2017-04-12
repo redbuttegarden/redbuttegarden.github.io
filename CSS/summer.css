@@ -141,6 +141,7 @@ hr {
 	color: #FFF;
 }
 
+/* Changes background color of OUTDOOR CONCERT SERIES link in navbar */
 .dropdown-menu .concert-li li {
 	background-color: #87CEEB;
 }
