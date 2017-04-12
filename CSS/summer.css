@@ -141,6 +141,10 @@ hr {
 	color: #FFF;
 }
 
+.dropdown-menu .concert-li li {
+	background-color: #87CEEB;
+}
+
 /* Changes the color of link text <a> after navbar has collapsed for small screen or mobile mode */
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:visited {
 	color: #000;
