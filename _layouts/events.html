@@ -79,35 +79,45 @@
 			-->
 
 			<br />
-			<div class="ev-info-header">Location:</div>
+			<div class="ev-info-header">LOCATION:</div>
 			<div class="ev-location">{{ page.event-location }}</div>
 
 			<br />
 
 			<!-- Registration Info -->
-			<div class="ev-info-header">Registration Info:</div>
+			<div class="ev-info-header">REGISTRATION INFO:</div>
 
+			<div>
+				<div class="ev-member-sale">{{ page.registration-info }}</div>
+			</div>
+
+			<!--
 			<div>
 				<div class="inline">Garden Members On Sale -&nbsp;</div>
 				<div class="ev-member-sale">{{ page.member-sale-date }}</div>
 			</div>
+			-->
+
+			<!-- Instructor Info -->
+			<br />
+			<div class="ev-info-header">INSTRUCTOR:</div>
 
 			<div>
-				<div class="inline">General Public On Sale -&nbsp;</div>
-				<div class="ev-public-sale">{{ page.public-sale-date }}</div>
+				<div class="inline"></div>
+				<div class="ev-public-sale">{{ page.instructor-info }}</div>
 			</div>
 
 			<!-- Price Info -->
 			<br />
-			<div class="ev-info-header">Cost:</div>
+			<div class="ev-info-header">COST:</div>
 
 			<div>
-				<div class="inline">Garden Members:&nbsp;</div>
+				<div class="inline"><strong>Garden Members:&nbsp;</strong></div>
 				<div class="ev-member-cost">{{ page.member-cost }}</div>
 			</div>
-
+			<br />
 			<div>
-				<div class="inline">General Public:&nbsp;</div>
+				<div class="inline"><strong>General Public:&nbsp;</strong></div>
 				<div class="ev-public-cost">{{ page.public-cost }}</div>
 			</div>
 
