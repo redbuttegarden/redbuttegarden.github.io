@@ -1,0 +1,64 @@
+---
+title: "TITLE"
+date: "2017-04-10 00:06:09 -06:00"
+categories:
+- exhibit
+subtitle: ""
+layout: "events"
+event-image: "yoga.jpg"
+event-dates: "JUNE - AUGUST"
+event-location: "Red Butte Garden Sprout House"
+button-type: "register"
+tickets-link: ""
+registration-info: "N/A"
+instructor-info: ""
+member-cost: "$"
+public-cost: "$"
+event-notes: ""
+tickets-button: ""
+published: true
+---
+
+<p class="text-center red">REGISTRATION REQUIRED</p>
+
+<br />
+
+<p class="text-center"></p>
+
+<div class="tan-bg">
+  <br />
+  <div class="row-fluid">
+
+    <h4 class="text-center green">TUESDAYS &amp; THURSDAY MORNINGS</h4>
+    <p class="text-center"><strong>7:30 - 8:30AM</strong><br />
+    4 Weeks of Yoga Each Session</p>
+
+    <div class="col-sm-4">
+      <h5 class="text-center green">Session 1</h5>
+      <p class="text-center date">JUNE 6 - 29</p>
+      <center>
+        <a href="https://55218.blackbaudhosting.com/55218/Yoga-in-the-Garden-06Jun2017-2"><input type="submit" name="Apply-Button" value="Register Now" class="apply-button hover" /></a>
+      </center>
+    </div>
+
+    <div class="col-sm-4">
+      <h5 class="text-center green">Session 2</h5>
+      <p class="text-center date">JULY 4 - 27</p>
+      <center>
+        <a href="https://55218.blackbaudhosting.com/55218/Yoga-in-the-Garden-04Jul2017-2"><input type="submit" name="Apply-Button" value="Register Now" class="apply-button hover" /></a>
+      </center>
+    </div>
+
+    <div class="col-sm-4">
+      <h5 class="text-center green">Session 3</h5>
+      <p class="text-center date">AUGUST 1 - 24</p>
+      <center>
+        <a href="https://55218.blackbaudhosting.com/55218/Yoga-in-the-Garden-01Aug2017-2"><input type="submit" name="Apply-Button" value="Register Now" class="apply-button hover" /></a>
+      </center>
+    </div>
+
+  </div>
+  <br />
+</div>
+
+<br />
