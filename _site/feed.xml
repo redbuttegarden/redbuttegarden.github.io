@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-17T18:20:51-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">BOTANICAL COMPOSITION &amp;amp; STYLE</title><link href="http://localhost:4000/botanical-composition/" rel="alternate" type="text/html" title="BOTANICAL COMPOSITION &amp;amp; STYLE" /><published>2017-04-10T20:04:00-06:00</published><updated>2017-04-13T17:04:42-06:00</updated><id>http://localhost:4000/botanical-composition</id><content type="html" xml:base="http://localhost:4000/botanical-composition/">&lt;p class=&quot;text-center&quot;&gt;Imaginative, interesting and dynamic composition can transform a botanical painting or illustration into a masterpiece. It is through composition that you introduce your own personal style into your work. This class helps to explain the elements that go towards creating a good composition and the basic principles underlying a successful illustration. The class will work entirely in graphite pencil, but the principles presented apply to all art media.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-17T18:59:47-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">MONDAY FAMILY NIGHTS</title><link href="http://localhost:4000/monday-family-nights/" rel="alternate" type="text/html" title="MONDAY FAMILY NIGHTS" /><published>2017-04-16T00:06:09-06:00</published><updated>2017-04-17T18:59:47-06:00</updated><id>http://localhost:4000/monday-family-nights</id><content type="html" xml:base="http://localhost:4000/monday-family-nights/">&lt;p class=&quot;text-center&quot;&gt;Spend a fun summer night exploring the diversity in our own community at Monday Family Night! Enjoy live music, dance performances, and more all while enjoying the beauty of the Garden. And don't forget to visit our food vendor, Duke's Italian Ice, for a sweet treat to help you cool off at each show. With a little something for everyone, you won’t want to miss any of our Monday Family Night performances!&lt;/p&gt;
+
+
+&lt;div class=&quot;tan-bg&quot;&gt;
+  &lt;br /&gt;
+  &lt;div class=&quot;row-fluid&quot;&gt;
+
+    &lt;h4 class=&quot;text-center green&quot;&gt;MONDAY FAMILY NIGHTS SCHEDULED EVENTS&lt;/h4&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;JUNE 19&lt;/h5&gt;
+      &lt;p class=&quot;text-center date bold&quot;&gt;Divya School of Dance &lt;/p&gt;
+      &lt;p class=&quot;text-center&quot;&gt;Divya Narayanan from Divya School of Dance introduces Utah to classical Indian forms of dancing including Bharatnatyam, Mohiniyattom, Bollywood-style dances, and various other folk dances of India.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;JUNE 26&lt;/h5&gt;
+      &lt;p class=&quot;text-center date bold&quot;&gt;Joshy Soul&lt;/p&gt;
+      &lt;p class=&quot;text-center&quot;&gt;Put your dancing shoes on and enjoy soulful original compositions of 50s and 60s era music mixed with modern day jazz improvisation.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;JULY 17&lt;/h5&gt;
+      &lt;p class=&quot;text-center date bold&quot;&gt;Samba Fogo&lt;/p&gt;
+      &lt;p class=&quot;text-center&quot;&gt;Samba Fogo brings to life the joy, celebration, and history of Brazilian Samba through interactive drum and dance performances sure to get you dancing, singing, and clapping to the beat!&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;br /&gt;
+
+
+  &lt;div class=&quot;row-fluid&quot;&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;JULY 31&lt;/h5&gt;
+      &lt;p class=&quot;text-center date bold&quot;&gt;Jambo Africa Burundi Drummers &lt;/p&gt;
+      &lt;p class=&quot;text-center&quot;&gt;Witness the beauty of Burundi cultural traditions as Jambo Africa drummers balance massive drums on their heads while singing and dancing!&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;AUGUST 7&lt;/h5&gt;
+      &lt;p class=&quot;text-center date bold&quot;&gt;Island Traditions &lt;/p&gt;
+      &lt;p class=&quot;text-center&quot;&gt;Island Traditions brings the magic of Polynesia to Utah through dances and music from the islands of Hawaii, New Zealand, Samoa and Tahiti. Come learn the Hukilau, the Haka, and compete in the fast Otea dance!&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;&lt;/h5&gt;
+      &lt;p class=&quot;text-center date bold&quot;&gt;&lt;/p&gt;
+      &lt;p class=&quot;text-center&quot;&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;br /&gt;</content><summary type="html">Spend a fun summer night exploring the diversity in our own community at Monday Family Night! Enjoy live music, dance performances, and more all while enjoying the beauty of the Garden. And don't forget to visit our food vendor, Duke's Italian Ice, for a sweet treat to help you cool off at each show. With a little something for everyone, you won’t want to miss any of our Monday Family Night performances!</summary></entry><entry><title type="html">CAMPOUT</title><link href="http://localhost:4000/campout/" rel="alternate" type="text/html" title="CAMPOUT" /><published>2017-04-16T00:06:09-06:00</published><updated>2017-04-17T18:38:48-06:00</updated><id>http://localhost:4000/campout</id><content type="html" xml:base="http://localhost:4000/campout/">&lt;p class=&quot;text-center red&quot;&gt;Registration opens June 1 - Space is limited, so register early!&lt;/p&gt;
+
+&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Have you ever wondered what happens at the Garden when the last guest leaves? The only way to find out is at one of our campouts! Bring your tent, camping gear, and a picnic dinner to enjoy an overnight, low-stress camping experience complete with flushing toilets and running water. Spend the evening relaxing at your campsite or join us for the bevy of interactive family adventures we have planned including games, crafts, s’mores, and more. We’ll also provide a scrumptious, catered breakfast Saturday morning to complete your camping adventure. You haven’t camped until you’ve camped Red Butte Garden style!&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Registration required for all participants. All ages welcome. Registration not required for children under the age of 3. Registration available online only. Friday night dinner, tents, or other camping gear not provided, please plan to bring your own.&lt;/p&gt;
+
+&lt;br /&gt;
+
+&lt;div class=&quot;tan-bg&quot;&gt;
+  &lt;br /&gt;
+  &lt;div class=&quot;row-fluid&quot;&gt;
+
+    &lt;h4 class=&quot;text-center green&quot;&gt;CAMPOUT SESSIONS&lt;/h4&gt;
+
+    &lt;div class=&quot;col-sm-6&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;Session 1&lt;/h5&gt;
+      &lt;p class=&quot;text-center date bold&quot;&gt;JUNE 23 @ 5:30PM – JUNE 24, 8:30AM&lt;/p&gt;
+      &lt;center&gt;
+        &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/Campout-23Jun2017&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+      &lt;/center&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-6&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;Session 2&lt;/h5&gt;
+      &lt;p class=&quot;text-center date bold&quot;&gt;AUGUST 11 @ 5:30PM – AUGUST 12 @ 8:30AM&lt;/p&gt;
+      &lt;center&gt;
+        &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/Campout-11Aug2017&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+      &lt;/center&gt;
+    &lt;/div&gt;
+
+
+  &lt;/div&gt;
+  &lt;br /&gt;
+&lt;/div&gt;
+
+&lt;br /&gt;</content><summary type="html">Registration opens June 1 - Space is limited, so register early!</summary></entry><entry><title type="html">BOTANICAL COMPOSITION &amp;amp; STYLE</title><link href="http://localhost:4000/botanical-composition/" rel="alternate" type="text/html" title="BOTANICAL COMPOSITION &amp;amp; STYLE" /><published>2017-04-10T20:04:00-06:00</published><updated>2017-04-13T17:04:42-06:00</updated><id>http://localhost:4000/botanical-composition</id><content type="html" xml:base="http://localhost:4000/botanical-composition/">&lt;p class=&quot;text-center&quot;&gt;Imaginative, interesting and dynamic composition can transform a botanical painting or illustration into a masterpiece. It is through composition that you introduce your own personal style into your work. This class helps to explain the elements that go towards creating a good composition and the basic principles underlying a successful illustration. The class will work entirely in graphite pencil, but the principles presented apply to all art media.&lt;/p&gt;
 
 &lt;br /&gt;
 &lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;/refund-policy&quot;&gt;RED BUTTE GARDEN REFUND AND CANCELLATION POLICY&lt;/a&gt;&lt;/p&gt;
@@ -266,48 +358,4 @@ Red Butte Garden and Arboretum&lt;br /&gt;
 
 &lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;http://www.redbuttegarden.org/sites/default/files/jhansen.biocard%2716.pdf&quot;&gt;Click Here for a Biography of Jeanne Hansen&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Meet the Artist Reception
   Friday, June 9 from 4-7PM
-  Piano music by Ryan Hansen</summary></entry><entry><title type="html">LINDA MARION ART EXHIBIT</title><link href="http://localhost:4000/linda-marion/" rel="alternate" type="text/html" title="LINDA MARION ART EXHIBIT" /><published>2017-04-10T00:06:09-06:00</published><updated>2017-04-13T14:36:32-06:00</updated><id>http://localhost:4000/linda-marion</id><content type="html" xml:base="http://localhost:4000/linda-marion/">&lt;br /&gt;
-
-&lt;blockquote class=&quot;tan-bg&quot;&gt;
-
-  &lt;p class=&quot;text-center&quot;&gt;&lt;em&gt;I have been working as a visual artist for many years and focus primarily on landscapes, still life, and what I call &quot;nature paintings,&quot; or elements in a landscape. Close-ups of trees, plants and flowers are of particular interest to me, especially as sunlight illuminates the structural details and enhances the variations in hue and color, ranging from cool to warm and radiant, and dark to light. &lt;/em&gt;&lt;/p&gt;
-
-  &lt;p style=&quot;text-align:right;&quot; class=&quot;bold&quot;&gt;- Artist Statement&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;The colorations and variations in form are subtle, requiring extensive blending and shading. Many of the paintings in this exhibit were inspired by plants and flowers in my own backyard, the local parks where I walk my dog, the red-rock landscapes of Southern Utah, or trees in nearby alpine forests.&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;For more, please visit: &lt;a href=&quot;http://www.lindamarionartworks.com/&quot;&gt;http://www.lindamarionartworks.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;br /&gt;
-
-&lt;img src=&quot;/images/misc/linda-marion-aspen.jpg&quot; alt=&quot;Linda Marion Exhibit at Red Butte Garden&quot; title=&quot;Linda Marion Exhibit at Red Butte Garden&quot; class=&quot;responsive img-center&quot; style=&quot;max-width:300px;&quot; /&gt;
-
-&lt;br /&gt;</content><summary type="html"></summary></entry><entry><title type="html">PAUL MARTO PHOTOGRAPHY EXHIBIT</title><link href="http://localhost:4000/paul-marto/" rel="alternate" type="text/html" title="PAUL MARTO PHOTOGRAPHY EXHIBIT" /><published>2017-04-10T00:06:08-06:00</published><updated>2017-04-13T14:36:32-06:00</updated><id>http://localhost:4000/paul-marto</id><content type="html" xml:base="http://localhost:4000/paul-marto/">&lt;div class=&quot;tan-bg&quot;&gt;
-  &lt;br /&gt;
-  &lt;h4 class=&quot;text-center green&quot;&gt;Meet the Artist Reception&lt;/h4&gt;
-  &lt;p class=&quot;text-center bold&quot;&gt;Saturday, July 22 from 1-4PM&lt;/p&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-
-&lt;br /&gt;
-
-&lt;blockquote class=&quot;tan-bg&quot;&gt;
-
-  &lt;p class=&quot;text-center&quot;&gt;&lt;em&gt;Glorious Nature is a stunning, visual journey detailing the beautiful, the wondrous, and the “glorious” that surround us daily. This breathtaking collection of wildlife and nature shots by award winning photographer Paul J. Marto Jr., is designed to awaken something deep within our subconscious; that yearning we all have to connect with our surroundings in a more spiritual way.&lt;/em&gt;&lt;/p&gt;
-
-  &lt;p style=&quot;text-align:right;&quot; class=&quot;bold&quot;&gt;- Artist Statement&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;Marto explains, “The stresses of everyday life do their best to rob us of simple pleasures like enjoying a glorious sunrise, witnessing a dramatic lightning strike or gazing upon a majestic raptor effortlessly riding the thermals. I strive to present vivid photographs that will both inspire and educate. I want my photography to serve as a constant reminder that we are not alone; that life is not all about us; that we can rejuvenate our collective souls with beauty and joy, if we only dare to take our eyes off of ourselves and truly start seeing the amazing world we live in.”&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;For more, please visit: &lt;a href=&quot;https://500px.com/martophotography&quot;&gt;https://500px.com/martophotography&lt;/a&gt;&lt;/p&gt;
-
-&lt;br /&gt;
-
-&lt;img src=&quot;/images/misc/paul-marto-hummingbird.jpg&quot; alt=&quot;Paul Marto Exhibit at Red Butte Garden&quot; title=&quot;Paul Marto Exhibit at Red Butte Garden&quot; class=&quot;responsive img-center&quot; style=&quot;max-width:600px;&quot; /&gt;
-
-&lt;br /&gt;</content><summary type="html">Meet the Artist Reception
-  Saturday, July 22 from 1-4PM</summary></entry></feed>
+  Piano music by Ryan Hansen</summary></entry></feed>
