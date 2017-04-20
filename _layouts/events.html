@@ -37,11 +37,11 @@
   <link rel="stylesheet" href="/CSS/summer.css?v=1"> <!-- Additional local CSS -->
 
 {% include searchbar-toggle.html %}
-
+{% include marketing-header.html %}
 </head>
 <body>
 {% include navbar.html %}
-
+{% include marketing-body.html %}
 <div id="rbgdefaultbody" class="container-fluid">
 
 <!-- Begin First Column -->
@@ -115,7 +115,7 @@
 				<div class="inline"><strong>Garden Members:&nbsp;</strong></div>
 				<div class="ev-member-cost">{{ page.member-cost }}</div>
 			</div>
-			
+
 			<div>
 				<div class="inline"><strong>General Public:&nbsp;</strong></div>
 				<div class="ev-public-cost">{{ page.public-cost }}</div>
