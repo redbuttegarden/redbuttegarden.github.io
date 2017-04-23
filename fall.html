@@ -9,13 +9,29 @@ layout: default
 
 <div class="row-fluid">
 
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<a href="{{ post.url }}">
+		<div class="eventwrapsmall hover">
+
+			<img src="/images/events/garden-after-dark.jpg">
+
+			<div class="eventinfo">
+				<div class="eventname">GARDEN AFTER DARK</div>
+				<div class="eventdate">OCTOBER TBD @</div>
+				<div class="eventnotes">Something Will Go Here</div>
+			</div>
+
+		</div>
+		</a>
+	</div>
+
   {% for post in site.categories.fall %}
     {% if post.url %}
 	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 		<a href="{{ post.url }}">
 		<div class="eventwrapsmall hover">
 
-			<img src="../images/events/{{ post.event-image }}">
+			<img src="/images/events/{{ post.event-image }}">
 
 			<div class="eventinfo">
 				<div class="eventname">{{ post.title }}</div>
