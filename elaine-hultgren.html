@@ -1,17 +1,23 @@
 ---
-title: Lectures | Red Butte Garden
+title: Elaine Hultgren Classes | Red Butte Garden
 layout: default
 ---
 
 <div class=" col-xs-12 eventdivide">
 		<hr>
-			<div class="grid-header">LECTURES</div>
+			<div class="grid-header">CLASSES BY ELAINE HULTGREN</div>
 		<hr>
 </div>
 
+<br />
+
+<p class="text-center">The following are classes currently being guided or taught by Elaine Hulgren.</p>
+
+<br />
+
 <div class="row-fluid">
 
-  {% for post in site.categories.lecture %}
+  {% for post in site.categories.eh %}
     {% if post.url %}
 	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 		<a href="{{ post.url }}">
@@ -32,7 +38,3 @@ layout: default
   {% endfor %}
 
 </div>
-
-<br />
-
-<p class="text-center"><a href="/refund-policy">RED BUTTE GARDEN REFUND AND CANCELLATION POLICY</a></p>
