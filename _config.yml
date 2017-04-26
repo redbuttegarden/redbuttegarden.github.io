@@ -28,9 +28,22 @@ exclude:
 - ".travis.yml"
 permalink: pretty
 prose:
+  ignore:
+    - _layouts
+    - _site
+    - templates
+    - index.html
+
   events:
     _posts:
     - name: layout
       field:
         element: hidden
-        value: events
+        value: "events"
+
+  whats-blooming:
+    _posts:
+    - name: layout
+      field:
+        element: hidden
+        value: "post"
