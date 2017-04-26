@@ -33,6 +33,9 @@ prose:
     - _site
     - templates
     - index.html
+    - CSS
+    - js
+    - images/core
 
   events:
     _posts:
