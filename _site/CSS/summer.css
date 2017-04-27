@@ -76,7 +76,7 @@ hr {
 	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
 	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
 	{
-	background-color: #196143 !important; /* Overwrites Bootstrap's !important */
+	background-color: #FF4500 !important; /* Overwrites Bootstrap's !important */
 }
 
 /* Underlines the last three items in the navbar */
