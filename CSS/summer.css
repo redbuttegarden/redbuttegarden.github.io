@@ -1926,8 +1926,13 @@ hr {
 }
 
 .lilac {
-	font-weight:bold;
+	font-weight: bold;
 	color: #A26BA2;
+}
+
+.orange {
+	font-weight: bold;
+	color: #FF7744;
 }
 
 .white {
