@@ -76,7 +76,7 @@ hr {
 	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
 	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
 	{
-	background-color: #FF4500 !important; /* Overwrites Bootstrap's !important */
+	background-color: #FF7744 !important; /* Overwrites Bootstrap's !important */
 }
 
 /* Underlines the last three items in the navbar */
@@ -599,7 +599,7 @@ hr {
 	margin: 40px auto 0 auto;
 	width: 138px;
 	height: 84px;
-	background: url('/images/sprites.png') -0px -320px ;
+	background: url('/images/core/sprites.png') -0px -320px ;
 }
 
 .rbghours:hover {
@@ -611,7 +611,7 @@ hr {
 	margin: 40px auto 0 auto;
 	width:138px;
 	height:84px;
-	background: url('/images/sprites.png') -140px -325px ;
+	background: url('/images/core/sprites.png') -140px -325px ;
 }
 
 .rbgadmission:hover {
@@ -623,7 +623,7 @@ hr {
 	margin: 40px auto 0 auto;
 	width:138px;
 	height: 84px;
-	background: url('/images/sprites.png') -310px -169px ;
+	background: url('/images/core/sprites.png') -310px -169px ;
 }
 
 .rbgdirections:hover {
@@ -635,7 +635,7 @@ hr {
 	margin: 40px auto 0 auto;
 	width:138px;
 	height: 84px;
-	background: url('/images/sprites.png') -172px -169px ;
+	background: url('/images/core/sprites.png') -172px -169px ;
 }
 
 .rbgweather:hover {
@@ -827,7 +827,7 @@ hr {
     line-height: 19px;
     color: white;
     font-size: 12px;
-    background: url(/images/b21.png) no-repeat;
+    background: url(/images/core/b21.png) no-repeat;
     overflow: hidden;
     cursor: pointer;
 }
@@ -871,7 +871,7 @@ hr {
     width: 55px;
     height: 55px;
     cursor: pointer;
-    background: url(/images/a21.png) center center no-repeat;
+    background: url(/images/core/a21.png) center center no-repeat;
     overflow: hidden;
 }
 
@@ -948,7 +948,7 @@ hr {
 	margin: 10px auto 10px auto;
 	width:166px;
 	height: 90px;
-	background: url('/images/sprites.png') -0px -0px;
+	background: url('/images/core/sprites.png') -0px -0px;
 }
 
 .footer-membership:hover {
@@ -960,7 +960,7 @@ hr {
 	margin: 10px auto 10px auto;
 	width:166px;
 	height: 90px;
-	background: url('/images/sprites.png') -166px -0px ;
+	background: url('/images/core/sprites.png') -166px -0px ;
 }
 
 .footer-donate:hover {
@@ -972,7 +972,7 @@ hr {
 	margin: 10px auto 10px auto;
 	width:166px;
 	height: 90px;
-	background: url('/images/sprites.png') -332px -0px ;
+	background: url('/images/core/sprites.png') -332px -0px ;
 }
 
 .footer-volunteer:hover {
@@ -1061,101 +1061,101 @@ hr {
 .yelp {
 	width:39px;
 	height:39px;
-	background: url('/images/sprites.png') -200px -90px;
+	background: url('/images/core/sprites.png') -200px -90px;
 }
 
 .yelp:hover {
-	background: url('/images/sprites.png') -160px -90px;
+	background: url('/images/core/sprites.png') -160px -90px;
 }
 
 .tripadvisor {
 	width:39px;
 	height: 39px;
-	background: url('/images/sprites.png') -360px -90px;
+	background: url('/images/core/sprites.png') -360px -90px;
 }
 
 .tripadvisor:hover {
-	background: url('/images/sprites.png') -320px -90px;
+	background: url('/images/core/sprites.png') -320px -90px;
 }
 
 .googleplus {
 	width:39px;
 	height: 39px;
-	background: url('/images/sprites.png') -160px -130px;
+	background: url('/images/core/sprites.png') -160px -130px;
 }
 
 .googleplus:hover {
-	background: url('/images/sprites.png') -200px -130px;
+	background: url('/images/core/sprites.png') -200px -130px;
 }
 
 .facebook {
 	width:39px;
 	height: 39px;
-	background: url('/images/sprites.png') -40px -90px;
+	background: url('/images/core/sprites.png') -40px -90px;
 }
 
 .facebook:hover {
-	background: url('/images/sprites.png') -0px -90px;
+	background: url('/images/core/sprites.png') -0px -90px;
 }
 
 .instagram {
 	width:39px;
 	height: 39px;
-	background: url('/images/sprites.png') -240px -130px;
+	background: url('/images/core/sprites.png') -240px -130px;
 }
 
 .instagram:hover {
-	background: url('/images/sprites.png') -280px -130px;
+	background: url('/images/core/sprites.png') -280px -130px;
 }
 
 .twitter {
 	width:39px;
 	height: 39px;
-	background: url('/images/sprites.png') -280px -90px;
+	background: url('/images/core/sprites.png') -280px -90px;
 }
 
 .twitter:hover {
-	background: url('/images/sprites.png') -240px -90px;
+	background: url('/images/core/sprites.png') -240px -90px;
 }
 
 .youtube {
 	width:39px;
 	height: 39px;
-	background: url('/images/sprites.png') -120px -90px;
+	background: url('/images/core/sprites.png') -120px -90px;
 }
 
 .youtube:hover {
-	background: url('/images/sprites.png') -80px -90px;
+	background: url('/images/core/sprites.png') -80px -90px;
 }
 
 .snapchat {
 	width:39px;
 	height: 39px;
-	background: url('/images/sprites.png') -320px -130px;
+	background: url('/images/core/sprites.png') -320px -130px;
 }
 
 .snapchat:hover {
-	background: url('/images/sprites.png') -360px -130px;
+	background: url('/images/core/sprites.png') -360px -130px;
 }
 
 .reddit {
 	width:39px;
 	height: 39px;
-	background: url('/images/sprites.png') -0px -130px;
+	background: url('/images/core/sprites.png') -0px -130px;
 }
 
 .reddit:hover {
-	background: url('/images/sprites.png') -40px -130px;
+	background: url('/images/core/sprites.png') -40px -130px;
 }
 
 .pinterest {
 	width:39px;
 	height: 39px;
-	background: url('/images/sprites.png') -80px -130px;
+	background: url('/images/core/sprites.png') -80px -130px;
 }
 
 .pinterest:hover {
-	background: url('/images/sprites.png') -120px -130px;
+	background: url('/images/core/sprites.png') -120px -130px;
 }
 
 /* End Footer Sprite CSS */
@@ -1170,7 +1170,7 @@ hr {
     margin: 0 auto 0 auto;
 	width:179px;
 	height: 48px;
-	background: url('/images/sprites.png') -170px -256px ;
+	background: url('/images/core/sprites.png') -170px -256px ;
 	vertical-align: bottom;
 }
 
@@ -1185,7 +1185,7 @@ hr {
     margin-right: auto;
 	width:169px;
 	height: 74px;
-	background: url('/images/sprites.png') -0px -245px ;
+	background: url('/images/core/sprites.png') -0px -245px ;
 }
 
 #zap {
@@ -1198,7 +1198,7 @@ hr {
     margin: 0 auto 0 auto;
 	width:170px;
 	height: 71px;
-	background: url('/images/sprites.png') -0px -171px ;
+	background: url('/images/core/sprites.png') -0px -171px ;
 }
 
 .uofu:hover, .footerlogo:hover, .zap:hover {
@@ -1486,7 +1486,7 @@ hr {
 .memsprite01, .memsprite02, .memsprite03, .memsprite04, .memsprite05,
 .memsprite06, .memsprite07, .memsprite08, .memsprite09, .memsprite10
 {
-	background: url('/images/memsprite.png') no-repeat;
+	background: url('/images/core/memsprite.png') no-repeat;
 	}
 
 .memsprite01 { background-position: -0px -0px; width: 175px; height: 225px; }
@@ -1968,18 +1968,6 @@ hr {
 	}
 }
 
-.tickets {
-	/* Sprite code goes here */
-}
-
-.register {
-	/* Sprite code goes here */
-}
-
-.calendar {
-	/* Sprite code goes here */
-}
-
 .green {
 	color: #196143;
 }
@@ -2270,7 +2258,7 @@ hr {
 }
 
 .orange-bg {
-	background-color: #FF581A; 
+	background-color: #FF7744;
 }
 
 #volunteer-apps {
