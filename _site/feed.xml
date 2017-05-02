@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-02T15:41:39-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">MONDAY FAMILY NIGHTS</title><link href="http://localhost:4000/monday-family-nights/" rel="alternate" type="text/html" title="MONDAY FAMILY NIGHTS" /><published>2017-04-16T00:06:09-06:00</published><updated>2017-04-17T19:00:22-06:00</updated><id>http://localhost:4000/monday-family-nights</id><content type="html" xml:base="http://localhost:4000/monday-family-nights/">&lt;p class=&quot;text-center&quot;&gt;Spend a fun summer night exploring the diversity in our own community at Monday Family Night! Enjoy live music, dance performances, and more all while enjoying the beauty of the Garden. And don't forget to visit our food vendor, Duke's Italian Ice, for a sweet treat to help you cool off at each show. With a little something for everyone, you won’t want to miss any of our Monday Family Night performances!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-02T15:44:23-06:00</updated><id>http://localhost:4000//</id><title type="html">Red Butte Garden</title><subtitle>The official website of Red Butte Garden</subtitle><entry><title type="html">YOGA IN THE GARDEN</title><link href="http://localhost:4000/yoga/" rel="alternate" type="text/html" title="YOGA IN THE GARDEN" /><published>2017-05-01T00:00:01-06:00</published><updated>2017-05-02T15:43:23-06:00</updated><id>http://localhost:4000/yoga</id><content type="html" xml:base="http://localhost:4000/yoga/">&lt;p class=&quot;text-center red&quot;&gt;REGISTRATION REQUIRED&lt;/p&gt;
+
+&lt;br /&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Join us for Yoga in the Garden this summer. Intended for all levels, from beginners to those who practice more regularly. Class is aimed at enhancing your quality of well being in a unique and thriving environment. Kristin Vance of Fluid Heart Yoga, leads a style of Yoga called Vinyasa, or movement with breath. It is a creative practice of movement with a focus on connection, reconnecting with your authentic and creative self, as well as your awareness in movement and as a way of being. You are encouraged to come as you are, with no expectations of what you ought to know about yoga or being flexible. It is not a competition of flexibility it is simply a practice of awareness in playful movement, where you will gain flexibility and leave feeling rejuvenated and light. Wear comfortable clothing, bring a yoga mat, towel, water bottle, and sunscreen. &lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;Drop-in cost is $13 for Garden Members and $16 for General Public. Up to 5 drop-ins are available for each section, on a first-come, first-served basis.&lt;/p&gt;
+
+&lt;div class=&quot;tan-bg&quot;&gt;
+  &lt;br /&gt;
+  &lt;div class=&quot;row-fluid&quot;&gt;
+
+    &lt;h4 class=&quot;text-center green&quot;&gt;TUESDAYS &amp;amp; THURSDAY MORNINGS&lt;/h4&gt;
+    &lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;7:30 - 8:30AM&lt;/strong&gt;&lt;br /&gt;
+    4 Weeks of Yoga Each Session&lt;/p&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;Session 1&lt;/h5&gt;
+      &lt;p class=&quot;text-center date&quot;&gt;JUNE 6 - 29&lt;/p&gt;
+      &lt;center&gt;
+        &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/Yoga-in-the-Garden-06Jun2017-2&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+      &lt;/center&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;Session 2&lt;/h5&gt;
+      &lt;p class=&quot;text-center date&quot;&gt;JULY 4 - 27&lt;/p&gt;
+      &lt;center&gt;
+        &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/Yoga-in-the-Garden-04Jul2017-2&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+      &lt;/center&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;Session 3&lt;/h5&gt;
+      &lt;p class=&quot;text-center date&quot;&gt;AUGUST 1 - 24&lt;/p&gt;
+      &lt;center&gt;
+        &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/Yoga-in-the-Garden-01Aug2017-2&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+      &lt;/center&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;br /&gt;
+&lt;/div&gt;
+
+&lt;br /&gt;
+
+&lt;div class=&quot;tan-bg&quot;&gt;
+  &lt;br /&gt;
+  &lt;div class=&quot;row-fluid&quot;&gt;
+
+    &lt;h4 class=&quot;text-center green&quot;&gt;SUNDAY MORNINGS&lt;/h4&gt;
+    &lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;9 - 10AM&lt;/strong&gt;&lt;br /&gt;
+    Single Class Each Session&lt;/p&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;Session&lt;/h5&gt;
+      &lt;p class=&quot;text-center date&quot;&gt;JUNE 4th&lt;/p&gt;
+      &lt;center&gt;
+        &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/Yoga-in-the-Garden-04Jun2017&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+      &lt;/center&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;Session&lt;/h5&gt;
+      &lt;p class=&quot;text-center date&quot;&gt;JULY 2nd&lt;/p&gt;
+      &lt;center&gt;
+        &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/Yoga-in-the-Garden-02Jul2017-2&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+      &lt;/center&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-sm-4&quot;&gt;
+      &lt;h5 class=&quot;text-center green&quot;&gt;Session&lt;/h5&gt;
+      &lt;p class=&quot;text-center date&quot;&gt;AUGUST 6th&lt;/p&gt;
+      &lt;center&gt;
+        &lt;a href=&quot;https://55218.blackbaudhosting.com/55218/Yoga-in-the-Garden-06Aug2017-2&quot;&gt;&lt;input type=&quot;submit&quot; name=&quot;Apply-Button&quot; value=&quot;Register Now&quot; class=&quot;apply-button hover&quot; /&gt;&lt;/a&gt;
+      &lt;/center&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;br /&gt;
+&lt;/div&gt;</content><summary type="html">REGISTRATION REQUIRED</summary></entry><entry><title type="html">MONDAY FAMILY NIGHTS</title><link href="http://localhost:4000/monday-family-nights/" rel="alternate" type="text/html" title="MONDAY FAMILY NIGHTS" /><published>2017-04-16T00:06:09-06:00</published><updated>2017-04-17T19:00:22-06:00</updated><id>http://localhost:4000/monday-family-nights</id><content type="html" xml:base="http://localhost:4000/monday-family-nights/">&lt;p class=&quot;text-center&quot;&gt;Spend a fun summer night exploring the diversity in our own community at Monday Family Night! Enjoy live music, dance performances, and more all while enjoying the beauty of the Garden. And don't forget to visit our food vendor, Duke's Italian Ice, for a sweet treat to help you cool off at each show. With a little something for everyone, you won’t want to miss any of our Monday Family Night performances!&lt;/p&gt;
 
 
 &lt;div class=&quot;tan-bg&quot;&gt;
@@ -348,22 +428,4 @@ Red Butte Garden and Arboretum&lt;br /&gt;
 
 &lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;http://www.redbuttegarden.org/sites/default/files/jhansen.biocard%2716.pdf&quot;&gt;Click Here for a Biography of Jeanne Hansen&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Meet the Artist Reception
   Friday, June 9 from 4-7PM
-  Piano music by Ryan Hansen</summary></entry><entry><title type="html">LINDA MARION ART EXHIBIT</title><link href="http://localhost:4000/linda-marion/" rel="alternate" type="text/html" title="LINDA MARION ART EXHIBIT" /><published>2017-04-10T00:06:09-06:00</published><updated>2017-04-13T14:36:32-06:00</updated><id>http://localhost:4000/linda-marion</id><content type="html" xml:base="http://localhost:4000/linda-marion/">&lt;br /&gt;
-
-&lt;blockquote class=&quot;tan-bg&quot;&gt;
-
-  &lt;p class=&quot;text-center&quot;&gt;&lt;em&gt;I have been working as a visual artist for many years and focus primarily on landscapes, still life, and what I call &quot;nature paintings,&quot; or elements in a landscape. Close-ups of trees, plants and flowers are of particular interest to me, especially as sunlight illuminates the structural details and enhances the variations in hue and color, ranging from cool to warm and radiant, and dark to light. &lt;/em&gt;&lt;/p&gt;
-
-  &lt;p style=&quot;text-align:right;&quot; class=&quot;bold&quot;&gt;- Artist Statement&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;The colorations and variations in form are subtle, requiring extensive blending and shading. Many of the paintings in this exhibit were inspired by plants and flowers in my own backyard, the local parks where I walk my dog, the red-rock landscapes of Southern Utah, or trees in nearby alpine forests.&lt;/p&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;For more, please visit: &lt;a href=&quot;http://www.lindamarionartworks.com/&quot;&gt;http://www.lindamarionartworks.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;br /&gt;
-
-&lt;img src=&quot;/images/misc/linda-marion-aspen.jpg&quot; alt=&quot;Linda Marion Exhibit at Red Butte Garden&quot; title=&quot;Linda Marion Exhibit at Red Butte Garden&quot; class=&quot;responsive img-center&quot; style=&quot;max-width:300px;&quot; /&gt;
-
-&lt;br /&gt;</content><summary type="html"></summary></entry></feed>
+  Piano music by Ryan Hansen</summary></entry></feed>
