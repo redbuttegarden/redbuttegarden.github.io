@@ -2326,6 +2326,20 @@ hr {
 
 /* Concert information CSS */
 
+/* Hides main sections of Concerts Page when printing */
+
+.concert-print {
+	visibility: hidden;
+}
+
+@media print {
+
+	.concert-print-hide, .navbar-wrapper, #prefooterbg, #rbgfooterbg {
+		display: none;
+	}
+
+}
+
 .con-title {
 	font-size: 1.5em !important;
 	font-weight: bold;
@@ -2548,7 +2562,7 @@ hr {
 
 /* Botany Bin Table */
 
-.botany-bin-table table, .offsite-pickup-table table {
+.botany-bin-table table, .offsite-pickup-table table, .concert-print table {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -2562,7 +2576,7 @@ hr {
 	height: 28px;
 }
 
-.botany-bin-table td, offsite-pickup-table td {
+.botany-bin-table td, .offsite-pickup-table td, .concert-print-wrapper td {
 	text-align: center;
 	font-weight: bold;
 	padding: 10px;
@@ -2575,6 +2589,31 @@ hr {
 .botany-bin-table tr:nth-child(even) {
 	background-color: #A9EAA9;
 }
+
+ /**/
+ .concert-print-wrapper th {
+ 	color: #FFF;
+ 	background-color: #007600;
+ 	text-align: center;
+ 	font-size: 1.25em;
+ 	height: 28px;
+ }
+
+	.concert-print-wrapper td {
+ 	text-align: center;
+ 	font-weight: bold;
+ 	padding: 5px;
+ }
+
+ .concert-print-wrapper tr:nth-child(odd) {
+ 	background-color: #D7F5D7;
+ }
+
+ .concert-print-wrapper tr:nth-child(even) {
+ 	background-color: #A9EAA9;
+ }
+ /**/
+
 
 /********************************/
 /* Test Sprite for Presentation */
