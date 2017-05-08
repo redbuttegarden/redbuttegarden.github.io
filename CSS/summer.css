@@ -389,7 +389,7 @@ hr {
             white-space: nowrap;
         }
 
-        .dropdown-menu > a > li {
+        .dropdown-menu > a > li, .dropdown-menu .concert-li li {
 	    	margin-left: 78px; /* Fixes glitch where dropdown menu bleeds off screen to left */
         }
 
