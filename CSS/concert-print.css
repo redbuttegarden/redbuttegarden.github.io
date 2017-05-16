@@ -2,6 +2,7 @@
 
   /* Makes concert table appear when printed */
   .concert-print {
+    display: inline;
     visibility: visible;
     font-size: 12px;
   }

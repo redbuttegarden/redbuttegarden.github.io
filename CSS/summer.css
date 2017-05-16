@@ -2329,7 +2329,7 @@ hr {
 
 /* Hides main sections of Concerts Page when printing */
 .concert-print {
-	visibility: hidden;
+	display: none;
 }
 
 @media print {
