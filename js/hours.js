@@ -229,6 +229,15 @@ else if (month == 4) {
 		}
 
 		if ((hours == 18 && minutes >= 30) || (hours == 19 && minutes < 30)) {
+
+			if (hours == 18 && minutes >= 30) {
+				minutesBeforeOpeningorClosing = (60 - minutes) + 30;
+			}
+
+			if (hours == 19 && minutes < 30) {
+				minutesBeforeOpeningorClosing = 30 - minutes;
+			}
+
 			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
@@ -288,6 +297,15 @@ else if (month == 9) {
 		}
 
 		if ((hours == 18 && minutes >= 30) || (hours == 19 && minutes < 30)) {
+
+			if (hours == 18 && minutes >= 30) {
+				minutesBeforeOpeningorClosing = (60 - minutes) + 30;
+			}
+
+			if (hours == 19 && minutes < 30) {
+				minutesBeforeOpeningorClosing = 30 - minutes;
+			}
+
 			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
