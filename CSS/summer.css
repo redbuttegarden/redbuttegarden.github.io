@@ -2240,6 +2240,7 @@ hr {
 		max-width: 1280px;
 		width: 100%;
 		background-color:#c4b59e;
+		cursor: pointer; /* Adding this makes collapse panels with this class work on Safari on iOS devices */
 }
 
 .green-bg {
