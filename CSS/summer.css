@@ -2629,3 +2629,12 @@ hr {
 	height:84px;
 	background: url('/images/core/sprite-test.png') 0px -254px ;
 }
+
+/* Hides image on mobile devices */
+@media (max-width:500px) {
+
+	.img-hide-mobile {
+		display: none;
+	}
+
+}
