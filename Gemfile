@@ -27,4 +27,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "listen", :require => false
+# Jon Oler - sass 3.5 introduces a dependency on sass-listen which conflicts
+# with the listen gem which other jekyll stuff currently depends on. Force
+# dependency on sass to be less than 3.5 for now to avoid this conflict.
+gem "sass", "< 3.5"
