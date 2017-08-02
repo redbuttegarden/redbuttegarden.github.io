@@ -2425,12 +2425,13 @@ hr {
 	background-color: #196143;
 }
 
-/* Concert Sponsors Banner */
+/* Vertical Concert Sponsors Banner  - HIDDEN FOR NOW, DEVELOPMENT WANTS HORIZONTAL*/
 
 #concert-sponsors-banner {
 	top: 160px;
 	right: 50px;
 	position: absolute;
+	display: none;
 }
 
 @media (max-width: 1670px) {
