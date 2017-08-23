@@ -6,8 +6,12 @@ var d = new Date();
 var offset = d.getTimezoneOffset()/60;
 var offsetDifference = offset - 6;
 
-var month = d.getMonth() + 1;
-var day = d.getDate();
+// var month = d.getMonth() + 1;
+var month = 9;
+
+// var day = d.getDate();
+var day = 21;
+
 var hours = d.getHours() + offsetDifference;
 var minutes = d.getMinutes();
 
@@ -286,6 +290,14 @@ else if (month == 9) {
 
 	busHours = "Sep 1-30: 9AM-7:30PM*";
 	otherNotes = "*Garden Hours on Concert Days: 9AM-5PM";
+
+	// Begin Special Event on 9-21-2017 per Development's Request
+
+		 if (month == 9 && day == 21) {
+			 otherNotes = "The Garden Will Close at 5PM for a Special Member Event";
+		 }
+	// End Special EVent
+
 	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 	document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 
