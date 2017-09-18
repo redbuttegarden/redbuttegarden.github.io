@@ -2660,3 +2660,13 @@ hr {
 	}
 
 }
+
+/* Garden After Dark Panel Colors */
+
+.gad-panel-small {
+	background-color: #F58804;
+}
+
+.gad-panel-large {
+	background-color: #594A68;
+}
