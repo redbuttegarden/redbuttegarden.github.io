@@ -2165,6 +2165,10 @@ hr {
 	margin-top: 30px;
 }
 
+.eventwraplarge {
+	max-width: 1280px;
+}
+
 .collectionswrap {
 	max-width: 600px;
 }
@@ -2663,10 +2667,24 @@ hr {
 
 /* Garden After Dark Panel Colors */
 
-.gad-panel-small {
-	background-color: #F58804;
+.gad-panel-orange {
+	background-color: #F7931D;
 }
 
-.gad-panel-large {
-	background-color: #594A68;
+.gad-panel-purple {
+	background-color: #652D91;
+}
+
+.gad-purple {
+	color: #652D91;
+	/* color: #594A68; */
+}
+
+.gad-bg-purple {
+	background-color: #652D91;
+	/* background-color: #594A68; */
+}
+
+.gad-bg-tan {
+	background-color: #FCB752;
 }
