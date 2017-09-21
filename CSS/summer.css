@@ -2691,15 +2691,16 @@ hr {
 }
 
 .gad-bg-orange {
-	background-color: #F2672B;
+	background-color: #F68C39;
 }
 
 .gad-bg-light-orange {
 	background-color: #FCB752;
 }
 
-.gad-bg-dark-orange {
-	background-color: #FB9807;
+.gad-bg-lilac {
+	background-color: #C1ABD3;
+	/* background-color: #FB9807; */
 }
 
 .gad-light-purple {
