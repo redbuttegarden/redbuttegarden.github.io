@@ -1990,6 +1990,12 @@ hr {
 	}
 }
 
+@media (min-width:769px) {
+	.hide-desktop {
+		display:none;
+	}
+}
+
 .green {
 	color: #196143;
 }
@@ -2675,16 +2681,27 @@ hr {
 	background-color: #652D91;
 }
 
-.gad-purple {
+.gad-purple, #rbgdefaultbody .gad-purple a, #rbgdefaultbody .gad-purple a:hover, #rbgdefaultbody .gad-purple a:visited {
 	color: #652D91;
 	/* color: #594A68; */
 }
 
 .gad-bg-purple {
 	background-color: #652D91;
-	/* background-color: #594A68; */
 }
 
-.gad-bg-tan {
+.gad-bg-orange {
+	background-color: #F2672B;
+}
+
+.gad-bg-light-orange {
 	background-color: #FCB752;
+}
+
+.gad-bg-dark-orange {
+	background-color: #FB9807;
+}
+
+.gad-light-purple {
+	color: #594A68;
 }
