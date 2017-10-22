@@ -29,12 +29,12 @@ var hoursInfo;
 /**/	var galaMonth = 0;					// Month of Gala
 /**/	var galaDay = 0; 					// Day of month of Gala
 /**/
-/**/	var gadDay1 = 20;					// Day of month in October for 1st day of Garden After Dark
-/**/	var gadDay2 = 21;					// Day of month in October for 2nd day of Garden After Dark
-/**/	var gadDay3 = 22;					// Day of month in October for 3rd day of Garden After Dark
-/**/	var gadDay4 = 27;					// Day of month in October for 4th day of Garden After Dark
-/**/	var gadDay5 = 28;					// Day of month in October for 5th day of Garden After Dark
-/**/	var gadDay6 = 29;					// Day of month in October for 6th day of Garden After Dark (if applicable; if none, set to zero)
+/**/	var gadDay1 = 19;					// Day of month in October for 1st day of Garden After Dark
+/**/	var gadDay2 = 20;					// Day of month in October for 2nd day of Garden After Dark
+/**/	var gadDay3 = 21;					// Day of month in October for 3rd day of Garden After Dark
+/**/	var gadDay4 = 26;					// Day of month in October for 4th day of Garden After Dark
+/**/	var gadDay5 = 27;					// Day of month in October for 5th day of Garden After Dark
+/**/	var gadDay6 = 28;					// Day of month in October for 6th day of Garden After Dark (if applicable; if none, set to zero)
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
