@@ -9,24 +9,6 @@ layout: "default"
 
 <div class="row-fluid">
 
-<!-- GARDEN AFTER DARK -->
-	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-		<a href="/garden-after-dark">
-		<div class="eventwrapsmall hover">
-
-			<img src="/images/events/garden-after-dark-thumb.jpg">
-
-			<div class="eventinfo">
-				<div class="eventname">GARDEN AFTER DARK</div>
-				<div class="eventdate">Thursday, Friday &amp; Saturday, Oct 19-21 &amp; 26-28</div>
-				<div class="eventnotes"></div>
-			</div>
-
-		</div>
-		</a>
-	</div>
-<!-- END GAD-->
-
   {% for post in site.categories.fall reversed %}
     {% if post.url %}
 	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -46,5 +28,23 @@ layout: "default"
 	</div>
     {% endif %}
   {% endfor %}
+
+	<!-- GARDEN AFTER DARK -->
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<a href="/garden-after-dark">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/garden-after-dark-thumb.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">GARDEN AFTER DARK</div>
+					<div class="eventdate">2018 Dates To Be Announced</div>
+					<div class="eventnotes"></div>
+				</div>
+
+			</div>
+			</a>
+		</div>
+	<!-- END GAD-->
 
 </div>
