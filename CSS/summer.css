@@ -2163,6 +2163,10 @@ hr {
 /***************  Begin Event Images CSS ******************/
 /**********************************************************/
 
+.collectionswrap {
+	max-width: 600px;
+}
+
 .eventwrapsmall, .collectionswrap {
 	max-width: 385px;
 	width: 100%;
@@ -2173,10 +2177,6 @@ hr {
 
 .eventwraplarge {
 	max-width: 1280px;
-}
-
-.collectionswrap {
-	max-width: 600px;
 }
 
 .eventwrapsmall img, .collectionswrap img{
