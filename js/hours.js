@@ -18,10 +18,10 @@ var hoursInfo;
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* 		Variables to Change Yearly					  										  */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/**/	var daylightEndDay = 6;				// Day that Daylight Savings Time Ends in November of the current year
-/**/	var daylightStartDay = 12;			// Day that Daylight Savings Time Begins in March of the next year
+/**/	var daylightEndDay = 4;				// Day that Daylight Savings Time Ends in November of the current year
+/**/	var daylightStartDay = 11;			// Day that Daylight Savings Time Begins in March of the next year
 /**/
-/**/	var thanksgivingDay = 23;			// Day of Month of Thanksgiving Holiday in November
+/**/	var thanksgivingDay = 22;			// Day of Month of Thanksgiving Holiday in November
 /**/
 /**/	var holidayPartyDay = 20;			// Day of Month we close for Holiday Party in December
 /**/	var holidayPartyClosingHour = 13; 	// Hour we close on day of Holiday Party (military time)
