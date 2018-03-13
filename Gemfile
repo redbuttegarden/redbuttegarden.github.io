@@ -31,3 +31,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # with the listen gem which other jekyll stuff currently depends on. Force
 # dependency on sass to be less than 3.5 for now to avoid this conflict.
 gem "sass", "< 3.5"
+
+gem 'jekyll-sitemap', '1.2.0'
