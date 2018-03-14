@@ -52,5 +52,5 @@ prose:
         value: "post"
 
 url: "http://example.com" # the base hostname & protocol for your site
-plugins:
+plugins_dir:
   - jekyll-sitemap
