@@ -1847,6 +1847,19 @@ hr {
 .pastdivide hr {
 	width: 40%;
 }
+
+/* CSS for Concert Sales Date Buttons
+
+.con-sale-dates {
+	 height: 276px;
+}
+
+*/
+
+.con-sale-dates > p {
+	font-size: 9px;
+}
+
 /**********************************************************/
 /***************  End CSS for Concerts page ***************/
 /**********************************************************/
