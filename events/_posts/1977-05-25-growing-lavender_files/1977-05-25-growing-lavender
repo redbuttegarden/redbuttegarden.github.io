@@ -16,7 +16,7 @@ member-cost: "$50"
 public-cost: "$50"
 event-notes: ""
 tickets-button: ""
-published: true
+published: false
 ---
 
 <div class="tan-bg">
