@@ -2193,6 +2193,10 @@ hr {
 	padding: 15px;
 }
 
+.eventinfo-small {
+	width: 45%;
+}
+
 .eventname {
 	font-size: 16px;
 	font-weight: bold;
