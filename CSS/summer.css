@@ -1689,6 +1689,7 @@ hr {
 
 	.concerttext {
 		z-index: 3;
+		/* background-color: #F2EDE4; */
 		text-wrap: normal;
 		position: relative;
 		overflow: none;
@@ -1741,6 +1742,12 @@ hr {
 		position: absolute;
 		bottom: 0;
 	}
+
+/*
+	.con-but-wrap hr {
+		background-color: #E86730 !important;
+	}
+*/
 
 	.soldout {
 		margin: 0 auto 0 auto;
