@@ -1689,14 +1689,15 @@ hr {
 
 	.concerttext {
 		z-index: 3;
-		/* background-color: #F2EDE4; */
+		background-color: #F2EDE4;
 		text-wrap: normal;
 		position: relative;
 		overflow: none;
 		width: 95%;
 		display: table;
 		margin: auto;
-		height: 305px; /* This value might need to be changed each season */
+		height: 255px; /* This value might need to be changed each season - was originally 305px when there was <br /><hr width="80%" /><br /> */
+		padding-bottom: 15px; /* Adds space between rows of artists on concerts page */
 	}
 
 	.donor-height {
