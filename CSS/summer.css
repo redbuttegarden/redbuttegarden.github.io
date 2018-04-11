@@ -1299,7 +1299,7 @@ hr {
 	padding: 15px;
 }
 
-@media (max-width:1280px) {
+@media (max-width:1295px) {
 	.meminfo {
 		max-width: 1200px;
 		border-left: 1px solid black;
@@ -1310,6 +1310,7 @@ hr {
 		border-bottom: 1px solid black;
 	}
 
+	/* Hides mempic for mobile*/
 	.mempic {
 		display: none;
 	}
