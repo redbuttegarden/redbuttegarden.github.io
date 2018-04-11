@@ -10,7 +10,8 @@ html {
 }
 
 img {
-	image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+	image-rendering: auto; /* Chrome (and Safari) */
+	/* image-rendering: -webkit-optimize-contrast; Chrome (and Safari) */
 }
 
 h1, h2, h3, h4, h5, h6 {
