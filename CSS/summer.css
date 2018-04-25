@@ -271,7 +271,7 @@ hr {
 /* Begin Search Bar CSS */
 /************************/
 
-#gsa_search{
+#gcse_search{
 	background:transparent;
     border-bottom :1px solid white;
     margin: 0;
@@ -283,7 +283,7 @@ hr {
     border-radius: 2px;
 }
 
-#gsa_searchbox {
+#gcse_searchbox {
     border:1 px solid black;
     color: #196143;
     font-size: 3em;
@@ -296,11 +296,11 @@ hr {
     font-weight: normal !important;
 }
 
-#gsa_searchbox:focus {
+#gcse_searchbox:focus {
 	color: #196143;
 }
 
-#gsa_searchbutton {
+#gcse_searchbutton {
 	padding:3px;
 	position:absolute;
 	right:0;
@@ -309,10 +309,16 @@ hr {
 	border-radius: 0px 2px 2px 0px;
 }
 
-#gsa_searchbutton:focus,
-#gsa_searchbutton:hover,
-#gsa_searchbutton:active {
+#gcse_searchbutton:focus,
+#gcse_searchbutton:hover,
+#gcse_searchbutton:active {
      background-color:#F2EDE4;
+}
+
+.gcse_watermark {
+	...
+	url('//gcse.search.utah.edu/_images/gcse_site.png')
+							no-repeat 5px 3px;
 }
 
 .search {
@@ -341,7 +347,7 @@ hr {
 	float: left;
 }
 
-#gsa_search label {
+#gcse_search label {
      height:1px;
      left:-10000px;
      overflow:hidden;
