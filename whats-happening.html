@@ -31,19 +31,37 @@ layout: default
 </div>
 
 <br />
-<h2 class="text-center green">Previous Posts</h2>
-<br />
 
-{% for post in site.categories.whats-happening %}
-  {% assign currentdate = post.date | date: "%Y" %}
-  {% if currentdate != date %}
-    {% unless forloop.first %}</ul>{% endunless %}
-    <h4 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4>
-    <ul>
-    {% assign date = currentdate %}
-  {% endif %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% if forloop.last %}</ul>{% endif %}
-{% endfor %}
+<!-- Begin Previous Posts -->
+<div class="row-fluid">
+	<div class="col-sm-12 lowpadding">
+		<span class="no-button-outline">
+			<button class="volbutton hover green-bg" data-target="#previous-posts" data-toggle="collapse" href="#previous-posts">PREVIOUS POSTS</button>
+		</span>
+		<div class="collapse border tan-bg" id="previous-posts" style="margin-top:-4px">
+			<div class="row-fluid">
+				<div class="col-xs-12">
 
-{% include whats-happening-banner-js.html %}
+					<h2 class="text-center green">Previous Posts</h2>
+					<br />
+
+					{% for post in site.categories.whats-happening %}
+					  {% assign currentdate = post.date | date: "%Y" %}
+					  {% if currentdate != date %}
+					    {% unless forloop.first %}</ul>{% endunless %}
+					    <h4 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4>
+					    <ul>
+					    {% assign date = currentdate %}
+					  {% endif %}
+					    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					  {% if forloop.last %}</ul>{% endif %}
+					{% endfor %}
+
+					{% include whats-happening-banner-js.html %}
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Previous Posts -->
