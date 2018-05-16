@@ -10,7 +10,8 @@ html {
 }
 
 img {
-	image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+	image-rendering: auto; /* Chrome (and Safari) */
+	/* image-rendering: -webkit-optimize-contrast; Chrome (and Safari) */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -106,7 +107,7 @@ hr {
 	/* background-color: #FF6A32; */
 }
 
-@media (max-width: 1042px) {
+@media (max-width: 1280px) {
 
 	#navhide1 > a, #navhide2 > a, #navhide3 > a {
 		padding-bottom: 5px;
@@ -242,22 +243,25 @@ hr {
 	}
 }
 
-/* Hides Give, Join, and Volunteer Buttons within certain widths */
+/* Hides Give, Join, and Volunteer Buttons within certain widths
 @media (min-width: 1043px) and (max-width: 1325px) {
 	#navhide1, #navhide2, #navhide3, #navhide4 {
 		display: none;
 	 }
 
 }
+*/
 
-/* Hides Search icon within certain widths */
+/* Hides Search icon within certain widths
 @media (min-width: 1043px) and (max-width: 1100px) {
 	#navhide4 {
 		display: none;
 	}
 }
+*/
 
-@media (max-width: 1043px) {
+/* Ensures search icon and Give, Join, and Donate buttons clear one another and appear on next line on mobile menu */
+@media (max-width: 1320px) {
 	#navhide4 img, #navhide3, #navhide2, #navhide1 {
 		clear: both;
 	}
@@ -267,7 +271,7 @@ hr {
 /* Begin Search Bar CSS */
 /************************/
 
-#gsa_search{
+#gcse_search{
 	background:transparent;
     border-bottom :1px solid white;
     margin: 0;
@@ -279,7 +283,7 @@ hr {
     border-radius: 2px;
 }
 
-#gsa_searchbox {
+#gcse_searchbox {
     border:1 px solid black;
     color: #196143;
     font-size: 3em;
@@ -292,11 +296,11 @@ hr {
     font-weight: normal !important;
 }
 
-#gsa_searchbox:focus {
+#gcse_searchbox:focus {
 	color: #196143;
 }
 
-#gsa_searchbutton {
+#gcse_searchbutton {
 	padding:3px;
 	position:absolute;
 	right:0;
@@ -305,10 +309,16 @@ hr {
 	border-radius: 0px 2px 2px 0px;
 }
 
-#gsa_searchbutton:focus,
-#gsa_searchbutton:hover,
-#gsa_searchbutton:active {
+#gcse_searchbutton:focus,
+#gcse_searchbutton:hover,
+#gcse_searchbutton:active {
      background-color:#F2EDE4;
+}
+
+.gcse_watermark {
+	...
+	url('//gcse.search.utah.edu/_images/gcse_site.png')
+							no-repeat 5px 3px;
 }
 
 .search {
@@ -337,7 +347,7 @@ hr {
 	float: left;
 }
 
-#gsa_search label {
+#gcse_search label {
      height:1px;
      left:-10000px;
      overflow:hidden;
@@ -360,8 +370,8 @@ hr {
 /** End Search Bar CSS **/
 /************************/
 
-/* Code Collapses Navbar Earlier for more Mobile Compatibility */
-@media (min-width: 768px) and (max-width: 1043px) {
+/* Code Collapses Navbar Earlier for more Mobile Compatibility - value must be larger than 1280px due to padding and browser differences */
+@media (min-width: 768px) and (max-width: 1320px) {
         .navbar-nav .open .dropdown-menu {
             position: static;
             float: none;
@@ -1295,7 +1305,7 @@ hr {
 	padding: 15px;
 }
 
-@media (max-width:1280px) {
+@media (max-width:1295px) {
 	.meminfo {
 		max-width: 1200px;
 		border-left: 1px solid black;
@@ -1306,6 +1316,7 @@ hr {
 		border-bottom: 1px solid black;
 	}
 
+	/* Hides mempic for mobile*/
 	.mempic {
 		display: none;
 	}
