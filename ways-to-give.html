@@ -40,10 +40,12 @@ layout: "default"
 		<center>
 			<a href="{% include give-link.html %}">
 			<form method="POST" action="{% include give-link.html %}">
-				<input class="green-button" type="button" value="Make a Donation"/>
+				<input class="green-button" type="button" value="Make a Donation" onClick="fbq('track', 'Purchase');" />
+				<!--
 				<script>
   				fbq('track', 'Purchase');
 				</script>
+					-->
 			</form>
 			</a>
 		</center>
