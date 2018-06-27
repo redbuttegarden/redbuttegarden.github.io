@@ -8,6 +8,7 @@ var offsetDifference = offset - 6;
 
 var month = d.getMonth() + 1;
 var day = d.getDate();
+
 var hours = d.getHours() + offsetDifference;
 var minutes = d.getMinutes();
 
@@ -257,7 +258,8 @@ else if (month == 4) {
 else if (month == 5 || month == 6 || month == 7 || month == 8) {
 
 	busHours = "May 1-Aug 31: 9AM-9PM*";
-	otherNotes = "*Garden Hours on Concert Days: 9AM-5PM";
+	// otherNotes = "*Garden Hours on Concert Days: 9AM-5PM";
+	otherNotes = "The Gift Shop Is Closed for Inventory";
 	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 	document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 
