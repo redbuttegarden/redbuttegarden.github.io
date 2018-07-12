@@ -1,67 +1,11 @@
 ---
-title: What's Happening Blog
-layout: default
+title: "Garden Journal Blog"
+layout: "default"
 ---
 
-<div class="row-fluid">
-	<img id="blog-banner" class="responsive" src="/images/banners/whats-happening-summer.jpg" alt="What's Happening at Red Butte Garden" title="What's Happening at Red Butte Garden" />
-</div>
-
-<h2 class="text-center green">Most Recent Posts</h2>
-
-<div class="row-fluid">
-  {% for post in site.categories.whats-happening limit:6 %}
-	{% if post.url %}
-	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-		<a href="{{ post.url }}">
-		<div class="eventwrapsmall hover">
-
-			<img src="/images/blogs/{{ post.blog-image }}">
-
-			<div class="eventinfo">
-				<div class="eventname">{{ post.title }}</div>
-				<div class="eventdate">{{ post.post-date }}</div>
-			</div>
-
-		</div>
-		</a>
-	</div>
-    {% endif %}
-  {% endfor %}
-</div>
-
-<br />
-
-<!-- Begin Previous Posts -->
-<div class="row-fluid">
-	<div class="col-sm-12 lowpadding">
-		<span class="no-button-outline">
-			<button class="volbutton hover green-bg" data-target="#previous-posts" data-toggle="collapse" href="#previous-posts">PREVIOUS POSTS</button>
-		</span>
-		<div class="collapse border tan-bg" id="previous-posts" style="margin-top:-4px">
-			<div class="row-fluid">
-				<div class="col-xs-12">
-
-					<h2 class="text-center green">Previous Posts</h2>
-					<br />
-
-					{% for post in site.categories.whats-happening %}
-					  {% assign currentdate = post.date | date: "%Y" %}
-					  {% if currentdate != date %}
-					    {% unless forloop.first %}</ul>{% endunless %}
-					    <h4 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4>
-					    <ul>
-					    {% assign date = currentdate %}
-					  {% endif %}
-					    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-					  {% if forloop.last %}</ul>{% endif %}
-					{% endfor %}
-
-					{% include whats-happening-banner-js.html %}
-
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- End Previous Posts -->
+<html>
+    <head>
+	<meta http-equiv="refresh" content="0; url=https://redbuttegarden.org/garden-journal">
+	<link rel="canonical" href="https://redbuttegarden.org/garden-journal" />
+    </head>
+</html>
