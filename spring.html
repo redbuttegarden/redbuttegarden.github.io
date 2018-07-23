@@ -9,7 +9,7 @@ layout: "default"
 
 <div class="row-fluid">
 
-	<!-- SPRING PLANT SALE -->
+	<!-- BEGIN SPRING PLANT SALE -->
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 			<a href="/spring-plant-sale">
 			<div class="eventwrapsmall hover">
@@ -25,7 +25,7 @@ layout: "default"
 			</div>
 			</a>
 		</div>
-	 <!-- SPRING PLANT SALE-->
+	 <!-- END SPRING PLANT SALE-->
 
 	 <!-- BEGIN ZEKE CODE -->
 		 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -45,6 +45,7 @@ layout: "default"
 		 </div>
 		<!-- END ZEKE CODE-->
 
+	<!-- BEGIN SPRING EVENTS -->
   {% for post in site.categories.spring reversed %}
     {% if post.url %}
 	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -64,5 +65,6 @@ layout: "default"
 	</div>
     {% endif %}
   {% endfor %}
+	<!-- END SPRING EVENTS -->
 
 </div>
