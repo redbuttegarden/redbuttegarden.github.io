@@ -2625,13 +2625,13 @@ hr {
 
 /* Botany Bin Table */
 
-.botany-bin-table table, .offsite-pickup-table table, .rbg-nhmu-table table {
+.botany-bin-table table, .offsite-pickup-table table {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 }
 
-.botany-bin-table th, .rbg-nhmu-table th {
+.botany-bin-table th {
 	color: #FFF;
 	background-color: #007600;
 	text-align: center;
@@ -2639,17 +2639,17 @@ hr {
 	height: 28px;
 }
 
-.botany-bin-table td, .offsite-pickup-table td, .rbg-nhmu-table td {
+.botany-bin-table td, .offsite-pickup-table td {
 	text-align: center;
 	font-weight: bold;
 	padding: 10px;
 }
 
-.botany-bin-table tr:nth-child(odd), .rbg-nhmu-table tr:nth-child(odd) {
+.botany-bin-table tr:nth-child(odd) {
 	background-color: #D7F5D7;
 }
 
-.botany-bin-table tr:nth-child(even), .rbg-nhmu-table tr:nth-child(even) {
+.botany-bin-table tr:nth-child(even) {
 	background-color: #A9EAA9;
 }
 
