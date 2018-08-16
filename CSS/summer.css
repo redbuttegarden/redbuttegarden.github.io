@@ -1430,7 +1430,7 @@ hr {
 	height: 100%;
 }
 
-	#membenefits, #mempolicies {
+	#membenefits, #mempolicies, #memrecurring {
 		max-width: 640px;
   		background-color: #F2EDE4;
   		color: #000;
