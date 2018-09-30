@@ -9,24 +9,25 @@ layout: "default"
 
 <div class="row-fluid">
 
-<!--	NATURE CONNECTS
+	<!-- GARDEN AFTER DARK -->
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<a href="/nature-connects">
+			<a href="/garden-after-dark">
 			<div class="eventwrapsmall hover">
 
-				<img src="/images/misc/nature-connects/monarch-butterfly-milkweed-web.jpg">
+				<img src="/images/events/garden-after-dark-thumb.jpg">
 
 				<div class="eventinfo">
-					<div class="eventname">NATURE CONNECTS: ART WITH LEGO BRICKS</div>
-					<div class="eventdate">JUNE 2 - SEPT 16</div>
+					<div class="eventname">GARDEN AFTER DARK</div>
+					<div class="eventdate">OCTOBER 18-20 &amp; 25-27</div>
 					<div class="eventnotes"></div>
 				</div>
 
 			</div>
 			</a>
 		</div>
-	NATURE CONNECTS-->
+	<!-- END GAD-->
 
+	<!-- BEGIN NORMAL EVENTS -->
   {% for post in site.categories.fall reversed %}
     {% if post.url %}
 	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -46,23 +47,6 @@ layout: "default"
 	</div>
     {% endif %}
   {% endfor %}
-
-	<!-- GARDEN AFTER DARK -->
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<a href="/garden-after-dark">
-			<div class="eventwrapsmall hover">
-
-				<img src="/images/events/garden-after-dark-thumb.jpg">
-
-				<div class="eventinfo">
-					<div class="eventname">GARDEN AFTER DARK</div>
-					<div class="eventdate">OCTOBER 18-20 &amp; 25-27</div>
-					<div class="eventnotes"></div>
-				</div>
-
-			</div>
-			</a>
-		</div>
-	<!-- END GAD-->
+	<!-- END NORMAL EVENTS -->
 
 </div>
