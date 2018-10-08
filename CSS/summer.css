@@ -944,49 +944,12 @@ hr {
 #prefooter img{
 	display: block;
 	margin: 10px auto 10px auto;
-	width: 166px;
-	height: 90px;
+	max-width: 166px;
 }
 
 #prefooter img:hover {
 	background-color: #FBF9F6;
 
-}
-
-.footer-membership {
-	display: block;
-	margin: 10px auto 10px auto;
-	width:166px;
-	height: 90px;
-	background: url('/images/core/sprites.png') -0px -0px;
-}
-
-.footer-membership:hover {
-	background-color: #FBF9F6;
-}
-
-.footer-donate {
-	display: block;
-	margin: 10px auto 10px auto;
-	width:166px;
-	height: 90px;
-	background: url('/images/core/sprites.png') -166px -0px ;
-}
-
-.footer-donate:hover {
-	background-color: #FBF9F6;
-}
-
-.footer-volunteer {
-	display: block;
-	margin: 10px auto 10px auto;
-	width:166px;
-	height: 90px;
-	background: url('/images/core/sprites.png') -332px -0px ;
-}
-
-.footer-volunteer:hover {
-	background-color: #FBF9F6;
 }
 
 @media only screen and (max-width : 950px) {
