@@ -1135,16 +1135,7 @@ hr {
 
 #uofu {
 	background-color: #00502F;
-	padding-top: 44px;
-}
-
-.uofu {
-	display: block;
-    margin: 0 auto 0 auto;
-	width:179px;
-	height: 48px;
-	background: url('/images/core/sprites.png') -170px -256px ;
-	vertical-align: bottom;
+	padding-top: 30px;
 }
 
 #footerlogo {
@@ -1152,13 +1143,9 @@ hr {
 	padding-top: 15px;
 }
 
-.footerlogo {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	width:169px;
-	height: 74px;
-	background: url('/images/core/sprites.png') -0px -245px ;
+
+#uofu img, #footerlogo img, #zap img {
+	max-width: 170px;
 }
 
 #zap {
@@ -1166,13 +1153,6 @@ hr {
 	padding-top: 17px;
 }
 
-.zap {
-	display: block;
-    margin: 0 auto 0 auto;
-	width:170px;
-	height: 71px;
-	background: url('/images/core/sprites.png') -0px -171px ;
-}
 
 .uofu:hover, .footerlogo:hover, .zap:hover {
 	opacity: .9;
