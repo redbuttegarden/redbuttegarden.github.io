@@ -686,6 +686,10 @@ hr {
 		margin: 5px auto 5px auto;
 	}
 
+	#rbgdirections a:hover, #rbgweather a:hover {
+		text-decoration: none;
+	}
+
 	#rbghours, #rbgadmission, #rbgadmission2, #rbgdirections, #rbgweather {
 		background-color: #196143;
 		border-top: black 1px solid;
