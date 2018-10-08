@@ -131,22 +131,41 @@
 	<div id="rbginfobg2">
 
 		<div id="rbginfo" class="row">
+
 			<div id="rbghours" class="col-sm-3">
+					<br />
 					<b>GARDEN HOURS (MDT)</b>
 					<!-- <div class="text-center red bold">The Garden is Closed Today due to Inclement Weather</div> -->
 					<div id="gardenHours2"><span class="red text-center"></span></div>
 					<div id="gardenStatus2"></div>
 					<div id="otherNotes2"></div><br />
 					<div>Only Service Animals are allowed in the garden</div><br />
-						<a href="/general-info" style="text-decoration:none;color:#FFFFFF;font-size:12px">CLICK TO SEE ALL HOURS</a>
+					<a href="/general-info" style="text-decoration:none;color:#FFFFFF;font-size:12px">CLICK TO SEE ALL HOURS</a>
+					<br /><br />
 			</div>
+
 			<div id="rbgadmission2" class="col-sm-3">
 
 				{% include admission.html %}
 
 			</div>
-			<div id="rbgdirections" class="col-sm-3"><a href="/directions"><div class="rbgdirections"></div></a></div>
-			<div id="rbgweather" class="col-sm-3"><a href="https://weather.com/weather/today/l/84108:4:US" target="_blank"><div class="rbgweather"></div></a></div>
+
+			<div id="rbgdirections" class="col-sm-3">
+				<div class="memfaqwrap">
+					<br />
+					<a href="/directions"><div class="memfaq volbutton">HOW TO GET HERE</div></a>
+					<br />
+				</div>
+			</div>
+
+			<div id="rbgweather" class="col-sm-3">
+				<div class="memfaqwrap">
+					<br />
+					<a a href="https://weather.com/weather/today/l/84108:4:US" target="_blank"><div class="memfaq volbutton">TODAY'S WEATHER</div></a>
+					<br />
+				</div>
+			</div>
+
 		</div>
 
 	</div>
