@@ -10,7 +10,7 @@ html {
 }
 
 img {
-	image-rendering: auto; /* Chrome (and Safari) */
+	image-rendering: auto; /* Makes images render smoother in Chrome (and Safari) - if you don't have this they can appear blurry */
 	/* image-rendering: -webkit-optimize-contrast; Chrome (and Safari) */
 }
 
@@ -2215,10 +2215,14 @@ hr {
 
 /* Begin Grid Page Header Code */
 
-.grid-header {
+.grid-header, .grid-header-small {
 	font-size: 36px;
 	text-align: center;
 	text-transform: capitalize;
+}
+
+.grid-header-small {
+	font-size: 1.75em;
 }
 
 .eventdivide hr {
