@@ -339,9 +339,15 @@ hr {
 	float: left;
 }
 
-@media (max-width:1042px){
-	.searchicon-mobile-menu img {
-		padding: 15px;
+@media (max-width:1320px){
+	.searchicon-mobile-menu {
+		display: none;
+	}
+}
+
+@media (min-width:1319px){
+	.searchicon-header {
+		display: none !important;
 	}
 }
 
