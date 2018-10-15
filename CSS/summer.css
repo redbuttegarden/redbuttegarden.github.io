@@ -351,6 +351,10 @@ hr {
 	}
 }
 
+.searchicon-header {
+	margin-right: 5px;
+}
+
 .searchicon:hover {
 	background-color: #196143;
 }
