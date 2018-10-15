@@ -210,6 +210,14 @@ hr {
 	padding: 3px 0 3px 0;
 }
 
+@media (max-width: 1320px) {
+	#logo img {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+
 /* Adjusts width of dropdown menu */
 .dropdown-menu a, .dropdown-menu li {
   min-width: 150px;
@@ -332,7 +340,7 @@ hr {
 }
 
 @media (max-width:1042px){
-	.searchicon img {
+	.searchicon-mobile-menu img {
 		padding: 15px;
 	}
 }
@@ -406,6 +414,7 @@ hr {
         .navbar-header {
             float: none;
         }
+
         .navbar-toggle {
             display: block;
         }
