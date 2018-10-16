@@ -210,6 +210,14 @@ hr {
 	padding: 3px 0 3px 0;
 }
 
+@media (max-width: 1320px) {
+	#logo img {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+
 /* Adjusts width of dropdown menu */
 .dropdown-menu a, .dropdown-menu li {
   min-width: 150px;
@@ -331,10 +339,20 @@ hr {
 	float: left;
 }
 
-@media (max-width:1042px){
-	.searchicon img {
-		padding: 15px;
+@media (max-width:1320px){
+	.searchicon-mobile-menu {
+		display: none;
 	}
+}
+
+@media (min-width:1319px){
+	.searchicon-header {
+		display: none !important;
+	}
+}
+
+.searchicon-header {
+	margin-right: 5px;
 }
 
 .searchicon:hover {
@@ -406,6 +424,7 @@ hr {
         .navbar-header {
             float: none;
         }
+
         .navbar-toggle {
             display: block;
         }
