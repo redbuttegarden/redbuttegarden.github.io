@@ -1,29 +1,59 @@
 ---
-title: Search Red Butte Garden
-layout: default
+title: "Search Red Butte Garden"
+layout: "default"
 ---
 
 <h1 class="text-center green">Search Red Butte Garden's Entire Website</h1>
 
 <h3 class="text-center">Type in your search below, then press Enter</h3>
 
-<br />
 
 <div>
 
-	<form id="gcse_search" action="http://gcse.search.utah.edu/search" method="get" name="search" value="test">
-
-		<label for="gcse_searchbox">Search Site:</label>
-		<input id="gcse_searchbox" type="text" name="q" value="" title="enter search terms" placeholder="Search Entire Site..." />
-		<input type="hidden" name="site" value="Look-only-in-red-butte-garden-website" />
-		<input type="hidden" name="client" value="red-butte-garden_frontend" />
-		<input type="hidden" name="output" value="xml_no_dtd" />
-		<input type="hidden" name="proxystylesheet" value="red-butte-garden_frontend"/> <input type="hidden" name="numgm" value="10" />
-
-		<!--
-		<input id="gcse_searchbutton" type="image" name="btnG" value="Submit Search" src="http://uwebresources.utah.edu/_images/search/gcse_search_btn.png" title="Submit Search" alt="Submit Search" />
-		-->
-
+	<!--
+	<form id="gcse_search" action="/search-test" method="get" name="search" role="search">
+	    <label for="gcse_searchbox">Search Site:</label>
+	    <input id="gcse_searchbox" type="text" name="q" value=""
+	        title="enter search terms" onfocus="noWatermark();"
+	        onblur="watermark();" />
+	    <input id="gcse_searchbutton" type="image" name="btnG" value="Submit Search"
+	        src="//gcse.search.utah.edu/_images/gcse_search_btn.png"
+	        title="submit search" alt="submit search" />
+	    <img src="//gcse.search.utah.edu/_images/spacer.gif" onload="loadWatermark();">
 	</form>
+	-->
+
+	<script>
+	  (function() {
+	    var cx = '008932147021757332745:psdepamou-8';
+	    var gcse = document.createElement('script');
+	    gcse.type = 'text/javascript';
+	    gcse.async = true;
+	    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.insertBefore(gcse, s);
+		 })();
+	</script>
+	<gcse:search></gcse:search>
+
+
+	<!-- Begin customized Google search results here
+
+	<script>
+	  (function() {
+	    var cx = '008932147021757332745:psdepamou-8';
+	    var gcse = document.createElement('script');
+	    gcse.type = 'text/javascript';
+	    gcse.async = true;
+	    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.insertBefore(gcse, s);
+	  })();
+	</script>
+	<gcse:searchresults-only></gcse:searchresults-only>
+
+	End customized Google search results -->
+
+	<br />
 
 </div>
