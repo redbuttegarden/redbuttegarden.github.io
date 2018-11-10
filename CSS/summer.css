@@ -2715,3 +2715,11 @@ hr {
 .gad-light-purple {
 	color: #594A68;
 }
+
+/********************************/
+/* End Test Sprite for Presentation */
+/********************************/
+
+/* Green Sub-headers */
+
+.green-subheader {color: #ffffff; padding:12px; background-color:#196143;}
