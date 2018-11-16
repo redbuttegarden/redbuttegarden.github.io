@@ -11,33 +11,24 @@ layout: "default"
 
 <h4 class="green text-center">Your gift helps us fulfill our mission to connect people with plants and the beauty of living landscapes.</p></h4>
 
-<br /><hr><br />
+<br /><hr>
 
 <div class="row">
 
-	<div class="col-sm-4">
+	<div class="col-sm-12">
 
-		<h3 class="green">#GivingTuesday is November 27</h3>
-
-		<img src="/images/misc/development/giving-tuesday-calendar.png" title="Give for #GivingTuesday!" width="220" height="220" />
-
-		<p><br>All our lives are enriched by the world of plants. <br>Support the Garden this #GivingTuesday.</p>
-
-	</div>
-
-	<div class="col-sm-4">
-
-		<h3 class="green text-center">Donations may be mailed to:</h3>
-
-		<p class="text-center"><strong class="green">Development Department</strong><br />
-		<strong>Red Butte Garden<br />
-		300 Wakara Way<br />
-		Salt Lake City, UT 84108</strong></p>
+		<h3 class="green text-center">#GivingTuesday is November 27!</h3>
 
 		<center>
-			<a href="{% include give-link.html %}">
-			<form method="POST" action="{% include give-link.html %}">
+			<a href="{% include giving-tuesday-link.html %}">
+			<form method="POST" action="{% include giving-tuesday-link.html %}">
 				<input class="green-button" type="button" value="Give a Gift Today" onClick="fbq('track', 'Purchase');" />
+
+				<br />
+				<br />
+
+				<img src="/images/misc/development/giving-tuesday-calendar.png" title="Give for #GivingTuesday!" width="220" height="220" />
+
 				<!--
 				<script>
 					fbq('track', 'Purchase');
@@ -47,16 +38,35 @@ layout: "default"
 			</a>
 		</center>
 
-		<p><BR>Support the Garden’s efforts and contribute today! Donations can be made online, by mail, or by phone.<br />For more information please contact Wendy Loyning at <strong>801-585-5658</strong> or <a href="mailto:wendy.loyning@redbutte.utah.edu">wendy.loyning@redbutte.utah.edu</a></p>
+	</div>
+</div>
+
+<div class="row">
+
+<br /><hr><br />
+
+	<div class="col-sm-6">
+
+		<h3 class="green text-center">Donations may be mailed to:</h3>
+
+		<p class="green text-center"><strong class="green">Development Department</strong><br />
+		<strong>Red Butte Garden<br />
+		300 Wakara Way<br />
+		Salt Lake City, UT 84108</strong></p>
+
+		<p><BR>Support the Garden’s efforts and contribute today! Donations can be made online, by mail, or by phone.
+		For more information please contact Wendy Loyning at <strong>801-585-5658</strong> or <a href="mailto:wendy.loyning@redbutte.utah.edu">wendy.loyning@redbutte.utah.edu</a></p>
 
 	</div>
 
+	<div class="col-sm-6">
 
-	<div class="col-sm-4">
+		<h3 class="green text-center">Set up a Recurring Gift</h3>
 
-		<h3 class="green">Set up a Recurring Gift</h3>
-
-		<p>Recurring gifts are an easy and efficient way to support your favorite Garden program or initiative. For as little as $5, (the cost of a smoothie), you can provide a steady source of support for Red Butte Garden's award-winning educational programs, springtime bulb display, or conservation research efforts. For more information on recurring gifts, click <a href="/recurring-info" class="blue">here</a> or call <strong>801-587-9658</strong>.</p>
+		<p class="green text-left">Recurring gifts are an easy and efficient way to support your favorite Garden program or initiative.
+			For as little as $5, (the cost of a smoothie), you can provide a steady source of support for Red Butte Garden's
+			award-winning educational programs, springtime bulb display, or conservation research efforts. For more information on recurring gifts,
+			click <a href="/recurring-info" class="blue">here</a> or call <strong>801-587-9658</strong>.</p>
 
 	</div>
 
@@ -64,18 +74,19 @@ layout: "default"
 
 <br /><hr><br />
 
-<div class="row">
+<div class="row-fluid">
 
 	<div class="col-sm-4">
 
+<img src="/images/misc/orangerie-plant-wall.jpg" alt="An image of the Orangerie plant wall." title="Orangerie plant wall" class="responsive" />
+
+<!--
 		<h3 class="green">Water Conservation Garden Donation</h3>
 
 		<p>With a generous challenge grant from The Alternative Visions Fund, and the help of many donors, Red Butte Garden was able to build our new three-acre Water Conservation Garden. Construction began in April 2015 and was completed in 2017. We are still accepting contributions to be used for educational materials, interpretive signage, and a Water Conservation Garden endowment fund.</p>
 		<p>For more information <a href="/water-conservation-garden-grand-opening/">CLICK HERE.</a></p>
-
-
-
-	</div>
+-->
+</div>
 
 	<div class="col-sm-4">
 
@@ -91,9 +102,9 @@ layout: "default"
 		<br /> <br />
 		<img src="/images/misc/development/donation-wcg.jpg" alt="An image of three people walking up a walkway in the water conservation garden." title="Donate to the Garden" class="responsive" />
 
-	</div>
+		</div>
 
-</div>
+	</div>
 
 <br /><hr><br />
 
@@ -101,7 +112,9 @@ layout: "default"
 
 	<div class="col-sm-4">
 
-		<img src="/images/misc/development/donation-education.jpg" alt="An image of Four-Corners potatoes protected as part of our conservation program." title="Donate to the Garden" class="responsive" />
+		<h3 class="green">Corporate Matching Gifts</h3>
+
+		<p>Did you know that many corporations offer employee giving programs that match donations to Red Butte Garden? If you volunteer at the Garden, your employer may also offer a volunteer grant program. To double the impact of your gift, check the University of Utah Office of Development website to find out if your company offers a matching gift program or contact your employers' Human Resources Department.</p>
 
 	</div>
 
@@ -116,9 +129,7 @@ layout: "default"
 
 	<div class="col-sm-4">
 
-		<h3 class="green">Corporate Matching Gifts</h3>
-
-		<p>Did you know that many corporations offer employee giving programs that match donations to Red Butte Garden? If you volunteer at the Garden, your employer may also offer a volunteer grant program. To double the impact of your gift, check the University of Utah Office of Development website to find out if your company offers a matching gift program or contact your employers' Human Resources Department.</p>
+<img src="/images/misc/development/donation-education.jpg" alt="An image of Four-Corners potatoes protected as part of our conservation program." title="Donate to the Garden" class="responsive" />
 
 	</div>
 
@@ -139,19 +150,20 @@ layout: "default"
 	<div class="col-sm-4">
 		<br />
 
-		<!--<center>
+		<center>
 			<a href="{% include give-link.html %}">
 			<form method="POST" action="{% include give-link.html %}">
-				<input class="green-button" type="button" value="Make a Donation"/>
+				<input class="green-button" type="button" value="Give a Gift Today"/>
 			</form>
 			</a>
-		</center>-->
+		</center>
 
 	</div>
 
 	<div class="col-sm-4">
 
 		<h3 class="green text-center">Garden Member Stories</h3>
+
 		<p class="text-center"><a href="/member-stories">CLICK HERE to read Garden Member stories about Red Butte Garden.</a></p>
 
 	</div>
