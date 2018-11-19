@@ -2722,4 +2722,21 @@ hr {
 
 /* Green Sub-headers */
 
-.green-subheader {color: #ffffff; padding:12px; background-color:#196143;}
+.green-subheader {
+	color: #ffffff;
+	padding:12px;
+	background-color:#196143;}
+
+.taleblazer-dropdown {
+	max-width: 640px;
+		background-color: #F2EDE4;
+		color: #000;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+		opacity: .9;
+		padding: 15px;
+		margin-bottom: 4px;
+		margin-top: -5px;
+}
+}
