@@ -24,7 +24,7 @@ var hoursInfo;
 /**/
 /**/	var thanksgivingDay = 22;			// Day of Month of Thanksgiving Holiday in November
 /**/
-/**/	var holidayPartyDay = 20;			// Day of Month we close for Holiday Party in December
+/**/	var holidayPartyDay = 18;			// Day of Month we close for Holiday Party in December
 /**/	var holidayPartyClosingHour = 13; 	// Hour we close on day of Holiday Party (military time)
 /**/
 /**/	var galaMonth = 0;					// Month of Gala
