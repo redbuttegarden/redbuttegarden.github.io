@@ -9,8 +9,11 @@ var offsetDifference = offset - 6;
 var month = d.getMonth() + 1;
 var day = d.getDate();
 
+
 var hours = d.getHours() + offsetDifference;
+
 var minutes = d.getMinutes();
+
 
 var busHours;
 var status;
@@ -25,7 +28,8 @@ var hoursInfo;
 /**/	var thanksgivingDay = 22;			// Day of Month of Thanksgiving Holiday in November
 /**/
 /**/	var holidayPartyDay = 18;			// Day of Month we close for Holiday Party in December
-/**/	var holidayPartyClosingHour = 13; 	// Hour we close on day of Holiday Party (military time)
+/**/	var holidayPartyClosingHour = 12; 	// Hour we close on day of Holiday Party (military time)
+/**/  var holidayPartyClosingMinute = 30; // Minute we close on day of Holiday Party (military time)
 /**/
 /**/	var galaMonth = 0;					// Month of Gala
 /**/	var galaDay = 0; 					// Day of month of Gala
@@ -452,28 +456,29 @@ else if ( month == 10 || month == 11 || month == 12) {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* Day/Time Garden Closes for Holiday Party (Change holidayPartyDay variable at top yearly)	  */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/**/
+/**/	// Shows message that we will close for holiday party on the day before holiday party
 /**/	if (month == 12 && day == (holidayPartyDay - 1)) {
-/**/		otherNotes = "The Garden Will Close Early Tomorrow at 1PM";
+/**/		otherNotes = "The Garden Will Close Early Tomorrow at 12:30PM";
 /**/		document.getElementById("otherNotes").innerHTML =  otherNotes;
 /**/			return;
 /**/		}
 /**/
+/**/	// Changes business hours to those of holiday party and adds note for public
 /**/	if (month == 12 && day == holidayPartyDay) {
 /**/		status = gardenClosedMessage;
 /**/		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-/**/		busHours = "9AM-1PM";
+/**/		busHours = "9AM-12:30PM";
 /**/		document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 /**/		otherNotes = "The Garden Will Close Early for our Annual Staff Holiday Party";
 /**/		document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 /**/
-/**/		if (hours >= 9 && hours < holidayPartyClosingHour) {
+/**/		if ( (hours >= 9) && (hours < holidayPartyClosingHour) ) {
 /**/			status = gardenOpenMessage;
 /**/			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/			return;
 /**/		}
 /**/
-/**/		else if (hours == holidayPartyClosingHour) {
+/**/		else if ( ( (hours == holidayPartyClosingHour - 1) && (minutes < holidayPartyClosingMinute) ) ) {
 /**/			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
 /**/			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 /**/			return;

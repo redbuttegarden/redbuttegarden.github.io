@@ -2740,3 +2740,7 @@ hr {
 	margin-bottom: 4px;
 	margin-top: -5px;
 }
+
+#slides .slide-description {
+	text-shadow: -2px 0 #196143, 0 2px #196143, 2px 0 #196143, 0 -2px #196143;
+}
