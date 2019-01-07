@@ -2744,3 +2744,19 @@ hr {
 #slides .slide-description {
 	text-shadow: -2px 0 #196143, 0 2px #196143, 2px 0 #196143, 0 -2px #196143;
 }
+
+/* Gardening Information */
+
+.gardening-title-div {
+	display: block;
+}
+
+.gardening-title {
+	border-bottom: 2.5px solid #00502F;
+	padding: 3px;
+	display: inline;
+}
+
+.gardening-subtitle {
+	margin-top: 20px;
+}
