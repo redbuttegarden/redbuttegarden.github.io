@@ -114,36 +114,37 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	// the Gala, and other miscellaneous days that we will close at 5PM
 
 	if (
-			(month == 5 && day == 23)						// Concert 01 	- The Devil Makes Three
-	|| 	(month == 6 && day == 12) 					// Concert 02 	- Ryan Adams
-	|| 	(month == 6 && day == 13)						// Concert 03 	- Violent Femmes
-	|| 	(month == 6 && day == 18)						// Concert 04 	- LAST SUMMER ON EARTH: BNL, Better than Ezra, KT Tunstall
-	|| 	(month == 6 && day == 19)						// Concert 05 	- Dispatch
-	|| 	(month == 6 && day == 27)						// Concert 06 	- Michael Franti and Spearhead
-	|| 	(month == 7 && day == 3)						// Concert 07 	- The Avett Brothers
-	|| 	(month == 7 && day == 13) 					// Concert 08 	- Sheryl Crow
-	|| 	(month == 7 && day == 16)						// Concert 09 	- Counting Crows
-	|| 	(month == 7 && day == 19)						// Concert 10 	- Jackson Browne
-	|| 	(month == 7 && day == 20)						// Concert 11 	- RETRO FUTURA: Belinda Carlisle, ABC, Modern English
-	|| 	(month == 7 && day == 25)						// Concert 12 	- Tajmo Band
-	|| 	(month == 7 && day == 26)						// Concert 13 	- Chris Isaak
-	|| 	(month == 7 && day == 31)						// Concert 14		- Big Head Todd and the Monsters / Toad the Wet Sprockett
-	|| 	(month == 8 && day == 1)						// Concert 15		- Utah Symphony
-	|| 	(month == 8 && day == 2)						// Concert 16		- Death Cab for Cutie
-	|| 	(month == 8 && day == 5)						// Concert 17		- Ben Harper and Charlie Musselwhite
-	|| 	(month == 8 && day == 7)						// Concert 18		- An Evening with Greensky Bluegrass
-	|| 	(month == 8 && day == 9)						// Concert 19		- LOST 80's LIVE
-	|| 	(month == 8 && day == 10)						// Concert 20		- Angelique Kidjo / Femi Kuti
-	|| 	(month == 8 && day == 13)						// Concert 21		- Brandi Carlile
-	|| 	(month == 8 && day == 15)						// Concert 22		- Huey Lewis and the News
-	|| 	(month == 8 && day == 16)						// Concert 23		- Gipsy Kings
-	|| 	(month == 8 && day == 21)						// Concert 24		- Indigo Girls
-	|| 	(month == 8 && day == 24)						// Concert 25		- Shakey Graves / Jose Gonzales and the Brite Lites
-	|| 	(month == 9 && day == 4)						// Concert 26		- Gary Clark Jr.
-	|| 	(month == 9 && day == 10)						// Concert 27		- O.A.R.
-	|| 	(month == 9 && day == 12)						// Concert 28		- Trombone Shorty's Voodoo Threauxdown
-	|| 	(month == 9 && day == 16)						// Concert 29		- Rodrigo y Gabriela
-	|| 	(month == 9 && day == 17)						// Concert 30		- Billy Idol
+			(month == 5 && day == 31)						// Concert 01 	- Bela Fleck
+	|| 	(month == 6 && day == 5) 					  // Concert 02 	- Little Feat
+	|| 	(month == 6 && day == 6)						// Concert 03 	- Shakespeare Event
+	|| 	(month == 6 && day == 25)						// Concert 04 	- Howard Jones and men without hats
+	|| 	(month == 6 && day == 26)						// Concert 05 	- Lucinda Williams
+	|| 	(month == 6 && day == 27)						// Concert 06 	- Greensky Bluegrass
+	|| 	(month == 7 && day == 2)						// Concert 07 	- Utah Symphony
+	|| 	(month == 7 && day == 10) 					// Concert 08 	- Galactic
+	|| 	(month == 7 && day == 11)						// Concert 09 	- Pink Martini
+	|| 	(month == 7 && day == 14)						// Concert 10 	- Lyle Lovett and his large band
+	|| 	(month == 7 && day == 18)						// Concert 11 	- Seal
+	|| 	(month == 7 && day == 23)						// Concert 12 	- Nathaniel Rateliff and the nightsweats
+	|| 	(month == 7 && day == 26)						// Concert 13 	- Trampled By Turtles
+	|| 	(month == 7 && day == 30)						// Concert 14		- John Prine
+	|| 	(month == 8 && day == 4)						// Concert 15		- Umphrey's McGee
+	|| 	(month == 8 && day == 5)						// Concert 16		- Jonny Lang | JJ Grey and Mofro
+	|| 	(month == 8 && day == 7)						// Concert 17		- Mandolin Orange
+	|| 	(month == 8 && day == 9)						// Concert 18		- The Mighty O.A.R. w/ American Authors
+	|| 	(month == 8 && day == 13)						// Concert 19		- Shakey Graves | Dr. Dog
+	|| 	(month == 8 && day == 14)						// Concert 20		- Lord Huron
+	|| 	(month == 8 && day == 16)						// Concert 21		- the B-52's
+	|| 	(month == 8 && day == 19)						// Concert 22		- Steve Miller Band
+	|| 	(month == 8 && day == 26)						// Concert 23		- The Stray Cats
+	|| 	(month == 8 && day == 28)						// Concert 24		- The Wood Brothers | Colter Wall
+	|| 	(month == 8 && day == 29)						// Concert 25		- Amos Lee
+	|| 	(month == 9 && day == 4)						// Concert 26		- Gov't Mule
+	|| 	(month == 9 && day == 6)						// Concert 27		- Gary Clark Jr.
+	|| 	(month == 9 && day == 11)						// Concert 28		- Mark Knopfler
+	|| 	(month == 9 && day == 15)						// Concert 29		- Boz Scaggs
+	|| 	(month == 9 && day == 19)						// Concert 30		- Jason Isbell and the 400 Unit
+	|| 	(month == 9 && day == 23)						// Concert 31		- Tash Sultana
 	|| 	(month == galaMonth && day == galaDay)		// Gala (if applicable)
 
 	)
