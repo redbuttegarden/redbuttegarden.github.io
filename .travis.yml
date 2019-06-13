@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 2.4.0
 jdk:
-  - oraclejdk8
+  - oracle-java8-installer
 install: gem install bundler jekyll:3.4.0 s3_website && bundle install
 script: bundle exec jekyll build
 after_success: s3_website push
