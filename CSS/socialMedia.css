@@ -1,0 +1,3049 @@
+/* Social Media Landing Page CSS Start */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body {
+  background: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+}
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+	image-rendering: auto; /* Makes images render smoother in Chrome (and Safari) - if you don't have this they can appear blurry */
+	/* image-rendering: -webkit-optimize-contrast; Chrome (and Safari) */
+}
+
+/* Override Bootstrap Box Sizing */
+/** {
+ -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+         box-sizing: content-box;
+}
+
+*:before,
+*:after {
+ -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+         box-sizing: content-box;
+}*/
+/* Override End */
+
+.instaimg img {
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.Twitter-Feed {
+  position: relative;
+  left: 50px;
+}
+
+.pinterest-feed {
+  margin: auto;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+/* Style of the tab */
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  top: 60px;
+  left: 430px;
+  width: 50%;
+  margin: 0 auto;
+  display: inline-flex;
+  /*margin-bottom: 60px;*/
+  margin-top: -60px;
+  padding-left: 80px;
+  padding-right: 1000px;
+  padding-bottom: 30px;
+  align-items: center;
+  animation: 1.2s ease-out 0s 1 fadeEffect;
+}
+
+/* Style of the buttons that are used to open the tab content */
+.tab button {
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  font-size: 0.95vw;
+  margin-right: 100px;
+  position: relative;
+}
+
+.tab button p {
+  position: relative;
+  top: 125px;
+  right: 30px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: green;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: green;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  position: absolute;
+  top: 220px;
+  left: 500px;
+  width: 800px;
+  height: 800px;
+  animation: 1.2s ease-out 0s 1 slideInFromBottom;
+}
+
+.tablinks {
+  border: none;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#RBG-Header {
+  overflow: none;
+  position: relative;
+  top: -234px;
+  left: 72px;
+  margin: auto;
+  width: 100%;
+  left: 0px;
+  display: inline-block;
+}
+
+#Twitter-Logo {
+  text-align: center;
+  margin-right: -105px;
+  position: relative;
+  right: 83px;
+  bottom: 10px;
+  transform: scale(0.8);
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 1s;
+  /* background-size: contain; */
+}
+
+#Twitter-Logo:hover {
+  opacity: 0.7;
+  transition: opacity .2s ease-in-out;
+}
+
+#Facebook-Logo {
+  text-align: center;
+  margin-right: 10px;
+  position: relative;
+  right: 25px;
+  bottom: 10px;
+  transform: scale(0.85);
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 1s;
+  /* width: 100%; 	This might be a fix for resizing logo when resizing page */
+}
+
+#Facebook-Logo:hover {
+  opacity: 0.7;
+  transition: opacity .2s ease-in-out;
+}
+
+#Pinterest-Logo {
+  text-align: center;
+  margin-right: 0px;
+  position: relative;
+  left: -30px;
+  bottom: 10px;
+  transform: scale(0.9);
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+#Pinterest-Logo:hover {
+  opacity: 0.7;
+  transition: opacity .2s ease-in-out;
+}
+
+#Youtube-Logo {
+  text-align: center;
+  margin-right: 0px;
+  position: relative;
+  right: 30px;
+  bottom: 10px;
+  transform: scale(1.04);
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+#Youtube-Logo:hover {
+  opacity: 0.7;
+  transition: opacity .2s ease-in-out;
+}
+
+#Instagram-Logo {
+  text-align: center;
+  margin-right: 0px;
+  position: relative;
+  right: 30px;
+  bottom: 10px;
+  transform: scale(0.79);
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+#Instagram-Logo:hover {
+  opacity: 0.7;
+  transition: opacity .2s ease-in-out;
+}
+
+#Reddit-Logo {
+  text-align: center;
+  margin-right: 0px;
+  position: relative;
+  right: 30px;
+  bottom: 10px;
+  transform: scale(0.82);
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+#Reddit-Logo:hover {
+  opacity: 0.7;
+  transition: opacity .2s ease-in-out;
+}
+
+#Facebook {
+  left: 680px;
+  position: absolute;
+  width: 500px;
+}
+
+#instafeed {
+  top: 0px;
+  left: 40px;
+  position: relative;
+  width: 100%;
+}
+
+/*#Instagram {
+  width: 45%;
+}*/
+
+#Pinterest {
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  left: 520px;
+}
+
+#Youtube {
+  height: 100%;
+  left: 525px;
+}
+
+/* CSS for Instagram Feed */
+
+/* remove bootstrap gutter */
+.row.no-gutter {
+  margin-left: 0px;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.col-lg-12 {
+  margin: 0px 0px 0px !important;
+  padding: 0px 15px 0px !important;
+}
+
+.img-featured-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-featured-container img {
+  width: 100%;
+}
+
+.img-featured-container .img-backdrop {
+  background: linear-gradient(135deg, rgba(255, 225, 0, 0.6), rgba(255, 255, 255, 0.4));
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.img-featured-container:hover>.img-backdrop {
+  opacity: 2;
+}
+
+/* center text horizontally and vertically on image hover */
+.img-featured-container .description-container {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 0 30px;
+  text-align: center;
+  line-height: 20px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  z-index: 2;
+  opacity: 0;
+  transition: all .2s ease;
+}
+
+.img-featured-container .description-container .fa-instagram {
+  font-size: 40px;
+}
+
+.img-featured-container .description-container p {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.img-featured-container:hover .description-container {
+  opacity: 1;
+}
+
+.img-featured-container .description-container .caption {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.img-featured-container .description-container .likes,
+.img-featured-container .description-container .comments {
+  margin: 0 5px;
+}
+
+
+/*******************************************/
+/************** Begin Nav Bar **************/
+/*******************************************/
+
+.navbar-wrapper {
+	position: absolute;
+	width: 100%;
+  z-index: 1000;
+}
+
+/* Fixes rounded corners issue in Bootstrap navbar */
+.navbar-inverse {
+  border-radius: 0;
+  background-color: #00502F !important;
+}
+
+#rbgnavbar a:hover, a, li, .dropdown-menu li:hover {
+    color: #000;
+}
+
+.dropdown-menu li:hover {
+	background-color: #F2EDE4;
+	color: #000;
+}
+
+/* Makes dropdown menu headers change color when selected or clicked, as well as mobile menu icon (Hamburger Menu icon) change to same color */
+	.dropdown-toggle:active, 					/*  */
+	.open .dropdown-toggle, 					/*  */
+	.dropdown-toggle:hover, 					/*  */
+	.navbar-inverse .navbar-toggle:active, 		/* menu icon background color when button is active */
+	.navbar-inverse .navbar-toggle:focus, 		/* menu icon background color when it is clicked into */
+	.navbar-inverse .navbar-toggle:hover 		/* menu icon background color when hovered over */
+	{
+	background-color: #FF7744 !important; /* Overwrites Bootstrap's !important */
+}
+
+/* Underlines the last three items in the navbar */
+.navbar-inverse li:nth-last-child(3) .dropdown-toggle, .navbar-inverse li:nth-last-child(2) .dropdown-toggle, .navbar-inverse li:nth-last-child(1) .dropdown-toggle { /* Give/Join/Volunteer nav buttons */
+	 /* text-decoration: underline; */
+	 color: yellow !important;
+}
+
+/* Makes headers of the dropdown menus white and bold */
+.navbar-inverse .nav li .dropdown-toggle, .navbar-inverse .nav li .dropdown-toggle:hover  {
+    color: #FFF !important; /* Overwrites Bootstrap's !important */
+}
+
+#navhide1, #navhide2, #navhide3 {
+	padding-right: 1px;
+}
+
+/** Navbar width adjustment **/
+.navbutton {
+	float: right;
+}
+
+#navhide1 > a, #navhide2 > a, #navhide3 > a {
+	/* color: yellow !important; */
+	/* background-color: #468068; */
+	 background-color: #2f7055;
+	 left: 5px;
+	/* background-color: #C4B59E; */
+	/* border-radius: 30px 30px 30px 30px; */
+	/* background-color: #299e6d; */
+	/* background-color: #238a5f; */
+	/* background-color: #FF6A32; */
+}
+/** Navbar width adjustment end **/
+
+@media (max-width: 1280px) {
+
+	#navhide1 > a, #navhide2 > a, #navhide3 > a {
+		padding-bottom: 5px;
+	}
+}
+
+.dropdown-menu li {
+	background-color: #FFF;
+}
+
+.dropdown-menu li:hover {
+	background-color: #F2EDE4;
+}
+
+.dropdown-menu a:hover li {
+	background-color: #F2EDE4;
+	text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+	text-decoration: none;
+}
+
+.navbar-inverse a:hover {
+	color: #FFF;
+}
+
+/* Changes background color of OUTDOOR CONCERT SERIES link in navbar */
+.dropdown-menu .concert-li li {
+	background-color: #87CEEB;
+}
+
+/* Changes the color of link text <a> after navbar has collapsed for small screen or mobile mode */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:visited {
+	color: #000;
+}
+
+.dropdown-menu li, .dropdown-menu a {
+	text-align: center;
+	color: #000;
+}
+
+.dropdown {
+	font-size: 12px;
+	padding: 0;
+	font-weight: bold;
+}
+
+.dropdown ul {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 10px;
+	font-weight: bold;
+  margin-right: 200px;
+}
+
+.give {
+  padding-right: 400px;
+  width: 100%;
+}
+
+/* Hides <br /> on large devices */
+@media (min-width:769px) {
+	.br-hide-lg {
+		display: none;
+	}
+}
+
+/* Border thickness and color between dropdown menu li, padding */
+.dropdown-menu li, .dropdown-menu > a > li {
+	border-top: 2px double #D3D3D3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Background color of li in navbar when hovered over */
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .dropdown-menu li:hover {
+	background-color: #F2EDE4;
+}
+
+/* Makes dropdown-menu li links bold*/
+.dropdown-menu li > a, .dropdown-menu li > a:visited {
+	font-weight: bold;
+}
+
+#navbarbg {
+	background-color: #00502F;
+	width: 100%;
+  max-height: 150px;
+}
+
+#rbgnavbar {
+	width: 100%;
+	margin-left: 313px;
+	margin-right:auto;
+	background-color:#00502F;
+}
+
+#logo {
+	/* margin-top: 13px;
+	padding-right: 30px; */
+}
+
+#logo img {
+	max-height: 50px;
+	width: auto;
+	padding: 3px 0 3px 0;
+}
+
+@media (max-width: 1440px) {
+	#logo img {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+
+/* Adjusts width of dropdown menu */
+.dropdown-menu a, .dropdown-menu li {
+  min-width: 150px;
+  width: 350px;
+}
+
+/* Adjusts center alignment of dropdown menu under main categories when navbar has not collapsed */
+@media only screen and (min-width : 769px) {
+
+	.dropdown-menu {
+	    left: 50% !important;
+	    margin-left: -78px;
+	}
+}
+
+/* For small devices, and after navbar collapses */
+@media only screen and (max-width : 768px) {
+
+	.dropdown-menu li, .dropdown-menu li a, .dropdown-menu ul {
+		text-align: center;
+		color: #000;
+		list-style: none;
+		padding-left: 0 !important;
+	}
+
+}
+
+/* Ensures search icon and Give, Join, and Donate buttons clear one another and appear on next line on mobile menu */
+@media (max-width: 1440px) {
+	#navhide4 img, #navhide3, #navhide2, #navhide1 {
+		clear: both;
+	}
+}
+
+/************************/
+/* Begin Search Bar CSS */
+/************************/
+
+#gcse_search{
+	background:transparent;
+    border-bottom :1px solid white;
+    margin: 0;
+    padding:0;
+    position:relative;
+	text-align:left;
+    width: 100%;
+    max-width: 1280px;
+    border-radius: 2px;
+}
+
+#gcse_searchbox {
+    border:1 px solid black;
+    color: #196143;
+    font-size: 3em;
+    height:auto;
+    padding:3px 5px;
+    width: 100%;
+    max-width: 1280px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: normal !important;
+}
+
+#gcse_searchbox:focus {
+	color: #196143;
+}
+
+#gcse_searchbutton {
+	padding:3px;
+	position:absolute;
+	right:0;
+	top:0;
+	background-color: #196143;
+	border-radius: 0px 2px 2px 0px;
+}
+
+#gcse_searchbutton:focus,
+#gcse_searchbutton:hover,
+#gcse_searchbutton:active {
+     background-color:#F2EDE4;
+}
+
+.gcse_watermark {
+	...
+	url('//gcse.search.utah.edu/_images/gcse_site.png')
+							no-repeat 5px 3px;
+}
+
+.search {
+	padding-right: 15px;
+	padding-left: 10px;
+}
+
+.searchicon {
+	margin-top: 10px;
+	float: left;
+}
+
+@media (max-width:1440px){
+	.searchicon-mobile-menu {
+		display: none;
+	}
+}
+
+@media (min-width:1319px){
+	.searchicon-header {
+		display: none !important;
+	}
+}
+
+.searchicon-header {
+	margin-right: 5px;
+}
+
+.searchicon:hover {
+	background-color: #196143;
+}
+
+.searchbar {
+	padding-top: 13px;
+	padding-left: 15px;
+	float: left;
+}
+
+#gcse_search label {
+     height:1px;
+     left:-10000px;
+     overflow:hidden;
+     position:absolute;
+     top:auto;
+     width:1px;
+}
+
+.searchwrap {
+	display: inline;
+}
+
+@media (min-width: 769px) and (max-width: 1150px) {
+	.searchbar {
+		display: none;
+	}
+}
+
+/************************/
+/** End Search Bar CSS **/
+/************************/
+
+/* Code Collapses Navbar Earlier for more Mobile Compatibility - value must be larger than 1280px due to padding and browser differences */
+@media (min-width: 768px) and (max-width: 1440px) {
+        .navbar-nav .open .dropdown-menu {
+            position: static;
+            float: none;
+            width: auto;
+            margin-top: 0;
+            background-color: transparent;
+            border: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+        .navbar-nav .open .dropdown-menu > li > a {
+            line-height: 20px;
+        }
+        .navbar-nav .open .dropdown-menu > li > a,
+        .navbar-nav .open .dropdown-menu .dropdown-header {
+            padding: 5px 15px 5px 25px;
+        }
+        .dropdown-menu > li > a {
+            display: block;
+            padding: 3px 20px;
+            clear: both;
+            font-weight: normal;
+            line-height: 1.42857143;
+            color: #333;
+            white-space: nowrap;
+        }
+
+        .dropdown-menu > a > li, .dropdown-menu .concert-li li {
+	    	margin-left: 78px; /* Fixes glitch where dropdown menu bleeds off screen to left */
+        }
+
+        .navbar-header {
+            float: none;
+        }
+
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+            /*margin: 7.5px -15px;*/
+            margin: 7.5px 50px 7.5px -15px
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .navbar-text {
+            float: none;
+            margin: 15px 0;
+        }
+        /* since 3.1.0 */
+        .navbar-collapse.collapse.in {
+            display: block!important;
+        }
+        .collapsing {
+            overflow: hidden!important;
+        }
+    }
+
+/*****************************************/
+/************** End Nav Bar **************/
+/*****************************************/
+
+
+/*************************************************************/
+/*********************** Footer CSS **************************/
+/*************************************************************/
+
+/*** Begin Pre-Footer ***/
+
+#prefooterbg {
+	background-color: #F2EDE4;
+	width: 100%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #2E7258;
+	clear: both;
+  margin: 2500px 0 auto;
+}
+
+#prefooter {
+	max-width: 1280px;
+	margin: 0 auto 0 auto;
+	clear: both;
+}
+
+#infoempty1, #infoempty2, #empty1, #empty2 {
+	line-height: 1px;
+}
+
+#prefooter img{
+	display: block;
+	margin: 10px auto 10px auto;
+	max-width: 166px;
+}
+
+#prefooter img:hover {
+	background-color: #FBF9F6;
+
+}
+
+/*** End Pre-Footer ***/
+
+/*** Begin Footer ***/
+
+#rbgfooterbg {
+  background-color: #00502F;
+	width: 100%;
+  height: 100%;
+}
+
+#rbgfooter {
+  max-width: 1280px;
+  margin: 0 auto 0 auto;
+  background-color:#00502F;
+}
+
+.rbgfooterlinks {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+	display: inline;
+	text-align: center;
+}
+
+.rbgfooterlinks ul {
+    margin: 0 auto;                  /* center container */
+    padding-left: 0;                 /* remove list padding */
+    font-size: 0;                    /* remove inline-block white space; see http://stackoverflow.com/a/32801275/3597276 */
+}
+
+.rbgfooterlinks li {
+    display: inline-block;
+    font-size: 10px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFF;
+}
+
+.rbgfooterlinks a:link, a:visited, a:active {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.rbgfooterlinks a:hover {
+	color: #C4B59E;
+}
+
+#social-media-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+	display: inline;
+	text-align: center;
+}
+
+#social-media-wrapper ul {
+    margin: 0 auto; 		/* center container */
+    padding-left: 0;        /* remove list padding */
+    font-size: 0;           /* remove inline-block white space; see http://stackoverflow.com/a/32801275/3597276 */
+}
+
+#social-media-wrapper li {
+    display: inline-block;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+	margin: 0px 11px 4px 11px;
+}
+
+/* Begin Footer Sprite CSS */
+
+.yelp {
+	width:39px;
+	height:39px;
+	background: url('/images/core/sprites.png') -200px -90px;
+}
+
+.yelp:hover {
+	background: url('/images/core/sprites.png') -160px -90px;
+}
+
+.tripadvisor {
+	width:39px;
+	height: 39px;
+	background: url('/images/core/sprites.png') -360px -90px;
+}
+
+.tripadvisor:hover {
+	background: url('/images/core/sprites.png') -320px -90px;
+}
+
+.googleplus {
+	width:39px;
+	height: 39px;
+	background: url('/images/core/sprites.png') -160px -130px;
+}
+
+.googleplus:hover {
+	background: url('/images/core/sprites.png') -200px -130px;
+}
+
+.facebook {
+	width:39px;
+	height: 39px;
+	background: url('/images/core/sprites.png') -40px -90px;
+}
+
+.facebook:hover {
+	background: url('/images/core/sprites.png') -0px -90px;
+}
+
+.instagram {
+	width:39px;
+	height: 39px;
+	background: url('/images/core/sprites.png') -240px -130px;
+}
+
+.instagram:hover {
+	background: url('/images/core/sprites.png') -280px -130px;
+}
+
+.twitter {
+	width:39px;
+	height: 39px;
+	background: url('/images/core/sprites.png') -280px -90px;
+}
+
+.twitter:hover {
+	background: url('/images/core/sprites.png') -240px -90px;
+}
+
+.youtube {
+	width:39px;
+	height: 39px;
+	background: url('/images/core/sprites.png') -120px -90px;
+}
+
+.youtube:hover {
+	background: url('/images/core/sprites.png') -80px -90px;
+}
+
+.snapchat {
+	width:39px;
+	height: 39px;
+	background: url('/images/core/sprites.png') -320px -130px;
+}
+
+.snapchat:hover {
+	background: url('/images/core/sprites.png') -360px -130px;
+}
+
+.reddit {
+	width:39px;
+	height: 39px;
+	background: url('/images/core/sprites.png') -0px -130px;
+}
+
+.reddit:hover {
+	background: url('/images/core/sprites.png') -40px -130px;
+}
+
+.pinterest {
+	width:39px;
+	height: 39px;
+	background: url('/images/core/sprites.png') -80px -130px;
+}
+
+.pinterest:hover {
+	background: url('/images/core/sprites.png') -120px -130px;
+}
+
+/* End Footer Sprite CSS */
+
+#uofu {
+	background-color: #00502F;
+	padding-top: 30px;
+}
+
+#footerlogo {
+	background-color: #00502F;
+	padding-top: 15px;
+}
+
+
+#uofu img, #footerlogo img, #zap img {
+	max-width: 170px;
+}
+
+#zap {
+	background-color: #00502F;
+	padding-top: 17px;
+}
+
+/*.img-center, .img-center img {
+	display: block;
+	margin: 0 auto;
+}*/
+
+.hover:hover {
+	opacity: .9;
+}
+
+.uofu:hover, .footerlogo:hover, .zap:hover {
+	opacity: .9;
+}
+
+.space hr {
+	height: 4px;
+	visibility: hidden;
+	margin: 0px;
+}
+
+#contactinfo1 {
+	text-align: center;
+	color: #FFF;
+	font-size: 86%;
+}
+
+#contactinfo2 {
+	text-align: center;
+	color: #F2EDE4;
+	font-size: 71%;
+	font-style: italic;
+}
+
+.footer-button {
+	background-color: #C4B59E;
+	color: #FFF;
+	width: 100%;
+	height: 40px;
+	font-size: .82em;
+	border: 0;
+}
+
+#rbgdefaultbody .memfaqwrap a, #rbgdefaultbody .memfaqwrap a:hover, #rbgdefaultbody .memfaqwrap a:active, #rbgdefaultbody .memfaqwrap a:visited, #rbgdefaultbody .memfaqwrap a:link {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: normal;
+}
+
+.responsive, .responsive img {
+	width: 100%;
+	height: auto;
+}
+
+.col-xs-4 {
+  text-align: center;
+  /*left: 200px;*/
+  height: 200%;
+  /*padding-right: 300px;*/
+}
+
+/*.row {
+  margin: 0px 0px !important;
+  margin: 0px 0px 0px -560px !important;
+}*/
+
+@media (min-width:769px) {
+	.hide-desktop {
+		display:none;
+	}
+}
+
+/*** End Footer ***/
+
+/*************************************************************/
+/**************** End Footer CSS *****************************/
+/*************************************************************/
+
+.row, .row-fluid {
+    overflow: hidden !important;
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    height: auto;
+}
+
+/*************************************************************/
+/**************** MEDIA QUERIES *****************************/
+/*************************************************************/
+
+
+/* Laptops */
+@media (max-width: 1440px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    left: 200px;
+  }
+
+  .tabcontent {
+    left: 200px;
+    top: 240px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #rbgnavbar {
+  	width: 100%;
+  	margin-left: 5px;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Facebook iframe {
+    position: absolute;
+    left: -200px;
+  }
+
+  #Youtube iframe {
+    position: absolute;
+    left: -195px;
+    width: 90%;
+    height: 60%;
+  }
+
+  #Pinterest {
+    position: absolute;
+    left: 295px;
+  }
+
+  #Twitter {
+    position: absolute;
+    left: 245px;
+  }
+
+  #instafeed {
+    position: relative;
+    left: 335px;
+    width: 40%;
+    display: block;
+  }
+}
+
+/* Smaller window on PC/Laptops */
+@media (max-width: 1200px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    margin-top: 6%;
+    left: 24%;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 10%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 10%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 10%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 10%;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 10%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 10%;
+  }
+
+  p {
+    display: none;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter {
+    left: 15vw;
+  }
+
+  #Twitter-Logo {
+    left: -35px;
+  }
+
+  #Facebook-Logo {
+    left: -30px;
+  }
+
+  #Youtube-Logo {
+    left: -30px;
+  }
+
+  #Instagram-Logo {
+    left: -30px;
+  }
+
+  #Facebook {
+    left: 50vw;
+  }
+
+  #Pinterest {
+    left: 19vw;
+  }
+
+  #Youtube iframe {
+    width: 90%;
+    height: 90%;
+    left: -23vw;
+    position: absolute;
+  }
+
+  #instafeed {
+    left: 2vw;
+    width: 100%;
+  }
+
+  #Reddit {
+    position: absolute;
+    left: 140px;
+  }
+
+  #RBG-Header {
+    display: none;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left:auto;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1200px) and (max-height: 766px) {
+  .tab {
+    top: 0px;
+    left: 250px;
+  }
+
+  .tabcontent {
+    top: 165px;
+  }
+
+  #Twitter {
+    left: 145px;
+  }
+
+  #instafeed {
+    left: -5px;
+  }
+
+  #Youtube iframe {
+    left: -295px;
+    /*height: 80%;
+    width: 80%;*/
+  }
+
+  #Pinterest {
+    left: 200px;
+  }
+}
+
+/* iPad Pro */
+@media (max-width: 1024px) and (min-height: 1366px) {
+  div {
+    width: 100%;
+  }
+
+  #Youtube iframe {
+    left: -380px;
+    height: 40%;
+  }
+
+  #instafeed {
+    width: 45%;
+    left: 90px;
+  }
+
+  #Twitter {
+    left: 53px;
+  }
+
+  #Facebook {
+    left: 470px;
+  }
+
+  #Pinterest {
+    left: 105px;
+  }
+
+  #Twitter-Logo {
+    left: -45px;
+  }
+
+  #Facebook-Logo {
+    left: -35px;
+  }
+
+  #Youtube-Logo {
+    left: -30px;
+  }
+
+  #Instagram-Logo {
+    left: -30px;
+  }
+
+  #Facebook iframe {
+    left: -21vw;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left:auto;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  .tab {
+    top: 30px;
+    left: 175px;
+    position: absolute;
+  }
+
+  .tabcontent {
+    top: 14%;
+  }
+
+  .dropdown-menu a, .dropdown-menu li {
+    min-width: 150px;
+    width: 958.5px;
+  }
+}
+
+/* Smaller window on monitor (not iPad Pro) */
+@media (max-width: 1024px) and (max-height: 1365px) {
+  div {
+    width: 100%;
+  }
+
+  #Youtube iframe {
+    left: -29.5vw;
+    width: 70%;
+    height: 70%;
+  }
+
+  #instafeed {
+    width: 100%;
+    left: -30px;
+  }
+
+  #Twitter {
+    left: 30px;
+  }
+
+  #Facebook {
+    left: 488px;
+  }
+
+  #Pinterest {
+    left: 140px;
+  }
+
+  #Twitter-Logo {
+    left: -45px;
+  }
+
+  #Facebook-Logo {
+    left: -35px;
+  }
+
+  #Youtube-Logo {
+    left: -30px;
+  }
+
+  #Instagram-Logo {
+    left: -30px;
+  }
+
+  #Facebook iframe {
+    left: -21vw;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left:auto;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  .tab {
+    top: 40px;
+    left: 140px;
+  }
+
+  .tabcontent {
+    top: 20%;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1024px) and (max-height: 766px) {
+  .tab {
+    top: 20px;
+  }
+
+  .tabcontent {
+    top: 170px;
+  }
+
+  #Pinterest {
+    left: 8%;
+  }
+
+  #Youtube {
+    width: 100%;
+    height: 100%;
+    left: 41.5%;
+  }
+
+  #instafeed {
+    left: -15%;
+  }
+}
+
+/* Makes space between navbar and slideshow disappear after collapse - required for relative positioning so menu makes divs below the navbar move down when open */
+@media (max-width: 950px) {
+  div {
+    width: 100%;
+  }
+
+  .navbar-wrapper {
+   clear: right;
+   position: relative;
+   padding-bottom: 0px;
+  }
+
+  .tab {
+    left: 15%;
+    top: 5%;
+    position: absolute;
+  }
+
+  .tabcontent {
+    top: 20%;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter {
+    width: 80%;
+    left: 70px;
+  }
+
+  #Facebook {
+    left: 410px;
+  }
+
+  #Youtube iframe {
+    width: 70%;
+    height: 70%;
+    left: -340px;
+  }
+
+  #instafeed {
+    left: -89px;
+  }
+
+  #Facebook-Logo {
+    left: -30px;
+  }
+
+  #Twitter-Logo {
+    left: -30px;
+  }
+
+  #Pinterest-Logo {
+    left: -30px;
+  }
+
+  .prefooter {
+   position: relative;
+ }
+
+ .jssorb21 {
+   display: none; /* Makes selecion dots on slideshow disappear at this width */
+   height: 0;
+   }
+}
+
+/* Laptops */
+@media (max-width: 950px) and (max-height: 766px) {
+  .tab {
+    top: 15px;
+  }
+
+  .tabcontent {
+    top: 160px;
+  }
+}
+
+/* Regular Ipad  */
+@media (max-width: 768px) and (min-height: 1024px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    top: 40px;
+    left: 5%;
+    transform: scale(0.9);
+  }
+
+  .tabcontent {
+    top: 18%;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 10%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 10%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 10%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 10%;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 10%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 10%;
+  }
+
+  .br-hide {
+		display: none;
+	}
+
+  .dropdown-menu a, .dropdown-menu li {
+    min-width: 150px;
+    width: 625px;
+  }
+
+  p {
+    display: none;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+	#Twitter-Logo {
+		left: -44px;
+	}
+
+  #Twitter {
+    width: 90%;
+    left: 0vw;
+  }
+
+  #Facebook {
+    left: 39vw;
+  }
+
+  #Facebook-Logo {
+    left: -33px;
+  }
+
+  #Pinterest {
+    left: -2vw;
+  }
+
+  #Pinterest-Logo {
+    left: -30px;
+  }
+
+  #Youtube iframe {
+    width: 70%;
+    height: 50%;
+    left: -55vw;
+    position: absolute;
+  }
+
+  #instafeed {
+    left: 3%;
+    width: 38%;
+  }
+
+  #Reddit {
+    width: 50%;
+    left: -2vw;
+  }
+
+  #RBG-Header {
+    display: none;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left:auto;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+
+  #logo {
+  	/* margin-top: 13px;
+  	padding-right: 30px; */
+  }
+
+  #logo img {
+  	max-height: 50px;
+  	width: auto;
+  	padding: 3px 0 3px 0;
+  }
+}
+
+/* Smaller sized screens */
+@media (max-width: 768px) and (max-height: 1023px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    top: 25px;
+    left: 4%;
+    transform: scale(0.9);
+  }
+
+  .tabcontent {
+    top: 18%;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 10%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 10%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 10%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 10%;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 10%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 10%;
+  }
+
+  .br-hide {
+		display: none;
+	}
+
+  .dropdown-menu a, .dropdown-menu li {
+    min-width: 150px;
+    width: 625px;
+  }
+
+  p {
+    display: none;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+	#Twitter-Logo {
+		left: -44px;
+	}
+
+  #Twitter {
+    width: 90%;
+    left: 0vw;
+  }
+
+  #Facebook {
+    left: 39vw;
+  }
+
+  #Facebook-Logo {
+    left: -33px;
+  }
+
+  #Pinterest {
+    left: -2vw;
+  }
+
+  #Pinterest-Logo {
+    left: -30px;
+  }
+
+  #Youtube iframe {
+    width: 70%;
+    height: 50%;
+    left: -55vw;
+    position: absolute;
+  }
+
+  #instafeed {
+    left: -11vw;
+    width: 50%;
+  }
+
+  #Reddit {
+    width: 50%;
+    left: -2vw;
+  }
+
+  #RBG-Header {
+    display: none;
+  }
+
+  #navbarbg {
+  	background-color: #0000;
+  	width: 100%;
+    height: auto;
+    z-index: 1000;
+  }
+
+  /*#navbar-header {
+    margin: 0 auto;
+  }*/
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left:auto;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+
+  #logo {
+  	/* margin-top: 13px;
+  	padding-right: 30px; */
+  }
+
+  #logo img {
+  	max-height: 50px;
+  	width: auto;
+  	padding: 3px 0 3px 0;
+  }
+}
+
+/* Laptop */
+@media (max-width: 768px) and (max-height: 766px) {
+  .tab {
+    top: 25px;
+    left: 20px;
+  }
+
+  .tabcontent {
+    top: 160px;
+  }
+}
+
+/* Small window sizes on Desktop/Laptop */
+@media (max-width: 668px) and (max-height: 1366px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    transform: scale(0.7) rotate(-90deg);
+		left: -10px;
+		top: -240px;
+		/*background-color: rgba(25, 181, 254, 1);*/
+		display: block;
+		width: 40vh;
+		height: 60vh;
+		padding: 100px 30px;
+    position: relative;
+  }
+
+	.tabcontent {
+		top: 320px;
+	}
+
+	.tc-wrapper {
+		width: 50%;
+		left: 100%;
+    /*background-color: green;*/
+	}
+
+	.tablinks {
+		margin: 30px 0px;
+	}
+
+  .tab-wrapper {
+    width: 40%;
+    height: 20vh;
+    /*background-color: red;*/
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 0px 0px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter-Logo {
+    transform: scale(1.08)  rotate(90deg);
+    left: -125%;
+  }
+
+  #Facebook-Logo {
+    transform: scale(1.15) rotate(90deg);
+  }
+
+  #Pinterest-Logo {
+    transform: scale(1.2) rotate(90deg);
+  }
+
+  #Youtube-Logo {
+    transform: scale(1.36) rotate(90deg);
+  }
+
+  #Instagram-Logo {
+    transform: scale(1.07) rotate(90deg);
+    left: 100%;
+  }
+
+  #Reddit-Logo {
+    transform: scale(1.05)  rotate(90deg);
+  }
+
+  #Twitter {
+    width: 100%;
+    left: -8.5%;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left:auto;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+
+  #instafeed {
+    left: -200px;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 15%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 15%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 15%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 15%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 15%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 15%;
+  }
+}
+
+@media (max-width: 668px) and (max-height: 1365px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    transform: scale(0.7) rotate(-90deg);
+		left: -10px;
+		top: -180px;
+		/*background-color: rgba(25, 181, 254, 1);*/
+		display: block;
+		width: 30vh;
+		height: 40vh;
+		padding: 100px 30px;
+    position: relative;
+  }
+
+	.tabcontent {
+		top: 320px;
+	}
+
+	.tc-wrapper {
+		width: 50%;
+		left: 100%;
+    /*background-color: green;*/
+	}
+
+	.tablinks {
+		margin: 30px 0px;
+	}
+
+  .tab-wrapper {
+    width: 40%;
+    height: 20vh;
+    /*background-color: red;*/
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 0px 0px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter-Logo {
+    transform: scale(1.08)  rotate(90deg);
+    left: -125%;
+  }
+
+  #Facebook-Logo {
+    transform: scale(1.15) rotate(90deg);
+  }
+
+  #Pinterest-Logo {
+    transform: scale(1.2) rotate(90deg);
+  }
+
+  #Youtube-Logo {
+    transform: scale(1.36) rotate(90deg);
+  }
+
+  #Instagram-Logo {
+    transform: scale(1.07) rotate(90deg);
+    left: 100%;
+  }
+
+  #Reddit-Logo {
+    transform: scale(1.05)  rotate(90deg);
+  }
+
+  #Twitter {
+    width: 100%;
+    left: -8.5%;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left:auto;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+
+  #instafeed {
+    left: -200px;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 15%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 15%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 15%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 15%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 15%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 15%;
+  }
+}
+
+/* Laptop */
+@media (max-width: 668px) and (max-height: 766px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    transform: scale(0.7) rotate(-180deg);
+    left: -55%;
+    top: -180%;
+    width: 50%;
+    height: 50%;
+    padding: 820px 40px;
+  }
+
+	.tabcontent {
+		top: 120px;
+	}
+
+	.tc-wrapper {
+		width: 50%;
+		left: 100%;
+    /*background-color: green;*/
+	}
+
+	.tablinks {
+		margin: 30px 0px;
+	}
+
+  .tab-wrapper {
+    width: 80%;
+    height: 20vh;
+    /*background-color: red;*/
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 0px 0px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter-Logo {
+    transform: scale(1.08)  rotate(-180deg);
+    left: -205%;
+  }
+
+  #Facebook-Logo {
+    transform: scale(1.15) rotate(-180deg);
+    left: -130%;
+  }
+
+  #Pinterest-Logo {
+    transform: scale(1.23) rotate(-180deg);
+    left: -17px;
+  }
+
+  #Youtube-Logo {
+    transform: scale(1.4) rotate(-180deg);
+    left: -17px;
+  }
+
+  #Instagram-Logo {
+    transform: scale(1.07) rotate(90deg);
+    left: -15px;
+  }
+
+  #Reddit-Logo {
+    transform: scale(1.05)  rotate(-180deg);
+  }
+
+  #Pinterest {
+    width: 80%;
+    left: 17%;
+    top: 15%;
+  }
+
+  #instafeed {
+    width: 60%;
+    left: -10%;
+    top: 1%;
+  }
+
+  #Facebook iframe {
+    /*width: 60%;*/
+    left: -42%;
+  }
+
+  #Youtube iframe {
+    width: 60%;
+    height: 60%;
+    left: -50%;
+  }
+
+  #Twitter {
+    width: 80%;
+    left: 10%;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 15%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 15%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 15%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 15%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 15%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 15%;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left: 20px;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+}
+
+
+/* Small window on Desktop */
+@media (max-width: 500px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    transform: scale(0.7) rotate(-180deg);
+    left: -62%;
+    top: -150%;
+    width: 80%;
+    height: 80%;
+    padding: 820px 40px;
+  }
+
+	.tabcontent {
+		top: 120px;
+	}
+
+	.tc-wrapper {
+		width: 50%;
+		left: 100%;
+    /*background-color: green;*/
+	}
+
+	.tablinks {
+		margin: 30px 0px;
+	}
+
+  .tab-wrapper {
+    width: 80%;
+    height: 20vh;
+    /*background-color: red;*/
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 0px 0px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter-Logo {
+    transform: scale(1.08)  rotate(-180deg);
+    left: -125%;
+  }
+
+  #Facebook-Logo {
+    transform: scale(1.15) rotate(-180deg);
+    left: -76%;
+  }
+
+  #Pinterest-Logo {
+    transform: scale(1.23) rotate(-180deg);
+    left: -17px;
+  }
+
+  #Youtube-Logo {
+    transform: scale(1.4) rotate(-180deg);
+    left: -17px;
+  }
+
+  #Instagram-Logo {
+    transform: scale(1.07) rotate(90deg);
+    left: -15px;
+  }
+
+  #Reddit-Logo {
+    transform: scale(1.05)  rotate(-180deg);
+  }
+
+  #Pinterest {
+    width: 80%;
+    left: 20%;
+  }
+
+  #instafeed {
+    width: 40%;
+    left: -11%;
+  }
+
+  #Facebook iframe {
+    /*width: 60%;*/
+    left: -42%;
+  }
+
+  #Youtube iframe {
+    width: 40%;
+    height: 30%;
+    left: -50%;
+    height: 50%;
+  }
+
+  #Twitter {
+    width: 80%;
+    left: 10%;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 15%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 15%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 15%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 15%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 15%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 15%;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left: 20px;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+}
+
+@media (max-width: 500px) and (max-height: 766px) {
+  .tab {
+    top: -180%;
+  }
+}
+
+/* Pixel 2 XL */
+@media (max-width: 414px) and (max-height: 823px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    transform: scale(0.5) rotate(-180deg);
+    left: -62%;
+    top: -270%;
+    width: 80%;
+    height: 80%;
+    padding: 820px 40px;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 15%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 15%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 15%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 15%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 15%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 15%;
+  }
+
+  .tabcontent {
+    top: 13%;
+  }
+
+  .dropdown-menu a, .dropdown-menu li {
+    min-width: 150px;
+    width: 381px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter-Logo {
+    transform: scale(1.13) rotate(-180deg);
+    left: -10vw;
+  }
+
+  #Facebook-Logo {
+    transform: scale(1.18) rotate(-180deg);
+    left: -7vw;
+  }
+
+  #Pinterest-Logo {
+    transform: scale(1.25) rotate(-180deg);
+    left: -7vw;
+  }
+
+  #Youtube-Logo {
+    transform: scale(1.4) rotate(-180deg);
+    left: -7vw;
+  }
+
+  #Instagram-Logo {
+    transform: scale(1.08) rotate(90deg);
+    left: -5vw;
+  }
+
+  #Reddit-Logo {
+    transform: scale(1.1) rotate(-180deg);
+    left: -6.5vw;
+  }
+
+  #Facebook iframe {
+    /*width: 60%;*/
+    left: -18vw;
+  }
+
+  #Youtube iframe {
+    width: 40%;
+    height: 40%;
+    left: -108vw;
+    top: 1%;
+  }
+
+  #instafeed {
+    top: 0%;
+    left: -17%;
+    width: 40%;
+  }
+
+  #Twitter {
+    width: 80%;
+    left: 6vw;
+  }
+
+  #Pinterest {
+    width: 80%;
+    left: 18vw;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left: 22px;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+}
+
+/* iPhone Plus's */
+@media (max-width: 414px)  and (max-height: 736px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    transform: scale(0.5) rotate(-180deg);
+    left: -62%;
+    top: -307%;
+    width: 80%;
+    height: 80%;
+    padding: 820px 40px;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 15%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 15%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 15%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 15%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 15%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 15%;
+  }
+
+  .tabcontent {
+    top: 13%;
+  }
+
+  .dropdown-menu a, .dropdown-menu li {
+    min-width: 150px;
+    width: 385px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter-Logo {
+    transform: scale(1.08) rotate(-180deg);
+    left: -9vw;
+  }
+
+  #Facebook-Logo {
+    transform: scale(1.12) rotate(-180deg);
+    left: -7vw;
+  }
+
+  #Pinterest-Logo {
+    transform: scale(1.2) rotate(-180deg);
+    left: -7vw;
+  }
+
+  #Youtube-Logo {
+    transform: scale(1.4) rotate(-180deg);
+    left: -7vw;
+  }
+
+  #Instagram-Logo {
+    transform: scale(1.08) rotate(90deg);
+    left: -5vw;
+  }
+
+  #Reddit-Logo {
+    transform: scale(1.1) rotate(-180deg);
+    left: -6.5vw;
+  }
+
+  #Facebook iframe {
+    /*width: 60%;*/
+    left: -18vw;
+  }
+
+  #Youtube iframe {
+    width: 75%;
+    height: 40%;
+    left: -21%;
+    top: 1%;
+  }
+
+  #instafeed {
+    top: 0%;
+    left: -17%;
+    width: 40%;
+    z-index: -1000;
+  }
+
+  #Twitter {
+    width: 80%;
+    left: 6vw;
+  }
+
+  #Pinterest {
+    top: 13%;
+    width: 80%;
+    left: 18vw;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left: 22px;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+}
+
+
+/*@media (max-height: 823px) {
+  .tab {
+    top: -111vw;
+  }
+}*/
+
+/* iPhone X */
+@media (max-width: 375px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    transform: scale(0.5) rotate(-180deg);
+    left: -60%;
+    top: -283%;
+    width: 80%;
+    height: 80%;
+    padding: 820px 40px;
+  }
+
+  /* "-tl" Button tablinks */
+  .tw-tl {
+    /*background-color: rgba(82, 179, 217, 1);*/
+    width: 15%;
+  }
+
+  .fb-tl {
+    /*background-color: blue;*/
+    width: 15%;
+  }
+
+  .pin-tl {
+    /*background-color: pink;*/
+    width: 15%;
+  }
+
+  .ig-tl {
+    /*background-color: rgba(150, 40, 27, 1);*/
+    width: 15%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .yt-tl {
+    /*background-color: red;*/
+    width: 15%;
+  }
+
+  .rd-tl {
+    /*background-color: rgba(243, 156, 18, 1);*/
+    width: 15%;
+  }
+
+  .tabcontent {
+    top: 17%;
+  }
+
+  .dropdown-menu a, .dropdown-menu li {
+    min-width: 150px;
+    width: 345px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter-Logo {
+    transform: scale(1.08) rotate(-180deg);
+    left: -9vw;
+  }
+
+  #Facebook-Logo {
+    transform: scale(1.15) rotate(-180deg);
+    left: -7vw;
+  }
+
+  #Pinterest-Logo {
+    transform: scale(1.2) rotate(-180deg);
+    left: -7vw;
+  }
+
+  #Youtube-Logo {
+    transform: scale(1.4) rotate(-180deg);
+    left: -7vw;
+  }
+
+  #Instagram-Logo {
+    transform: scale(1.08) rotate(90deg);
+    left: -5vw;
+  }
+
+  #Reddit-Logo {
+    transform: scale(1.1) rotate(-180deg);
+    left: -6.5vw;
+  }
+
+  #Facebook iframe {
+    /*width: 275px;*/
+    left: -17vw;
+  }
+
+  #Youtube iframe {
+    width: 30%;
+    height: 30%;
+    left: -115vw;
+    top: 10vw;
+  }
+
+  #instafeed {
+    top: 0%;
+    left: -16%;
+    width: 35%;
+  }
+
+  #Twitter {
+    top: 16%;
+    width: 80%;
+    left: 7%;
+  }
+
+  #Pinterest {
+    top: 16%;
+    width: 80%;
+    left: 19%;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left: 26px;
+  	margin-right:auto;
+  	background-color:#00502F;
+  }
+}
+
+/* iPhones: 6/7/8 */
+@media (max-width: 375px) and (max-height: 667px) {
+  .tab {
+    top: -126vw;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #Twitter {
+    top: 18%;
+  }
+
+  #instafeed {
+    left: -16%;
+    width: 35%;
+    top: 2%;
+  }
+
+  #Youtube iframe {
+    left: -17%;
+    top: 2%;
+    width: 65%;
+    height: 45%;
+  }
+
+  #Pinterest {
+    top: 18%;
+  }
+}
+
+/* Galaxy S5 */
+@media (max-width: 360px) {
+  div {
+    width: 100%;
+  }
+
+  .tabcontent {
+    top: 22.5%;
+  }
+
+  .tab {
+    top: -126vw;
+  }
+
+  .dropdown-menu a, .dropdown-menu li {
+    min-width: 150px;
+    width: 345px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #instafeed {
+    top: 0%;
+    width: 35%;
+    left: -16%;
+  }
+
+  #Youtube iframe {
+    top: 0%;
+    left: -14%;
+    width: 65%;
+    height: 50%;
+  }
+
+  #Twitter {
+    top: 21.5%;
+    left: 7%;
+    width: 65%;
+  }
+
+  #Pinterest {
+    top: 21%;
+    width: 70%;
+    left: 80px;
+  }
+
+  #rbgnavbar {
+    width: 100%;
+  	margin-left: 20px;
+  	margin-right:auto;
+  	background-color:#00502F;
+    transform: scale(1.03);
+  }
+}
+
+/* iPhone 5/SE */
+@media (max-width: 320px) {
+  div {
+    width: 100%;
+  }
+
+  .tab {
+    top: -420%;
+  }
+
+  .tabcontent {
+    top: 180px;
+  }
+
+  /*.navbar-toggle {
+    float: right;
+    transform: scale(1.25);
+  }*/
+
+  .searchicon {
+    margin-right: 20px;
+    transform: scale(1.25);
+  }
+
+  .navbar-header {
+    width: 290px;
+    height: 142px;
+  }
+
+  /** Navbar width adjustment **/
+  .navbutton {
+  	float: left;
+    width: 100%;
+  }
+
+  #navhide1 > a, #navhide2 > a, #navhide3 > a {
+  	 background-color: #2f7055;
+     left: 0px;
+  }
+  /** Navbar width adjustment end **/
+
+  #logo {
+    transform: scale(1.25);
+  }
+
+  #Youtube iframe {
+    width: 60%;
+    height: 50%;
+    left: -15%;
+  }
+
+  #Facebook iframe {
+    left: -16vw;
+  }
+
+  #instafeed {
+    width: 30%;
+    top: -7px;
+    left: -130px;
+  }
+
+  #Twitter {
+    width: 75%;
+    top: 29%;
+  }
+
+  #Pinterest {
+    top: 29%;
+  }
+
+  #rbgnavbar {
+  	width: 100%;
+  	margin-left: 25px;
+  	margin-right:auto;
+  	background-color:#00502F;
+    transform: scale(0.9);
+  }
+}
+
+/* Social Media Landing Page CSS End */
