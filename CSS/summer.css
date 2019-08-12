@@ -95,16 +95,11 @@ hr {
 	padding-right: 1px;
 }
 
-.navbutton {
-	float: right;
-}
-
 /* Changes color of last 3 dropdown menu items to yellow */
 #navhide1 > a, #navhide2 > a, #navhide3 > a {
 	/* color: yellow !important; */
 	/* background-color: #468068; */
 	 background-color: #2f7055;
-	 left: 200px;
 	/* background-color: #C4B59E; */
 	/* border-radius: 30px 30px 30px 30px; */
 	/* background-color: #299e6d; */
