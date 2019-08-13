@@ -270,7 +270,7 @@ h4 {
 #Facebook {
   left: 680px;
   position: absolute;
-  width: 500px;
+  width: 100%;
 }
 
 #instafeed {
@@ -1153,6 +1153,7 @@ h4 {
   #Facebook iframe {
     position: absolute;
     left: -200px;
+    width: 100%;
   }
 
   #Youtube iframe {
