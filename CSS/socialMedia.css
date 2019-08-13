@@ -2611,7 +2611,7 @@ h4 {
   .tab {
     transform: scale(0.5) rotate(-180deg);
     left: -62%;
-    top: -327%;
+    top: -388%;
     width: 80%;
     height: 80%;
     padding: 820px 40px;
@@ -2884,7 +2884,7 @@ h4 {
 /* iPhones: 6/7/8 */
 @media (max-width: 375px) and (max-height: 667px) {
   .tab {
-    top: -368%;
+    top: -398%;
   }
 
   /** Navbar width adjustment **/
