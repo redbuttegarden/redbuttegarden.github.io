@@ -1595,6 +1595,10 @@ h4 {
   .tabcontent {
     top: 160px;
   }
+
+  #Youtube iframe {
+    left: -25%;
+  }
 }
 
 /* Regular Ipad  */
@@ -1892,6 +1896,10 @@ h4 {
   .tabcontent {
     top: 160px;
   }
+
+  #Youtube iframe {
+    left: -27%;
+  }
 }
 
 /* Small window sizes on Desktop/Laptop */
@@ -2158,7 +2166,7 @@ h4 {
   .tab {
     transform: scale(0.7) rotate(-180deg);
     left: -55%;
-    top: -180%;
+    top: -200%;
     width: 50%;
     height: 50%;
     padding: 820px 40px;
@@ -2231,7 +2239,7 @@ h4 {
   #Pinterest {
     width: 80%;
     left: 17%;
-    top: 15%;
+    top: 17%;
   }
 
   #instafeed {
@@ -2248,7 +2256,7 @@ h4 {
   #Youtube iframe {
     width: 60%;
     height: 60%;
-    left: -50%;
+    left: -20%;
   }
 
   #Twitter {
@@ -2443,9 +2451,19 @@ h4 {
   }
 }
 
+/* Laptop */
 @media (max-width: 500px) and (max-height: 766px) {
   .tab {
-    top: -180%;
+    top: -200%;
+  }
+
+  #Youtube {
+    left: 75%;
+  }
+
+  #Youtube iframe {
+    width: 70%;
+    height: 50%;
   }
 }
 
