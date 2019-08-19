@@ -38,13 +38,13 @@ function activateLink() {
 
 (function ($) {
 
-    jQuery.fn.autoResizeFbPost = function () {
+    jQuery.fn.autoResizeFbPage = function () {
 
         var fixWidth = function ($container, $clonedContainer, doParse) {
             // default parameter.
             doParse = typeof doParse == 'undefined' ? true : doParse;
             var updatedWidth = $container.width();
-            // update all div.fb-post with correct width of container
+            // update all div.fb-page with correct width of container
             var isMobile = window.matchMedia("only screen and (max-width: 600px)");
 
             if (isMobile.matches) {
@@ -81,7 +81,7 @@ function activateLink() {
             var $container = $(this),
              $clonedContainer = $container.clone();
 
-            // make sure there is a .fb-post element before we do anything.
+            // make sure there is a .fb-page element before we do anything.
             if (!$container.find('div.fb-page').length) {
                 return false;
             }
@@ -99,6 +99,6 @@ function activateLink() {
 
 (function ($) {
     $(document).ready(function () {
-        $('#Facebook').autoResizeFbPost();
+        $('#Facebook').autoResizeFbPage();
     });
 })(jQuery);

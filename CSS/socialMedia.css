@@ -2502,10 +2502,10 @@ h4 {
 }
 
 /* iPhone XR */
-@media only screen and (max-width: 414px)  and (min-height: 896px) {
+/*@media only screen and (max-width: 414px)  and (min-height: 736px) {
   .tab {
-    left: -113%;
-    top: 40%;
+    left: -20%;
+    top: 390%;
   }
 
   #instafeed {
@@ -2516,7 +2516,7 @@ h4 {
     left: -53%;
     width: 35%;
   }
-}
+}*/
 
 /* iPhone Plus's */
 @media (max-width: 414px)  and (max-height: 736px) {
@@ -2526,8 +2526,8 @@ h4 {
 
   .tab {
     transform: scale(0.8) rotate(-90deg);
-    left: -65%;
-    top: -72%;
+    left: -67%;
+    top: 27%;
     padding-right: 600px;
   }
 
@@ -2596,7 +2596,7 @@ h4 {
 
   #Pinterest-Logo {
     /*transform: scale(1.2) rotate(-180deg);*/
-    left: -10px;
+    left: -32px;
   }
 
   /*#Youtube-Logo {
@@ -2616,14 +2616,14 @@ h4 {
 
   #Facebook {
     width: 75%;
-    left: 66%;
+    left: 45%;
   }
 
   #Youtube iframe {
     width: 75%;
     height: 40%;
-    left: -54%;
-    top: 1%;
+    left: -30%;
+    top: 2%;
   }
 
   #instafeed {
