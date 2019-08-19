@@ -2502,9 +2502,9 @@ h4 {
 }
 
 /* iPhone XR */
-@media (max-width: 414px)  and (max-height: 896px) {
+@media (max-width: 414px)  and (min-height: 896px) {
   .tab {
-    left: -113%;
+    left: -85%;
   }
 
   #instafeed {
