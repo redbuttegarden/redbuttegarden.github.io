@@ -268,10 +268,17 @@ h4 {
 }
 
 #Facebook {
-  left: 680px;
+  left: 677px;
   position: absolute;
-  width: 100%;
 }
+
+.fb-page, .fb-page iframe[style], .fb-page span {
+    width: 100% !important;
+}
+
+/*.tc-wrapper {
+  width: 500px;
+}*/
 
 #instafeed {
   top: 0px;
@@ -292,8 +299,8 @@ h4 {
 }
 
 #Youtube {
-  height: 100%;
-  left: 525px;
+  height: 90%;
+  left: 532px;
 }
 
 /* CSS for Instagram Feed */
@@ -1150,6 +1157,10 @@ h4 {
   }
   /** Navbar width adjustment end **/
 
+  /*#Facebook {
+    width: 100%;
+  }*/
+
   #Facebook iframe {
     position: absolute;
     left: -200px;
@@ -1170,7 +1181,7 @@ h4 {
 
   #Twitter {
     position: absolute;
-    left: 245px;
+    left: 250px;
   }
 
   #instafeed {
@@ -1188,8 +1199,12 @@ h4 {
   }
 
   .tab {
-    margin-top: 6%;
-    left: 24%;
+    margin-top: 2%;
+    left: 18%;
+  }
+
+  .tabcontent {
+    top: 20%;
   }
 
   /* "-tl" Button tablinks */
@@ -1240,7 +1255,7 @@ h4 {
   /** Navbar width adjustment end **/
 
   #Twitter {
-    left: 15vw;
+    left: 8%;
   }
 
   #Twitter-Logo {
@@ -1260,23 +1275,23 @@ h4 {
   }
 
   #Facebook {
-    left: 50vw;
+    left: 43%;
   }
 
   #Pinterest {
-    left: 19vw;
+    left: 12%;
   }
 
   #Youtube iframe {
-    width: 90%;
-    height: 90%;
-    left: -23vw;
+    width: 70%;
+    height: 70%;
+    left: -33%;
     position: absolute;
   }
 
   #instafeed {
-    left: 2vw;
-    width: 100%;
+    left: 22%;
+    width: 40%;
   }
 
   #Reddit {
@@ -1299,7 +1314,7 @@ h4 {
 /* Laptop */
 @media (max-width: 1200px) and (max-height: 766px) {
   .tab {
-    top: 0px;
+    top: 50px;
     left: 250px;
   }
 
@@ -1312,17 +1327,21 @@ h4 {
   }
 
   #instafeed {
-    left: -5px;
+    left: 220px;
   }
 
   #Youtube iframe {
-    left: -295px;
+    left: -230px;
     /*height: 80%;
     width: 80%;*/
   }
 
   #Pinterest {
     left: 200px;
+  }
+
+  #Facebook {
+    left: 525px;
   }
 }
 
@@ -1333,21 +1352,21 @@ h4 {
   }
 
   #Youtube iframe {
-    left: -380px;
+    left: -310px;
     height: 40%;
   }
 
   #instafeed {
     width: 45%;
-    left: 90px;
+    left: 105px;
   }
 
   #Twitter {
-    left: 53px;
+    left: 55px;
   }
 
   #Facebook {
-    left: 470px;
+    left: 450px;
   }
 
   #Pinterest {
@@ -1394,7 +1413,7 @@ h4 {
   /** Navbar width adjustment end **/
 
   .tab {
-    top: 30px;
+    top: 60px;
     left: 175px;
     position: absolute;
   }
@@ -1416,26 +1435,26 @@ h4 {
   }
 
   #Youtube iframe {
-    left: -29.5vw;
+    left: -37%;
     width: 70%;
     height: 70%;
   }
 
   #instafeed {
-    width: 100%;
-    left: -30px;
+    width: 40%;
+    left: 145px;
   }
 
   #Twitter {
-    left: 30px;
+    left: 70px;
   }
 
-  #Facebook {
-    left: 488px;
+  #Facebook iframe{
+    left: -310px;
   }
 
   #Pinterest {
-    left: 140px;
+    left: 110px;
   }
 
   #Twitter-Logo {
@@ -1454,8 +1473,8 @@ h4 {
     left: -30px;
   }
 
-  #Facebook iframe {
-    left: -21vw;
+  #Facebook {
+    left: 55%;
   }
 
   #rbgnavbar {
@@ -1478,8 +1497,8 @@ h4 {
   /** Navbar width adjustment end **/
 
   .tab {
-    top: 40px;
-    left: 140px;
+    top: 55px;
+    left: 180px;
   }
 
   .tabcontent {
@@ -1490,7 +1509,7 @@ h4 {
 /* Laptop */
 @media (max-width: 1024px) and (max-height: 766px) {
   .tab {
-    top: 20px;
+    top: 60px;
   }
 
   .tabcontent {
@@ -1498,17 +1517,17 @@ h4 {
   }
 
   #Pinterest {
-    left: 8%;
+    left: 11%;
   }
 
   #Youtube {
     width: 100%;
     height: 100%;
-    left: 41.5%;
+    left: 52%;
   }
 
   #instafeed {
-    left: -15%;
+    left: 18%;
   }
 }
 
@@ -1526,7 +1545,7 @@ h4 {
 
   .tab {
     left: 15%;
-    top: 5%;
+    top: 7%;
     position: absolute;
   }
 
@@ -1552,7 +1571,7 @@ h4 {
   }
 
   #Facebook {
-    left: 410px;
+    left: 513px;
   }
 
   #Youtube iframe {
@@ -1590,7 +1609,7 @@ h4 {
 /* Laptops */
 @media (max-width: 950px) and (max-height: 766px) {
   .tab {
-    top: 15px;
+    top: 55px;
   }
 
   .tabcontent {
@@ -1598,7 +1617,19 @@ h4 {
   }
 
   #Youtube iframe {
-    left: -25%;
+    left: -36%;
+  }
+
+  #Twitter {
+    left: 5%;
+  }
+
+  #Pinterest {
+    left: 8%;
+  }
+
+  #instafeed {
+    left: 14%;
   }
 }
 
@@ -1609,7 +1640,7 @@ h4 {
   }
 
   .tab {
-    top: 40px;
+    top: 60px;
     left: 5%;
     transform: scale(0.9);
   }
@@ -1680,11 +1711,11 @@ h4 {
 
   #Twitter {
     width: 90%;
-    left: 0vw;
+    left: -1vw;
   }
 
   #Facebook {
-    left: 39vw;
+    left: 42vw;
   }
 
   #Facebook-Logo {
@@ -1702,7 +1733,7 @@ h4 {
   #Youtube iframe {
     width: 70%;
     height: 50%;
-    left: -55vw;
+    left: -56vw;
     position: absolute;
   }
 
@@ -1746,7 +1777,7 @@ h4 {
   }
 
   .tab {
-    top: 25px;
+    top: 60px;
     left: 4%;
     transform: scale(0.9);
   }
@@ -1821,7 +1852,7 @@ h4 {
   }
 
   #Facebook {
-    left: 39vw;
+    left: 56%;
   }
 
   #Facebook-Logo {
@@ -1890,7 +1921,7 @@ h4 {
 /* Laptop */
 @media (max-width: 768px) and (max-height: 766px) {
   .tab {
-    top: 25px;
+    top: 50px;
     left: 20px;
   }
 
@@ -1899,7 +1930,21 @@ h4 {
   }
 
   #Youtube iframe {
-    left: -27%;
+    left: -38%;
+  }
+
+  #Pinterest {
+    width: 80%;
+    left: 9%;
+  }
+
+  #instafeed {
+    width: 45%;
+    left: -2%;
+  }
+
+  #Twitter {
+    left: -2%;
   }
 }
 
@@ -1910,19 +1955,18 @@ h4 {
   }
 
   .tab {
-    transform: scale(0.7) rotate(-90deg);
-		left: -10px;
-		top: -240px;
+    transform: scale(0.9) rotate(-360deg);
+		left: -33px;
+		top: 30px;
 		/*background-color: rgba(25, 181, 254, 1);*/
-		display: block;
-		width: 40vh;
-		height: 60vh;
-		padding: 100px 30px;
-    position: relative;
+		/*width: 40vh;
+		height: 60vh;*/
+	/*	padding: 100px 30px;
+    position: relative;*/
   }
 
 	.tabcontent {
-		top: 320px;
+		top: 170px;
 	}
 
 	.tc-wrapper {
@@ -1956,35 +2000,50 @@ h4 {
   }
   /** Navbar width adjustment end **/
 
-  #Twitter-Logo {
-    transform: scale(1.08)  rotate(90deg);
-    left: -125%;
+  /*#Twitter-Logo {
+    transform: scale(1.08)  rotate(-180deg);
+    left: -90%;
   }
 
   #Facebook-Logo {
-    transform: scale(1.15) rotate(90deg);
+    transform: scale(1.15) rotate(-180deg);
+    left:
   }
 
   #Pinterest-Logo {
-    transform: scale(1.2) rotate(90deg);
+    transform: scale(1.2) rotate(-180deg);
+    left: 0%;
   }
 
   #Youtube-Logo {
-    transform: scale(1.36) rotate(90deg);
+    transform: scale(1.36) rotate(-180deg);
   }
 
   #Instagram-Logo {
-    transform: scale(1.07) rotate(90deg);
+    transform: scale(1.07) rotate(-180deg);
     left: 100%;
   }
 
   #Reddit-Logo {
-    transform: scale(1.05)  rotate(90deg);
-  }
+    transform: scale(1.05)  rotate(-180deg);
+  }*/
 
   #Twitter {
     width: 100%;
-    left: -8.5%;
+    left: -8%;
+  }
+
+  #Facebook {
+    left: 365px;
+  }
+
+  #Pinterest {
+    width: 95%;
+    left: 15px;
+  }
+
+  #Youtube iframe {
+    left: -500px;
   }
 
   #rbgnavbar {
@@ -1995,7 +2054,7 @@ h4 {
   }
 
   #instafeed {
-    left: -200px;
+    left: -80px;
   }
 
   /* "-tl" Button tablinks */
@@ -2031,132 +2090,6 @@ h4 {
   }
 }
 
-@media (max-width: 668px) and (max-height: 1365px) {
-  div {
-    width: 100%;
-  }
-
-  .tab {
-    transform: scale(0.7) rotate(-90deg);
-		left: -10px;
-		top: -180px;
-		/*background-color: rgba(25, 181, 254, 1);*/
-		display: block;
-		width: 30vh;
-		height: 40vh;
-		padding: 100px 30px;
-    position: relative;
-  }
-
-	.tabcontent {
-		top: 320px;
-	}
-
-	.tc-wrapper {
-		width: 50%;
-		left: 100%;
-    /*background-color: green;*/
-	}
-
-	.tablinks {
-		margin: 30px 0px;
-	}
-
-  .tab-wrapper {
-    width: 40%;
-    height: 20vh;
-    /*background-color: red;*/
-    margin-top: 70px;
-    margin-left: 50px;
-    padding: 0px 0px;
-  }
-
-  /** Navbar width adjustment **/
-  .navbutton {
-  	float: left;
-    width: 100%;
-  }
-
-  #navhide1 > a, #navhide2 > a, #navhide3 > a {
-  	 background-color: #2f7055;
-     left: 0px;
-  }
-  /** Navbar width adjustment end **/
-
-  #Twitter-Logo {
-    transform: scale(1.08)  rotate(90deg);
-    left: -125%;
-  }
-
-  #Facebook-Logo {
-    transform: scale(1.15) rotate(90deg);
-  }
-
-  #Pinterest-Logo {
-    transform: scale(1.2) rotate(90deg);
-  }
-
-  #Youtube-Logo {
-    transform: scale(1.36) rotate(90deg);
-  }
-
-  #Instagram-Logo {
-    transform: scale(1.07) rotate(90deg);
-    left: 100%;
-  }
-
-  #Reddit-Logo {
-    transform: scale(1.05)  rotate(90deg);
-  }
-
-  #Twitter {
-    width: 100%;
-    left: -8.5%;
-  }
-
-  #rbgnavbar {
-    width: 100%;
-  	margin-left:auto;
-  	margin-right:auto;
-  	background-color:#00502F;
-  }
-
-  #instafeed {
-    left: -200px;
-  }
-
-  /* "-tl" Button tablinks */
-  .tw-tl {
-    /*background-color: rgba(82, 179, 217, 1);*/
-    width: 15%;
-  }
-
-  .fb-tl {
-    /*background-color: blue;*/
-    width: 15%;
-  }
-
-  .pin-tl {
-    /*background-color: pink;*/
-    width: 15%;
-  }
-
-  .ig-tl {
-    /*background-color: rgba(150, 40, 27, 1);*/
-    width: 15%;
-    padding: 0px 0px 0px 0px;
-  }
-
-  .yt-tl {
-    /*background-color: red;*/
-    width: 15%;
-  }
-
-  .rd-tl {
-    /*background-color: rgba(243, 156, 18, 1);*/
-    width: 15%;
-  }
-}
 
 /* Laptop */
 @media (max-width: 668px) and (max-height: 766px) {
@@ -2165,12 +2098,9 @@ h4 {
   }
 
   .tab {
-    transform: scale(0.7) rotate(-180deg);
-    left: -55%;
-    top: -200%;
-    width: 50%;
-    height: 50%;
-    padding: 820px 40px;
+    transform: scale(0.8) rotate(-90deg);
+    left: -72%;
+    top: 7%;
   }
 
 	.tabcontent {
@@ -2187,15 +2117,6 @@ h4 {
 		margin: 30px 0px;
 	}
 
-  .tab-wrapper {
-    width: 80%;
-    height: 20vh;
-    /*background-color: red;*/
-    margin-top: 70px;
-    margin-left: 50px;
-    padding: 0px 0px;
-  }
-
   /** Navbar width adjustment **/
   .navbutton {
   	float: left;
@@ -2209,60 +2130,50 @@ h4 {
   /** Navbar width adjustment end **/
 
   #Twitter-Logo {
-    transform: scale(1.08)  rotate(-180deg);
-    left: -205%;
+    transform: scale(0.85) rotate(90deg);
   }
 
   #Facebook-Logo {
-    transform: scale(1.15) rotate(-180deg);
-    left: -130%;
+    transform: scale(0.9) rotate(90deg);
   }
 
   #Pinterest-Logo {
-    transform: scale(1.23) rotate(-180deg);
-    left: -17px;
+    transform: scale(0.95) rotate(90deg);
   }
 
   #Youtube-Logo {
-    transform: scale(1.4) rotate(-180deg);
-    left: -17px;
+    transform: scale(1.08) rotate(90deg);
   }
 
   #Instagram-Logo {
-    transform: scale(1.07) rotate(90deg);
-    left: -15px;
-  }
-
-  #Reddit-Logo {
-    transform: scale(1.05)  rotate(-180deg);
+    transform: scale(0.83) rotate(90deg);
   }
 
   #Pinterest {
     width: 80%;
     left: 17%;
-    top: 17%;
+    top: 16%;
   }
 
   #instafeed {
-    width: 60%;
-    left: -10%;
-    top: 1%;
+    width: 42%;
+    left: -14%;
+    top: 0%;
   }
 
   #Facebook iframe {
-    /*width: 60%;*/
-    left: -42%;
+    left: -34%;
   }
 
   #Youtube iframe {
-    width: 60%;
-    height: 60%;
-    left: -20%;
+    width: 65%;
+    height: 65%;
+    left: -33%;
   }
 
   #Twitter {
     width: 80%;
-    left: 10%;
+    left: 8%;
   }
 
   /* "-tl" Button tablinks */
@@ -2313,12 +2224,9 @@ h4 {
   }
 
   .tab {
-    transform: scale(0.7) rotate(-180deg);
-    left: -62%;
-    top: -150%;
-    width: 80%;
-    height: 80%;
-    padding: 820px 40px;
+    transform: scale(0.9) rotate(-90deg);
+    left: -95%;
+    top: 7%;
   }
 
 	.tabcontent {
@@ -2357,32 +2265,23 @@ h4 {
   /** Navbar width adjustment end **/
 
   #Twitter-Logo {
-    transform: scale(1.08)  rotate(-180deg);
-    left: -125%;
+    transform: scale(0.85) rotate(90deg);
   }
 
   #Facebook-Logo {
-    transform: scale(1.15) rotate(-180deg);
-    left: -76%;
+    transform: scale(0.9) rotate(90deg);
   }
 
   #Pinterest-Logo {
-    transform: scale(1.23) rotate(-180deg);
-    left: -17px;
+    transform: scale(0.95) rotate(90deg);
   }
 
   #Youtube-Logo {
-    transform: scale(1.4) rotate(-180deg);
-    left: -17px;
+    transform: scale(1.05) rotate(90deg);
   }
 
   #Instagram-Logo {
-    transform: scale(1.07) rotate(90deg);
-    left: -15px;
-  }
-
-  #Reddit-Logo {
-    transform: scale(1.05)  rotate(-180deg);
+    transform: scale(0.8) rotate(90deg);
   }
 
   #Pinterest {
@@ -2395,9 +2294,9 @@ h4 {
     left: -11%;
   }
 
-  #Facebook iframe {
-    /*width: 60%;*/
-    left: -42%;
+  #Facebook {
+    width: 290px;
+    left: 405px;
   }
 
   #Youtube iframe {
@@ -2455,32 +2354,34 @@ h4 {
 /* Laptop */
 @media (max-width: 500px) and (max-height: 766px) {
   .tab {
-    top: -200%;
-  }
-
-  #Youtube {
-    left: 75%;
+    top: 8%;
   }
 
   #Youtube iframe {
     width: 70%;
     height: 50%;
+    left: -30%;
+  }
+
+  #Facebook {
+    left: 40%;
+  }
+
+  #instafeed {
+    left: -13%;
   }
 }
 
 /* Pixel 2 XL */
-@media (max-width: 414px) and (max-height: 823px) {
+@media (max-width: 411px) and (max-height: 823px) {
   div {
     width: 100%;
   }
 
   .tab {
-    transform: scale(0.5) rotate(-180deg);
-    left: -62%;
-    top: -270%;
-    width: 80%;
-    height: 80%;
-    padding: 820px 40px;
+    transform: scale(0.8) rotate(-90deg);
+    left: -116%;
+    top: 6%;
   }
 
   /* "-tl" Button tablinks */
@@ -2536,39 +2437,37 @@ h4 {
   }
   /** Navbar width adjustment end **/
 
-  #Twitter-Logo {
-    transform: scale(1.13) rotate(-180deg);
-    left: -10vw;
+  /*#Twitter-Logo {
+    transform: rotate(-180deg);
   }
 
   #Facebook-Logo {
-    transform: scale(1.18) rotate(-180deg);
-    left: -7vw;
+    transform: rotate(-180deg);
   }
 
   #Pinterest-Logo {
-    transform: scale(1.25) rotate(-180deg);
-    left: -7vw;
+    transform: rotate(-180deg)
   }
 
   #Youtube-Logo {
-    transform: scale(1.4) rotate(-180deg);
-    left: -7vw;
+    transform: rotate(-180deg);
   }
 
   #Instagram-Logo {
-    transform: scale(1.08) rotate(90deg);
-    left: -5vw;
+    transform: rotate(90deg);
   }
 
   #Reddit-Logo {
-    transform: scale(1.1) rotate(-180deg);
-    left: -6.5vw;
+    transform: rotate(-180deg);
+  }
+*/
+  #Facebook {
+    width: 75%;
+    left: 65vw;
   }
 
-  #Facebook iframe {
-    /*width: 60%;*/
-    left: -18vw;
+  .tc-wrapper {
+    width: 200px;
   }
 
   #Youtube iframe {
@@ -2602,6 +2501,23 @@ h4 {
   }
 }
 
+/* iPhone XR */
+@media only screen and (max-width: 414px)  and (min-height: 896px) {
+  .tab {
+    left: -113%;
+    top: 40%;
+  }
+
+  #instafeed {
+    left: -16%;
+  }
+
+  #Youtube iframe {
+    left: -53%;
+    width: 35%;
+  }
+}
+
 /* iPhone Plus's */
 @media (max-width: 414px)  and (max-height: 736px) {
   div {
@@ -2609,12 +2525,10 @@ h4 {
   }
 
   .tab {
-    transform: scale(0.5) rotate(-180deg);
-    left: -62%;
-    top: -388%;
-    width: 80%;
-    height: 80%;
-    padding: 820px 40px;
+    transform: scale(0.8) rotate(-90deg);
+    left: -65%;
+    top: -72%;
+    padding-right: 600px;
   }
 
   /* "-tl" Button tablinks */
@@ -2670,22 +2584,22 @@ h4 {
   }
   /** Navbar width adjustment end **/
 
-  #Twitter-Logo {
+  /*#Twitter-Logo {
     transform: scale(1.08) rotate(-180deg);
-    left: -8vw;
+    left: -10vw;
   }
 
   #Facebook-Logo {
     transform: scale(1.12) rotate(-180deg);
     left: -7vw;
-  }
+  }*/
 
   #Pinterest-Logo {
-    transform: scale(1.2) rotate(-180deg);
-    left: -7vw;
+    /*transform: scale(1.2) rotate(-180deg);*/
+    left: -10px;
   }
 
-  #Youtube-Logo {
+  /*#Youtube-Logo {
     transform: scale(1.4) rotate(-180deg);
     left: -7vw;
   }
@@ -2698,11 +2612,11 @@ h4 {
   #Reddit-Logo {
     transform: scale(1.1) rotate(-180deg);
     left: -6.5vw;
-  }
+  }*/
 
-  #Facebook iframe {
-    /*width: 60%;*/
-    left: -18vw;
+  #Facebook {
+    width: 75%;
+    left: 66%;
   }
 
   #Youtube iframe {
@@ -2738,13 +2652,6 @@ h4 {
   }
 }
 
-
-/*@media (max-height: 823px) {
-  .tab {
-    top: -111vw;
-  }
-}*/
-
 /* iPhone X */
 @media (max-width: 375px) {
   div {
@@ -2752,12 +2659,9 @@ h4 {
   }
 
   .tab {
-    transform: scale(0.5) rotate(-180deg);
-    left: -60%;
-    top: -283%;
-    width: 80%;
-    height: 80%;
-    padding: 820px 40px;
+    transform: scale(0.8) rotate(-90deg);
+    left: -128%;
+    top: 9%;
   }
 
   /* "-tl" Button tablinks */
@@ -2813,39 +2717,9 @@ h4 {
   }
   /** Navbar width adjustment end **/
 
-  #Twitter-Logo {
-    transform: scale(1.08) rotate(-180deg);
-    left: -9vw;
-  }
-
-  #Facebook-Logo {
-    transform: scale(1.15) rotate(-180deg);
-    left: -7vw;
-  }
-
-  #Pinterest-Logo {
-    transform: scale(1.2) rotate(-180deg);
-    left: -7vw;
-  }
-
-  #Youtube-Logo {
-    transform: scale(1.4) rotate(-180deg);
-    left: -7vw;
-  }
-
-  #Instagram-Logo {
-    transform: scale(1.08) rotate(90deg);
-    left: -5vw;
-  }
-
-  #Reddit-Logo {
-    transform: scale(1.1) rotate(-180deg);
-    left: -6.5vw;
-  }
-
-  #Facebook iframe {
-    /*width: 275px;*/
-    left: -17vw;
+  #Facebook {
+    left: 73%;
+    width: 75%;
   }
 
   #Youtube iframe {
@@ -2864,7 +2738,7 @@ h4 {
   #Twitter {
     top: 16%;
     width: 80%;
-    left: 7%;
+    left: 5%;
   }
 
   #Pinterest {
@@ -2884,7 +2758,9 @@ h4 {
 /* iPhones: 6/7/8 */
 @media (max-width: 375px) and (max-height: 667px) {
   .tab {
-    top: -398%;
+    transform: scale(0.8) rotate(-90deg);
+    left: -72%;
+    top: -76%;
   }
 
   /** Navbar width adjustment **/
@@ -2932,7 +2808,8 @@ h4 {
   }
 
   .tab {
-    top: -126vw;
+    top: -495px;
+    left: -270px;
   }
 
   .dropdown-menu a, .dropdown-menu li {
@@ -2968,7 +2845,7 @@ h4 {
   #Twitter {
     top: 21.5%;
     left: 7%;
-    width: 65%;
+    width: 75%;
   }
 
   #Pinterest {
@@ -2993,7 +2870,8 @@ h4 {
   }
 
   .tab {
-    top: -420%;
+    top: -460px;
+    left: -270px;
   }
 
   .tabcontent {
@@ -3038,7 +2916,7 @@ h4 {
   }
 
   #Facebook iframe {
-    left: -16vw;
+    left: -50vw;
   }
 
   #instafeed {
