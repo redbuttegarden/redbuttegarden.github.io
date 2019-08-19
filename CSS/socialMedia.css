@@ -2527,7 +2527,7 @@ h4 {
   .tab {
     transform: scale(0.8) rotate(-90deg);
     left: -67%;
-    top: 27%;
+    top: 25%;
     padding-right: 600px;
   }
 
@@ -2759,8 +2759,8 @@ h4 {
 @media (max-width: 375px) and (max-height: 667px) {
   .tab {
     transform: scale(0.8) rotate(-90deg);
-    left: -72%;
-    top: -76%;
+    left: -74%;
+    top: 31%;
   }
 
   /** Navbar width adjustment **/
@@ -2808,8 +2808,8 @@ h4 {
   }
 
   .tab {
-    top: -495px;
-    left: -270px;
+    top: 35%;
+    left: -77%;
   }
 
   .dropdown-menu a, .dropdown-menu li {
@@ -2870,8 +2870,8 @@ h4 {
   }
 
   .tab {
-    top: -460px;
-    left: -270px;
+    top: 45%;
+    left: -86%;
   }
 
   .tabcontent {
@@ -2912,7 +2912,7 @@ h4 {
   #Youtube iframe {
     width: 60%;
     height: 50%;
-    left: -48%;
+    left: -22%;
   }
 
   #Facebook iframe {
