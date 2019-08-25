@@ -1,41 +1,3 @@
-/*function openInNewTab(url) {
-  var win = window.open(url, '_blank');
-}
-
-function activateLink() {
-  var delay = (function() {
-    var timer = 0;
-    return function(callback, ms) {
-      clearTimeout(timer);
-      timer = setTimeout(callback, ms);
-    }
-  })();
-
-  var onResize = function() {
-    let width = $(window).width();
-    let url = "https://www.facebook.com/redbutte";
-    let facebookBtn = document.querySelector('#facebookBtn');
-
-    if ($(window).width() <= 668) {
-      $('#facebookBtn').on('click', function() {
-        facebookBtn.addEventListener('click', openInNewTab(url));
-      });
-    }
-
-    else {
-      facebookBtn.addEventListener('click', openTab(event, 'Facebook'));
-    }
-  }
-
-  $(document).ready(onResize);
-  $(window).resize(function() {
-    delay(function() {
-      onResize();
-    }, 1000000)
-  });
-}
-*/
-
 (function ($) {
 
     jQuery.fn.autoResizeFbPage = function () {
@@ -45,7 +7,7 @@ function activateLink() {
             doParse = typeof doParse == 'undefined' ? true : doParse;
             var updatedWidth = $container.width();
             // update all div.fb-page with correct width of container
-            var isMobile = window.matchMedia("only screen and (max-width: 600px)");
+            var isMobile = window.matchMedia("(max-width: 500px)");
 
             if (isMobile.matches) {
                 //Conditional script here

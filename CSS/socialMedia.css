@@ -5,6 +5,7 @@ body {
   background: white;
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
+  position: relative;    /* FIXES HORZ. SCROLL/ */
 }
 
 html {
@@ -120,6 +121,7 @@ h4 {
 
 .tablinks {
   border: none;
+  background-color: white;
 }
 
 @-webkit-keyframes fadeEffect {
@@ -298,9 +300,13 @@ h4 {
   left: 520px;
 }
 
+#Youtube iframe {
+  width: 100%;
+  height: 70%;
+}
+
 #Youtube {
-  height: 90%;
-  left: 532px;
+  left: 28.5%;
 }
 
 /* CSS for Instagram Feed */
@@ -1162,16 +1168,14 @@ h4 {
   }*/
 
   #Facebook iframe {
-    position: absolute;
-    left: -200px;
-    width: 100%;
+    left: -250px;
   }
 
   #Youtube iframe {
     position: absolute;
-    left: -185px;
-    width: 90%;
-    height: 60%;
+    left: -125px;
+    width: 100%;
+    height: 70%;
   }
 
   #Pinterest {
@@ -1192,11 +1196,11 @@ h4 {
   }
 }
 
-/* Smaller window on PC/Laptops */
+/* Smaller window on Desktop */
 @media (max-width: 1200px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
     margin-top: 2%;
@@ -1204,7 +1208,7 @@ h4 {
   }
 
   .tabcontent {
-    top: 20%;
+    top: 6%;
   }
 
   /* "-tl" Button tablinks */
@@ -1275,7 +1279,7 @@ h4 {
   }
 
   #Facebook {
-    left: 43%;
+    left: 44%;
   }
 
   #Pinterest {
@@ -1283,9 +1287,9 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 70%;
+    width: 80%;
     height: 70%;
-    left: -33%;
+    left: -16%;
     position: absolute;
   }
 
@@ -1347,18 +1351,19 @@ h4 {
 
 /* iPad Pro */
 @media (max-width: 1024px) and (min-height: 1366px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   #Youtube iframe {
     left: -310px;
-    height: 40%;
+    width: 70%;
+    height: 20%;
   }
 
   #instafeed {
-    width: 45%;
-    left: 105px;
+    width: 38%;
+    left: 130px;
   }
 
   #Twitter {
@@ -1419,7 +1424,7 @@ h4 {
   }
 
   .tabcontent {
-    top: 14%;
+    top: 6%;
   }
 
   .dropdown-menu a, .dropdown-menu li {
@@ -1430,19 +1435,19 @@ h4 {
 
 /* Smaller window on monitor (not iPad Pro) */
 @media (max-width: 1024px) and (max-height: 1365px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   #Youtube iframe {
-    left: -37%;
+    left: -7%;
     width: 70%;
-    height: 70%;
+    height: 50%;
   }
 
   #instafeed {
     width: 40%;
-    left: 145px;
+    left: 138px;
   }
 
   #Twitter {
@@ -1474,7 +1479,7 @@ h4 {
   }
 
   #Facebook {
-    left: 55%;
+    left: 54%;
   }
 
   #rbgnavbar {
@@ -1502,7 +1507,7 @@ h4 {
   }
 
   .tabcontent {
-    top: 20%;
+    top: 6%;
   }
 }
 
@@ -1533,9 +1538,9 @@ h4 {
 
 /* Makes space between navbar and slideshow disappear after collapse - required for relative positioning so menu makes divs below the navbar move down when open */
 @media (max-width: 950px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .navbar-wrapper {
    clear: right;
@@ -1545,12 +1550,12 @@ h4 {
 
   .tab {
     left: 15%;
-    top: 7%;
+    top: 3%;
     position: absolute;
   }
 
   .tabcontent {
-    top: 20%;
+    top: 7%;
   }
 
   /** Navbar width adjustment **/
@@ -1576,12 +1581,16 @@ h4 {
 
   #Youtube iframe {
     width: 70%;
-    height: 70%;
-    left: -340px;
+    height: 50%;
+    left: -75px;
   }
 
   #instafeed {
-    left: -89px;
+    left: 11%;
+  }
+
+  #Pinterest {
+    left: 8%;
   }
 
   #Facebook-Logo {
@@ -1606,22 +1615,24 @@ h4 {
    }
 }
 
-/* Laptops */
+/* Laptops*/
 @media (max-width: 950px) and (max-height: 766px) {
   .tab {
-    top: 55px;
+    top: 2%;
   }
 
   .tabcontent {
-    top: 160px;
+    top: 6%;
   }
 
   #Youtube iframe {
-    left: -36%;
+    left: -28%;
+    width: 55%;
+    height: 10%;
   }
 
   #Twitter {
-    left: 5%;
+    left: 6%;
   }
 
   #Pinterest {
@@ -1635,9 +1646,9 @@ h4 {
 
 /* Regular Ipad  */
 @media (max-width: 768px) and (min-height: 1024px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
     top: 60px;
@@ -1646,7 +1657,7 @@ h4 {
   }
 
   .tabcontent {
-    top: 18%;
+    top: 5%;
   }
 
   /* "-tl" Button tablinks */
@@ -1715,7 +1726,7 @@ h4 {
   }
 
   #Facebook {
-    left: 42vw;
+    left: 57%;
   }
 
   #Facebook-Logo {
@@ -1731,9 +1742,9 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 70%;
-    height: 50%;
-    left: -56vw;
+    width: 60%;
+    height: 10%;
+    left: -49%;
     position: absolute;
   }
 
@@ -1772,9 +1783,9 @@ h4 {
 
 /* Smaller sized screens */
 @media (max-width: 768px) and (max-height: 1023px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
     top: 60px;
@@ -1783,7 +1794,7 @@ h4 {
   }
 
   .tabcontent {
-    top: 18%;
+    top: 5%;
   }
 
   /* "-tl" Button tablinks */
@@ -1868,15 +1879,15 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 70%;
-    height: 50%;
-    left: -55vw;
+    width: 65%;
+    height: 40%;
+    left: -12%;
     position: absolute;
   }
 
   #instafeed {
-    left: -11vw;
-    width: 50%;
+    left: 1%;
+    width: 40%;
   }
 
   #Reddit {
@@ -1948,11 +1959,11 @@ h4 {
   }
 }
 
-/* Small window sizes on Desktop/Laptop */
+/* Small window sizes on Desktop */
 @media (max-width: 668px) and (max-height: 1366px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
     transform: scale(0.9) rotate(-360deg);
@@ -2043,7 +2054,7 @@ h4 {
   }
 
   #Youtube iframe {
-    left: -500px;
+    left: -135px;
   }
 
   #rbgnavbar {
@@ -2093,14 +2104,14 @@ h4 {
 
 /* Laptop */
 @media (max-width: 668px) and (max-height: 766px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
     transform: scale(0.8) rotate(-90deg);
     left: -72%;
-    top: 7%;
+    top: 1.5%;
   }
 
 	.tabcontent {
@@ -2152,7 +2163,7 @@ h4 {
   #Pinterest {
     width: 80%;
     left: 17%;
-    top: 16%;
+    top: 3.5%;
   }
 
   #instafeed {
@@ -2166,9 +2177,9 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 65%;
-    height: 65%;
-    left: -33%;
+    width: 55%;
+    height: 10%;
+    left: -25%;
   }
 
   #Twitter {
@@ -2219,14 +2230,14 @@ h4 {
 
 /* Small window on Desktop */
 @media (max-width: 500px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
     transform: scale(0.9) rotate(-90deg);
     left: -95%;
-    top: 7%;
+    top: 1.5%;
   }
 
 	.tabcontent {
@@ -2291,7 +2302,7 @@ h4 {
 
   #instafeed {
     width: 40%;
-    left: -11%;
+    left: -12%;
   }
 
   #Facebook {
@@ -2300,10 +2311,9 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 40%;
-    height: 30%;
-    left: -50%;
+    width: 35%;
     height: 50%;
+    left: -2%;
   }
 
   #Twitter {
@@ -2354,13 +2364,13 @@ h4 {
 /* Laptop */
 @media (max-width: 500px) and (max-height: 766px) {
   .tab {
-    top: 8%;
+    top: 1.6%;
   }
 
   #Youtube iframe {
-    width: 70%;
-    height: 50%;
-    left: -30%;
+    width: 55%;
+    height: 10%;
+    left: -25%;
   }
 
   #Facebook {
@@ -2370,18 +2380,24 @@ h4 {
   #instafeed {
     left: -13%;
   }
+
+  #Pinterest {
+    top: 3.2%;
+  }
+
+
 }
 
 /* Pixel 2 XL */
 @media (max-width: 411px) and (max-height: 823px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
     transform: scale(0.8) rotate(-90deg);
     left: -116%;
-    top: 6%;
+    top: 1%;
   }
 
   /* "-tl" Button tablinks */
@@ -2417,7 +2433,7 @@ h4 {
   }
 
   .tabcontent {
-    top: 13%;
+    top: 3%;
   }
 
   .dropdown-menu a, .dropdown-menu li {
@@ -2463,7 +2479,7 @@ h4 {
 */
   #Facebook {
     width: 75%;
-    left: 65vw;
+    left: 95%;
   }
 
   .tc-wrapper {
@@ -2471,8 +2487,8 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 10%;
     left: -108vw;
     top: 1%;
   }
@@ -2520,14 +2536,14 @@ h4 {
 
 /* iPhone Plus's */
 @media (max-width: 414px)  and (max-height: 736px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
     transform: scale(0.8) rotate(-90deg);
     left: -67%;
-    top: 25%;
+    top: 5%;
     padding-right: 600px;
   }
 
@@ -2564,7 +2580,7 @@ h4 {
   }
 
   .tabcontent {
-    top: 13%;
+    top: 2.6%;
   }
 
   .dropdown-menu a, .dropdown-menu li {
@@ -2620,10 +2636,10 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 75%;
-    height: 40%;
-    left: -30%;
-    top: 2%;
+    width: 65%;
+    height: 10%;
+    left: -29%;
+    top: 0.5%;
   }
 
   #instafeed {
@@ -2639,7 +2655,7 @@ h4 {
   }
 
   #Pinterest {
-    top: 13%;
+    top: 2.6%;
     width: 80%;
     left: 18vw;
   }
@@ -2654,14 +2670,14 @@ h4 {
 
 /* iPhone X */
 @media (max-width: 375px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
     transform: scale(0.8) rotate(-90deg);
     left: -128%;
-    top: 9%;
+    top: 2%;
   }
 
   /* "-tl" Button tablinks */
@@ -2697,7 +2713,7 @@ h4 {
   }
 
   .tabcontent {
-    top: 17%;
+    top: 3.5%;
   }
 
   .dropdown-menu a, .dropdown-menu li {
@@ -2718,14 +2734,15 @@ h4 {
   /** Navbar width adjustment end **/
 
   #Facebook {
-    left: 73%;
-    width: 75%;
+    left: 103%;
+    /*width: 75%;*/
+    top: 4%;
   }
 
   #Youtube iframe {
     width: 30%;
-    height: 30%;
-    left: -115vw;
+    height: 10%;
+    left: -117vw;
     top: 10vw;
   }
 
@@ -2736,13 +2753,13 @@ h4 {
   }
 
   #Twitter {
-    top: 16%;
+    top: 4%;
     width: 80%;
     left: 5%;
   }
 
   #Pinterest {
-    top: 16%;
+    top: 4%;
     width: 80%;
     left: 19%;
   }
@@ -2760,13 +2777,17 @@ h4 {
   .tab {
     transform: scale(0.8) rotate(-90deg);
     left: -74%;
-    top: 31%;
+    top: 6%;
   }
 
   /** Navbar width adjustment **/
   .navbutton {
   	float: left;
     width: 100%;
+  }
+
+  .tabcontent {
+    top: 3%;
   }
 
   #navhide1 > a, #navhide2 > a, #navhide3 > a {
@@ -2776,7 +2797,8 @@ h4 {
   /** Navbar width adjustment end **/
 
   #Twitter {
-    top: 18%;
+    top: 3.5%;
+    left: 6%;
   }
 
   #instafeed {
@@ -2786,29 +2808,34 @@ h4 {
   }
 
   #Youtube iframe {
-    left: -50%;
-    top: 2%;
-    width: 65%;
-    height: 45%;
+    left: -25%;
+    top: 1%;
+    width: 55%;
+    height: 10%;
   }
 
   #Pinterest {
-    top: 18%;
+    top: 3.5%;
+  }
+
+  #Facebook {
+    left: 45%;
+    top: 3.5%;
   }
 }
 
 /* Galaxy S5 */
 @media (max-width: 360px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tabcontent {
-    top: 22.5%;
+    top: 3.2%;
   }
 
   .tab {
-    top: 35%;
+    top: 6%;
     left: -77%;
   }
 
@@ -2830,26 +2857,26 @@ h4 {
   /** Navbar width adjustment end **/
 
   #instafeed {
-    top: 0%;
+    top: 1.3%;
     width: 35%;
     left: -18%;
   }
 
   #Youtube iframe {
-    top: 0%;
-    left: -50%;
-    width: 65%;
-    height: 50%;
+    top: 1%;
+    left: -25%;
+    width: 60%;
+    height: 10%;
   }
 
   #Twitter {
-    top: 21.5%;
+    top: 3.5%;
     left: 7%;
     width: 75%;
   }
 
   #Pinterest {
-    top: 21%;
+    top: 3.5%;
     width: 70%;
     left: 80px;
   }
@@ -2865,17 +2892,17 @@ h4 {
 
 /* iPhone 5/SE */
 @media (max-width: 320px) {
-  div {
+  /*div {
     width: 100%;
-  }
+  }*/
 
   .tab {
-    top: 45%;
+    top: 7%;
     left: -86%;
   }
 
   .tabcontent {
-    top: 180px;
+    top: 20%;
   }
 
   /*.navbar-toggle {
@@ -2910,28 +2937,30 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 60%;
-    height: 50%;
+    width: 55%;
+    height: 10%;
     left: -22%;
+    top: -15.2%;
   }
 
   #Facebook iframe {
-    left: -50vw;
+    left: -29%;
+    top: 5.6%;
   }
 
   #instafeed {
     width: 30%;
-    top: -7px;
+    top: -73%;
     left: -130px;
   }
 
   #Twitter {
     width: 75%;
-    top: 29%;
+    top: 4.6%;
   }
 
   #Pinterest {
-    top: 29%;
+    top: 4.6%;
   }
 
   #rbgnavbar {
