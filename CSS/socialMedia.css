@@ -114,7 +114,7 @@ h4 {
   position: absolute;
   top: 220px;
   left: 500px;
-  width: 800px;
+  width: 100%;
   height: 800px;
   animation: 1.2s ease-out 0s 1 slideInFromBottom;
 }
@@ -284,9 +284,9 @@ h4 {
 
 #instafeed {
   top: 0px;
-  left: 280px;
+  left: -120px;
   position: relative;
-  width: 40%;
+  width: 60%;
 }
 
 /*#Instagram {
@@ -297,104 +297,30 @@ h4 {
   position: absolute;
   margin: auto;
   z-index: 1;
-  left: 520px;
+  left: -25px;
 }
 
 #Youtube iframe {
-  width: 100%;
+  width: 60%;
   height: 70%;
 }
 
 #Youtube {
-  left: 28.5%;
+  left: 20%;
 }
 
 /* CSS for Instagram Feed */
 
-/* remove bootstrap gutter */
-.row.no-gutter {
-  margin-left: 0px;
-  margin-right: 0;
+.instaimg img {
+  margin: 30px 10px;
+  width: 240px;
+  height: 240px;
 }
-
-.row.no-gutter [class*='col-']:not(:first-child),
-.row.no-gutter [class*='col-']:not(:last-child) {
-  padding-right: 0;
-  padding-left: 0;
+.instaimg img:hover {
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  -webkit-opacity: 0.8;
 }
-
-.col-lg-12 {
-  margin: 0px 0px 0px !important;
-  padding: 0px 15px 0px !important;
-}
-
-.img-featured-container {
-  overflow: hidden;
-  position: relative;
-}
-
-.img-featured-container img {
-  width: 100%;
-}
-
-.img-featured-container .img-backdrop {
-  background: linear-gradient(135deg, rgba(255, 225, 0, 0.6), rgba(255, 255, 255, 0.4));
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-
-.img-featured-container:hover>.img-backdrop {
-  opacity: 2;
-}
-
-/* center text horizontally and vertically on image hover */
-.img-featured-container .description-container {
-  color: #fff;
-  font-size: 16px;
-  line-height: 1.2;
-  padding: 0 30px;
-  text-align: center;
-  line-height: 20px;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transform-style: preserve-3d;
-  z-index: 2;
-  opacity: 0;
-  transition: all .2s ease;
-}
-
-.img-featured-container .description-container .fa-instagram {
-  font-size: 40px;
-}
-
-.img-featured-container .description-container p {
-  font-weight: 300;
-  margin-bottom: 0;
-}
-
-.img-featured-container:hover .description-container {
-  opacity: 1;
-}
-
-.img-featured-container .description-container .caption {
-  display: none;
-  margin-bottom: 10px;
-}
-
-.img-featured-container .description-container .likes,
-.img-featured-container .description-container .comments {
-  margin: 0 5px;
-}
-
 
 /*******************************************/
 /************** Begin Nav Bar **************/
@@ -1173,14 +1099,14 @@ h4 {
 
   #Youtube iframe {
     position: absolute;
-    left: -125px;
-    width: 100%;
+    left: 0px;
+    width: 60%;
     height: 70%;
   }
 
   #Pinterest {
     position: absolute;
-    left: 295px;
+    left: 0px;
   }
 
   #Twitter {
@@ -1356,9 +1282,9 @@ h4 {
   }*/
 
   #Youtube iframe {
-    left: -310px;
+    left: -70px;
     width: 70%;
-    height: 20%;
+    height: 60%;
   }
 
   #instafeed {
@@ -1367,15 +1293,15 @@ h4 {
   }
 
   #Twitter {
-    left: 55px;
+    left: 45px;
   }
 
   #Facebook {
-    left: 450px;
+    left: 455px;
   }
 
   #Pinterest {
-    left: 105px;
+    left: -10px;
   }
 
   #Twitter-Logo {
@@ -1734,7 +1660,7 @@ h4 {
   }
 
   #Pinterest {
-    left: -2vw;
+    left: 0vw;
   }
 
   #Pinterest-Logo {
@@ -1742,15 +1668,16 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 60%;
-    height: 10%;
-    left: -49%;
+    width: 70%;
+    height: 60%;
+    left: -5.5%;
     position: absolute;
   }
 
   #instafeed {
-    left: 3%;
-    width: 38%;
+    left: 5%;
+    width: 40%;
+    z-index: -1000;
   }
 
   #Reddit {
@@ -2301,8 +2228,9 @@ h4 {
   }
 
   #instafeed {
-    width: 40%;
-    left: -12%;
+    top: -3%;
+    width: 65%;
+    left: -13%;
   }
 
   #Facebook {
@@ -2311,9 +2239,9 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 35%;
+    width: 60%;
     height: 50%;
-    left: -2%;
+    left: 5%;
   }
 
   #Twitter {
@@ -2447,34 +2375,6 @@ h4 {
     width: 100%;
   }
 
-  .img-featured-container .img-backdrop {
-    background: none;
-    margin: none;
-    padding: none;
-    width: 0;
-    height: 0;
-    position:inherit;
-    z-index: -10;
-    opacity: 0;
-    transition: none;
-  }
-  .img-featured-container .description-container {
-    color: none;
-    font-size: 0px;
-    line-height: none;
-    padding: none;
-    text-align: center;
-    line-height: 0px;
-    width: 0;
-    position: inherit;
-    top: none;
-    left: none;
-    transform:none;
-    transform-style: none;
-    z-index: -20;
-    opacity: 0;
-    transition: none;
-  }
 
   #navhide1 > a, #navhide2 > a, #navhide3 > a {
   	 background-color: #2f7055;
@@ -2516,16 +2416,17 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 35%;
-    height: 10%;
-    left: -108vw;
-    top: 1%;
+    width: 65%;
+    height: 50%;
+    left: 5%;
+    top: 0.5%;
   }
 
   #instafeed {
-    top: 0%;
-    left: -17%;
-    width: 40%;
+    top: -4%;
+    left: -28%;
+    width: 70%;
+    z-index: -1000;
   }
 
   #Twitter {
@@ -2672,9 +2573,9 @@ h4 {
   }
 
   #instafeed {
-    top: 0%;
-    left: -17%;
-    width: 40%;
+    top: -4%;
+    left: -28%;
+    width: 70%;
     z-index: -1000;
   }
 
@@ -2769,16 +2670,17 @@ h4 {
   }
 
   #Youtube iframe {
-    width: 30%;
-    height: 10%;
-    left: -117vw;
-    top: 10vw;
+    left: 5%;
+    top: 3%;
+    width: 65%;
+    height: 50%;
   }
 
   #instafeed {
-    top: 0%;
-    left: -17%;
-    width: 35%;
+    top: -2%;
+    left: -32%;
+    width: 70%;
+    z-index: -1000;
   }
 
   #Twitter {
@@ -2831,9 +2733,10 @@ h4 {
   }
 
   #instafeed {
-    left: -16%;
-    width: 35%;
-    top: 2%;
+    top: -1%;
+    left: -32%;
+    width: 70%;
+    z-index: -1000;
   }
 
   #Youtube iframe {
@@ -2886,9 +2789,10 @@ h4 {
   /** Navbar width adjustment end **/
 
   #instafeed {
-    top: 1.3%;
-    width: 35%;
-    left: -18%;
+    top: -2%;
+    left: -32%;
+    width: 70%;
+    z-index: -1000;
   }
 
   #Youtube iframe {
@@ -2978,9 +2882,10 @@ h4 {
   }
 
   #instafeed {
-    width: 30%;
-    top: -73%;
-    left: -130px;
+    top: -77%;
+    left: -42%;
+    width: 80%;
+    z-index: -1000;
   }
 
   #Twitter {
