@@ -2447,6 +2447,35 @@ h4 {
     width: 100%;
   }
 
+  .img-featured-container .img-backdrop {
+    background: none;
+    margin: none;
+    padding: none;
+    width: 0;
+    height: 0;
+    position:inherit;
+    z-index: -10;
+    opacity: 0;
+    transition: none;
+  }
+  .img-featured-container .description-container {
+    color: none;
+    font-size: 0px;
+    line-height: none;
+    padding: none;
+    text-align: center;
+    line-height: 0px;
+    width: 0;
+    position: inherit;
+    top: none;
+    left: none;
+    transform:none;
+    transform-style: none;
+    z-index: -20;
+    opacity: 0;
+    transition: none;
+  }
+
   #navhide1 > a, #navhide2 > a, #navhide3 > a {
   	 background-color: #2f7055;
      left: 0px;
