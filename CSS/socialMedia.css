@@ -1073,7 +1073,7 @@ h4 {
 
   #instafeed {
     position: relative;
-    left: -70px;
+    left: -57px;
     width: 80%;
     display: block;
   }
@@ -1097,14 +1097,14 @@ h4 {
 
   #Youtube iframe {
     position: absolute;
-    left: 0px;
+    left: -30px;
     width: 60%;
     height: 70%;
   }
 
   #Pinterest {
     position: absolute;
-    left: 0px;
+    left: -25px;
   }
 
   #Twitter {
