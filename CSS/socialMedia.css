@@ -277,7 +277,7 @@ h4 {
   position: absolute;
   margin: auto;
   z-index: 1;
-  left: -25px;
+  left: -15px;
 }
 
 #Youtube iframe {
@@ -1036,9 +1036,10 @@ h4 {
 /**************** MEDIA QUERIES *****************************/
 /*************************************************************/
 
+/* Other laptops */
 
 /* Laptops */
-@media (max-width: 1440px) {
+@media (max-width: 1440px) and (max-height: 766px) {
   div {
     width: 100%;
   }
@@ -1097,7 +1098,7 @@ h4 {
 
   #Youtube iframe {
     position: absolute;
-    left: -30px;
+    left: -15px;
     width: 60%;
     height: 70%;
   }
@@ -1109,7 +1110,7 @@ h4 {
 
   #Twitter {
     position: absolute;
-    left: 250px;
+    left: 255px;
   }
 }
 
@@ -1233,6 +1234,21 @@ h4 {
 }
 
 /* Laptop */
+@media (max-width: 1400px) and (max-height: 766px) {
+  #Pinterest {
+    left: 0px;
+  }
+
+  #Youtube iframe {
+    left: 0px;
+  }
+
+  #instafeed {
+    left: -65px;
+  }
+}
+
+/* Laptop */
 @media (max-width: 1200px) and (max-height: 766px) {
   .tab {
     top: 50px;
@@ -1252,17 +1268,17 @@ h4 {
   }
 
   #Youtube iframe {
-    left: -230px;
-    /*height: 80%;
-    width: 80%;*/
+    left: -10px;
+    height: 40%;
+    width: 60%;
   }
 
   #Pinterest {
-    left: 200px;
+    left: 0px;
   }
 
   #Facebook {
-    left: 525px;
+    left: 570px;
   }
 }
 
@@ -1280,11 +1296,23 @@ h4 {
 
   #instafeed {
     width: 38%;
-    left: 130px;
+    left: -135px;
+    z-index: -1000;
+  }
+
+  .instaimg img {
+    margin: 25px 10px;
+    width: 240px;
+    height: 240px;
+  }
+
+  #rbgfooterbg {
+    height: 100%;
+    position: absolute;   /*Fix for Footer to cover rest of the IG feed; Will have to move tabs */
   }
 
   #Twitter {
-    left: 45px;
+    left: 46px;
   }
 
   #Facebook {
@@ -1292,7 +1320,7 @@ h4 {
   }
 
   #Pinterest {
-    left: -10px;
+    left: -14px;
   }
 
   #Twitter-Logo {
@@ -1341,7 +1369,7 @@ h4 {
   }
 
   .tabcontent {
-    top: 6%;
+    top: 7%;
   }
 
   .dropdown-menu a, .dropdown-menu li {
@@ -1543,7 +1571,7 @@ h4 {
   }
 
   #Youtube iframe {
-    left: -28%;
+    left: -29%;
     width: 55%;
     height: 10%;
   }
@@ -1553,7 +1581,7 @@ h4 {
   }
 
   #Pinterest {
-    left: 8%;
+    left: 0%;
   }
 
   #instafeed {
@@ -1568,13 +1596,13 @@ h4 {
   }*/
 
   .tab {
-    top: 60px;
+    top: 80px;
     left: 5%;
     transform: scale(0.9);
   }
 
   .tabcontent {
-    top: 5%;
+    top: 7.5%;
   }
 
   /* "-tl" Button tablinks */
@@ -1639,7 +1667,7 @@ h4 {
 
   #Twitter {
     width: 90%;
-    left: -1vw;
+    left: 1vw;
   }
 
   #Facebook {
@@ -1666,9 +1694,14 @@ h4 {
   }
 
   #instafeed {
-    left: 5%;
-    width: 40%;
+    left: -35%;
+    width: 60%;
     z-index: -1000;
+  }
+
+  #rbgfooterbg {
+    height: 100%;
+    position: absolute;   /*Fix for Footer to cover rest of the IG feed; Will have to move tabs */
   }
 
   #Reddit {
@@ -2304,8 +2337,6 @@ h4 {
   #Pinterest {
     top: 3.2%;
   }
-
-
 }
 
 /* Pixel 2 XL */
@@ -2391,10 +2422,14 @@ h4 {
   }
 
   #instafeed {
-    top: -4%;
-    left: -28%;
+    top: -3%;
+    left: -105%;
     width: 70%;
     z-index: -1000;
+  }
+
+  #rbgfooterbg {
+    position: none;   /*Fix for Footer to cover rest of the IG feed; Will have to move tabs */
   }
 
   #Twitter {
@@ -2603,8 +2638,8 @@ h4 {
   }
 
   #instafeed {
-    top: -2%;
-    left: -32%;
+    top: -1%;
+    left: -120%;
     width: 70%;
     z-index: -1000;
   }
