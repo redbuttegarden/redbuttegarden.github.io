@@ -359,14 +359,14 @@
   <!-- Tab Links for Logos -->
   <div class="tab-wrapper">
     <div class="tab">
-      <button class="tablinks tw-tl" onclick="openTab(event, 'Twitter')" id="defaultOpen">
-        <p>Twitter</p>
-        <img id="Twitter-Logo" src="/images/logos/TwitterLogo.png" alt="Twitter Logo" />
-      </button>
-
-      <button class="tablinks fb-tl" id="facebookBtn" onclick="openTab(event, 'Facebook')">
+      <button class="tablinks fb-tl" id="defaultOpen" onclick="openTab(event, 'Facebook')">
         <p>Facebook</p>
         <img id="Facebook-Logo" src="/images/logos/facebookLogo.png" alt="Facebook Logo" />
+      </button>
+
+      <button class="tablinks tw-tl" onclick="openTab(event, 'Twitter')" id="twitterBtn">
+        <p>Twitter</p>
+        <img id="Twitter-Logo" src="/images/logos/TwitterLogo.png" alt="Twitter Logo" />
       </button>
 
       <button class="tablinks pin-tl" onclick="openTab(event, 'Pinterest')">
@@ -383,11 +383,6 @@
         <p>Instagram</p>
         <img id="Instagram-Logo" src="/images/logos/instagramLogo.png" alt="Instagram Logo" />
       </button>
-
-      <!--<button class="tablinks rd-tl" onclick="openTab(event, 'Reddit')">
-        <p>Reddit</p>
-        <img id="Reddit-Logo" src="images/logos/redditLogo.png" alt="Reddit Logo" />
-      </button>-->
     </div>
   </div>
 
