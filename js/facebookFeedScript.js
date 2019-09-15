@@ -51,7 +51,7 @@
             // execute once (document.ready) and do not call FB.XFBML.parse()
             fixWidth($container, $clonedContainer, false);
 
-            $(window).on('load resize', function () {
+            $(window).on('resize', function () {
                 fixWidth($container, $clonedContainer);
             }).trigger('resize');
        });
