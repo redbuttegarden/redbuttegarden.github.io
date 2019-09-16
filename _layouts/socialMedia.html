@@ -7,24 +7,7 @@
     <meta name="author" content="Red Butte Garden">
     <!-- Tag for UDS Google Analytics (Marketing and Communications)-->
     <meta name="google-site-verification" content="SYzG0-ATvEy8GqOjJfv4OER9xYw3IUVMpB0mYLHTwWE" />
-    <!-- KSL Google Tag Manager -->
-    <script>
-      (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-T5L8MRQ');
-    </script>
-    <!-- End KSL Google Tag Manager -->
+
     <!-- Chrome, Firefox OS, Opera and Vivaldi -->
     <meta name="theme-color" content="#196143">
     <!-- Windows Phone -->
@@ -40,6 +23,9 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/js/tabs.js"></script>
     <script src="/js/facebookFeedScript.js"></script>
+    <script src="/js/GoogleTagManager.js"></script>
+    <script src="/js/KSL_GoogleTagManager.js"></script>
+    <script src="/js/SearchBarToggle.js"></script>
     <!-- <script src="/js/watchForHover.js"></script> -->
     <link rel="stylesheet" href="/CSS/socialMedia.css">
 
@@ -72,60 +58,6 @@
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1644186115889541&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
 
-    <!-- Begin Search Bar Toggle Script-->
-    <script type="text/javascript">
-      $(function() {
-        $(".searchbar").hide();
-
-
-        $(".searchicon").on("click",
-          function() {
-
-            if ($(".searchbar").is(":hidden")) {
-
-              $(".navbutton, .searchbar").toggle(300);
-              $(".searchicon").css("background-color", "#196143");
-
-              return;
-
-            } else if ($(".navbutton").is(":hidden")) {
-
-              $(".searchbar, .navbutton").toggle(300);
-              $(".searchicon").css("background-color", "transparent");
-              $('.searchicon').hover(
-                function() {
-                  var $this = $(this);
-                  $this.data('transparent', $this.css('background-color')).css('background-color', '#196143');
-                },
-                function() {
-                  var $this = $(this);
-                  $this.css('background-color', $this.data('transparent'));
-                }
-              );
-
-            }
-          });
-      });
-    </script>
-    <!-- End Search Bar Toggle Script -->
-    <!-- Google Tag Manager -->
-    <script>
-      (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-K3BCDT');
-    </script>
-    <!-- End Google Tag Manager -->
 </head>
 
 <!--BODY-->
@@ -138,8 +70,6 @@
   <div class="navbar-wrapper">
 
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-
-      <!--<div id="navbarbg" class="container-fluid">-->
 
         <div id="rbgnavbar" class="container-fluid">
 
@@ -347,9 +277,8 @@
 
         </div>
 
-      <!--</div>-->
-
     </nav>
+
   </div>
   <!-- End Navbar -->
 
@@ -403,24 +332,10 @@
 
     <div id="Facebook" class="tabcontent">
       <!-- Facebook Feed -->
-      <!--<div class="fb-container">
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fredbutte&tabs=timeline%2C%20events&width=500&height=900&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
-          width="360" height="812" style="border:none; overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" id="fbFrame">
-        </iframe>
-      </div>-->
-
-      <div class="fb-page"
-      data-href="https://www.facebook.com/redbutte"
-      data-tabs="timeline"
-      data-height="812"
-      data-small-header="false"
-      data-adapt-container-width="true"
-      data-hide-cover="false"
-      data-show-facepile="true"
-      mobile="false">
-      <blockquote cite="https://www.facebook.com/redbutte" class="fb-xfbml-parse-ignore">
-        <a href="https://www.facebook.com/facebook"></a>
-      </blockquote>
+      <div class="fb-page" data-href="https://www.facebook.com/redbutte" data-tabs="timeline" data-height="840" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" mobile="false">
+        <blockquote cite="https://www.facebook.com/redbutte" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/facebook"></a>
+        </blockquote>
       </div>
     </div>
 
@@ -463,16 +378,9 @@
   <div id="prefooter" class="container">
 
     <div class="row">
-      <!-- <div id="empty1" class="col-sm-2 hide-mobile">&nbsp;</div> -->
       <div class="col-xs-4"><a href="/memberships"><img src="/images/core/footer/prefooter-membership.png" class="responsive" /></a></div>
       <div class="col-xs-4"><a href="{% include give-link.html %}"><img src="/images/core/footer/prefooter-donate.png" class="responsive" /></a></div>
       <div class="col-xs-4"><a href="/volunteer"><img src="/images/core/footer/prefooter-volunteer.png" class="responsive" /></a></div>
-      <!--
-			<div class="col-sm-2"><a href="/memberships"><div class="footer-membership"></div></a></div>
-			<div class="col-sm-4"><a href="{% include give-link.html %}"><div class="footer-donate"></div></a></div>
-			<div class="col-sm-2"><a href="/volunteer"><div class="footer-volunteer"></div></a></div>
-			-->
-      <!-- <div id="empty2" class="col-sm-2 hide-mobile">&nbsp;</div> -->
     </div>
 
   </div>
@@ -494,7 +402,6 @@
         <li><a href="http://www.tripadvisor.com/Attraction_Review-g60922-d269627-Reviews-Red_Butte_Garden-Salt_Lake_City_Utah.html">
             <div class="tripadvisor"></div>
           </a></li>
-        <!-- <li><a href="#"><div class="googleplus"></div></a></li> -->
         <li><a href="https://www.facebook.com/redbutte">
             <div class="facebook"></div>
           </a></li>
@@ -507,7 +414,6 @@
         <li><a href="https://www.youtube.com/user/RedButteGarden">
             <div class="youtube"></div>
           </a></li>
-        <!-- <li><a href="#"></div></a></li> -->
         <li><a href="http://www.reddit.com/r/redbuttegarden">
             <div class="reddit"></div>
           </a></li>
@@ -646,12 +552,6 @@
       <div id="uofu" class="col-xs-4"><a href="https://www.utah.edu"><img src="/images/core/footer/footer-uofu-logo.png" class="responsive img-center hover" /></a></div>
       <div id="footerlogo" class="col-xs-4"><a href="https://www.redbuttegarden.org"><img src="/images/core/footer/rbg-footer-logo-new-stack.png" class="responsive img-center hover" /></a></div>
       <div id="zap" class="col-xs-4"><a href="http://www.zapisyou.org"><img src="/images/core/footer/footer-zap-logo.png" class="responsive img-center hover" /></a></div>
-
-      <!--
-			<div id="uofu" class="col-lg-2"><a href="http://www.utah.edu"><div class="uofu"></div></a></div>
-			<div id="footerlogo" class="col-lg-8"><a href="http://www.redbuttegarden.org"><div class="footerlogo"></div></a></div>
-			<div id="zap" class="col-lg-2"><a href="http://www.zapisyou.org"><div class="zap"></div></a></div>
-			-->
 
     </div>
     <div class="space">
