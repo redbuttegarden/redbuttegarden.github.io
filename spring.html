@@ -9,7 +9,7 @@ layout: "default"
 
 <div class="row-fluid">
 
-	<!-- BEGIN SPRING PLANT SALE -->
+	<!-- BEGIN SPRING PLANT SALE (special event page thumb) -->
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 			<a href="/spring-plant-sale">
 			<div class="eventwrapsmall hover">
@@ -17,8 +17,8 @@ layout: "default"
 				<img src="/images/events/spring-plant-sale.jpg">
 
 				<div class="eventinfo">
-					<div class="eventname">2019 ANNUAL SPRING PLANT SALE</div>
-					<div class="eventdate">FRIDAY &AMP; SATURDAY, MAY 10 &AMP; 11</div>
+					<div class="eventname">2020 ANNUAL SPRING PLANT SALE</div>
+					<div class="eventdate">FRIDAY &AMP; SATURDAY, MAY 8 &AMP; 9</div>
 					<div class="eventnotes">Fri - Member Benefit Day<br /> Sat - free public admission</div>
 				</div>
 
@@ -43,9 +43,9 @@ layout: "default"
 			 </div>
 			 </a>
 		 </div>-->
-	
 
-	<!-- BEGIN SPRING EVENTS -->
+
+	<!-- BEGIN NORMAL SPRING EVENTS -->
   {% for post in site.categories.spring reversed %}
     {% if post.url %}
 	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -65,6 +65,6 @@ layout: "default"
 	</div>
     {% endif %}
   {% endfor %}
-	<!-- END SPRING EVENTS -->
+	<!-- END NORMAL SPRING EVENTS -->
 
 </div>
