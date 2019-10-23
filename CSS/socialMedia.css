@@ -29,6 +29,10 @@ img {
   left: 30px;
 }
 
+#Twitter {
+  left: 27%;
+}
+
 .pinterest-feed {
   margin: auto;
   text-align: center;
@@ -250,7 +254,7 @@ h4 {
 }
 
 #Facebook {
-  left: 690px;
+  left: 684px;
   position: absolute;
 }
 
@@ -261,7 +265,7 @@ h4 {
 
 #instafeed {
   top: 0px;
-  left: -120px;
+  left: -115px;
   position: relative;
   width: 60%;
 }

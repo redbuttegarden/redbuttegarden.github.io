@@ -21,47 +21,26 @@ published: true
   <meta name="apple-mobile-web-app-status-bar-style" content="#196143">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/vaakash/socializer/80391a50/css/socializer.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.rawgit.com/vaakash/socializer/80391a50/css/socializer.min.css">
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="/js/tabs.js"></script>
-  <script src="/facebookFeedScript.js"></script>
-  <script src="/js/GoogleTagManager.js"></script>
-  <script src="/js/KSL_GoogleTagManager.js"></script>
-  <script src="/js/SearchBarToggle.js"></script>
+  <script src="/js/facebookFeedScript.js" async></script>
+  <script src="/js/GoogleTagManager.js" async></script>
+  <script src="/js/KSL_GoogleTagManager.js" async></script>
+  <script src="/js/SearchBarToggle.js" async></script>
+  <script src="/js/facebookPixelCode.js" async></script>
   <!-- <script src="/js/watchForHover.js"></script> -->
   <link rel="stylesheet" href="/CSS/socialMedia.css">
 
   <title>Enjoy the Garden | Red Butte Garden</title>
   {% include favicon.html %}
 
-
-  <!-- Facebook Pixel Code -->
-  <script>
-    ! function(f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function() {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = '2.0';
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1644186115889541');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1644186115889541&ev=PageView&noscript=1" /></noscript>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1644186115889541&ev=PageView&noscript=1" /></noscript>
   <!-- End Facebook Pixel Code -->
 
 </head>
@@ -71,7 +50,8 @@ published: true
 <body>
 
   <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0">
+  </script>
   <!-- Begin Navbar -->
   <div class="navbar-wrapper">
 
@@ -85,10 +65,12 @@ published: true
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a id="logo" class="pull-left" href="https://www.redbuttegarden.org"><img src="/images/core/rbg-logo-new.png" class="hover responsive" alt="Red Butte Garden" title="Red Butte Garden" /></a>
+          <a id="logo" class="pull-left" href="https://www.redbuttegarden.org"><img src="/images/core/rbg-logo-new.png"
+              class="hover responsive" alt="Red Butte Garden" title="Red Butte Garden" /></a>
 
           <a href="/search">
-            <div class="visible-xs visible-sm visible-md visible-lg pull-right searchicon searchicon-header responsive" style="max-width:35px;margin-top:7px"><img src="/images/core/search.png" /></div>
+            <div class="visible-xs visible-sm visible-md visible-lg pull-right searchicon searchicon-header responsive"
+              style="max-width:35px;margin-top:7px"><img src="/images/core/search.png" /></div>
           </a>
 
         </div>
@@ -131,7 +113,8 @@ published: true
             </li>
 
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">PLANTS &amp; GARDENS <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">PLANTS &amp; GARDENS <span
+                  class="caret"></span></a>
               <ul class="dropdown-menu">
                 <a href="/plant-collections">
                   <li>PLANT COLLECTIONS</li>
@@ -260,13 +243,15 @@ published: true
             </li>
 
             <li class="dropdown search" id="navhide4">
-              <span class="dropdown-toggle searchicon searchicon-mobile-menu hide-mobile"><a href="/search"><img src="/images/core/search.png"></a></span>
+              <span class="dropdown-toggle searchicon searchicon-mobile-menu hide-mobile"><a href="/search"><img
+                    src="/images/core/search.png"></a></span>
             </li>
 
             <br class="br-hide-lg" />
 
             <li class="dropdown navbutton" id="navhide1">
-              <a class="dropdown-toggle give" href="https://55218.blackbaudhosting.com/55218/Use-Where-Needed-Most">GIVE</a>
+              <a class="dropdown-toggle give"
+                href="https://55218.blackbaudhosting.com/55218/Use-Where-Needed-Most">GIVE</a>
             </li>
 
             <li class="dropdown navbutton" id="navhide2">
@@ -290,7 +275,8 @@ published: true
 
 
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3BCDT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3BCDT" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
 
@@ -331,7 +317,8 @@ published: true
     <div id="Twitter" class="tabcontent">
       <!-- Twitter Feed -->
       <div class="Twitter-Feed">
-        <a class="twitter-timeline" data-width="800" data-height="2300" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/redbuttegarden?ref_src=twsrc%5Etfw">
+        <a class="twitter-timeline" data-width="800" data-height="2300" data-theme="dark" data-link-color="#19CF86"
+          href="https://twitter.com/redbuttegarden?ref_src=twsrc%5Etfw">
         </a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
@@ -339,7 +326,9 @@ published: true
 
     <div id="Facebook" class="tabcontent">
       <!-- Facebook Feed -->
-      <div class="fb-page" data-href="https://www.facebook.com/redbutte" data-tabs="timeline" data-height="840" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" mobile="false">
+      <div class="fb-page" data-href="https://www.facebook.com/redbutte" data-tabs="timeline" data-height="840"
+        data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
+        mobile="false">
         <blockquote cite="https://www.facebook.com/redbutte" class="fb-xfbml-parse-ignore">
           <a href="https://www.facebook.com/facebook"></a>
         </blockquote>
@@ -349,7 +338,8 @@ published: true
     <div id="Pinterest" class="tabcontent">
       <!-- Pinterest Feed -->
       <div class="pinterest-feed">
-        <a data-pin-do="embedUser" href="https://www.pinterest.com/redbuttegarden/" data-pin-scale-width="120" data-pin-scale-height="920" data-pin-board-width="400">
+        <a data-pin-do="embedUser" href="https://www.pinterest.com/redbuttegarden/" data-pin-scale-width="120"
+          data-pin-scale-height="920" data-pin-board-width="400">
         </a>
         <script async type="text/javascript" src="https://assets.pinterest.com/js/pinit.js"></script>
       </div>
@@ -357,7 +347,9 @@ published: true
 
     <div id="Youtube" class="tabcontent">
       <!-- Youtube Feed -->
-      <iframe id="player" type="text/html" width="100%" height="80%" src="https://www.youtube.com/embed/WO6iQ41jzG4?enablejsapi=1&origin=https://www.redbuttegarden.org/social-media/" frameborder="0">
+      <iframe id="player" type="text/html" width="100%" height="80%"
+        src="https://www.youtube.com/embed/WO6iQ41jzG4?enablejsapi=1&origin=https://www.redbuttegarden.org/social-media/"
+        frameborder="0">
       </iframe>
     </div>
 
@@ -385,9 +377,12 @@ published: true
   <div id="prefooter" class="container">
 
     <div class="row">
-      <div class="col-xs-4"><a href="/memberships"><img src="/images/core/footer/prefooter-membership.png" class="responsive" /></a></div>
-      <div class="col-xs-4"><a href="{% include give-link.html %}"><img src="/images/core/footer/prefooter-donate.png" class="responsive" /></a></div>
-      <div class="col-xs-4"><a href="/volunteer"><img src="/images/core/footer/prefooter-volunteer.png" class="responsive" /></a></div>
+      <div class="col-xs-4"><a href="/memberships"><img src="/images/core/footer/prefooter-membership.png"
+            class="responsive" /></a></div>
+      <div class="col-xs-4"><a href="{% include give-link.html %}"><img src="/images/core/footer/prefooter-donate.png"
+            class="responsive" /></a></div>
+      <div class="col-xs-4"><a href="/volunteer"><img src="/images/core/footer/prefooter-volunteer.png"
+            class="responsive" /></a></div>
     </div>
 
   </div>
@@ -406,7 +401,8 @@ published: true
         <li><a href="http://www.yelp.com/biz/red-butte-garden-and-arboretum-salt-lake-city">
             <div class="yelp"></div>
           </a></li>
-        <li><a href="http://www.tripadvisor.com/Attraction_Review-g60922-d269627-Reviews-Red_Butte_Garden-Salt_Lake_City_Utah.html">
+        <li><a
+            href="http://www.tripadvisor.com/Attraction_Review-g60922-d269627-Reviews-Red_Butte_Garden-Salt_Lake_City_Utah.html">
             <div class="tripadvisor"></div>
           </a></li>
         <!-- <li><a href="#"><div class="googleplus"></div></a></li> -->
@@ -445,15 +441,24 @@ published: true
     <!-- BEGIN DESKTOP-FRIENDLY FOOTER LINKS -->
     <div class="rbgfooterlinks hide-mobile">
       <ul>
-        <li><a href="/contact">CONTACT US</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="/advisory-board">BOARD</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="/local-retail-partners">LOCAL RETAIL PARTNERS</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="/public-relations">PUBLIC RELATIONS</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="/general-info">INFO &amp; POLICIES</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="/employment">EMPLOYMENT</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="https://redbuttegarden.formstack.com/forms/donation_request_form" target="_blank">DONATION REQUEST</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="https://redbuttegarden.formstack.com/forms/info_update" target="_blank">UPDATE YOUR INFO</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="https://55218.blackbaudhosting.com/55218/page.aspx?pid=201" target="_blank">SIGN UP FOR OUR EVENT EBLASTS</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/contact">CONTACT US</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/advisory-board">BOARD</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/local-retail-partners">LOCAL RETAIL PARTNERS</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/public-relations">PUBLIC RELATIONS</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/general-info">INFO &amp; POLICIES</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/employment">EMPLOYMENT</a>&nbsp;&nbsp;&nbsp;&nbsp;<span
+            class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="https://redbuttegarden.formstack.com/forms/donation_request_form" target="_blank">DONATION
+            REQUEST</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="https://redbuttegarden.formstack.com/forms/info_update" target="_blank">UPDATE YOUR
+            INFO</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="https://55218.blackbaudhosting.com/55218/page.aspx?pid=201" target="_blank">SIGN UP FOR OUR EVENT
+            EBLASTS</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
       </ul>
     </div>
     <!-- END DESKTOP-FRIENDLY FOOTER LINKS -->
@@ -557,9 +562,12 @@ published: true
 
     <div class="row">
 
-      <div id="uofu" class="col-xs-4"><a href="https://www.utah.edu"><img src="/images/core/footer/footer-uofu-logo.png" class="responsive img-center hover" /></a></div>
-      <div id="footerlogo" class="col-xs-4"><a href="https://www.redbuttegarden.org"><img src="/images/core/footer/rbg-footer-logo-new-stack.png" class="responsive img-center hover" /></a></div>
-      <div id="zap" class="col-xs-4"><a href="http://www.zapisyou.org"><img src="/images/core/footer/footer-zap-logo.png" class="responsive img-center hover" /></a></div>
+      <div id="uofu" class="col-xs-4"><a href="https://www.utah.edu"><img src="/images/core/footer/footer-uofu-logo.png"
+            class="responsive img-center hover" /></a></div>
+      <div id="footerlogo" class="col-xs-4"><a href="https://www.redbuttegarden.org"><img
+            src="/images/core/footer/rbg-footer-logo-new-stack.png" class="responsive img-center hover" /></a></div>
+      <div id="zap" class="col-xs-4"><a href="http://www.zapisyou.org"><img
+            src="/images/core/footer/footer-zap-logo.png" class="responsive img-center hover" /></a></div>
 
     </div>
     <div class="space">
@@ -570,7 +578,8 @@ published: true
     </div>
     <div class="row">
 
-      <div id="contactinfo1" class="col-sm-12"><a href="tel:8015850556" style="color:white">801.585.0556</a> | 300 WAKARA WAY, SALT LAKE CITY, UT 84108</div>
+      <div id="contactinfo1" class="col-sm-12"><a href="tel:8015850556" style="color:white">801.585.0556</a> | 300
+        WAKARA WAY, SALT LAKE CITY, UT 84108</div>
       <div id="contactinfo2" class="col-sm-12">Copyright &copy; <script type="text/javascript">
           document.write(new Date().getFullYear());
         </script> Red Butte Garden</div>
@@ -583,9 +592,12 @@ published: true
     <!-- BEGIN DESKTOP-FRIENDLY FOOTER LINKS -->
     <div class="rbgfooterlinks hide-mobile">
       <ul>
-        <li><a href="http://www.utah.edu/nondiscrimination/">NONDISCRIMINATION &amp; ACCESSIBILITY</a>&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="http://www.utah.edu/disclaimer/">DISCLAIMER</a>&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="http://www.utah.edu/privacy/">PRIVACY</a>&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="http://www.utah.edu/nondiscrimination/">NONDISCRIMINATION &amp;
+            ACCESSIBILITY</a>&nbsp;&nbsp;&nbsp;<span class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="http://www.utah.edu/disclaimer/">DISCLAIMER</a>&nbsp;&nbsp;&nbsp;<span
+            class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="http://www.utah.edu/privacy/">PRIVACY</a>&nbsp;&nbsp;&nbsp;<span
+            class="hide-mobile">|</span>&nbsp;&nbsp;&nbsp;</li>
         <li><a href="http://www.utah.edu/credits.php">CREDITS &amp; ATTRIBUTIONS</a>&nbsp;&nbsp;&nbsp;</li>
       </ul>
     </div>
@@ -601,7 +613,8 @@ published: true
         <div class="col-xs-12">
           <div class="memfaqwrap">
             <a href="http://www.utah.edu/nondiscrimination/" target="_blank">
-              <input type="submit" value="NONDISCRIMINATION &amp; ACCESSIBILITY" class="footer-button hover" style="background-color:#BE122B;" />
+              <input type="submit" value="NONDISCRIMINATION &amp; ACCESSIBILITY" class="footer-button hover"
+                style="background-color:#BE122B;" />
             </a>
           </div>
           <br />
@@ -628,7 +641,8 @@ published: true
         <div class="col-xs-12">
           <div class="memfaqwrap">
             <a href="http://www.utah.edu/credits.php" target="_blank">
-              <input type="submit" value="CREDITS &amp; ATTRIBUTIONS" class="footer-button hover" style="background-color:#BE122B;" />
+              <input type="submit" value="CREDITS &amp; ATTRIBUTIONS" class="footer-button hover"
+                style="background-color:#BE122B;" />
             </a>
           </div>
           <br />
