@@ -9,24 +9,6 @@ layout: "default"
 
 <div class="row-fluid">
 
-	<!-- GARDEN AFTER DARK (special event page thumb)-->
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<a href="/garden-after-dark">
-			<div class="eventwrapsmall hover">
-
-				<img src="/images/events/garden-after-dark-thumb.jpg">
-
-				<div class="eventinfo">
-					<div class="eventname">GARDEN AFTER DARK</div>
-					<div class="eventdate">OCTOBER 24-26</div>
-					<div class="eventnotes">Tickets On Sale Now</div>
-				</div>
-
-			</div>
-			</a>
-		</div>
-	<!-- END GAD-->
-
 	<!-- BEGIN NORMAL FALL EVENTS -->
   {% for post in site.categories.fall reversed %}
     {% if post.url %}
@@ -48,5 +30,23 @@ layout: "default"
     {% endif %}
   {% endfor %}
 	<!-- END NORMAL FALL EVENTS -->
+
+	<!-- GARDEN AFTER DARK (special event page thumb- add to top of page in Oct)-->
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<a href="/garden-after-dark">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/garden-after-dark-thumb.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">GARDEN AFTER DARK</div>
+					<div class="eventdate">2020 Dates to be Announced</div>
+					<!--<div class="eventnotes">Tickets On Sale Now</div>-->
+				</div>
+
+			</div>
+			</a>
+		</div>
+	<!-- END GAD-->
 
 </div>
