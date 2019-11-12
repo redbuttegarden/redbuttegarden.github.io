@@ -2108,11 +2108,11 @@ hr {
 
 
 .ev-sub {
-	padding-top: 15px;
+	padding-top: 15px !important;
 }
 
 .ev-date {
-	margin-top: -20px;
+	margin-top: -20px !important;
 }
 
 
