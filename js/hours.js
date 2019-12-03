@@ -28,8 +28,8 @@ var hoursInfo;
 /**/	var thanksgivingDay = 22;			// Day of Month of Thanksgiving Holiday in November
 /**/
 /**/	var holidayPartyDay = 19;			// Day of Month we close for Holiday Party in December
-/**/	var holidayPartyClosingHour = 12; 	// Hour we close on day of Holiday Party (military time)
-/**/  var holidayPartyClosingMinute = 30; // Minute we close on day of Holiday Party (military time)
+/**/	var holidayPartyClosingHour = 14; 	// Hour we close on day of Holiday Party (military time)
+/**/  var holidayPartyClosingMinute = 0; // Minute we close on day of Holiday Party (military time)
 /**/
 /**/	var galaMonth = 0;					// Month of Gala
 /**/	var galaDay = 0; 					// Day of month of Gala
@@ -459,7 +459,7 @@ else if ( month == 10 || month == 11 || month == 12) {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /**/	// Shows message that we will close for holiday party on the day before holiday party
 /**/	if (month == 12 && day == (holidayPartyDay - 1)) {
-/**/		otherNotes = "The Garden Will Close Early Tomorrow at 12:30PM";
+/**/		otherNotes = "The Garden Will Close Early Tomorrow at 2PM";
 /**/		document.getElementById("otherNotes").innerHTML =  otherNotes;
 /**/			return;
 /**/		}
@@ -468,7 +468,7 @@ else if ( month == 10 || month == 11 || month == 12) {
 /**/	if (month == 12 && day == holidayPartyDay) {
 /**/		status = gardenClosedMessage;
 /**/		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-/**/		busHours = "9AM-12:30PM";
+/**/		busHours = "9AM-2PM";
 /**/		document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 /**/		otherNotes = "The Garden Will Close Early for our Annual Staff Holiday Party";
 /**/		document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
