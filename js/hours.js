@@ -27,7 +27,7 @@ var hoursInfo;
 /**/
 /**/	var thanksgivingDay = 22;			// Day of Month of Thanksgiving Holiday in November
 /**/
-/**/	var holidayPartyDay = 18;			// Day of Month we close for Holiday Party in December
+/**/	var holidayPartyDay = 19;			// Day of Month we close for Holiday Party in December
 /**/	var holidayPartyClosingHour = 12; 	// Hour we close on day of Holiday Party (military time)
 /**/  var holidayPartyClosingMinute = 30; // Minute we close on day of Holiday Party (military time)
 /**/
