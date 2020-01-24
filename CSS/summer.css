@@ -2617,6 +2617,10 @@ hr {
 }
 
 /* Botany Bin Table */
+.botany-bin-table {
+	display: block;
+}
+
 
 .botany-bin-table table, .offsite-pickup-table table {
 	margin-left: auto;
