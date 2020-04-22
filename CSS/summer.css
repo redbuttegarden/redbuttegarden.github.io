@@ -1976,7 +1976,7 @@ hr {
 
 .arbor-day-logo, .arbor-day-logo img {
 	width: 50%;
-	height: auto; 
+	height: auto;
 }
 
 .hide {
@@ -2806,4 +2806,8 @@ hr {
 
 .arbor-day-img, .arbor-day-img img {
 	width: 100%;
+}
+
+.center-block {
+	width: 50% !important;
 }
