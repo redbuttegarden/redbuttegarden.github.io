@@ -2805,9 +2805,5 @@ hr {
 }
 
 .arbor-day-img, .arbor-day-img img {
-	width: 100%;
-}
-
-.center-block {
-	width: 50% !important;
+	width: 100% !important;
 }
