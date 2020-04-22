@@ -2804,6 +2804,8 @@ hr {
 	font-size: 2em;
 }
 
-.arbor-day-img, .arbor-day-img img {
+/* .arbor-day-img, .arbor-day-img img {
 	width: 50% !important;
-}
+	background-color: red;
+	height: 500px;
+} */
