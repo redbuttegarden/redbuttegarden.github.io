@@ -1974,6 +1974,11 @@ hr {
 	height: auto;
 }
 
+.arbor-day-logo, .arbor-day-logo img {
+	width: 50%;
+	height: auto; 
+}
+
 .hide {
 	display: none;
 }
@@ -2797,4 +2802,8 @@ hr {
 
 .contact-two-text {
 	font-size: 2em;
+}
+
+.arbor-day-img, .arbor-day-img img {
+	width: 100%;
 }
