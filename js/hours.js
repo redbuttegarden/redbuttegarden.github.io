@@ -262,9 +262,13 @@ else if (month == 4) {
 
 else if (month == 5 || month == 6 || month == 7 || month == 8) {
 
-	busHours = "May 1-Aug 31: 9AM-9PM*";
+	// busHours = "May 1-Aug 31: 9AM-9PM*"; Pre-COVID Hours
+	busHours = "9:30AM - 5:00PM. Last entry time is 3:30PM.";
+	let reservations = "Tickets & Reservations Required.";
 	otherNotes = "*Garden Hours on Concert Days: 9AM-5PM";
+
 	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
+	document.getElementById("gardenHours-reservations").innerHTML = document.getElementById("gardenHours2-reservations").innerHTML = reservations;
 	document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
 
 		if (hours >= 9 && hours < 20) {
