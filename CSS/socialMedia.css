@@ -95,6 +95,7 @@ h4 {
 .tabcontent {
   display: none;
   padding: 6px 12px;
+  /* position: absolute; */
   top: 220px;
   left: 500px;
   width: 100%;
@@ -263,9 +264,11 @@ h4 {
 }
 
 
-#Instagram {
-  width: 100%;
-  left: 0px; 
+#instafeed {
+  top: 0px;
+  left: -115px;
+  position: relative;
+  width: 60%;
 }
 
 
