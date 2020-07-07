@@ -99,7 +99,7 @@ h4 {
   left: 500px;
   width: 100%;
   height: 800px;
-  margin-top: 40px;
+  margin-top: 30px;
   animation: 1.2s ease-out 0s 1 slideInFromBottom;
 }
 
@@ -263,11 +263,9 @@ h4 {
 }
 
 
-#instafeed {
-  top: 0px;
-  left: -115px;
-  position: relative;
-  width: 60%;
+#Instagram {
+  width: 100%;
+  left: 0px; 
 }
 
 
