@@ -283,3 +283,46 @@ h4 {
     transform: scale(0.4);
   }
 }
+
+/* 500px for iPhones/Androids. */
+@media all and (max-width:500px) {
+
+  .tab-wrapper {
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .tc-wrapper {
+    width: 100%;
+    justify-content: right;
+    flex: 1;
+  }
+
+  .tab {
+    flex: 1;
+    float: left;
+  }
+
+  .tab button p {
+    display: none;
+  }
+
+  .tabcontent {
+    padding-right: 500px;
+  }
+
+  #Instagram {
+    width: 180%;
+    position: absolute;
+    padding: inherit;
+    height: auto;
+    top: 0;
+  }
+
+  #Youtube {
+    margin-left: -152px;
+  }
+
+  #Youtube iframe {
+    transform: scale(0.4);
+  }
