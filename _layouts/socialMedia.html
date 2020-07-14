@@ -20,11 +20,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/js/tabs.js"></script>
-    <!-- <script src="/js/facebookFeedScript.js" async></script> -->
+    <script src="/js/facebookFeedScript.js" async></script>
     <script src="/js/GoogleTagManager.js" async></script>
     <script src="/js/KSL_GoogleTagManager.js" async></script>
     <script src="/js/SearchBarToggle.js" async></script>
     <script src="/js/facebookPixelCode.js" async></script>
+    <script src="/js/ResizeSensor/ElementQueries.js"></script>
+    <script src="/js/ResizeSensor/ResizeSensor.js"></script>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+        appId            : '2681566298739547',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v7.0'
+      });
+    };
+  </script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
     <!-- <script src="/js/watchForHover.js"></script> -->
     <link rel="stylesheet" href="/CSS/summer.css?v={% include css-js-versions.html %}"> <!-- Additional local CSS -->
     <link rel="stylesheet" href="/CSS/socialMedia.css">

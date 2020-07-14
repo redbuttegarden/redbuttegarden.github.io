@@ -42,12 +42,44 @@ published: true
 
       <div id="Facebook" class="tabcontent">
         <!-- Facebook Feed -->
-        <div class="fb-page" data-href="https://www.facebook.com/redbutte" data-tabs="timeline" data-height="840" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" mobile="false">
-          <blockquote cite="https://www.facebook.com/redbutte" class="fb-xfbml-parse-ignore">
-            <a href="https://www.facebook.com/facebook"></a>
-          </blockquote>
+        <div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=443271375714375";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+
+        (document, 'script', 'facebook-jssdk'));
+
+        jQuery(document).ready(function($) {
+        $(window).bind("load resize", function() {
+        setTimeout(function() {
+          var container_width = $('#Facebook').width();
+          $('#Facebook').html('<div class="fb-page" ' +
+          'data-href="http://www.facebook.com/redbutte"' +
+          ' data-width="' + container_width + '" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="http://www.facebook.com/redbutte"><a href="http://www.facebook.com/redbutte"></a></blockquote></div></div>');
+          FB.XFBML.parse( );
+        }, 100);
+      });
+    });
+    </script>
+
+        <div class="fb-page"
+          data-href="https://www.facebook.com/redbutte"
+          data-tabs="timeline"
+          data-width="350"
+          data-height="650"
+          data-small-header="true"
+          data-adapt-container-width="false"
+          data-hide-cover="false"
+          data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/redbutte" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/redbutte"></a></blockquote>
         </div>
       </div>
+    </div>
 
       <div id="Pinterest" class="tabcontent">
         <!-- Pinterest Feed -->
