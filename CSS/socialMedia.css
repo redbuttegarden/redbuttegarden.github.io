@@ -207,12 +207,6 @@ h4 {
   margin: auto;
 }
 
-.fb-page[max-width~="800px"] {
-  width: 50%;
-  margin: auto;
-  text-align: center;
-}
-
 #Twitter {
   width: 100%;
 }
@@ -263,7 +257,7 @@ h4 {
   }
 
   .tabcontent {
-    /* padding-right: 500px; */
+    padding-right: 500px;
   }
 
   #Facebook {
@@ -277,6 +271,7 @@ h4 {
     padding: inherit;
     height: auto;
     top: 0;
+    left: 150%; 
   }
 
   #Youtube {
