@@ -5,6 +5,7 @@ layout: plant-map-layout
 <script src="/js/leaflet.geocsv.js"></script>
 <script src="/js/leaflet.markercluster.js"></script>
 <div id="mapid"></div>
+<div id="loading">Loading...</div>
 <script>
 var mymap = L.map('mapid').setView([40.766420, -111.824748], 17);
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -16,16 +17,39 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiYXVzbGFuZXIiLCJhIjoiY2tlMXZ2Yml0MDNlODJ1c3p6d2IweWRobiJ9.UPSxvlFp9B5NYelSHUwhRw'
 }).addTo(mymap);
 
-$.get('/data/living_plant_collections.csv', function(csvContents) {
-    var geoLayer = L.geoCsv(csvContents, {
-      firstLineTitles: true, fieldSeparator: ',',
-      titles: ['latitude', 'longitude'],
-      latitudeTitle: 'latitude',
-      longitudeTitle: 'longitude'
-    });
-    var cluster = new L.MarkerClusterGroup();
-		cluster.addLayer(geoLayer);
+var plants = L.geoCsv(null, {
+	onEachFeature: function (feature, layer) {
+		var popup = '';
+		for (var clave in feature.properties) {
+			var title = plants.getPropertyTitle(clave);
+			popup += '<b>'+title+'</b><br />'+feature.properties[clave]+'<br /><br />';
+		}
+		layer.bindPopup(popup);
+	},
+	firstLineTitles: true,
+  fieldSeparator: ',',
+  titles: ['latitude', 'longitude'],
+  latitudeTitle: 'latitude',
+  longitudeTitle: 'longitude'
+});
+
+$.ajax ({
+	type:'GET',
+	dataType:'text',
+	url:'/data/living_plant_collections.csv',
+   error: function() {
+     alert('Data could not be loaded');
+   },
+	success: function(csv) {
+      var cluster = new L.MarkerClusterGroup();
+		plants.addData(csv);
+		cluster.addLayer(plants);
 		mymap.addLayer(cluster);
 		mymap.fitBounds(cluster.getBounds());
+	},
+   complete: function() {
+      $('#loading').delay(500).fadeOut('slow');
+   }
 });
+
 </script>
