@@ -1,0 +1,31 @@
+---
+title: Plant Map
+layout: plant-map-layout
+---
+<script src="/js/leaflet.geocsv.js"></script>
+<script src="/js/leaflet.markercluster.js"></script>
+<div id="mapid"></div>
+<script>
+var mymap = L.map('mapid').setView([40.766420, -111.824748], 17);
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 19,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1IjoiYXVzbGFuZXIiLCJhIjoiY2tlMXZ2Yml0MDNlODJ1c3p6d2IweWRobiJ9.UPSxvlFp9B5NYelSHUwhRw'
+}).addTo(mymap);
+
+$.get('/data/living_plant_collections.csv', function(csvContents) {
+    var geoLayer = L.geoCsv(csvContents, {
+      firstLineTitles: true, fieldSeparator: ',',
+      titles: ['latitude', 'longitude'],
+      latitudeTitle: 'latitude',
+      longitudeTitle: 'longitude'
+    });
+    var cluster = new L.MarkerClusterGroup();
+		cluster.addLayer(geoLayer);
+		mymap.addLayer(cluster);
+		mymap.fitBounds(cluster.getBounds());
+});
+</script>

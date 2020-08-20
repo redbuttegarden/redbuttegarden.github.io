@@ -1,0 +1,3 @@
+#mapid { height: 40vw; }
+
+.leaflet-fade-anim .leaflet-tile,.leaflet-zoom-anim .leaflet-zoom-animated { will-change:auto !important; }
