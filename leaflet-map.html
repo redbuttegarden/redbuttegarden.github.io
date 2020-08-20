@@ -1,0 +1,55 @@
+---
+title: Plant Map
+layout: plant-map-layout
+---
+<script src="/js/leaflet.geocsv.js"></script>
+<script src="/js/leaflet.markercluster.js"></script>
+<div id="mapid"></div>
+<div id="loading">Loading...</div>
+<script>
+var mymap = L.map('mapid').setView([40.766420, -111.824748], 17);
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 19,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1IjoiYXVzbGFuZXIiLCJhIjoiY2tlMXZ2Yml0MDNlODJ1c3p6d2IweWRobiJ9.UPSxvlFp9B5NYelSHUwhRw'
+}).addTo(mymap);
+
+var plants = L.geoCsv(null, {
+	onEachFeature: function (feature, layer) {
+		var popup = '';
+		for (var clave in feature.properties) {
+			var title = plants.getPropertyTitle(clave);
+			popup += '<b>'+title+'</b><br />'+feature.properties[clave]+'<br /><br />';
+		}
+		layer.bindPopup(popup);
+	},
+	firstLineTitles: true,
+  fieldSeparator: ',',
+  titles: ['latitude', 'longitude'],
+  latitudeTitle: 'latitude',
+  longitudeTitle: 'longitude'
+});
+
+$.ajax ({
+	type:'GET',
+	dataType:'text',
+	url:'/data/living_plant_collections.csv',
+   error: function() {
+     alert('Data could not be loaded');
+   },
+	success: function(csv) {
+      var cluster = new L.MarkerClusterGroup();
+		plants.addData(csv);
+		cluster.addLayer(plants);
+		mymap.addLayer(cluster);
+		mymap.fitBounds(cluster.getBounds());
+	},
+   complete: function() {
+      $('#loading').delay(500).fadeOut('slow');
+   }
+});
+
+</script>
