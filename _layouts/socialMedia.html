@@ -2,48 +2,54 @@
 <html>
 <head>
   <title>Social Media</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Red Butte Garden">
-    <!-- Tag for UDS Google Analytics (Marketing and Communications)-->
-    <meta name="google-site-verification" content="SYzG0-ATvEy8GqOjJfv4OER9xYw3IUVMpB0mYLHTwWE" />
-    <!-- Chrome, Firefox OS, Opera and Vivaldi -->
-    <meta name="theme-color" content="#196143">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#196143">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#196143">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/vaakash/socializer/80391a50/css/socializer.min.css">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="/js/tabs.js"></script>
-    <script src="/js/facebookFeedScript.js" async></script>
-    <script src="/js/GoogleTagManager.js" async></script>
-    <script src="/js/KSL_GoogleTagManager.js" async></script>
-    <script src="/js/SearchBarToggle.js" async></script>
-    <script src="/js/facebookPixelCode.js" async></script>
-    <script src="/js/ResizeSensor/ElementQueries.js"></script>
-    <script src="/js/ResizeSensor/ResizeSensor.js"></script>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-        appId            : '2681566298739547',
-        autoLogAppEvents : true,
-        xfbml            : true,
-        version          : 'v7.0'
-      });
-    };
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:url" content="{{ site.url }}/{{ page.path }}" />
+  <meta property="og:type" content="website" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Red Butte Garden">
+  <!-- Tag for UDS Google Analytics (Marketing and Communications)-->
+  <meta name="google-site-verification" content="SYzG0-ATvEy8GqOjJfv4OER9xYw3IUVMpB0mYLHTwWE" />
+  <!-- Chrome, Firefox OS, Opera and Vivaldi -->
+  <meta name="theme-color" content="#196143">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#196143">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#196143">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/vaakash/socializer/80391a50/css/socializer.min.css">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="/js/tabs.js"></script>
+  <script src="/js/facebookFeedScript.js" async></script>
+  <script src="/js/GoogleTagManager.js" async></script>
+  <script src="/js/KSL_GoogleTagManager.js" async></script>
+  <script src="/js/SearchBarToggle.js" async></script>
+  <script src="/js/facebookPixelCode.js" async></script>
+  <script src="/js/ResizeSensor/ElementQueries.js"></script>
+  <script src="/js/ResizeSensor/ResizeSensor.js"></script>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '2681566298739547',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v7.0'
+    });
+  };
   </script>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-    <!-- <script src="/js/watchForHover.js"></script> -->
-    <link rel="stylesheet" href="/CSS/summer.css?v={% include css-js-versions.html %}"> <!-- Additional local CSS -->
-    <link rel="stylesheet" href="/CSS/socialMedia.css">
-    <title>Enjoy the Garden | Red Butte Garden</title>
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1644186115889541&ev=PageView&noscript=1" /></noscript>
-    <!-- End Facebook Pixel Code -->
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <!-- <script src="/js/watchForHover.js"></script> -->
+  <link rel="stylesheet" href="/CSS/summer.css?v={% include css-js-versions.html %}"> <!-- Additional local CSS -->
+  <link rel="stylesheet" href="/CSS/socialMedia.css">
+  <title>Enjoy the Garden | Red Butte Garden</title>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1644186115889541&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 </head>
 <!--BODY-->
 <body>
@@ -51,26 +57,26 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
   <!-- KSL Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5L8MRQ"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End KSL Google Tag Manager (noscript) -->
-  {% include navbar.html %}
-  {% include marketing-body.html %}
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End KSL Google Tag Manager (noscript) -->
+    {% include navbar.html %}
+    {% include marketing-body.html %}
 
 
-  <div id="rbgdefaultbody" class="container-fluid">
-    <div class="row">
-    	  <div class="col-lg-12 col-md-12 col-sm-6 col-xs-3">
+    <div id="rbgdefaultbody" class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-6 col-xs-3">
           {{ content }}
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Google Analytics Code -->
+    <!-- Google Analytics Code -->
 
-  {% include google-analytics.html %}
+    {% include google-analytics.html %}
 
   </body>
 
   {% include footer.html %}
   {% include seasonal-css-js.html %}
-</html>
+  </html>
