@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<!-- meta tags for SEO and indexing -->
-	<meta name="keywords" content="{% include keywords.html %}, {{ page.keywords }}" >
-	<meta name="description" content="{{ page.title }}" >
+	<!-- Keywords tag removed since it is discouraged by modern search engines -->
+	<meta name="description" content="{{ page.description }}" >
 	<meta name="author" content="Red Butte Garden">
 	<!-- Tag for UDS Google Analytics (Marketing and Communications)-->
 	<meta name="google-site-verification" content="SYzG0-ATvEy8GqOjJfv4OER9xYw3IUVMpB0mYLHTwWE" />
@@ -12,138 +12,144 @@
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-T5L8MRQ');</script>
-	<!-- End KSL Google Tag Manager -->
-	<!-- Chrome, Firefox OS, Opera and Vivaldi -->
-	<meta name="theme-color" content="#196143">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#196143">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#196143">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+})(window,document,'script','dataLayer','GTM-T5L8MRQ');</script>
+<!-- End KSL Google Tag Manager -->
+<!-- Chrome, Firefox OS, Opera and Vivaldi -->
+<meta name="theme-color" content="#196143">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#196143">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#196143">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-      <title>Enjoy the Garden | Red Butte Garden</title>
-  {% include favicon.html %}
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" /> <!-- Font 'Open Sans' Hosted by Google -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<title>Enjoy the Garden | Red Butte Garden</title>
 
-  <link rel="stylesheet" href="/CSS/summer.css?v={% include css-js-versions.html %}"> <!-- Additional local CSS -->
+<!-- Open Graph Tags -->
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:type" content="website" />
 
-	<!-- Facebook Pixel Code -->
+{% include favicon.html %}
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" /> <!-- Font 'Open Sans' Hosted by Google -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="/CSS/summer.css?v={% include css-js-versions.html %}"> <!-- Additional local CSS -->
+
+<!-- Facebook Pixel Code -->
 <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1644186115889541');
-  fbq('track', 'PageView');
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '1644186115889541');
+	fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1644186115889541&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+	src="https://www.facebook.com/tr?id=1644186115889541&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
 
-{% include etix_google_analytics.html %}
-{% include marketing-header.html %}
+	{% include etix_google_analytics.html %}
+	{% include marketing-header.html %}
 </head>
 <body>
-{% include marketing-body.html %}
-{% include facebook-plugin.html %}
-<!-- KSL Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5L8MRQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End KSL Google Tag Manager (noscript) -->
+	{% include marketing-body.html %}
+	{% include facebook-plugin.html %}
+	<!-- KSL Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5L8MRQ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End KSL Google Tag Manager (noscript) -->
 
-{% include navbar.html %}
+		{% include navbar.html %}
 
-<div id="slider-wrapper">
+		<div id="slider-wrapper">
 
-    <div id="inner-slider-wrapper1">
-    <div id="inner-slider-wrapper2">
+			<div id="inner-slider-wrapper1">
+				<div id="inner-slider-wrapper2">
 
-        <!-- Jssor Slider Begin -->
-        <div id="slider1_container">
-            <!-- Slides Container -->
-            <div id="slides" u="slides">
+					<!-- Jssor Slider Begin -->
+					<div id="slider1_container">
+						<!-- Slides Container -->
+						<div id="slides" u="slides">
 
-            {% include eventslides.html %}
+							{% include eventslides.html %}
 
-            </div>
+						</div>
 
-            <!-- bullet navigator container -->
-            <div u="navigator" class="jssorb21" style="top: 68px;">
-                <!-- bullet navigator item prototype -->
-                <div u="prototype"></div>
-            </div>
+						<!-- bullet navigator container -->
+						<div u="navigator" class="jssorb21" style="top: 68px;">
+							<!-- bullet navigator item prototype -->
+							<div u="prototype"></div>
+						</div>
 
-            <!-- Arrow Left -->
-            <span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;"></span>
+						<!-- Arrow Left -->
+						<span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;"></span>
 
-            <!-- Arrow Right -->
-            <span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;"></span>
+						<!-- Arrow Right -->
+						<span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;"></span>
 
-        </div>
-        <!-- Jssor Slider End -->
+					</div>
+					<!-- Jssor Slider End -->
 
-        <!-- Begin Page Down Code -->
-		<div id="page-down2" class="col-xs-12">
-			<span class="page-down-icon"><img src="/images/core/down-arrow.png" /></span>
-			<!-- Code for Sprite Option -->
-			<!-- <span class="page-down-icon" style="background-color:red;"><span class="jssora21l"></span></span> -->
-		</div>
-		<!-- End Page Down Code -->
+					<!-- Begin Page Down Code -->
+					<div id="page-down2" class="col-xs-12">
+						<span class="page-down-icon"><img src="/images/core/down-arrow.png" /></span>
+						<!-- Code for Sprite Option -->
+						<!-- <span class="page-down-icon" style="background-color:red;"><span class="jssora21l"></span></span> -->
+					</div>
+					<!-- End Page Down Code -->
 
-    </div>
-    </div>
-    <!-- Begin Inner Info Div -->
-    <div id="rbg-info-wrapper1">
-	<div id="rbginfobg">
-
-		<div id="rbginfo" class="row-fluid clearfix">
-
-			<div id="rbghours" class="col-xs-3"><a href="/general-info"><div class="rbghours hover"></div></a>
-				<!-- <div class="red text-center bold">The Garden is Closed Today due to Inclement Weather</div> -->
-				<div id="gardenHours"><span class="red text-center"></span></div>
-				<div id="gardenHours-reservations"><span class="red text-center"></span></div>
-				<div id="gardenStatus"></div>
-
-				<!-- NEW GARDEN STATUS DUE TO CORONA VIRUS CLOSURE;
-						 GO BACK TO GARDENSTATUS AND GARDENSTATUS2 DIV WHEN OVER -->
-
-				<!-- <div>
-					<div style= color:white;font-weight:bold;>The Garden is Closed Now Until Further Notice</div>
-				</div> -->
-
-				<div id="otherNotes"></div>
+				</div>
 			</div>
-			<div id="rbgadmission" class="col-xs-3" onclick="admissionHoverOn()"><a href="#"><div class="rbgadmission hover"></div></a></div>
-			<div id="rbgdirections" class="col-xs-3"><a href="{% link directions.html %}"><div class="rbgdirections hover"></div></a></div>
-			<div id="rbgweather" class="col-xs-3"><a href="https://www.weatherbug.com/weather-camera/?cam=SLTWK" target="_blank"><div class="rbgweather hover"></div></a></div>
+			<!-- Begin Inner Info Div -->
+			<div id="rbg-info-wrapper1">
+				<div id="rbginfobg">
 
-			<!-- Begin Page Down Code for Slides on Mobile -->
-			<div id="page-down" class="col-xs-12">
-				<center><span class="page-down-icon"><img src="/images/core/down-arrow.png" /></span></center>
-				<!-- Code for Sprite Option -->
-				<!-- <span class="page-down-icon" style="background-color:red;"><span class="jssora21l"></span></span> -->
+					<div id="rbginfo" class="row-fluid clearfix">
+
+						<div id="rbghours" class="col-xs-3"><a href="/general-info"><div class="rbghours hover"></div></a>
+						<!-- <div class="red text-center bold">The Garden is Closed Today due to Inclement Weather</div> -->
+						<div id="gardenHours"><span class="red text-center"></span></div>
+						<div id="gardenHours-reservations"><span class="red text-center"></span></div>
+						<div id="gardenStatus"></div>
+
+						<!-- NEW GARDEN STATUS DUE TO CORONA VIRUS CLOSURE;
+						GO BACK TO GARDENSTATUS AND GARDENSTATUS2 DIV WHEN OVER -->
+
+						<!-- <div>
+						<div style= color:white;font-weight:bold;>The Garden is Closed Now Until Further Notice</div>
+					</div> -->
+
+					<div id="otherNotes"></div>
+				</div>
+				<div id="rbgadmission" class="col-xs-3" onclick="admissionHoverOn()"><a href="{% link general-info.html %}"><div class="rbgadmission hover"></div></a></div>
+				<div id="rbgdirections" class="col-xs-3"><a href="{% link directions.html %}"><div class="rbgdirections hover"></div></a></div>
+				<div id="rbgweather" class="col-xs-3"><a href="https://www.weatherbug.com/weather-camera/?cam=SLTWK" target="_blank"><div class="rbgweather hover"></div></a></div>
+
+				<!-- Begin Page Down Code for Slides on Mobile -->
+				<div id="page-down" class="col-xs-12">
+					<center><span class="page-down-icon"><img src="/images/core/down-arrow.png" /></span></center>
+					<!-- Code for Sprite Option -->
+					<!-- <span class="page-down-icon" style="background-color:red;"><span class="jssora21l"></span></span> -->
+				</div>
+				<!-- End Page Down Code for Slides on Mobile -->
+
 			</div>
-			<!-- End Page Down Code for Slides on Mobile -->
 
 		</div>
-
-	</div>
 
 	</div>
 	<!-- End Inner Info Div-->
@@ -158,78 +164,78 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div id="rbginfo" class="row">
 
 			<div id="rbghours" class="col-sm-3">
-					<br />
-					<b>GARDEN HOURS (MDT)</b> -->
-					<!-- <div class="text-center red bold">The Garden is Closed Today due to Inclement Weather</div> -->
-					<div id="gardenHours2"><span class="red text-center"></span></div>
-					<div id="gardenHours2-reservations"><span class="red text-center"></span></div>
-					<!-- <div id="gardenStatus2"></div> -->
-					<!-- <div style= color:red;font-weight:bold;>The Garden is Closed Now Until Further Notice</div>
-					<div id="otherNotes2"></div><br />
-					<div>Only Service Animals are allowed in the garden</div><br />
-					<a href="/general-info" style="text-decoration:none;color:#FFFFFF;font-size:12px">CLICK TO SEE ALL HOURS</a>
-					<br /><br />
+				<br />
+				<b>GARDEN HOURS (MDT)</b> -->
+				<!-- <div class="text-center red bold">The Garden is Closed Today due to Inclement Weather</div> -->
+				<div id="gardenHours2"><span class="red text-center"></span></div>
+				<div id="gardenHours2-reservations"><span class="red text-center"></span></div>
+				<!-- <div id="gardenStatus2"></div> -->
+				<!-- <div style= color:red;font-weight:bold;>The Garden is Closed Now Until Further Notice</div>
+				<div id="otherNotes2"></div><br />
+				<div>Only Service Animals are allowed in the garden</div><br />
+				<a href="/general-info" style="text-decoration:none;color:#FFFFFF;font-size:12px">CLICK TO SEE ALL HOURS</a>
+				<br /><br />
 			</div>
 
 			<div id="rbgadmission2" class="col-sm-3">
 
-				{% include admission.html %}
-
-			</div>
-
-			<div id="rbgdirections" class="col-sm-3">
-				<div class="memfaqwrap">
-					<br />
-					<a href="/directions"><div class="memfaq volbutton">HOW TO GET HERE</div></a>
-					<br />
-				</div>
-			</div>
-
-			<div id="rbgweather" class="col-sm-3">
-				<div class="memfaqwrap">
-					<br />
-					<a a href="https://weather.com/weather/today/l/84108:4:US" target="_blank"><div class="memfaq volbutton">TODAY'S WEATHER</div></a>
-					<br />
-				</div>
-			</div>
+			{% include admission.html %}
 
 		</div>
 
+		<div id="rbgdirections" class="col-sm-3">
+		<div class="memfaqwrap">
+		<br />
+		<a href="/directions"><div class="memfaq volbutton">HOW TO GET HERE</div></a>
+		<br />
 	</div>
+</div>
+
+<div id="rbgweather" class="col-sm-3">
+<div class="memfaqwrap">
+<br />
+<a a href="https://weather.com/weather/today/l/84108:4:US" target="_blank"><div class="memfaq volbutton">TODAY'S WEATHER</div></a>
+<br />
+</div>
+</div>
+
+</div>
+
+</div>
 </div>
 
 <!-- End Outer Info Div -->
 
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
 
 <!-- Begin Content -->
 <div id="rbghomebody" class="container-fluid">
-  <div class="row">
-  	  <div class="col-sm-12">
+	<div class="row">
+		<div class="col-sm-12">
 
-  	  {{ content }}
+			{{ content }}
 
-  	  </div>
-  </div>
+		</div>
+	</div>
 </div>
 
 {% include footer.html %}
 
 <!-- End Main Content -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-		<script src="js/hours.js?v={% include css-js-versions.html %}"></script>
-		<script type="text/javascript" src="js/jssor.slider.mini.js"></script>
-	{% include seasonal-css-js.html %}
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/hours.js?v={% include css-js-versions.html %}"></script>
+<script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+{% include seasonal-css-js.html %}
 
-	{% include jssor-slideshow-js.html %}
+{% include jssor-slideshow-js.html %}
 
 
 

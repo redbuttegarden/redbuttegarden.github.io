@@ -113,73 +113,75 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 	// Hours for individual concert days (which will change every year),
 	// the Gala, and other miscellaneous days that we will close at 5PM
 
-	if (
-			(month == 5 && day == 31)						// Concert 01 	- Bela Fleck
-	|| 	(month == 6 && day == 5) 					  // Concert 02 	- Little Feat
-	|| 	(month == 6 && day == 6)						// Concert 03 	- Shakespeare Event
-	|| 	(month == 6 && day == 25)						// Concert 04 	- Howard Jones and men without hats
-	|| 	(month == 6 && day == 26)						// Concert 05 	- Lucinda Williams
-	|| 	(month == 6 && day == 27)						// Concert 06 	- Greensky Bluegrass
-	|| 	(month == 7 && day == 2)						// Concert 07 	- Utah Symphony
-	|| 	(month == 7 && day == 10) 					// Concert 08 	- Galactic
-	|| 	(month == 7 && day == 11)						// Concert 09 	- Pink Martini
-	|| 	(month == 7 && day == 14)						// Concert 10 	- Lyle Lovett and his large band
-	|| 	(month == 7 && day == 18)						// Concert 11 	- Seal
-	|| 	(month == 7 && day == 23)						// Concert 12 	- Nathaniel Rateliff and the nightsweats
-	|| 	(month == 7 && day == 26)						// Concert 13 	- Trampled By Turtles
-	|| 	(month == 7 && day == 30)						// Concert 14		- John Prine
-	|| 	(month == 8 && day == 4)						// Concert 15		- Umphrey's McGee
-	|| 	(month == 8 && day == 5)						// Concert 16		- Jonny Lang | JJ Grey and Mofro
-	|| 	(month == 8 && day == 7)						// Concert 17		- Mandolin Orange
-	|| 	(month == 8 && day == 9)						// Concert 18		- The Mighty O.A.R. w/ American Authors
-	|| 	(month == 8 && day == 13)						// Concert 19		- Shakey Graves | Dr. Dog
-	|| 	(month == 8 && day == 14)						// Concert 20		- Lord Huron
-	|| 	(month == 8 && day == 16)						// Concert 21		- the B-52's
-	|| 	(month == 8 && day == 19)						// Concert 22		- Steve Miller Band
-	|| 	(month == 8 && day == 26)						// Concert 23		- The Stray Cats
-	|| 	(month == 8 && day == 28)						// Concert 24		- The Wood Brothers | Colter Wall
-	|| 	(month == 8 && day == 29)						// Concert 25		- Amos Lee
-	|| 	(month == 9 && day == 4)						// Concert 26		- Gov't Mule
-	|| 	(month == 9 && day == 6)						// Concert 27		- Gary Clark Jr.
-	|| 	(month == 9 && day == 11)						// Concert 28		- Mark Knopfler
-	|| 	(month == 9 && day == 15)						// Concert 29		- Boz Scaggs
-	|| 	(month == 9 && day == 19)						// Concert 30		- Jason Isbell and the 400 Unit
-	|| 	(month == 9 && day == 23)						// Concert 31		- Tash Sultana
-	|| 	(month == galaMonth && day == galaDay)		// Gala (if applicable)
+	// NOT NEEDED IN 2020; COMMENTED OUT UNTIL FURTHER NOTICE
 
-	)
-
-	{
-		busHours = "9AM-5PM";
-		document.getElementById("gardenHours").innerHTML = busHours;
-		otherNotes = "The Garden Will Close at 5PM for a Concert";
-
-		if (month == galaMonth && day == galaDay) {
-			otherNotes = "The Garden Will Close at 5PM for a Special Gala Event";
-		}
-
-		document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
-
-			if (hours >= 9 && hours < 16) {
-			status = gardenOpenMessage;
-			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-			return;
-		}
-
-			if (hours == 16) {
-				status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
-				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-				return;
-		}
-
-			else {
-				status = gardenClosedMessage;
-				document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-				return;
-		}
-
-	return;
-	}
+	// if (
+	// 		(month == 5 && day == 31)						// Concert 01 	- Bela Fleck
+	// || 	(month == 6 && day == 5) 					  // Concert 02 	- Little Feat
+	// || 	(month == 6 && day == 6)						// Concert 03 	- Shakespeare Event
+	// || 	(month == 6 && day == 25)						// Concert 04 	- Howard Jones and men without hats
+	// || 	(month == 6 && day == 26)						// Concert 05 	- Lucinda Williams
+	// || 	(month == 6 && day == 27)						// Concert 06 	- Greensky Bluegrass
+	// || 	(month == 7 && day == 2)						// Concert 07 	- Utah Symphony
+	// || 	(month == 7 && day == 10) 					// Concert 08 	- Galactic
+	// || 	(month == 7 && day == 11)						// Concert 09 	- Pink Martini
+	// || 	(month == 7 && day == 14)						// Concert 10 	- Lyle Lovett and his large band
+	// || 	(month == 7 && day == 18)						// Concert 11 	- Seal
+	// || 	(month == 7 && day == 23)						// Concert 12 	- Nathaniel Rateliff and the nightsweats
+	// || 	(month == 7 && day == 26)						// Concert 13 	- Trampled By Turtles
+	// || 	(month == 7 && day == 30)						// Concert 14		- John Prine
+	// || 	(month == 8 && day == 4)						// Concert 15		- Umphrey's McGee
+	// || 	(month == 8 && day == 5)						// Concert 16		- Jonny Lang | JJ Grey and Mofro
+	// || 	(month == 8 && day == 7)						// Concert 17		- Mandolin Orange
+	// || 	(month == 8 && day == 9)						// Concert 18		- The Mighty O.A.R. w/ American Authors
+	// || 	(month == 8 && day == 13)						// Concert 19		- Shakey Graves | Dr. Dog
+	// || 	(month == 8 && day == 14)						// Concert 20		- Lord Huron
+	// || 	(month == 8 && day == 16)						// Concert 21		- the B-52's
+	// || 	(month == 8 && day == 19)						// Concert 22		- Steve Miller Band
+	// || 	(month == 8 && day == 26)						// Concert 23		- The Stray Cats
+	// || 	(month == 8 && day == 28)						// Concert 24		- The Wood Brothers | Colter Wall
+	// || 	(month == 8 && day == 29)						// Concert 25		- Amos Lee
+	// || 	(month == 9 && day == 4)						// Concert 26		- Gov't Mule
+	// || 	(month == 9 && day == 6)						// Concert 27		- Gary Clark Jr.
+	// || 	(month == 9 && day == 11)						// Concert 28		- Mark Knopfler
+	// || 	(month == 9 && day == 15)						// Concert 29		- Boz Scaggs
+	// || 	(month == 9 && day == 19)						// Concert 30		- Jason Isbell and the 400 Unit
+	// || 	(month == 9 && day == 23)						// Concert 31		- Tash Sultana
+	// || 	(month == galaMonth && day == galaDay)		// Gala (if applicable)
+	//
+	// )
+	//
+	// {
+	// 	busHours = "9AM-5PM";
+	// 	document.getElementById("gardenHours").innerHTML = busHours;
+	// 	otherNotes = "The Garden Will Close at 5PM for a Concert";
+	//
+	// 	if (month == galaMonth && day == galaDay) {
+	// 		otherNotes = "The Garden Will Close at 5PM for a Special Gala Event";
+	// 	}
+	//
+	// 	document.getElementById("otherNotes").innerHTML = document.getElementById("otherNotes2").innerHTML = otherNotes;
+	//
+	// 		if (hours >= 9 && hours < 16) {
+	// 		status = gardenOpenMessage;
+	// 		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+	// 		return;
+	// 	}
+	//
+	// 		if (hours == 16) {
+	// 			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
+	// 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+	// 			return;
+	// 	}
+	//
+	// 		else {
+	// 			status = gardenClosedMessage;
+	// 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+	// 			return;
+	// 	}
+	//
+	// return;
+	// }
 
 // Jan 1 - Mar 31 General Hours
 
@@ -288,7 +290,6 @@ else if (month == 5 || month == 6 || month == 7 || month == 8) {
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
-
 }
 
 // Sep 1 - 30 General Hours
