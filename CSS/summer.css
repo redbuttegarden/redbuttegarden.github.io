@@ -2803,3 +2803,8 @@ hr {
 .contact-two-text {
 	font-size: 2em;
 }
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover, .link-unstyled:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
