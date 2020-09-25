@@ -1,0 +1,173 @@
+---
+title: "Virtual Garden Events"
+layout: "default"
+---
+
+<!--<div class="row-fluid">
+	<img src="/images/banners/kids-classes.jpg" class="responsive" alt="Kids Classes at Red Butte Garden" title="Kids Classes at Red Butte Garden" />
+</div>-->
+<div class="tan-bg">
+<br>
+<h2 class="text-center green">RED BUTTE GARDEN VIRTUAL RESOURCES</h2>
+<h5 class="text-center">Red Butte Garden staff is working to provide fun, engaging, nature-based educational activities for kids, adults, and families to do at home. </p>
+<h5 class="text-center">Follow us on social media for content that complements many of our virtual activities. </p>
+	<br />
+</div>
+
+<br />
+
+<div class="row-fluid">
+
+	<!-- Begin Audlt Classes -->
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<a href="/adult-education">
+				<div class="eventwrapsmall hover">
+
+					<img src="/images/events/living-wreath.jpg">
+
+					<div class="eventinfo">
+						<div class="eventname">ONLINE CLASSES &amp; WORKSHOPS</div>
+						<!--<div class="eventdate">June, July, August</div>-->
+						<div class="eventnotes">Registration Open</div>
+					</div>
+
+				</div>
+			</a>
+		</div>
+		<!-- End Adult Education -->
+
+	<!-- Begin Boredom-busters -->
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<a href="/boredom-busters">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/lil-buds-hear.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">BOREDOM BUSTERS</div>
+					<div class="eventdate">Fun, Free Activities</div>
+					<div class="eventnotes">for Kids &amp; Families</div>
+				</div>
+
+			</div>
+		</a>
+	</div>
+	<!-- End Boredom Busters -->
+
+	<!-- Begin Gardening Info-->
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<a href="/gardening-information">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/general-gardening-info.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">GARDENING INFORMATION</div>
+					<div class="eventdate"></div>
+					<div class="eventnotes">Horticulture Team Tips</div>
+				</div>
+			</div>
+		</a>
+
+	</div>
+	<!-- End Gardening Information-->
+
+	<!-- Begin Social Media-->
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<a href="/social-media">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/social-media-info.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">SOCIAL MEDIA</div>
+					<div class="eventdate"></div>
+					<div class="eventnotes">Follow Us! </div>
+				</div>
+
+			</div>
+		</a>
+	</div>
+	<!-- End Social Media-->
+
+	<!-- Begin Garden Videos-->
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<a href="/diy-container-garden">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/diy-container-garden.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">DIY CONTAINER GARDEN</div>
+					<div class="eventdate"></div>
+					<div class="eventnotes">video</div>
+				</div>
+
+			</div>
+		</a>
+	</div>
+	<!-- End Garden Videos -->
+
+	<!-- Begin What's Blooming -->
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<a href="/whats-blooming">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/whats-blooming-info.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">WHAT'S BLOOMING</div>
+					<div class="eventdate">In the Garden</div>
+					<div class="eventnotes"></div>
+				</div>
+
+			</div>
+		</a>
+	</div>
+	<!-- End What's Blooming -->
+
+	<!-- Begin Garden Closure Info -->
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<a href="/garden-closure">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/garden-closure-info.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">IMPACTED GARDEN ACTIVITIES</div>
+					<div class="eventdate">Due to COVID-19</div>
+					<div class="eventdate"></div>
+					<div class="eventnotes"></div>
+				</div>
+			</div>
+		</a>
+
+	</div>
+	<!-- End Garden Closure -->
+
+
+  {% for post in site.categories.kid-class %}
+    {% if post.url %}
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<a href="{{ post.url }}">
+		<div class="eventwrapsmall hover">
+
+			<img src="../images/events/{{ post.event-image }}">
+
+			<div class="eventinfo">
+				<div class="eventname">{{ post.title }}</div>
+				<div class="eventdate">{{ post.event-dates }}</div>
+				<div class="eventnotes">{{ post.event-notes}}</div>
+			</div>
+
+		</div>
+		</a>
+	</div>
+    {% endif %}
+  {% endfor %}
+
+</div>
+
+<br />
+
+<p class="text-center"><a href="/refund-policy">RED BUTTE GARDEN REFUND AND CANCELLATION POLICY</a></p>

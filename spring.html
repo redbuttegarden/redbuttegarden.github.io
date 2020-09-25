@@ -9,42 +9,6 @@ layout: "default"
 
 <div class="row-fluid">
 
-	<!-- BEGIN SPRING PLANT SALE (special event page thumb) -->
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<a href="/spring-plant-sale">
-			<div class="eventwrapsmall hover">
-
-				<img src="/images/events/spring-plant-sale.jpg">
-
-				<div class="eventinfo">
-					<div class="eventname">2020 ANNUAL SPRING PLANT SALE</div>
-					<div class="eventdate">FRIDAY &AMP; SATURDAY, MAY 8 &AMP; 9</div>
-					<div class="eventnotes">Fri - Member Benefit Day<br /> Sat - free public admission</div>
-				</div>
-
-			</div>
-			</a>
-		</div>
-	 <!-- END SPRING PLANT SALE-->
-
-	 <!--BEGIN ZEKE CODE
-		 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			 <a href="https://docs.google.com/presentation/d/e/2PACX-1vRLPCR6TsDxwPWUd1pxS0DFRLcx4nYrnz5T6vldE5pIvBkmd1T--D25ijfY2nxEzOQdgYccecB50CF-/pub?start=true&loop=true&delayms=5000&slide=id.g38bf517033_3_0" target="_blank">
-			 <div class="eventwrapsmall hover">
-
-				 <img src="/images/events/zeke-dumke-tribute.jpg">
-
-				 <div class="eventinfo">
-					 <div class="eventname">A TRIBUTE TO ZEKE DUMKE</div>
-					 <div class="eventdate">THE SOUL OF RED BUTTE GARDEN</div>
-					 <div class="eventnotes"></div>
-				 </div>
-
-			 </div>
-			 </a>
-		 </div>-->
-
-
 	<!-- BEGIN NORMAL SPRING EVENTS -->
   {% for post in site.categories.spring reversed %}
     {% if post.url %}
@@ -66,5 +30,23 @@ layout: "default"
     {% endif %}
   {% endfor %}
 	<!-- END NORMAL SPRING EVENTS -->
+
+	<!-- BEGIN SPRING PLANT SALE (special event page thumb - add to top of page in March) -->
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<a href="/spring-plant-sale">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/spring-plant-sale.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">2021 ANNUAL SPRING PLANT SALE</div>
+					<div class="eventdate">Dates To Be Announced</div>
+					<!--<div class="eventnotes">Fri - Member Benefit Day<br /> Sat - free public admission</div>-->
+				</div>
+
+			</div>
+			</a>
+		</div>
+	 <!-- END SPRING PLANT SALE-->
 
 </div>

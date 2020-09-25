@@ -621,6 +621,8 @@ hr {
 	float: left;
 }
 
+/* UNCOMMENT WHEN GARDEN REOPENS */
+
 /*
 
 .rbghours {
@@ -1213,8 +1215,6 @@ hr {
 }
 
 [class*="col-"]{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
     height: auto;
 }
 
@@ -1971,6 +1971,11 @@ hr {
 
 .responsive, .responsive img {
 	width: 100%;
+	height: auto;
+}
+
+.arbor-day-logo, .arbor-day-logo img {
+	width: 50%;
 	height: auto;
 }
 
@@ -2797,4 +2802,9 @@ hr {
 
 .contact-two-text {
 	font-size: 2em;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover, .link-unstyled:visited {
+  color: inherit;
+  text-decoration: inherit;
 }
