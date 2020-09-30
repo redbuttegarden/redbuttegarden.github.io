@@ -339,9 +339,20 @@ else if (month == 9) {
 
 }
 
+// BOOtanical 2020 Special Hours
+
+else if (month == 10) {
+
+	busHours = "9:00 AM - 9:00 PM";
+	let reservations = "Tickets & Reservations Required  Last entry at 7:30 PM";
+	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
+	document.getElementById("gardenHours-reservations").innerHTML = document.getElementById("gardenHours2-reservations").innerHTML = reservations;
+}
+
 // Oct 1 - Dec 23 General hours
 
-else if ( month == 10 || month == 11 || month == 12) {
+// else if ( month == 10 || month == 11 || month == 12) { /* Pre-COVID, not BOOtanical months
+else if ( month == 11 || month == 12) {
 
 	busHours = "Oct 1-Dec 23: 9AM-5PM";
 	otherNotes = "Closed Thanksgiving Day and Dec 24-Jan 1";
