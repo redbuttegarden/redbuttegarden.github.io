@@ -22,10 +22,10 @@ var hoursInfo;
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* 		Variables to Change Yearly					  										  */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/**/	var daylightEndDay = 4;				// Day that Daylight Savings Time Ends in November of the current year
-/**/	var daylightStartDay = 11;			// Day that Daylight Savings Time Begins in March of the next year
+/**/	var daylightEndDay = 1;				// Day that Daylight Savings Time Ends in November of the current year /* updated 10-2-2020
+/**/	var daylightStartDay = 14;			// Day that Daylight Savings Time Begins in March of the next year /* updated 10-2-2020
 /**/
-/**/	var thanksgivingDay = 22;			// Day of Month of Thanksgiving Holiday in November
+/**/	var thanksgivingDay = 26;			// Day of Month of Thanksgiving Holiday in November /* updated 10-2-2020
 /**/
 /**/	var holidayPartyDay = 19;			// Day of Month we close for Holiday Party in December
 /**/	var holidayPartyClosingHour = 14; 	// Hour we close on day of Holiday Party (military time)
@@ -339,20 +339,10 @@ else if (month == 9) {
 
 }
 
-// BOOtanical 2020 Special Hours
-
-else if (month == 10) {
-
-	busHours = "9:00 AM - 9:00 PM";
-	let reservations = "Tickets & Reservations Required  Last entry at 7:30 PM";
-	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
-	document.getElementById("gardenHours-reservations").innerHTML = document.getElementById("gardenHours2-reservations").innerHTML = reservations;
-}
-
 // Oct 1 - Dec 23 General hours
 
 // else if ( month == 10 || month == 11 || month == 12) { /* Pre-COVID, not BOOtanical months
-else if ( month == 11 || month == 12) {
+else if ( month == 10 || month == 11 || month == 12) {
 
 	busHours = "Oct 1-Dec 23: 9AM-5PM";
 	otherNotes = "Closed Thanksgiving Day and Dec 24-Jan 1";
