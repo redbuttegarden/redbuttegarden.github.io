@@ -7,16 +7,28 @@ layout: "default"
 	<img src="/images/banners/free-garden-events.jpg" class="responsive" alt="Free Red Butte Garden Events" title="Free Red Butte Garden Events" />
 </div>
 
-	<div class="col xs-12" style="display: block; float: left;">
-		<br />
+<div class="row-fluid">
 
-		<!--
-		<ul>
-			<li><a href="/sundance">Sundance Institute Summer Film Series</a></li><br />
-			<li><a href="/horticulture-lecture-series">Horticulture Spotlight Lecture Series</a></li><br />
-			<li><a href="/spyhop-heatwave">SPYHOP Heatwave Festival - July 18, 2016</a></li><br />
-		</ul>
-		-->
+	<!-- BOOTANICAL (special event page thumb- add to top of page in Oct)-->
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<a href="/bootanical">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/misc/bootanical/bootanical-thumb.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">BOOTANICAL IN THE GARDEN</div>
+					<div class="eventdate">OCTOBER 1-31</div>
+					<div class="eventnotes">Free Daytime Admission</div>
+				</div>
+
+			</div>
+			</a>
+		</div>
+	<!-- END BOOTANICAL-->
+
+	<!-- BEGIN NORMAL FREE EVENTS -->
+
 		{% for post in site.categories.free %}
 		    {% if post.url %}
 			<div class="col-sm-4">
