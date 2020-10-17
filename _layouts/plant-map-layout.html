@@ -45,6 +45,18 @@
 <link rel="stylesheet" href="/CSS/MarkerCluster.css">
 <link rel="stylesheet" href="/CSS/MarkerCluster.Default.css">
 
+<!-- Fallback to local CSS & JS copies if CDN fails -->
+<script>window.jQuery.fn.modal || document.write('<script src="/js/bootstrap-3.3.7.min.js"><\/script>')</script>
+<script>
+    (function($) {
+        $(function() {
+            if ($('#rbgdefaultbody > div > div').css('min-height') !== '1px') {
+                $('head').prepend('<link rel="stylesheet" href="/css/bootstrap-3.3.7.min.css">');
+            }
+        });
+    })(window.jQuery);
+</script>
+
 <!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)

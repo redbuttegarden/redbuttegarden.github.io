@@ -71,20 +71,6 @@
 							return;
 			        }
 
-
-
-			        if ( ( (windowWidth > windowWidthOrig) || (windowHeight > windowHeightOrig) ) ) {
-				    	setTimeout(
-								  function(){
-								    window.location.reload();
-								  },
-								1);
-						// See http://stackoverflow.com/questions/18967532/window-location-reload-not-working-for-firefox-and-and-chrome
-				    	// Reloads page (from cache by default), and will only do so when browser window increases in size
-   						// once it reaches the maximum window size, it will scale down and by width, but perfectly scale back
-   						// to maximum window size, which will work for the majority of cases
-			        }
-
 			        // Need code for scaling height when initial screen size is smaller than some pixel size
 
 			        else {
