@@ -9,6 +9,25 @@ layout: "default"
 
 <div class="row-fluid">
 
+	<!-- BEGIN Art Exhibits -->
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<a href="/exhibits">
+			<div class="eventwrapsmall hover">
+
+				<img src="/images/events/marcia-walke-exhibit.jpg">
+
+				<div class="eventinfo">
+					<div class="eventname">ART EXHIBITS</div>
+					<div class="eventdate">in the Visitor Center </div>
+				</div>
+
+			</div>
+			</a>
+		</div>
+	 <!-- END Art Exhibits -->
+
+	 <!-- BEGIN NORMAL WINTER EVENTS -->
+
   {% for post in site.categories.winter reversed %}
     {% if post.url %}
 	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -28,5 +47,6 @@ layout: "default"
 	</div>
     {% endif %}
   {% endfor %}
+		<!-- END NORMAL WINTER EVENTS -->
 
 </div>
