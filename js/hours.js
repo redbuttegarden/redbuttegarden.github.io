@@ -187,13 +187,17 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 
 if (month == 1 || month == 2 || month == 3) {
 
-	busHours = "Jan 2-Mar 31: 9AM-5PM";
+	busHours = "Feb 1-28: 9:30AM-5PM";
+	marchBusHours = "March 1-31: 9AM-5PM";
 	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 
 	if (month == 1 || month == 2) {
 		admissionNotes = halfOffAdmission;
-		document.getElementById("admissionDiscount").innerHTML =  admissionNotes;
+		document.getElementById("admissionDiscount").innerHTML = admissionNotes;
 	}
+
+	if (month == 3)
+		document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = marchHours;
 
 
 	if (month == 1 && day == 1) {
