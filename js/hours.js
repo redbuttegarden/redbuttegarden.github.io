@@ -56,21 +56,21 @@ var hoursInfo;
 minutesBeforeOpeningorClosing = 60 - minutes;
 
 // Code to account for Daylight Savings Time
-
 if ( (month == 11 && day >= daylightEndDay) || (month == 12) || (month == 1) || (month == 2) || (month == 3 && day < daylightStartDay) ) {
 
 	hours = hours - 1;
-
 }
 
-// Between 8AM and 9AM: shows how many minutes before the garden opens
+// Between 9AM and 9:30AM: shows how many minutes before the garden opens
+if (hours == 9) {
+	let minutesBeforeOpening = 30 - minutes;
 
-if (hours == 8 ) {
+	if (minutes <= 29) {
+		status = gardenWillOpenMessageStart + minutesBeforeOpening + gardenMessageEnd;
+		document.getElementById("gardenStatus").innerHTML = status;
 
-	status = gardenWillOpenMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
-	document.getElementById("gardenStatus").innerHTML = status;
-
-	return;
+		return;
+	}
 }
 
 // Takes admission prices, converts them to integers, and divides them by two for half admission in December, January, and February
@@ -187,8 +187,9 @@ if ( (month == 12) || (month == 1) || (month == 2) ){
 
 if (month == 1 || month == 2 || month == 3) {
 
+	let minutesLeftBeforeOpening = 30;
+
 	busHours = "Feb 1-28: 9:30AM-5PM";
-	marchBusHours = "March 1-31: 9AM-5PM";
 	document.getElementById("gardenHours").innerHTML = document.getElementById("gardenHours2").innerHTML = busHours;
 
 	if (month == 1 || month == 2) {
@@ -208,23 +209,34 @@ if (month == 1 || month == 2 || month == 3) {
 		return;
 	}
 
-		if (hours >= 9 && hours < 16) {
+	if (hours >= 9 && hours < 16) {
+
+		// Start open time at 9:30am
+		if (minutes >= 30) {
 			status = gardenOpenMessage;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
 
-		if (hours == 16) {
-			status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
+		// Continue for 10am
+		if (hours > 9 && minutes >= 0) {
+			status = gardenOpenMessage;
 			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
 			return;
 		}
+	}
 
-		else {
-			status = gardenClosedMessage;
-			document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
-			return;
-		}
+	if (hours == 16) {
+		status = gardenWillCloseMessageStart+minutesBeforeOpeningorClosing+gardenMessageEnd;
+		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+		return;
+	}
+
+	else {
+		status = gardenClosedMessage;
+		document.getElementById("gardenStatus").innerHTML = document.getElementById("gardenStatus2").innerHTML = status;
+		return;
+	}
 
 }
 
